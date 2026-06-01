@@ -146,6 +146,9 @@ ACTION_MOVE_MAP = {
     38: _MUSA_L,
     39: _MUSA_M,
     40: _MUSA_H,
+    59: _MUSA_OD,
+    # Air throw (airborne only)
+    60: _AIR_THROW,
     # Super Arts
     44: _SA1,
     45: _SA2,
@@ -158,7 +161,7 @@ ACTION_MOVE_MAP = {
 NUM_ACTIONS = len(ACTION_MOVE_MAP)
 
 # Actions only valid while airborne
-AIRBORNE_ONLY = {17, 18, 19, 20, 21, 22, 35, 36, 37, 38, 39, 40, 43}
+AIRBORNE_ONLY = {17, 18, 19, 20, 21, 22, 35, 36, 37, 38, 39, 40, 43, 59, 60}
 # Actions only valid while grounded
 GROUND_ONLY = {
     1, 2, 3, 4,
@@ -177,6 +180,7 @@ DRIVE_COSTS = {
     42: 1.0,  # OD Ryuuenbu
     43: 1.0,  # OD Hishou Ryuuenjin
     55: 1.0,  # OD Hissatsu Shinobi Bachi
+    59: 1.0,  # OD Musasabi no Mai
     47: 1.0,  # Drive Impact
     48: 1.0,  # Drive Reversal
 }
@@ -202,6 +206,7 @@ CANCEL_RULES = {
     _KAC_L:  ["super"], _KAC_M:  ["super"], _KAC_H:  ["super"], _KAC_OD: ["super"],
     _RYU_L:  ["super"], _RYU_M:  ["super"], _RYU_H:  ["super"], _RYU_OD: ["super"],
     _DP_L:   ["super"], _DP_M:   ["super"], _DP_H:   ["super"], _DP_OD:  ["super"],
+    _MUSA_L: ["super"], _MUSA_M: ["super"], _MUSA_H: ["super"], _MUSA_OD: ["super"],
 }
 
 
