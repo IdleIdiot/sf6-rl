@@ -23,8 +23,8 @@ def test_cancel_normal_into_special():
 
     # step 5: action_frame becomes 4 (startup=4, in cancel window), input kachousen_L
     game.step(23, 0)
-    assert game.p1.current_action == "kachousen_L", (
-        f"Expected kachousen_L after cancel, got {game.p1.current_action}"
+    assert game.p1.current_action == "mai-l-kachousen", (
+        f"Expected mai-l-kachousen after cancel, got {game.p1.current_action}"
     )
 
 
@@ -38,7 +38,7 @@ def test_no_cancel_outside_window():
     # now in recovery, cancel should fail
     game.step(23, 0)
     # should still be in 5LP recovery or idle, not kachousen
-    assert game.p1.current_action != "kachousen_L", (
+    assert game.p1.current_action != "mai-l-kachousen", (
         f"Should not cancel after window, got {game.p1.current_action}"
     )
 
@@ -74,7 +74,7 @@ def test_throw_cannot_be_blocked():
 
     # forward_throw is action 49 in mai.py? Check action map
     from sf6_env.characters.mai import ACTION_MOVE_MAP
-    throw_id = next((k for k, v in ACTION_MOVE_MAP.items() if v == "forward_throw"), None)
+    throw_id = next((k for k, v in ACTION_MOVE_MAP.items() if v == "mai-forward-throw"), None)
     if throw_id is None:
         pytest.skip("forward_throw not in action map")
 

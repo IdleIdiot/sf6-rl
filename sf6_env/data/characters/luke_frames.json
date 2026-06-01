@@ -1,0 +1,3005 @@
+{
+  "luke-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      8
+    ],
+    "recovery": 11,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "3 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Long range for a cancelable light normal, good whiff punish tool; 3f extra recovery on whiff; greatly extends hurtbox for 3f before active, making it susceptible to counterpokes; special/DR cancel is delayed until after active frames",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      12
+    ],
+    "recovery": 16,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Good whiff punish tool when buffered into Target Combo or Super",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 23,
+    "on_hit": 1,
+    "on_block": -6,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Good whiff punish tool due to its long range and cancelability; extends a vertical collision box to reduce the risk of whiffing under opponent mid-juggle",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 12,
+    "on_hit": 3,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "DR cancel is delayed until after 1st recovery frame",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 16,
+    "on_hit": 1,
+    "on_block": -3,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "3 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Good neutral poke; 3f extra recovery on whiff; lifts up leg hurtbox on frames 4-11, making it strong vs. low attacks",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      16
+    ],
+    "recovery": 16,
+    "on_hit": 2,
+    "on_block": -5,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent",
+      "Forces a juggle state when the attack lands as a Punish Counter",
+      "Feet are Invincible from frame 8 to frame 15"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "8-15f Low Crush (feet are strike invincible); puts airborne opponents into limited juggle state; Punish Counter launches opponent high into a limited juggle state; can be spaced for significantly better advantage; extends a hurtbox 1f before active that is vulnerable to projectiles; first 2 active frames have shorter range (makes it easier to space properly); causes camera shake effect on block when connecting with final active frame (easier to tell when Luke has advantage)",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      5
+    ],
+    "recovery": 10,
+    "on_hit": 4,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 2LP/2LK; Luke's only 4f normal, useful in 3-hit light confirms; DR cancel is delayed until after 1st recovery frame; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      7
+    ],
+    "recovery": 14,
+    "on_hit": 5,
+    "on_block": 1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "3 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 15%"
+    ],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "3f extra recovery on whiff; great pressure tool with high reward on counter-hit or when canceled to Drive Rush; has an extended hurtbox on whiff until the end of recovery; topmost hurtbox on frames 1-7 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      11
+    ],
+    "recovery": 24,
+    "on_hit": 1,
+    "on_block": -13,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces the opponent into a standing position",
+      "This move can be canceled until the 1st active frame"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Combo scaling 15%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Forces stand on hit; only the first active frame is cancelable; good anti-air hitbox but cannot hit cross-ups",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 12,
+    "on_hit": -1,
+    "on_block": -5,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      200
+    ],
+    "notes_sc": "Chains into 2LP/2LK",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 19,
+    "on_hit": -2,
+    "on_block": -6,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Moves Luke forward, greatly increasing its range despite the stubby-looking animation; Range: 1.482 (1st active frame: 1.44); DR cancel is delayed until after active frames; has an extended hurtbox on whiff until the end of recovery",
+    "drive_dmg_on_block": "2000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 27,
+    "on_hit": 0,
+    "on_block": -9,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "luke-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state; has some juggle potential; can significantly delay the cancel into j.214P, allowing unique combos after pf.214[LP]; lower body projectile invuln 9-22f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "4"
+  },
+  "luke-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Spike knockdown on counter-hit/Punish Counter vs. airborne opponents; good close range jump-in and neutral jump throw bait tool; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Cross-up",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Cross-up; lower body projectile invuln 7-20f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "luke-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Better horizontal range than j.HP for long-range jumps; lower body projectile invuln 10-19f except around attack hitbox, and 10-24f for lowest part of foot hurtbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rawhide": {
+    "name": "Rawhide",
+    "name_ja": "ローハイド",
+    "input": "6mp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 21,
+    "active": 2,
+    "active_frames": [
+      21,
+      22
+    ],
+    "recovery": 21,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An overhead attack that cannot be blocked while crouching",
+      "Forces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Causes spike knockdown vs. airborne opponents; has some juggle potential",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "4"
+  },
+  "suppressor": {
+    "name": "Suppressor",
+    "name_ja": "サプレッサー",
+    "input": "4hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      18
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A strike unleashed after stepping backward. Can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Pulls back hurtbox frames 5-12 for an auto-shimmy tool (also very strong when used out of Drive Rush)",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "outlaw-kick": {
+    "name": "Outlaw Kick",
+    "name_ja": "アウトローキック",
+    "input": "4hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      15
+    ],
+    "recovery": 24,
+    "on_hit": 4,
+    "on_block": -5,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A powerful anti-air high kick",
+      "17 frames of advantage added when the attack lands as a Punish Counter",
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "Whiffs on crouching opponents at farther ranges unless they extend a vertical hurtbox; puts airborne opponents into spinning limited juggle state; no head hurtbox during active frames, making it a useful anti-air; after DR~4HK on block, Luke is at the edge of throw range and can also threaten with 2LK~2LP to punish walk back, or 2LP to beat reversal 4f normals; extends a hurtbox 1f before active that is vulnerable to projectiles",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "double-impact-1": {
+    "name": "Double Impact (1)",
+    "name_ja": "ダブルインパクト (1)",
+    "input": "6hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      18
+    ],
+    "recovery": 15,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of attacks performed while moving forward. The second attack can be canceled into special moves",
+      "4 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "double-impact-2": {
+    "name": "Double Impact (2)",
+    "name_ja": "ダブルインパクト (2)",
+    "input": "6hp>hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      12
+    ],
+    "recovery": 34,
+    "on_hit": 0,
+    "on_block": -19,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A series of attacks performed while moving forward. The second attack can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "triple-impact-2": {
+    "name": "Triple Impact (2)",
+    "name_ja": "トリプルインパクト (2)",
+    "input": "lp>mp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 20,
+    "on_hit": -2,
+    "on_block": -9,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "A quick series of attacks that can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ]
+  },
+  "triple-impact-3": {
+    "name": "Triple Impact (3)",
+    "name_ja": "トリプルインパクト (3)",
+    "input": "lp>mp>hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 27,
+    "on_hit": 0,
+    "on_block": -14,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A quick series of attacks that can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "nose-breaker": {
+    "name": "Nose Breaker",
+    "name_ja": "ノーズブレイカー",
+    "input": "2mk>2hp",
+    "type": "commandNormal",
+    "block_type": "low",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 25,
+    "on_hit": 1,
+    "on_block": -8,
+    "damage": 480,
+    "chip_damage": 120,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An attack consisting of multiple hits, the first of which cannot be blocked while standing"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "snapback-combo-2": {
+    "name": "Snapback Combo (2)",
+    "name_ja": "スナップバックコンボ (2)",
+    "input": "mp>mp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      13
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -8,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.04,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A series of attacks, the first and second of which can be canceled into Super Arts"
+    ],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": []
+  },
+  "snapback-combo-3": {
+    "name": "Snapback Combo (3)",
+    "name_ja": "スナップバックコンボ (3)",
+    "input": "mp>mp>mp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      12
+    ],
+    "recovery": 29,
+    "on_hit": -6,
+    "on_block": -14,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.04,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A series of attacks, the first and second of which can be canceled into Super Arts"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "snapback-combo-4": {
+    "name": "Snapback Combo (4)",
+    "name_ja": "スナップバックコンボ (4)",
+    "input": "mp>mp>mp>mp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      12
+    ],
+    "recovery": 27,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "A series of attacks, the first and second of which can be canceled into Super Arts"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "sand-blast-light": {
+    "name": "Sand Blast (Light)",
+    "name_ja": "サンドブラスト (弱)",
+    "input": "236lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      18
+    ],
+    "recovery": 1,
+    "on_hit": -3,
+    "on_block": -8,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "sand-blast-medium": {
+    "name": "Sand Blast (Medium)",
+    "name_ja": "サンドブラスト (中)",
+    "input": "236mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      23
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -5,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "sand-blast-heavy": {
+    "name": "Sand Blast (Heavy)",
+    "name_ja": "サンドブラスト (強)",
+    "input": "236hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      29
+    ],
+    "recovery": 1,
+    "on_hit": 3,
+    "on_block": -2,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "sand-blast-od": {
+    "name": "Sand Blast (OD)",
+    "name_ja": "サンドブラスト (OD)",
+    "input": "236(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20％",
+      "Combo scaling 20％"
+    ]
+  },
+  "fatal-shot": {
+    "name": "Fatal Shot",
+    "name_ja": "フェイタルショット",
+    "input": "(pp)",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 12,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -21,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After an od sand blast",
+      "Fire an additional shockwave after an OD Sand Blast. Useful for securing some damage after trading projectiles",
+      "Consumes 10000 of the Drive gauge on activation"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "1-hit OD projectile; costs 1 extra Drive bar; () refers to scaled damage after 236PP connects; causes a wallsplat on hit (can combo near the corner, or whiff 236K~P to safely gain ground); extends a projectile invuln hurtbox on frames 10-32 (more vulnerable to ranged jumps and anti-projectile moves)",
+    "drive_dmg_on_block": "1000",
+    "drive_dmg_on_hit": "[7000]",
+    "juggle_start": "1",
+    "juggle_limit": "11"
+  },
+  "flash-knuckle-light": {
+    "name": "Flash Knuckle (Light)",
+    "name_ja": "フラッシュナックル (弱)",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      15
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -18,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
+      "Hold the button for more than 18 frames to change properties",
+      "Perform the Perfect version by releasing the button between frames 18 - 20"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "charged-flash-knuckle-light": {
+    "name": "Charged Flash Knuckle (Light)",
+    "name_ja": "フラッシュナックル（弱）（ホールド）",
+    "input": "214[lp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 26,
+    "active": 2,
+    "active_frames": [
+      26,
+      29
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": -8,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.225,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
+      "Has a clash hitbox from frame 28 to frame 29",
+      "Combo scaling added to 2nd hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "perfect-flash-knuckle-light": {
+    "name": "Perfect Flash Knuckle (Light)",
+    "name_ja": "フラッシュナックル（弱）（ジャスト）",
+    "input": "214[lp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 26,
+    "active": 2,
+    "active_frames": [
+      26,
+      29
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": -8,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.225,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
+      "Has a clash hitbox from frame 28 to frame 29",
+      "Combo scaling added to 2nd hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "flash-knuckle-medium": {
+    "name": "Flash Knuckle (Medium)",
+    "name_ja": "フラッシュナックル (中)",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 19,
+    "active": 2,
+    "active_frames": [
+      19,
+      21
+    ],
+    "recovery": 27,
+    "on_hit": 3,
+    "on_block": -10,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
+      "Hold the button for more than 18 frames to change properties",
+      "Perform the Perfect version by releasing the button between frames 18 - 20"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "charged-flash-knuckle-medium": {
+    "name": "Charged Flash Knuckle (Medium)",
+    "name_ja": "フラッシュナックル（中）（ホールド）",
+    "input": "214[mp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 30,
+    "active": 2,
+    "active_frames": [
+      30,
+      33
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
+      "Has a clash hitbox from frame 32 to frame 33",
+      "Combo scaling added to 2nd hit",
+      "Recovery reduced by 4 frames on super armor hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "perfect-flash-knuckle-medium": {
+    "name": "Perfect Flash Knuckle (Medium)",
+    "name_ja": "フラッシュナックル（中）（ジャスト）",
+    "input": "214[mp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 29,
+    "active": 2,
+    "active_frames": [
+      29,
+      32
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
+      "Has a clash hitbox from frame 31 to frame 32",
+      "Combo scaling added to 2nd hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "flash-knuckle-heavy": {
+    "name": "Flash Knuckle (Heavy)",
+    "name_ja": "フラッシュナックル (強)",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      24
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
+      "Hold the button for more than 18 frames to change properties",
+      "Perform the Perfect version by releasing the button between frames 18 - 20"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "charged-flash-knuckle-heavy": {
+    "name": "Charged Flash Knuckle (Heavy)",
+    "name_ja": "フラッシュナックル（強）（ホールド）",
+    "input": "214[hp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 33,
+    "active": 2,
+    "active_frames": [
+      33,
+      36
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
+      "Has a clash hitbox from frame 35 to frame 36"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "perfect-flash-knuckle-heavy": {
+    "name": "Perfect Flash Knuckle (Heavy)",
+    "name_ja": "フラッシュナックル（強）（ジャスト）",
+    "input": "214[hp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 33,
+    "active": 2,
+    "active_frames": [
+      33,
+      36
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
+      "Has a clash hitbox from frame 35 to frame 36"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "flash-knuckle-od": {
+    "name": "Flash Knuckle (OD)",
+    "name_ja": "フラッシュナックル (OD)",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 1,
+    "active_frames": [
+      15
+    ],
+    "recovery": 39,
+    "on_hit": 0,
+    "on_block": -22,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
+      "Transitions to 2nd attack on hit",
+      "Can only be canceled into DDT on the 1st hit"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "flash-knuckle-od-2": {
+    "name": "Flash Knuckle (OD) (2)",
+    "name_ja": "フラッシュナックル (OD) (2)",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 33,
+    "active": 2,
+    "active_frames": [
+      33,
+      36
+    ],
+    "recovery": 16,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "luke-ddt": {
+    "name": "DDT",
+    "name_ja": "DDT",
+    "input": "(pp)",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2500,
+    "chip_damage": 625,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After an Flash Knuckle OD",
+      "A powerful throw activated from the first hit of an OD Flash Knuckle. Useful for when you want to guarantee some extra damage",
+      "Consumes 10000 of the Drive gauge on activation"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      2500
+    ],
+    "notes_sc": "Costs 1 extra Drive bar on 214PP 1st hit only (cannot activate on block or when armor absorbed); leaves Luke close enough to walk in for a strike/throw mixup; counts as a separate hit from 214PP for damage scaling; in juggles, only connects on opponents low to the ground and will not come out if opponent is juggled higher",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "10"
+  },
+  "aerial-flash-knuckle": {
+    "name": "Aerial Flash Knuckle",
+    "name_ja": "エアフラッシュナックル",
+    "input": "{8|9}>214*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      18
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
+      "+7 frames of recovery added when whiffing the attack high in the air."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1300
+    ],
+    "notes_sc": "Can be input during forward/neutral jump (or back jump when canceled from j.MP); the final 12 recovery frames are in a crouching state; puts the opponent into a limited juggle state; kara-canceling the startup with j.214P~PP can affect Luke's trajectory and frame advantage",
+    "drive_dmg_on_block": "7000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "aerial-flash-knuckle-charged": {
+    "name": "Aerial Flash Knuckle (Charged)",
+    "name_ja": "エアフラッシュナックル (溜め)",
+    "input": "{8|9}>214[*p]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 23,
+    "active": 2,
+    "active_frames": [
+      23,
+      28
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "aerial-flash-knuckle-od": {
+    "name": "Aerial Flash Knuckle (OD)",
+    "name_ja": "エアフラッシュナックル (OD)",
+    "input": "{8|9}>214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      19
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "avenger": {
+    "name": "Avenger",
+    "name_ja": "アベンジャー",
+    "input": "214*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation",
+      "Can transition to branching attacks from frames 13 - 31"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Armor does not apply to follow-up attacks; follow-up P or K can be input up to frame 32; follow-up can start immediately after armor hit freeze without waiting for any additional Avenger startup frames to occur; Luke is in a Punish Counter state for entire duration",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "no-chaser": {
+    "name": "No Chaser",
+    "name_ja": "ノーチェイサー",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      21
+    ],
+    "recovery": 16,
+    "on_hit": 0,
+    "on_block": -6,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Avenger",
+      "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "Puts opponent into limited juggle state; very late connect to juggle into 623LP/MP, SA1, or SA2 (otherwise, can only cancel into SA3)",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "10"
+  },
+  "avenger-od": {
+    "name": "Avenger (OD)",
+    "name_ja": "アベンジャー (OD)",
+    "input": "214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Avenger OD",
+      "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation",
+      "Super Armor for 1 attack from frames 3 - 35",
+      "Can transition to branching attacks from frames 12 - 31"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "impaler": {
+    "name": "Impaler",
+    "name_ja": "インパラー",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -8,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.22,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Avenger",
+      "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo",
+      "5 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "First 2 active frames can only hit airborne opponents; 3rd active frame hits grounded and gives the best KD Advantage (cannot hit meaty to allow a follow-up juggle); Luke is in a crouching state for entire recovery duration; puts opponents into limited juggle state; 5f extra recovery on whiff",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "10"
+  },
+  "no-chaser-od": {
+    "name": "No Chaser (OD)",
+    "name_ja": "ノーチェイサー (OD)",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      21
+    ],
+    "recovery": 16,
+    "on_hit": 0,
+    "on_block": -6,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Avenger OD",
+      "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 50%"
+    ]
+  },
+  "impaler-od": {
+    "name": "Impaler (OD)",
+    "name_ja": "インパラー (OD)",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 19,
+    "on_hit": 0,
+    "on_block": -5,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 50%"
+    ]
+  },
+  "rising-uppercut-light": {
+    "name": "Rising Uppercut (Light)",
+    "name_ja": "ライジングアッパー (弱)",
+    "input": "623lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      14
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -27,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 8 - 36",
+      "Does 800 individual damage from the 3rd active frame and on"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "rising-uppercut-medium": {
+    "name": "Rising Uppercut (Medium)",
+    "name_ja": "ライジングアッパー (中)",
+    "input": "623mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      15
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
+      "Considered airborne from frames 9 - 39",
+      "Does 800 individual damage from the 3rd active frame and on"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "rising-uppercut-heavy": {
+    "name": "Rising Uppercut (Heavy)",
+    "name_ja": "ライジングアッパー (強)",
+    "input": "623hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      18
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": -33,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
+      "Considered airborne from frames 11 - 43",
+      "Does 800 individual damage from the 3rd active frame and on"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "rising-uppercut-od": {
+    "name": "Rising Uppercut (OD)",
+    "name_ja": "ライジングアッパー (OD)",
+    "input": "623(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 4,
+    "active_frames": [
+      6,
+      8,
+      9,
+      15
+    ],
+    "recovery": 35,
+    "on_hit": 0,
+    "on_block": -40,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
+      "Completely invincible from frames 1 - 10",
+      "Considered airborne from frames 8 - 50",
+      "Can only transition to Slam Dunk on hit"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 10"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "slam-dunk": {
+    "name": "Slam Dunk",
+    "name_ja": "スラムダンク",
+    "input": "(pp)",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      18
+    ],
+    "recovery": 14,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After a Rising Uppercut OD",
+      "An attack executed from an OD Rising Uppercut that slams an opponent to the ground. In addition to its high damage, it leaves you in an advantageous position afterward",
+      "Consumes 10000 of the Drive gauge on activation"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Follow-up on hit only for 1 additional Drive bar; can whiff against high juggled opponent; counts as a separate hit for damage scaling",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "10",
+    "juggle_limit": "50"
+  },
+  "vulcan-blast": {
+    "name": "Vulcan Blast",
+    "name_ja": "バルカンブラスト",
+    "input": "236236*p",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 6,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "Fire multiple high-speed Sand Blasts. Its swift speed makes it useful in projectile wars and in combos",
+      "Invincible to strikes and throws from frames 1 - 6",
+      "Minimum guaranteed damage is 30%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "strike_throw": "Invincible to strikes and throws from frames 1 - 6"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      300,
+      300,
+      300,
+      300,
+      800
+    ],
+    "invuln_str": "1-6 Strike/Throw",
+    "notes_sc": "5 hit Super projectile, first 4 hits travel 65% screen, final hit goes fullscreen; higher KD Adv. when farther from wall; extends a projectile-vulnerable hurtbox during startup frames 2-5 (more difficult to use as an anti-fireball tool)",
+    "drive_dmg_on_block": "500x5",
+    "drive_dmg_on_hit": "1000x5",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "eraser": {
+    "name": "Eraser",
+    "name_ja": "イレイザー",
+    "input": "214214*p",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 51,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 2800,
+    "chip_damage": 700,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of punches punctuated by a powerful finishing blow that sends an opponent flying. Connecting with the first hit is enough to activate the combination attack that follows",
+      "Completely invincible from frames 1 - 7",
+      "Transitions to full attack after the 2nd hit",
+      "Minimum guaranteed damage is 40%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 7"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2,
+    "per_hit": [
+      2800
+    ],
+    "invuln_str": "1-7 Full",
+    "notes_sc": "Extremely fast super that works well in juggles; in the corner, gives Luke an auto-timed strike/throw mixup; on hit, the animation is not invincible until the very end (can be hit by delayed projectiles like Kimberly Spraycan or JP Amnesia orbs); Full Dmg distribution: 300x3,200x6,700",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "10000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "pale-rider": {
+    "name": "Pale Rider",
+    "name_ja": "ペイルライダー",
+    "input": "236236*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 92,
+    "on_hit": 0,
+    "on_block": -42,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Charge and mount the opponent before unloading a flurry of powerful punches. It has long forward range, making it useful in combos, or as a way to deal with projectiles",
+      "Start up changes depending on the distance from the opponent",
+      "When activated from close range",
+      "Start up is 10 frames, and completely invincible from frames 1 - 13",
+      "When activated from furthest possible range",
+      "Start up is 27 frames, and completely invincible from frames 1 - 13",
+      "Minimum guaranteed damage is 50%",
+      "Values do not change on counter or Punish Counter",
+      "Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Start up is 27 frames, and completely invincible from frames 1 - 13"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3,
+    "per_hit": [
+      4000
+    ],
+    "invuln_str": "1-13 Full",
+    "notes_sc": "Luke runs forward; active frames occur upon reaching the opponent or on frame 27 (whichever occurs first) but invincibility is not extended when far from opponent; has juggle potential; on block, bounces away with a fixed recovery period (whiff recovery is 26f slower); cinematic time regenerates ~2 Drive bars for Luke; takes opponent to Memphis",
+    "drive_dmg_on_block": "7500",
+    "drive_dmg_on_hit": "15000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "pale-rider-ca": {
+    "name": "Pale Rider (Critical Art)",
+    "name_ja": "ペイルライダー（CA）",
+    "input": "236236*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 92,
+    "on_hit": 0,
+    "on_block": -42,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When under 25% vitality",
+      "Start up changes depending on the distance from the opponent",
+      "When activated from close range",
+      "Start up is 10 frames, and completely invincible from frames 1 - 13",
+      "When activated from furthest possible range",
+      "Start up is 27 frames, and completely invincible from frames 1 - 13",
+      "Minimum guaranteed damage is 50%",
+      "Values do not change on counter or Punish Counter",
+      "Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Start up is 27 frames, and completely invincible from frames 1 - 13"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3
+  },
+  "sweeper": {
+    "name": "Sweeper",
+    "name_ja": "スウィーパー",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab your opponent, lift them up, and slam them onto their back. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Has access to corner throw loop, requires walking with manual timing (4f timing leniency to beat reversal 4f buttons); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "scrapper": {
+    "name": "Scrapper",
+    "name_ja": "スクラッパー",
+    "input": "(4lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab your opponent's head and send them flying with two knee strikes. Throws your opponent while switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Side switches; no throw oki after back throwing opponent into corner, but can threaten with meaty strikes; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  }
+}

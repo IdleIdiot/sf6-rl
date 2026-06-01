@@ -1,19 +1,19 @@
 # SF6 模拟器 - 开发文档
 
-## 当前进度（IDE 重启前状态）
+## 当前进度
 
-所有代码文件已创建完毕，等待 IDE 重启后运行测试。
+帧数据已从 4rays/sf6-move-data (GitHub) + supercombo.gg 双源合并，覆盖全部 25 个角色。
 
 ## 已完成的文件
 
 - sf6_env/engine/physics.py - 物理系统
-- sf6_env/engine/collision.py - AABB 碰撞检测
+- sf6_env/engine/collision.py - AABB 碰撞检测（支持 active_frames 多段判定、per_hit 分段伤害）
 - sf6_env/engine/drive.py - Drive Gauge 系统
-- sf6_env/engine/character.py - 角色状态机
+- sf6_env/engine/character.py - 角色状态机（invuln_str 解析、drive_gain_block 负值处理）
 - sf6_env/engine/game.py - 游戏主循环
-- sf6_env/characters/base.py - 帧数据加载基类
-- sf6_env/characters/mai.py - 不知火舞配置（49个动作）
-- sf6_env/data/mai_frames.json - 48个动作帧数据
+- sf6_env/characters/base.py - 帧数据加载基类（注入系统技 Drive Impact/Reversal/Dash）
+- sf6_env/characters/mai.py - 不知火舞配置（59个动作，含 OD 技）
+- sf6_env/data/characters/ - 25个角色帧数据（JSON，来自 scrape_all_characters.py）
 - sf6_env/rl/obs.py - 22维 observation space
 - sf6_env/rl/reward.py - reward function
 - sf6_env/rl/env.py - gymnasium.Env 实现
@@ -25,21 +25,22 @@
 - tests/test_drive.py
 - tests/test_env.py
 
-## IDE 重启后需要执行的操作
+## 帧数据字段说明
 
-1. 安装依赖：pip install -r requirements.txt
-2. 运行测试：python -m pytest tests/ -v
-3. 修复测试中发现的 bug
-4. 运行人类可玩模式：python main.py
-5. 对照游戏内帧数据核对 mai_frames.json
-6. 启动训练：python train.py
+每个 move JSON 包含：
+- startup / active / recovery / active_frames（多段判定帧列表）
+- damage / chip_damage / per_hit（每段伤害列表）/ hit_count
+- on_hit / on_block
+- drive_gain_hit（正值，攻击方命中得 Drive）/ drive_gain_block（负值，攻击方被防御失 Drive）
+- invuln_str（如 "1-8 Full, 9-39 Air (Upper Body)"）
+- properties（special / super / knockdown / throw / projectile / armor / invincible）
+- cancel_into（由 mai.py CANCEL_RULES 注入）
 
 ## 已知需要检查的问题
 
-1. character.py 中飞道具生成：_start_attack 需要对 projectile 属性的动作调用 spawn_projectile()
-2. obs.py 中 action_to_move 反向查找效率低
-3. pygame_renderer.py 中 super_gauge 属性名需确认
-4. mai_frames.json 中 crouch/jump/hitstun 等基础状态缺少完整字段
+1. obs.py 中 action_to_move 反向查找效率低
+2. pygame_renderer.py 中 super_gauge 属性名需确认
+3. 其余 24 个角色尚未实现 CharacterData 子类（目前只有 Mai）
 
 ## Drive 系统参数
 

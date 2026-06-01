@@ -1,0 +1,3479 @@
+{
+  "dhalsim-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 8,
+    "on_hit": 4,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/1LK",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "dhalsim-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      16
+    ],
+    "recovery": 19,
+    "on_hit": 0,
+    "on_block": -5,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Long range poke; extends hurtbox 1f before active so it can be counterpoked",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "dhalsim-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      19
+    ],
+    "recovery": 27,
+    "on_hit": -6,
+    "on_block": -11,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "Long range poke; extended hurtbox lingers for the first 16 recovery frames (slightly retracts on 12-16f of recovery), making it easily whiff punished even at max range",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "dhalsim-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      12
+    ],
+    "recovery": 11,
+    "on_hit": 2,
+    "on_block": -6,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Extremely long range for a light normal, but has startup similar to a medium poke; DR cancel is delayed until after 2nd active frame",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "dhalsim-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 18,
+    "on_hit": -2,
+    "on_block": -6,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Long range poke; extends hurtbox 1f before active so it can be counterpoked",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "dhalsim-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      19
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -6,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent",
+      "Adds 24 frames of advantage on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Only the closest hitbox can hit crouching opponents; mid-range hitbox whiffs on crouching opponents unless they extend a vertical hurtbox; the 2 farthest hitboxes whiff on all crouching opponents (even with an extended vertical hurtbox); extremely long range cancelable poke and anti-air; puts airborne opponents into limited juggle state; stagger on Punish Counter can combo into 5HP at most ranges, or can confirm into Drive Rush for stronger punishes; leg has an extended hurtbox 2f before active that is vulnerable to projectiles, and 1f before active that can be counterpoked; tip of Dhalsim's foot hurtbox is anti-air invincible on frames 16-23; special/DR cancel is delayed until after 2nd recovery frame",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1 air",
+    "juggle_limit": "1"
+  },
+  "dhalsim-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 9,
+    "on_hit": 4,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/1LK",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "dhalsim-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 16,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Long range cancelable poke; extends hurtbox 1f before active so it can be counterpoked",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "dhalsim-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 19,
+    "active": 2,
+    "active_frames": [
+      19,
+      22
+    ],
+    "recovery": 24,
+    "on_hit": -1,
+    "on_block": -12,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "invuln_str": "11-39 Projectile (Upper Body)",
+    "notes_sc": "Low Profile 11-46f (until recovery); can be used to punish projectiles from long range; 4f extra recovery on whiff and Perfect Parry",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "dhalsim-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      10
+    ],
+    "recovery": 16,
+    "on_hit": -5,
+    "on_block": -10,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      200
+    ],
+    "invuln_str": "Projectile 4-10 (Upper Body)",
+    "notes_sc": "Short range slide; semi-low profile 2-26f (until recovery)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "dhalsim-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      22
+    ],
+    "recovery": 14,
+    "on_hit": -3,
+    "on_block": -10,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      500
+    ],
+    "invuln_str": "Projectile 10-22 (Upper Body), 10-28 (Foot)",
+    "notes_sc": "Medium range slide; semi-low profile 10-30f; can lead to follow-up combos or pressure if well spaced; opponent has a different reeling animation when spaced to be +4 or better on hit",
+    "drive_dmg_on_block": "2000",
+    "drive_dmg_on_hit": "[3000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "dhalsim-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      27
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -16,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "dhalsim-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      7
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.075,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Can be used as a fuzzy instant overhead vs. JP/Marisa/Zangief only",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "dhalsim-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Cancelable into Float, Air Teleport, Yoga Comet, Drill Kick, or Yoga Mummy; great horizontal range for use as an air-to-air; does not hit overhead and cannot hit crouching opponents unless they extend a vertical hurtbox; lower body projectile invuln 9-25f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs); when juggled into, puts opponent into a limited juggle state (has a higher Juggle Increase value mid-juggle); can be comboed into after OD Yoga Flame (then canceled into Yoga Mummy to keep the opponent juggled)",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "dhalsim-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Causes spike knockdown vs. airborne opponents; very long horizontal range on 2nd active frame, then hits far below Dhalsim (hurtbox extends outside the hitbox, making it prone to trading/losing to anti-airs); can hit as an instant overhead (but slow startup makes this incredibly risky; too slow for fuzzy overhead setups); always safe on block if performed from Yoga Float; extends a large hurtbox in front and below Dhalsim during active frames 2-4 (projectile invuln farther back, allowing Dhalsim to punish fireballs more reliably while floating at close range)",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "4"
+  },
+  "dhalsim-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.075,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Cross-up; can be used as an instant overhead (no fuzzy setup required; works on all crouchers)",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "dhalsim-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Good horizontal range and a downward angle (very effective at stopping approaches when used out of Float); can be used as an instant overhead vs. Dee Jay/JP/Marisa/Zangief, or as a fuzzy instant overhead vs. opponents in Burnout",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "2",
+    "juggle_limit": "0"
+  },
+  "dhalsim-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      19
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Great horizontal range at an upward angle for air-to-airs (especially out of Float); lower body projectile invuln 10-22f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "2",
+    "juggle_limit": "4"
+  },
+  "yoga-uppercut": {
+    "name": "Yoga Uppercut",
+    "name_ja": "ヨガアッパー",
+    "input": "4mp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      13
+    ],
+    "recovery": 16,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An anti-air attack that can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "invuln_str": "8-13 Air (Head/Arm)",
+    "notes_sc": "Forces stand on hit; good close-range anti-air but cannot hit cross-up; active frames 2-6 whiff on crouching opponents unless they extend a vertical hurtbox (making it a poor meaty option); all active frames are cancelable giving it a lenient hitconfirm window; special/DR cancel is delayed until after 4th active frame",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "yoga-lance": {
+    "name": "Yoga Lance",
+    "name_ja": "ヨガランス",
+    "input": "4hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      20
+    ],
+    "recovery": 29,
+    "on_hit": -9,
+    "on_block": -16,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A punch with long reach. Useful against opponents who jump diagonally forward",
+      "Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "Whiffs on crouching opponents unless they extend a vertical hurtbox; long-range anti-air (cannot hit cross-up); Counter-hit/Punish Counter puts airborne opponents into limited juggle state; canceling anti-air into a projectile can lead to juggles on CH/PC or meaty/teleport pressure",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "<span style=\"color: #fa6d0d;\">1 CH/PC Air</span>",
+    "juggle_limit": "2"
+  },
+  "nirvana-punch": {
+    "name": "Nirvana Punch",
+    "name_ja": "涅槃パンチ",
+    "input": "1hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A damaging punch that can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Decent range cancelable attack, primarily used out of Drive Rush; extends a hurtbox 1f before active and hurtbox lingers 12f after recovery making it susceptible to whiff punishes",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "agile-kick": {
+    "name": "Agile Kick",
+    "name_ja": "アジャイルキック",
+    "input": "1lk",
+    "type": "commandNormal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 10,
+    "on_hit": 1,
+    "on_block": -5,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick low attack that cannot be blocked standing",
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      200
+    ],
+    "notes_sc": "Chains into 5LP/2LP/1LK",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "divine-kick": {
+    "name": "Divine Kick",
+    "name_ja": "合掌キック",
+    "input": "4mk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      10
+    ],
+    "recovery": 17,
+    "on_hit": 3,
+    "on_block": 0,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick kick that can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Important combo tool; good meaty option due to high active frame count and safety on block",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "thrust-kick": {
+    "name": "Thrust Kick",
+    "name_ja": "スラストキック",
+    "input": "1mk",
+    "type": "commandNormal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 20,
+    "on_hit": -3,
+    "on_block": -7,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A low attack that cannot be blocked standing and can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Acts like a standard cancelable 2MK but with below-average range; Range: 1.19; DR cancel is delayed until after active frames",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "yoga-mountain": {
+    "name": "Yoga Mountain",
+    "name_ja": "ヨガマウンテン",
+    "input": "4hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      19
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -9,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A kick that is useful against an opponent's neutral jumps and blows the opponent back on hit",
+      "Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "invuln_str": "14-27 Air (Leg)",
+    "notes_sc": "Slow anti-air (cannot hit cross-up); low profile 10-13f and 33-38f; Counter-hit/Punish Counter puts airborne opponents into limited juggle state",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "<span style=\"color: #fa6d0d;\">1 CH/PC Air</span>",
+    "juggle_limit": "0"
+  },
+  "karma-kick": {
+    "name": "Karma Kick",
+    "name_ja": "因果キック",
+    "input": "1hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -7,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A low attack that cannot be blocked standing and knocks an opponent down",
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "Traditional sweep; can be difficult to punish if well spaced (much better block advantage than most sweeps)",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "5"
+  },
+  "yoga-mummy": {
+    "name": "Yoga Mummy",
+    "name_ja": "ヨガマミー",
+    "input": "j>2lp",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 1,
+    "active_frames": [
+      10
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A special-cancelable descending attack that be performed while jumping",
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Cancelable into Air Teleport or Yoga Comet until the final 6 active frames before landing; can come out on 8th airborne jump frame at the earliest; puts airborne opponent into limited juggle state; can be used after OD Yoga Flame ~ j.MP to extend the juggle into any Super after landing",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1 air",
+    "juggle_limit": "3"
+  },
+  "drill-kick-light": {
+    "name": "Drill Kick (Light)",
+    "name_ja": "ドリルキック (弱)",
+    "input": "j>2lk",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 1,
+    "active_frames": [
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A descending attack with a long duration that can be performed while jumping"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "drill-kick-medium": {
+    "name": "Drill Kick (Medium)",
+    "name_ja": "ドリルキック (中)",
+    "input": "j>2mk",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 1,
+    "active_frames": [
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A descending attack with a long duration that can be performed while jumping"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "drill-kick-heavy": {
+    "name": "Drill Kick (Heavy)",
+    "name_ja": "ドリルキック (強)",
+    "input": "j>2hk",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 1,
+    "active_frames": [
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A descending attack with a long duration that can be performed while jumping"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "long-sliding-kick": {
+    "name": "Long Sliding Kick",
+    "name_ja": "ロングスライディング",
+    "input": "2hk",
+    "type": "commandNormal",
+    "block_type": "low",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      27
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -16,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "invuln_str": "Projectile 8-27 (Upper Body)",
+    "notes_sc": "Long range slide; low profile 8-39f; best version of slide for countering projectiles; has juggle potential (no longer a Hard Knockdown if juggled into)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[7000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "yoga-fire-light": {
+    "name": "Yoga Fire (Light)",
+    "name_ja": "ヨガファイア (弱)",
+    "input": "236lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": -2,
+    "on_block": -6,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-fire-light-charged": {
+    "name": "Yoga Fire (Light Charged)",
+    "name_ja": "ヨガファイア (弱ホールド)",
+    "input": "236[lp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 43,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hold the button for 29 frames and the held button version will be performed automatically"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-fire-medium": {
+    "name": "Yoga Fire (Medium)",
+    "name_ja": "ヨガファイア (中)",
+    "input": "236mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": -2,
+    "on_block": -6,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-fire-medium-charged": {
+    "name": "Yoga Fire (Medium Charged)",
+    "name_ja": "ヨガファイア (中ホールド)",
+    "input": "236[mp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 43,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hold the button for 29 frames and the held button version will be performed automatically"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-fire-heavy": {
+    "name": "Yoga Fire (Heavy)",
+    "name_ja": "ヨガファイア (強)",
+    "input": "236hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": -2,
+    "on_block": -6,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-fire-heavy-charged": {
+    "name": "Yoga Fire (Heavy Charged)",
+    "name_ja": "ヨガファイア (強ホールド)",
+    "input": "236[hp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 43,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hold the button for 29 frames and the held button version will be performed automatically"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-fire-od-light": {
+    "name": "Yoga Fire (Light OD)",
+    "name_ja": "ヨガファイア (弱OD)",
+    "input": "236(lp+mp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "yoga-fire-od-medium": {
+    "name": "Yoga Fire (Medium OD)",
+    "name_ja": "ヨガファイア (中OD)",
+    "input": "236(lp+hp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "yoga-fire-od-heavy": {
+    "name": "Yoga Fire (Heavy OD)",
+    "name_ja": "ヨガファイア (強OD)",
+    "input": "236(mp+hp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "yoga-arch-light": {
+    "name": "Yoga Arch (Light)",
+    "name_ja": "ヨガアーチ (弱)",
+    "input": "236lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 1,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-arch-medium": {
+    "name": "Yoga Arch (Medium)",
+    "name_ja": "ヨガアーチ (中)",
+    "input": "236mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 1,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-arch-heavy": {
+    "name": "Yoga Arch (Heavy)",
+    "name_ja": "ヨガアーチ (強)",
+    "input": "236hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 1,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-arch-od-light": {
+    "name": "Yoga Arch (Light OD)",
+    "name_ja": "ヨガアーチ (弱OD)",
+    "input": "236(lk+mk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 1,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20％",
+      "Combo scaling 20％"
+    ]
+  },
+  "yoga-arch-od-medium": {
+    "name": "Yoga Arch (Medium OD)",
+    "name_ja": "ヨガアーチ (中OD)",
+    "input": "236(lk+hk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 1,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20％",
+      "Combo scaling 20％"
+    ]
+  },
+  "yoga-arch-od-heavy": {
+    "name": "Yoga Arch (Heavy OD)",
+    "name_ja": "ヨガアーチ (強OD)",
+    "input": "236(mk+hk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 1,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20％",
+      "Combo scaling 20％"
+    ]
+  },
+  "yoga-flame-light": {
+    "name": "Yoga Flame (Light)",
+    "name_ja": "ヨガフレイム（弱）",
+    "input": "63214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      30
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-flame-medium": {
+    "name": "Yoga Flame (Medium)",
+    "name_ja": "ヨガフレイム（中）",
+    "input": "63214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      19,
+      34
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.24,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-flame-heavy": {
+    "name": "Yoga Flame (Heavy)",
+    "name_ja": "ヨガフレイム（強）",
+    "input": "63214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 26,
+    "active": 2,
+    "active_frames": [
+      26,
+      42
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.27,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-flame-od": {
+    "name": "Yoga Flame (OD)",
+    "name_ja": "ヨガフレイム（OD）",
+    "input": "63214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      42
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -11,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "yoga-blast-light": {
+    "name": "Yoga Blast (Light)",
+    "name_ja": "ヨガブラスト（弱）",
+    "input": "63214lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      21
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -6,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos",
+      "Clashes with projectiles"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-blast-medium": {
+    "name": "Yoga Blast (Medium)",
+    "name_ja": "ヨガブラスト（中）",
+    "input": "63214mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      24
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos",
+      "Clashes with projectiles"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-blast-heavy": {
+    "name": "Yoga Blast (Heavy)",
+    "name_ja": "ヨガブラスト（強）",
+    "input": "63214hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      24
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos",
+      "Clashes with projectiles"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "yoga-blast-od": {
+    "name": "Yoga Blast (OD)",
+    "name_ja": "ヨガブラスト（OD）",
+    "input": "63214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      21
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos",
+      "Clashes with projectiles"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "yoga-comet-light": {
+    "name": "Yoga Comet (Light)",
+    "name_ja": "ヨガコメット (弱)",
+    "input": "j>63214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 30,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "yoga-comet-medium": {
+    "name": "Yoga Comet (Medium)",
+    "name_ja": "ヨガコメット (中)",
+    "input": "j>63214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 30,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "yoga-comet-heavy": {
+    "name": "Yoga Comet (Heavy)",
+    "name_ja": "ヨガコメット (強)",
+    "input": "j>63214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 30,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "yoga-comet-od": {
+    "name": "Yoga Comet (OD)",
+    "name_ja": "ヨガコメット（OD）",
+    "input": "j>63214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 30,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air",
+      "Can perform moves from frame 50"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "yoga-float-immediate": {
+    "name": "Yoga Float (Immediate)",
+    "name_ja": "ヨガフロート (その場)",
+    "input": "2(kk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Immediately",
+      "Rise into the air and float for a moment. Jumping attacks and aerial special moves can be used while floating",
+      "Considered airborne from frame 13",
+      "Can perform moves from frame 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "yoga-float-forward": {
+    "name": "Yoga Float (Forward)",
+    "name_ja": "ヨガフロート (前)",
+    "input": "3(kk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Rise into the air and float for a moment. Jumping attacks and aerial special moves can be used while floating",
+      "Considered airborne on frame 13",
+      "Can perform moves from frame 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "aerial-yoga-float": {
+    "name": "Aerial Yoga Float",
+    "name_ja": "空中ヨガフロート",
+    "input": "j>2(kk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "While airborne, transition into a float. Jumping attacks and aerial special moves can be used while floating",
+      "Can perform moves from frame 16"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "invuln_str": "1~ Projectile (Legs)",
+    "notes_sc": "Can come out on 8th airborne jump frame at the earliest; can use aerial normals/specials and move left/right during float; Counter-hit state on frame 1 until landing; active time refers to airborne period in which Dhalsim can move (can input air attacks during his descent, which depends on float height; 18f at minimum height); crouching state on final landing frame; can only be used once per jump even after using OD Yoga Comet to regain air control; Movement Speed: 0.04 forward / 0.03 back",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "yoga-teleport-punch": {
+    "name": "Yoga Teleport (Punch)",
+    "name_ja": "ヨガテレポート (パンチ)",
+    "input": "6(ppp)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense",
+      "Completely invincible from frames 5 - 15"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 5 - 15"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "yoga-teleport-kick": {
+    "name": "Yoga Teleport (Kick)",
+    "name_ja": "ヨガテレポート (キック)",
+    "input": "6(kkk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense",
+      "Completely invincible from frames 5 - 15"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 5 - 15"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "aerial-yoga-teleport-punch": {
+    "name": "Aerial Yoga Teleport (Punch)",
+    "name_ja": "空中ヨガテレポート (パンチ)",
+    "input": "j>6(ppp)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport",
+      "Completely invincible from frames 10 - 15",
+      "Can perform moves from frame 30"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 10 - 15"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "aerial-yoga-teleport-kick": {
+    "name": "Aerial Yoga Teleport (Kick)",
+    "name_ja": "空中ヨガテレポート (キック)",
+    "input": "j>6(kkk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport",
+      "Completely invincible from frames 10 - 15",
+      "Can perform moves from frame 30"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 10 - 15"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "yoga-teleport-backward": {
+    "name": "Yoga Teleport (Backward)",
+    "name_ja": "ヨガテレポート (後方)",
+    "input": "4+{(ppp)|(kkk)}",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense",
+      "Completely invincible from frames 5 - 15"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 5 - 15"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "aerial-yoga-teleport-backward-punch": {
+    "name": "Aerial Yoga Teleport (Backward Punch)",
+    "name_ja": "空中ヨガテレポート (後方パンチ)",
+    "input": "j>4(ppp)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport",
+      "Completely invincible from frames 10 - 15",
+      "Can perform moves from frame 35"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 10 - 15"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "aerial-yoga-teleport-backward-kick": {
+    "name": "Aerial Yoga Teleport (Backward Kick)",
+    "name_ja": "空中ヨガテレポート (後ろキック)",
+    "input": "j>4(kkk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport",
+      "Completely invincible from frames 10 - 15",
+      "Can perform moves from frame 35"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 10 - 15"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "yoga-inferno-light": {
+    "name": "Yoga Inferno (Light)",
+    "name_ja": "ヨガインフェルノ (弱)",
+    "input": "236236lp",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      93
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -10,
+    "damage": 1920,
+    "chip_damage": 480,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.504,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input",
+      "Invincible to throws from frames 1 - 11",
+      "Minimum guaranteed damage is 30%",
+      "Values do not change on counter or Punish Counter",
+      "Deals 792 of recoverable damage on block"
+    ],
+    "invuln": {
+      "throw": "Invincible to throws from frames 1 - 11"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1
+  },
+  "yoga-inferno-medium": {
+    "name": "Yoga Inferno (Medium)",
+    "name_ja": "ヨガインフェルノ (中)",
+    "input": "236236mp",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      93
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -10,
+    "damage": 2100,
+    "chip_damage": 525,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.504,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input",
+      "Invincible to throws from frames 1 - 11",
+      "Minimum guaranteed damage is 30%",
+      "Values do not change on counter or Punish Counter",
+      "Deals 792 of recoverable damage on block"
+    ],
+    "invuln": {
+      "throw": "Invincible to throws from frames 1 - 11"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1
+  },
+  "yoga-inferno-heavy": {
+    "name": "Yoga Inferno (Heavy)",
+    "name_ja": "ヨガインフェルノ (強)",
+    "input": "236236hp",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      93
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -22,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.504,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input",
+      "Invincible to throws from frames 1 - 11",
+      "Minimum guaranteed damage is 30%",
+      "Values do not change on counter or Punish Counter",
+      "Deals 792 of recoverable damage on block"
+    ],
+    "invuln": {
+      "throw": "Invincible to throws from frames 1 - 11"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1
+  },
+  "yoga-sunburst-lv1": {
+    "name": "Yoga Sunburst (Lv1)",
+    "name_ja": "ヨガサンバースト (Lv1)",
+    "input": "214214*k",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 7,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2800,
+    "chip_damage": 700,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air",
+      "Completely invincible from frames 1 - 9",
+      "Minimum guaranteed damage is 40%",
+      "Values do not change on counter or Punish Counter",
+      "Level 1 activates if the button is released within 139 frames"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 9"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "yoga-sunburst-lv2": {
+    "name": "Yoga Sunburst (Lv2)",
+    "name_ja": "ヨガサンバースト (Lv2)",
+    "input": "214214[*k]",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 7,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3100,
+    "chip_damage": 775,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.35,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air",
+      "Completely invincible from frames 1 - 9",
+      "Minimum guaranteed damage is 40%",
+      "Values do not change on counter or Punish Counter",
+      "Hold the button for over 140 frames to activate the Level 2 version"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 9"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "yoga-sunburst-lv3": {
+    "name": "Yoga Sunburst (Lv3)",
+    "name_ja": "ヨガサンバースト (Lv3)",
+    "input": "214214[*k]",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 7,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.45,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air",
+      "Completely invincible from frames 1 - 9",
+      "Minimum guaranteed damage is 40%",
+      "Values do not change on counter or Punish Counter",
+      "Hold the button for over 188 frames to activate the Level 2 version"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 9"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "merciless-yoga": {
+    "name": "Merciless Yoga",
+    "name_ja": "ヨガマーシレス",
+    "input": "236236*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      14
+    ],
+    "recovery": 75,
+    "on_hit": 0,
+    "on_block": -62,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When under 25% vitality",
+      "A powerful move that unleashes a series of attacks followed by a devastating headbutt. Useful in combos, as an anti-air attack, or as a way to interrupt an opponent's pressure",
+      "Completely invincible from frames 1 - 14",
+      "Minimum guaranteed damage is 50%",
+      "Values do not change on counter or Punish Counter",
+      "Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3,
+    "per_hit": [
+      4000
+    ],
+    "invuln_str": "1-14 Full",
+    "notes_sc": "Cinematic time regenerates ~2 Drive bars for Dhalsim; 2f startup when canceled from 63214P; *Self-hitstop does not occur until 3rd active frame on block (incorrectly appears to have 7 active frames and 20f blockstun)",
+    "drive_dmg_on_block": "7500",
+    "drive_dmg_on_hit": "15000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "10"
+  },
+  "merciless-yoga-ca": {
+    "name": "Merciless Yoga (Critical Art)",
+    "name_ja": "ヨガマーシレス (CA)",
+    "input": "236236*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      14
+    ],
+    "recovery": 75,
+    "on_hit": 0,
+    "on_block": -62,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A powerful move that unleashes a series of attacks followed by a devastating headbutt. Useful in combos, as an anti-air attack, or as a way to interrupt an opponent's pressure",
+      "Completely invincible from frames 1 - 14",
+      "Minimum guaranteed damage is 50%",
+      "Values do not change on counter or Punish Counter",
+      "Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3
+  },
+  "yoga-smash": {
+    "name": "Yoga Smash",
+    "name_ja": "ヨガスマッシュ",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab and punch your opponent's head twice before sending them flying with a palm strike. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Allows for a corner throw loop; walk for manual timing, dash (+6) and delay throw by 1-4f, or whiff 2LK (+5) for auto-timing; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "yoga-throw": {
+    "name": "Yoga Throw",
+    "name_ja": "ヨガスロー",
+    "input": "(5lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab your opponent with both arms and toss them behind you. Throws your opponent while switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Side switch; no meaty throw after throwing opponent into corner, but can meaty with 2MK (0 oB) or DR 4MK (+6 oB); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "yoga-splash": {
+    "name": "Yoga Splash",
+    "name_ja": "ヨガスプラッシュ",
+    "input": "(2lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab an opponent's legs to disrupt their balance and send them flying. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Throws opponent full screen; allows for a corner throw loop with manual timing (+10 after dash, or walk); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  }
+}

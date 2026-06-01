@@ -1,0 +1,3704 @@
+{
+  "blanka-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 10,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Mostly used for special cancels (cannot link or chain into other normals); SA2 cancel: +5/-1; Forward Hop cancel: -12/-18; Coward Crouch cancel: -3/-9",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 15,
+    "on_hit": 3,
+    "on_block": -4,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Solid neutral poke; SA2 cancel: +10/+3",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      16
+    ],
+    "recovery": 22,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces the opponent into a standing position"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Combo tool with enough hitstun to follow up with Coward Crouch + Wild Lift; forces stand; 5f extra recovery on whiff; final 2 active frames only hit airborne opponents above Blanka; SA2 cancel: +16/+10; Forward Hop cancel: -1/-7; Coward Crouch cancel: +8/+2",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      7
+    ],
+    "recovery": 7,
+    "on_hit": 5,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LK/2LP/2LK; Blanka's fastest light normal; SA2 cancel: +5/-2; Forward Hop cancel: -12/-19; Coward Crouch cancel: -3/-10",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 17,
+    "on_hit": 4,
+    "on_block": -2,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "3 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "3f extra recovery on whiff; forward movement makes it more consistent in cancels like OD Backstep Roll; SA2 cancel: +14/+7; Forward Hop cancel: -3/-10; Coward Crouch cancel: +6/-1",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      15
+    ],
+    "recovery": 18,
+    "on_hit": 6,
+    "on_block": -4,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when the attack lands as a counter or Punish Counter on a mid-air opponent",
+      "Forces the opponent into a standing position"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Forces stand; great anti-air that can hit cross-up on active frames 7-9 unlike most AAs; Counter-hit/Punish Counter launches airborne opponents into a limited juggle state (very high float state); high active frame count makes it useful as a meaty tool, and the fast startup + hit advantage makes it useful in combos; 3f less recovery on block; extends a hurtbox 1f before active that is vulnerable to projectiles",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      8
+    ],
+    "recovery": 8,
+    "on_hit": 4,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LK/2LP/2LK; longest range of Blanka's light normals; SA2 cancel: +5/-2; Forward Hop cancel: -12/-19; Coward Crouch cancel: -3/-10",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      13
+    ],
+    "recovery": 16,
+    "on_hit": -1,
+    "on_block": -5,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Long range cancelable poke with a lenient hitconfirm window; can be spaced to hit up to 3rd active frame (2f better advantage, 2f harder hitconfirm window); situational anti-air on active frames 4-5 but cannot hit cross-up; SA2 cancel: +9/+5; Forward Hop cancel: -8/-12; Coward Crouch cancel: +1/-3",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      19
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -5,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when the attack lands as a Punish Counter",
+      "Forces the opponent into a standing position"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "Knocks down on Counter-hit (KD +40) and Punish Counter (HKD +80) with follow-up juggles possible on airborne opponents (limited juggle state); 1f extra recovery on block; forces stand; long range poke that can anti-air near its max range (but is likely to lose or trade due to poor hitbox priority); extends a hurtbox 1f before active that is vulnerable to projectiles",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 10,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      200
+    ],
+    "notes_sc": "Chains into 5LK/2LP/2LK; leaves a 4f blockstring gap when chained into 2LP (opponent can trade with their own 4f normal)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 16,
+    "on_hit": 5,
+    "on_block": -5,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "2 frames of recovery added when the attack is blocked or misses"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "2f extra recovery on block/whiff; cancelable low poke with good frame advantage on hit (can link after Drive Rush into 2MK without spending extra meter); SA2 cancel: +13/+5; Forward Hop cancel: -4/-12; Coward Crouch cancel: +5/-3; Range: 1.48 (this is Absolute Range; Blanka's wide hurtbox gives him worse Relative Range, so characters with less 2MK range may still be able to outpoke Blanka in neutral)",
+    "drive_dmg_on_block": "2000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      14
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "Has juggle potential even without Drive Rush",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "5"
+  },
+  "blanka-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      8
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Decent air-to-air",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state; cancelable into Aerial Rolling Attack; lower body projectile invuln 7-22f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "blanka-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "{7|9}>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 1,
+    "active_frames": [
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Causes spike knockdown vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-jump-neutral-heavy-punch": {
+    "name": "Neutral Jumping Heavy Punch",
+    "name_ja": "垂直ジャンプ強P",
+    "input": "8>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state; lower body projectile invuln 7-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      10
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Decent air-to-air",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "canCrossUp"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Cross-up; lower body projectile invuln 7-17f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "blanka-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Blanka's main horizontal jump-in tool; lower body projectile invuln 11-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "electric-thunder": {
+    "name": "Electric Thunder",
+    "name_ja": "エレクトリックサンダー",
+    "input": "214*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 6,
+    "active_frames": [
+      10,
+      11,
+      15,
+      16,
+      20,
+      21
+    ],
+    "recovery": 17,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 601500,
+    "chip_damage": 150375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Envelop your entire body with electricity to shock your opponent. This move executes quickly, making it useful to combo into from normal moves",
+      "Hold down the button to continue that attack"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [],
+    "per_hit": [
+      400,
+      600500,
+      600
+    ],
+    "notes_sc": "Strike hitbox with forward movement during startup; 2f extra recovery on whiff; on block, connects only once for good frame advantage (recovers slightly out of throw range); on hit, transitions to a follow-up attack that puts opponent into limited juggle state (also extends hitconfirm window); can hold button to extend active frame duration on whiff only (later hits have shorter range); activates Blanka-chan doll with electricity (3-hit OD version); [] refers to SA2 install version with slightly more damage; SA2 cancel: KD +54(+60)/+9",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[2500x2]",
+    "juggle_start": "1",
+    "juggle_limit": "1/10"
+  },
+  "lightning-beast-electric-thunder": {
+    "name": "[Lightning Beast] Electric Thunder",
+    "name_ja": "【ライトニングビースト】 エレクトリックサンダー",
+    "input": "214*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 6,
+    "active_frames": [
+      10,
+      11,
+      15,
+      16,
+      20,
+      21
+    ],
+    "recovery": 17,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Envelop your entire body with electricity to shock your opponent. This move executes quickly, making it useful to combo into from normal moves",
+      "Hold down the button to continue that attack"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "electric-thunder-od": {
+    "name": "Electric Thunder (OD)",
+    "name_ja": "エレクトリックサンダー（OD）",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 6,
+    "active_frames": [
+      10,
+      11,
+      15,
+      16,
+      17,
+      18
+    ],
+    "recovery": 17,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Envelop your entire body with electricity to shock your opponent. This move executes quickly, making it useful to combo into from normal moves",
+      "Hold down the button to continue that attack"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "lightning-beast-electric-thunder-od": {
+    "name": "[Lightning Beast] Electric Thunder (OD)",
+    "name_ja": "【ライトニングビースト】 エレクトリックサンダー（OD）",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 6,
+    "active_frames": [
+      10,
+      11,
+      15,
+      16,
+      17,
+      18
+    ],
+    "recovery": 17,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Envelop your entire body with electricity to shock your opponent. This move executes quickly, making it useful to combo into from normal moves",
+      "Hold down the button to continue that attack"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "rolling-attack-light": {
+    "name": "Rolling Attack (Light)",
+    "name_ja": "ローリングアタック(弱)",
+    "input": "[4]>6lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      20
+    ],
+    "recovery": 11,
+    "on_hit": 0,
+    "on_block": -23,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away",
+      "Considered airborne from frames 10 - 23"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "lightning-beast-rolling-attack-light": {
+    "name": "[Lightning Beast] Rolling Attack (Light)",
+    "name_ja": "【ライトニングビースト】 ローリングアタック(弱)",
+    "input": "[4]>6lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      20
+    ],
+    "recovery": 11,
+    "on_hit": 0,
+    "on_block": -21,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away",
+      "Considered airborne from frames 10 - 23",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "rolling-attack-medium": {
+    "name": "Rolling Attack (Medium)",
+    "name_ja": "ローリングアタック(中)",
+    "input": "[4]>6mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      30
+    ],
+    "recovery": 11,
+    "on_hit": 0,
+    "on_block": -23,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away",
+      "Considered airborne from frames 12 - 23",
+      "Juggle state time is extended when attack hits for a Punish Counter",
+      "Can cancel into Level 3 Super Art until active frame 11"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "lightning-beast-rolling-attack-medium": {
+    "name": "[Lightning Beast] Rolling Attack (Medium)",
+    "name_ja": "【ライトニングビースト】 ローリングアタック(中)",
+    "input": "[4]>6mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      30
+    ],
+    "recovery": 11,
+    "on_hit": 0,
+    "on_block": -21,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away",
+      "Considered airborne from frames 12 - 23",
+      "Consumes 100 of the Super Art 2 timer",
+      "Juggle state time is extended when attack hits for a Punish Counter",
+      "Can transition to Rolling Cannon on hit or block"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "rolling-attack-heavy": {
+    "name": "Rolling Attack (Heavy)",
+    "name_ja": "ローリングアタック（強）",
+    "input": "[4]>6hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      41
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -15,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away",
+      "Considered airborne from frames 20 - 42",
+      "Juggle state time is extended when attack hits for a Punish Counter",
+      "Can cancel into Level 3 Super Art until active frame 6"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "lightning-beast-rolling-attack-heavy": {
+    "name": "[Lightning Beast] Rolling Attack (Heavy)",
+    "name_ja": "【ライトニングビースト】 ローリングアタック(強)",
+    "input": "[4]>6hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      41
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -21,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away",
+      "Considered airborne from frames 20 - 42",
+      "Consumes 100 of the Super Art 2 timer",
+      "Juggle state time is extended when attack hits for a Punish Counter",
+      "Can transition to Rolling Cannon on hit or block"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "rolling-attack-od": {
+    "name": "Rolling Attack (OD)",
+    "name_ja": "ローリングアタック（OD）",
+    "input": "[4]>6(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      39
+    ],
+    "recovery": 17,
+    "on_hit": 0,
+    "on_block": -7,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away",
+      "Considered airborne from frames 18 - 41",
+      "Can cancel into Level 3 Super Art until active frame 2"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "lightning-beast-rolling-attack-od": {
+    "name": "[Lightning Beast] Rolling Attack (OD)",
+    "name_ja": "【ライトニングビースト】 ローリングアタック（OD）",
+    "input": "[4]>6(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      39
+    ],
+    "recovery": 17,
+    "on_hit": 0,
+    "on_block": -7,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away",
+      "Considered airborne from frames 18 - 40",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "vertical-rolling-attack-light": {
+    "name": "Vertical Rolling Attack (Light)",
+    "name_ja": "バーチカルローリング（弱）",
+    "input": "[2]>8lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      27
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -27,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
+      "Considered airborne from frames 6 - 57",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-vertical-rolling-attack-light": {
+    "name": "[Lightning Beast] Vertical Rolling Attack (Light)",
+    "name_ja": "【ライトニングビースト】 バーチカルローリング（弱）",
+    "input": "[2]>8lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      27
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -27,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block",
+      "Considered airborne from frames 6 - 57",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "vertical-rolling-attack-medium": {
+    "name": "Vertical Rolling Attack (Medium)",
+    "name_ja": "バーチカルローリング（中）",
+    "input": "[2]>8mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      27
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -27,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
+      "Considered airborne from frames 6 - 57",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-vertical-rolling-attack-medium": {
+    "name": "[Lightning Beast] Vertical Rolling Attack (Medium)",
+    "name_ja": "【ライトニングビースト】 バーチカルローリング（中）",
+    "input": "[2]>8mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      27
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -27,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block",
+      "Considered airborne from frames 6 - 57",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "vertical-rolling-attack-heavy": {
+    "name": "Vertical Rolling Attack (Heavy)",
+    "name_ja": "バーチカルローリング（強）",
+    "input": "[2]>8hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      27
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -27,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
+      "Considered airborne from frames 6 - 57",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-vertical-rolling-attack-heavy": {
+    "name": "[Lightning Beast] Vertical Rolling Attack (Heavy)",
+    "name_ja": "【ライトニングビースト】 バーチカルローリング（強）",
+    "input": "[2]>8hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      27
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -27,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block",
+      "Considered airborne from frames 6 - 57",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26"
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "vertical-rolling-attack-od": {
+    "name": "Vertical Rolling Attack (OD)",
+    "name_ja": "バーチカルローリング（OD）",
+    "input": "[2]>8(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 7,
+    "active": 4,
+    "active_frames": [
+      7,
+      14,
+      17,
+      22
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -40,
+    "damage": 1600,
+    "chip_damage": 400,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
+      "Considered airborne from frames 4 - 53",
+      "Completely invincible to attacks from frames 1 - 10"
+    ],
+    "invuln": {
+      "full": "Completely invincible to attacks from frames 1 - 10"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-vertical-rolling-attack-od": {
+    "name": "[Lightning Beast] Vertical Rolling Attack (OD)",
+    "name_ja": "【ライトニングビースト】 バーチカルローリング（OD）",
+    "input": "[2]>8(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 7,
+    "active": 4,
+    "active_frames": [
+      7,
+      14,
+      17,
+      22
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -40,
+    "damage": 1750,
+    "chip_damage": 437,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block",
+      "Considered airborne from frames 4 - 53",
+      "Completely invincible to attacks from frames 1 - 10"
+    ],
+    "invuln": {
+      "full": "Completely invincible to attacks from frames 1 - 10"
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 40%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "backstep-rolling-attack-light": {
+    "name": "Backstep Rolling Attack (Light)",
+    "name_ja": "バックステップローリング（弱）",
+    "input": "63214lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 41,
+    "active": 1,
+    "active_frames": [
+      41
+    ],
+    "recovery": 1,
+    "on_hit": 9,
+    "on_block": 3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-backstep-rolling-attack-light": {
+    "name": "[Lightning Beast] Backstep Rolling Attack (Light)",
+    "name_ja": "【ライトニングビースト】 バックステップローリング（弱）",
+    "input": "63214lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 41,
+    "active": 1,
+    "active_frames": [
+      41
+    ],
+    "recovery": 1,
+    "on_hit": 9,
+    "on_block": 3,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "backstep-rolling-attack-medium": {
+    "name": "Backstep Rolling Attack (Medium)",
+    "name_ja": "バックステップローリング（中）",
+    "input": "63214mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 41,
+    "active": 1,
+    "active_frames": [
+      41
+    ],
+    "recovery": 1,
+    "on_hit": 8,
+    "on_block": 2,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-backstep-rolling-attack-medium": {
+    "name": "[Lightning Beast] Backstep Rolling Attack (Medium)",
+    "name_ja": "【ライトニングビースト】 バックステップローリング（中）",
+    "input": "63214mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 41,
+    "active": 1,
+    "active_frames": [
+      41
+    ],
+    "recovery": 1,
+    "on_hit": 8,
+    "on_block": 2,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "backstep-rolling-attack-heavy": {
+    "name": "Backstep Rolling Attack (Heavy)",
+    "name_ja": "バックステップローリング（強）",
+    "input": "63214hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 41,
+    "active": 1,
+    "active_frames": [
+      41
+    ],
+    "recovery": 1,
+    "on_hit": 8,
+    "on_block": 4,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-backstep-rolling-attack-heavy": {
+    "name": "[Lightning Beast] Backstep Rolling Attack (Heavy)",
+    "name_ja": "【ライトニングビースト】 バックステップローリング（強）",
+    "input": "63214hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 41,
+    "active": 1,
+    "active_frames": [
+      41
+    ],
+    "recovery": 1,
+    "on_hit": 8,
+    "on_block": 4,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "backstep-rolling-attack-od": {
+    "name": "Backstep Rolling Attack (OD)",
+    "name_ja": "バックステップローリング（OD）",
+    "input": "63214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 6,
+    "active_frames": [
+      8,
+      12,
+      41,
+      61,
+      63,
+      66
+    ],
+    "recovery": 1,
+    "on_hit": 10,
+    "on_block": 6,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent",
+      "First attack produces a juggle state knockdown",
+      "Can be canceled into Level 2 or 3 Super Art until the 3rd active frame of the first attack"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "lightning-beast-backstep-rolling-attack-od": {
+    "name": "[Lightning Beast] Backstep Rolling Attack (OD)",
+    "name_ja": "【ライトニングビースト】 バックステップローリング（OD）",
+    "input": "63214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 6,
+    "active_frames": [
+      8,
+      12,
+      41,
+      61,
+      63,
+      66
+    ],
+    "recovery": 1,
+    "on_hit": 10,
+    "on_block": 6,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent",
+      "First attack produces a juggle state knockdown",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon when the rotating part hits or is blocked"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "aerial-rolling-attack-light": {
+    "name": "Aerial Rolling Attack (Light)",
+    "name_ja": "エリアルローリング（弱）",
+    "input": "j>[4]>6lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "canCrossUp",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During a jump",
+      "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-aerial-rolling-attack-light": {
+    "name": "[Lightning Beast] Aerial Rolling Attack (Light)",
+    "name_ja": "【ライトニングビースト】 エリアルローリング（弱）",
+    "input": "j>[4]>6lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "aerial-rolling-attack-medium": {
+    "name": "Aerial Rolling Attack (Medium)",
+    "name_ja": "エリアルローリング（中）",
+    "input": "j>[4]>6mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "canCrossUp",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During a jump",
+      "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-aerial-rolling-attack-medium": {
+    "name": "[Lightning Beast] Aerial Rolling Attack (Medium)",
+    "name_ja": "【ライトニングビースト】 エリアルローリング（中）",
+    "input": "j>[4]>6mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "aerial-rolling-attack-heavy": {
+    "name": "Aerial Rolling Attack (Heavy)",
+    "name_ja": "エリアルローリング（強）",
+    "input": "j>[4]>6hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "canCrossUp",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During a jump",
+      "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-aerial-rolling-attack-heavy": {
+    "name": "[Lightning Beast] Aerial Rolling Attack (Heavy)",
+    "name_ja": "【ライトニングビースト】 エリアルローリング（強）",
+    "input": "j>[4]>6hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "canCrossUp",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "aerial-rolling-attack-od": {
+    "name": "Aerial Rolling Attack (OD)",
+    "name_ja": "エリアルローリング（OD）",
+    "input": "j>[4]>6(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "canCrossUp",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During a jump",
+      "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "lightning-beast-aerial-rolling-attack-od": {
+    "name": "[Lightning Beast] Aerial Rolling Attack (OD)",
+    "name_ja": "【ライトニングビースト】 エリアルローリング（OD）",
+    "input": "j>[4]>6(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "canCrossUp",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
+      "Consumes 100 of the Super Art 2 timer",
+      "Can transition to Rolling Cannon on hit or block",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "wild-hunt-light": {
+    "name": "Wild Hunt (Light)",
+    "name_ja": "ワイルドハント（弱）",
+    "input": "236lk",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 34,
+    "active": 2,
+    "active_frames": [
+      34,
+      36
+    ],
+    "recovery": 57,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1600,
+    "chip_damage": 400,
+    "drive_gain_hit": 0.5,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking",
+      "Considered airborne from frames 9 - 26"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "wild-hunt-medium": {
+    "name": "Wild Hunt (Medium)",
+    "name_ja": "ワイルドハント（中）",
+    "input": "236mk",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 39,
+    "active": 2,
+    "active_frames": [
+      39,
+      41
+    ],
+    "recovery": 57,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1700,
+    "chip_damage": 425,
+    "drive_gain_hit": 0.5,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking",
+      "Considered airborne from frames 14 - 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "wild-hunt-heavy": {
+    "name": "Wild Hunt (Heavy)",
+    "name_ja": "ワイルドハント（強）",
+    "input": "236hk",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 43,
+    "active": 2,
+    "active_frames": [
+      43,
+      45
+    ],
+    "recovery": 57,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1800,
+    "chip_damage": 450,
+    "drive_gain_hit": 0.5,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking",
+      "Considered airborne from frames 18 - 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "wild-hunt-od": {
+    "name": "Wild Hunt (OD)",
+    "name_ja": "ワイルドハント（OD）",
+    "input": "236(pp)",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 32,
+    "active": 2,
+    "active_frames": [
+      32,
+      34
+    ],
+    "recovery": 57,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking",
+      "Considered airborne from frames 9 - 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "blanka-chan-bomb": {
+    "name": "Blanka-chan Bomb",
+    "name_ja": "ブランカちゃん爆弾",
+    "input": "22*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Toss out a Blanka-chan doll designed to resemble Blanka himself. Once it lands on the ground, touching it with an electrical special move will cause it to run toward and attack your opponent",
+      "Disappears 1000 frames after landing on the ground",
+      "Works as a projectile attack when activated by any special moves that produces electricity or comes in contact with a Super Art until the 1000th frame",
+      "The trajectory of the thrown doll changes if it touches the edge of the screen"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Doll is consumed on frame 25, and spawns on frame 39 (if Blanka is hit between frames 25-38, loses the doll completely); after spawning, takes 35f to reach the ground and become active; doll despawns after 1000f or if completely off-screen; Blanka is in a counter-hit state for entire move duration; starts each round with 3 dolls (only 1 can be active at a time); Back Taunt is the only way to restore dolls mid-round; button strength determines throw distance (LP close, MP mid, HP far); doll can be activated with any source of electricity, with different effects depending on meterless/OD/SA1 electricity type (SA2 install specials count as meterless or OD moves for this purpose); once activated, doll is considered a projectile; doll disappears if Blanka is hit after activating (does not apply to un-activated doll)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "shout-of-earth": {
+    "name": "Shout of Earth",
+    "name_ja": "シャウトオブアース",
+    "input": "236236*p",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 20002200,
+    "chip_damage": 5000550,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Leap into the air and slam both fists into the ground, creating a powerful electric shock. Its invincibility makes it useful for turning the tables, but it is also effective in combos",
+      "Invincible to strikes and throws from frames 1 - 9",
+      "Minimum guaranteed damage is set to 30%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "strike_throw": "Invincible to strikes and throws from frames 1 - 9"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      20002200
+    ],
+    "invuln_str": "1-9 Strike/Throw",
+    "notes_sc": "Projectile hitbox that hits on both sides of Blanka; hitbox is low to the ground (opponent can safely empty jump safely vs. anti-air SA1); [] refers to SA2 install; during install, range is extended to full screen and deals 200 extra damage; significantly better KD Advantage when juggled into; activates Blanka-chan doll on contact (rapidly shoots forward for 5 hits); Blanka-chan doll activation makes it safe on block (minimum +8 oB)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "5000",
+    "juggle_start": "1",
+    "juggle_limit": "99"
+  },
+  "lightning-beast-shout-of-earth": {
+    "name": "[Lightning Beast] Shout of Earth",
+    "name_ja": "【ライトニングビースト】シャウトオブアース",
+    "input": "236236*p",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 2200,
+    "chip_damage": 550,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Leap into the air and slam both fists into the ground, creating a powerful electric shock. Its invincibility makes it useful for turning the tables, but it is also effective in combos",
+      "Invincible to strikes and throws from frames 1 - 9",
+      "Minimum guaranteed damage is set to 30%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "strike_throw": "Invincible to strikes and throws from frames 1 - 9"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1
+  },
+  "lightning-beast": {
+    "name": "Lightning Beast",
+    "name_ja": "ライトニングビースト",
+    "input": "214214*p",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Electrically charge your own body to power up your special moves and Super Arts. It also enables the use of Rolling Cannon from all rolling-type special moves",
+      "Super Art 2 timer is set to 1500",
+      "Changes the properties of special moves except for Wild Hunt while active",
+      "Allows any Rolling-type attack to cancel into Rolling Cannon while active",
+      "Allows the following attacks to be cancel into without any directional charge",
+      "- Rolling Attack",
+      "- Vertical Rolling Attack",
+      "- Aerial Rolling Attack"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 2,
+    "notes_sc": "Improves properties/damage special moves (except 236K) and SA1; gains access to Rolling Cannon after ball-type specials ([4]6P, j.[4]6P, [2]8K, 63214K); all ball-type specials gain electricity to activate Blanka-Chan bomb; while active, Blanka no longer requires charge when canceling into charge specials; using any ball-type special depletes install time by 100f (6.7%), and Rolling Cannon depletes timer by 200f (13.3%)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "ground-shave-cannonball": {
+    "name": "Ground Shave Cannonball",
+    "name_ja": "グランドシェイブキャノンボール",
+    "input": "236236*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 61,
+    "on_hit": 0,
+    "on_block": -46,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When under 25% vitality",
+      "Leap onto your opponent and bite them multiple times before slamming into them with an electrically charged spinning tackle. The leap performed upon activation can be used to deal with projectiles",
+      "Completely invincible from frames 1 - 12",
+      "Minimum guaranteed damage is set to 50%",
+      "Values do not change on counter or Punish Counter",
+      "Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 12"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10％"
+    ],
+    "super_cost": 3,
+    "per_hit": [
+      4000
+    ],
+    "invuln_str": "1-12 Full",
+    "notes_sc": "Reaches ~60% screen length; cannot hit cross-up; cinematic time regenerates ~1.8 Drive bars for Blanka",
+    "drive_dmg_on_block": "7500",
+    "drive_dmg_on_hit": "15000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "ground-shave-cannonball-ca": {
+    "name": "Ground Shave Cannonball (Critical Art)",
+    "name_ja": "グランドシェイブキャノンボール（CA）",
+    "input": "236236*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 61,
+    "on_hit": 0,
+    "on_block": -46,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Leap onto your opponent and bite them multiple times before slamming into them with an electrically charged spinning tackle. The leap performed upon activation can be used to deal with projectiles",
+      "Completely invincible from frames 1 - 12",
+      "Minimum guaranteed damage is set to 50%",
+      "Values do not change on counter or Punish Counter",
+      "*Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 12"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10％"
+    ],
+    "super_cost": 3
+  },
+  "rolling-cannon": {
+    "name": "Rolling Cannon",
+    "name_ja": "ローリングキャノン",
+    "input": "d+*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 3,
+    "active": 2,
+    "active_frames": [
+      3,
+      27
+    ],
+    "recovery": 9,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A spinning attack that can be used while Lightning Beast is active. It allows for rolling-type special moves to be followed up with up to three additional attacks",
+      "Can transition into any Rolling-style attack a maximum of 3 times"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      400
+    ],
+    "notes_sc": "Special move follow-up available during SA2 only (depletes 200f or 13.3% of install time); input with any direction; usable after [4]6P, j.[4]6P, [2]8K, or 63214K; puts opponent into limited juggle state; can chain into itself up to 3 times consecutively if the hits connect (this limit resets if Blanka lands before starting another juggle); frame advantage on KD/block/parry varies significantly depending on height and attack angle (can lead to significant block advantage on 3P or 2P versions); total recovery varies significantly based on input direction, but landing recovery is always 7f for 8P/7P/4P/1P and 9f for 2P/3P/6P/9P; activates Blanka-chan doll with electricity (meterless 1-hit version); POTENTIAL BUG: 2P version canceled from minimum-height Aerial Rolling Attack will grant significant frame advantage without consuming any additional install time",
+    "drive_dmg_on_block": "1000 each",
+    "drive_dmg_on_hit": "2000 each",
+    "juggle_start": "1",
+    "juggle_limit": "99"
+  },
+  "rock-crusher": {
+    "name": "Rock Crusher",
+    "name_ja": "ロッククラッシュ",
+    "input": "6mp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      22
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.125,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "An overhead attack that cannot be blocked while crouching",
+      "Second attack becomes an overhead only if the first attack whiffs"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300,
+      300
+    ],
+    "notes_sc": "2nd hit is no longer an overhead if the first hit connects; Counter-hit/Punish Counter bonus advantage carries through both hits",
+    "drive_dmg_on_block": "1250x2",
+    "drive_dmg_on_hit": "[2500x2]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "double-knee-bombs": {
+    "name": "Double Knee Bombs",
+    "name_ja": "ダブルニーボンバー",
+    "input": "6mk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 4,
+    "active_frames": [
+      9,
+      11,
+      19,
+      20
+    ],
+    "recovery": 18,
+    "on_hit": 6,
+    "on_block": -2,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A combination attack consisting of two forward-moving knee strikes"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300,
+      300
+    ],
+    "notes_sc": "Low Crush 9-23f (not airborne); forward moving attack that can easily confirm into a combo on hit; Forces stand (ensuring that Vertical Roll can be comboed into); Counter-hit/Punish Counter bonus advantage carries through both hits; cannot hit behind Blanka; 1st hit puts airborne opponents into limited juggle state, allowing both hits to connect safely",
+    "drive_dmg_on_block": "2000x2",
+    "drive_dmg_on_hit": "[3000x2]",
+    "juggle_start": "0/1",
+    "juggle_limit": "0"
+  },
+  "wild-edge": {
+    "name": "Wild Edge",
+    "name_ja": "ワイルドエッジ",
+    "input": "4mk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      14
+    ],
+    "recovery": 12,
+    "on_hit": 8,
+    "on_block": 2,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A special-cancelable kick. Useful against jumping opponents"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "invuln_str": "1-3 (Head), 4-14 Air (Head)",
+    "notes_sc": "Important tool for combos, frame traps, and anti-airs; high active frame count makes it a great meaty option; very lenient cancel window for hitconfirms; good horizontal anti-air; most of the leg hitbox whiffs on crouching opponents unless they extend a vertical hurtbox (only hits crouchers at point blank); SA2 cancel: +15/+9; Forward Hop cancel: -2/-8; Coward Crouch cancel: +7/+1",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "wild-nail": {
+    "name": "Wild Nail",
+    "name_ja": "ワイルドネイル",
+    "input": "6hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      21
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -15,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "crumple"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An attack with long reach that slams an opponent into the ground. Can be followed up with a Coward Crouch on hit or on block",
+      "Can transition to Coward Crouch between frames 33 - 34",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Produces a crumple stun if the opponent is standing on the ground",
+      "- Forces a floor bound if the attack hits a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "*",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      1100
+    ],
+    "notes_sc": "3f extra recovery on whiff/block; Low Crush 10-20f (not airborne); causes spike knockdown vs. airborne opponents (or OTG bounce on Punish Counter vs. airborne); recovery is in a crouching state on frames 21-43; cancelable into Coward Crouch until frame 34 on hit/block (this version of Coward Crouch can input P/K follow-up after only 11f, or Up to exit stance after 10f); Coward Crouch cancel: KD+23(Crumple+81)/-7; after Punish Counter 6HP > Coward Crouch > Hold Up for fastest recovery, Blanka can juggle any attack 6f or faster as a free juggle; extends a hurtbox 1f before active that is vulnerable to projectiles; active frames 3-4 cannot hit airborne opponents; can get point blank +2 oki on hit by canceling into Coward Crouch ~ Forward Hop",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "5"
+  },
+  "amazon-river-run": {
+    "name": "Amazon River Run",
+    "name_ja": "アマゾンリバーラン",
+    "input": "3hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      23
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -18,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Slide along the ground toward your opponent. This is a low attack that cannot be blocked standing",
+      "Forces a Hard Knockdown on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "Long range slide; low profile 10-29f (avoids most projectiles); very useful when used out of Drive Rush",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[7000]",
+    "juggle_start": "1",
+    "juggle_limit": "5"
+  },
+  "coward-crouch": {
+    "name": "Coward Crouch",
+    "name_ja": "フィアーダウン",
+    "input": "c(pp)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Crouch in place and adopt a low stance. From this stance you can perform Wild Lift (an attack), or Raid Jump (a special jump)",
+      "Hold down on the stick during the move to continue the technique for 48 more frames",
+      "During the crouch, press up on the stick to cancel the technique",
+      "Can transition to Surprise Forward Hop or Surprise Backward Hop from frames 18 - 111 (longest time)"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "invuln_str": "9-29(130) Upper Body Projectile",
+    "notes_sc": "9-29(130)f low profile (lasts until final 18f of recovery); can input Surprise Hop or P/K follow-ups beginning on frame 19, and can tap Up to exit stance beginning on frame 20; if no input is made, Blanka stays crouching for 52f (98f total animation); can hold down to extend crouch by an extra 50f (148f total animation); counter-hit state during entire animation; the variable follow-up timing allows Blanka to react to opponent's movements and mix up timing",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "wild-lift": {
+    "name": "Wild Lift",
+    "name_ja": "ワイルドリフト",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      14
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -21,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During coward crouch",
+      "A launching attack performed from Coward Crouch"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Puts opponents into limited juggle state on hit; can combo from 5HP; the final 3 active frames have a great disjointed vertical hitbox for anti-air purposes",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "raid-jump": {
+    "name": "Raid Jump",
+    "name_ja": "レイドジャンプ",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 43,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During coward crouch",
+      "A forward jump performed from Coward Crouch",
+      "Considered airborne from frames 9 - 43",
+      "Can be canceled from mid-air normal attacks or special moves from frames 15 - 43"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "invuln_str": "1-9 Upper Body Projectile",
+    "notes_sc": "Short hop with a lower trajectory than a regular jump; 12f landing recovery on empty jump (standard 3f landing recovery after inputting air normal); counter-hit state during entire animation (but no Forced Knockdown while airborne)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "surprise-forward-hop": {
+    "name": "Surprise Forward Hop",
+    "name_ja": "サプライズフォワード",
+    "input": "6(kkk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A movement technique that allows you to swiftly advance toward your opponent. Useful for surprise attacks",
+      "Can be canceled into any special-canceable normal or unique attack"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Distance: 230.945; () refers to 6KKK done from Coward Crouch (3f extra recovery); no collision box on frames 4-22 (can pass through opponents); no head hurtbox on frames 4-11; semi-low crush on frames 12-22 (will not go over all low attacks)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "surprise-back-hop": {
+    "name": "Surprise Back Hop",
+    "name_ja": "サプライズバック",
+    "input": "4(kkk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A movement technique that allows you to swiftly fall back and place distance between you and your opponent",
+      "Considered airborne from frames 11 - 21",
+      "Can be canceled into any special-canceable normal or unique attack"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Distance: 186.108; () refers to 4KKK done from Coward Crouch (3f extra recovery)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "wild-fang": {
+    "name": "Wild Fang",
+    "name_ja": "ワイルドファング",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Latch onto your opponent, bite them a few times, and kick off of them. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Allows for a corner throw loop; Forward Hop to is +3 (easiest timing but no shimmy possible), Forward Dash is +11 (can walk back to avoid reversal throw from everyone except Zangief), or walk for manual throw timing (best version for shimmy); midscreen, Forward Hop allows for meaty strike pressure but needs to walk ~6f for a second throw; at a specific timing/spacing, can juggle into OD-activated Blanka-chan (scaling applies to the 3rd hit of the combo after doll juggles, plus the 2-hit scaling from the doll itself); Drive Rush + Throw has a reduced Juggle Start value, allowing more juggle routes when comboed into Blanka-chan; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "5 (DR: 0)",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "jungle-flip": {
+    "name": "Jungle Flip",
+    "name_ja": "ジャングルフリップ",
+    "input": "(4lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Place your hands on your opponent's shoulders, climb on top of them, then send them tumbling as you kick off their back. Throws your opponent while switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Side switch; after throwing opponent into corner, can Forward Dash to be +8 (grants 4MK pressure but no true throw oki except against Blanka/E.Honda/Zangief); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "wild-bites": {
+    "name": "Wild Bites",
+    "name_ja": "ワイルドバイツ",
+    "input": "j>(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During a jump",
+      "When near opponent",
+      "Grab an airborne opponent, bite them while falling to the ground, and then bite them once again. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "No meaty throw oki after corner Air Throw, but can Drive Rush for meaty pressure into a tick throw",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  }
+}

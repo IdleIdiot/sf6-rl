@@ -1,0 +1,3035 @@
+{
+  "cammy-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 7,
+    "on_hit": 5,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; extended hurtbox appears for 2f before active; DR cancel is delayed until after 2nd active frame",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      9
+    ],
+    "recovery": 13,
+    "on_hit": 6,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Can get frame advantage with meaty timing and leads to good conversions on counter-hit; decent Drive Rush starter (links to 5HP on hit, frame traps into itself) but doesn't carry much forward momentum; extended hurtbox remains for 4f after active frames",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 20,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Great disjointed hitbox; moves Cammy far forward during startup, giving it good range but making it easier to whiff punish; good Drive Rush starter (good momentum, links into 4MP~HK if close enough or frame traps into 5LP/2LP)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 10,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Good range for 5f punishes and light conversions; extended hurtbox appears for 2f before active; special cancel is delayed until after active frames (prevents OD Spiral Arrow combo); DR cancel is delayed until after 2nd active frame",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 18,
+    "on_hit": 3,
+    "on_block": -4,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Great ranged poke, vulnerable to DI if predicted; extended hurtbox remains for 7f after active frames, making it somewhat more whiff punishable",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      13
+    ],
+    "recovery": 21,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state on Punish Counter",
+      "2 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "2f extra recovery on whiff; great ranged poke; Punish Counter knockdown does not lead to follow-up combo, but gives great corner carry; extends a hurtbox 1f before active that is vulnerable to projectiles; crouch-sized hurtbox on frames 1-28; particularly vulnerable to Drive Impact in neutral; can anti-air some long range jump-ins; has high juggle potential (causes air reset when juggled into)",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "10"
+  },
+  "cammy-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      5
+    ],
+    "recovery": 8,
+    "on_hit": 5,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; extended hurtbox appears for 2f before active; DR cancel is delayed until after active frames",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 14,
+    "on_hit": 5,
+    "on_block": -2,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Good counterpoke and useful combo filler after 2HP or CH 5LP/2LP/5MP; 3f extra recovery on whiff; extends a wide hurtbox during recovery on whiff",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 15,
+    "on_hit": 7,
+    "on_block": 1,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Forces stand; Good for starting pressure, especially with meaty timing (236HK + Dash 2HP sets gives enough advantage to link 5HP); extended hurtbox appears for 2f before active; situationally useful anti-air",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 7,
+    "on_hit": 3,
+    "on_block": -2,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      200
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; low hitconfirm starter; extended hurtbox appears for 2f before active and remains 5f after active",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 18,
+    "on_hit": 1,
+    "on_block": -5,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Great ranged cancelable low poke; very useful when canceled to DR; extended hurtbox appears for 1f before active and remains 6f after active; special/DR cancel is delayed until after active frames; Range: 1.49",
+    "drive_dmg_on_block": "2000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -10,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a Hard Knock Down when hitting an opponent on the ground",
+      "Knockdown time extended when attack lands as a counter or Punish Counter",
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "cammy-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Quick air-to-air",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.12,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state; cancels into j.214K/j.214214P on forward jump only; low blockstun means there will always be a blockstring gap if canceled; lower body projectile invuln 6-28f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "cammy-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Causes spike knockdown vs. airborne opponents; good hitbox disjoint near Cammy's fists; lower body projectile invuln 8-35f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[7000]",
+    "juggle_start": "1",
+    "juggle_limit": "3"
+  },
+  "cammy-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Cross-up; can be used as a fuzzy instant overhead (except vs. Blanka)",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.12,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Long hitbox can work as a ranged air-to-air; lower body projectile invuln 7-30f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "cammy-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Good jump-in from long range, especially mixed with empty jump or j.214K to bait anti-airs; can air-to-air from long range; lower body projectile invuln 10-35f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[7000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "lift-uppercut": {
+    "name": "Lift Uppercut",
+    "name_ja": "リフトアッパー",
+    "input": "4mp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      9
+    ],
+    "recovery": 12,
+    "on_hit": 4,
+    "on_block": -1,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick uppercut. Useful against jumping opponents"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Forces stand (required for 4MP~HK TC); useful anti-air starting on frame 6 but can often trade or whiff against close jumps; extended arm hurtbox on active frames 3-5 is anti-air invulnerable; combos naturally from 5LP/2LP/5MP at close range",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "delayed-ripper": {
+    "name": "Delayed Ripper",
+    "name_ja": "ディレイリーパー",
+    "input": "6hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      20
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A kick unleashed after stepping backward. Can be canceled into special moves",
+      "Increase juggle state time when attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "5f extra recovery on whiff/block; pulls back hurtbox on frame 5-14 (auto-shimmy tool); low blockstun means that DR Cancel is the only way to make it safe; extended hurtbox remains for 9f after active frames; special cancel is delayed until after 2nd recovery frame; DR cancel is delayed until after active frames; can juggle into DRC~5HP~HK on normal hit or 214LP on Punish Counter for strong juggle routes",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "assault-blade": {
+    "name": "Assault Blade",
+    "name_ja": "アサルトブレード",
+    "input": "4hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 18,
+    "on_hit": 0,
+    "on_block": -7,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A launching kick that can be canceled into special moves. It can be jumped out of on hit",
+      "Can only be canceled into a jump if the attack hits"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Whiffs on crouching opponents; jump cancelable on hit only; puts opponents into limited juggle state on hit (free juggle if started from Drive Rush)",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "lift-combination": {
+    "name": "Lift Combination",
+    "name_ja": "リフトコンビネーション",
+    "input": "4mp>hk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack that can be canceled into special moves. If it connects, the second hit can be jumped out of",
+      "Can only be canceled into a jump if the attack hits"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Whiffs on crouch blocking opponents (works on crouching hit because 4MP forces stand); jump cancelable on hit only; puts opponent into limited juggle state; has 5f more recovery than 4HK on its own, resulting in more limited juggle follow-ups",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[7000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "swing-combination": {
+    "name": "Swing Combination",
+    "name_ja": "スイングコンビネーション",
+    "input": "5hp>5hk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 13,
+    "active": 4,
+    "active_frames": [
+      13,
+      15,
+      29,
+      31
+    ],
+    "recovery": 29,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A series of attacks, the first and second of which can be canceled into special moves",
+      "Only the first hit can be canceled into a special move"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 10%",
+      "10% Immediate scaling on the 2nd hit",
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      400,
+      400
+    ],
+    "notes_sc": "2 hits; leaves a 9f gap between 1st and 2nd hit on block; 1st hit of HK is cancelable into j.214K (9f gap) or SA2; 2nd hit acts as a cancelable grounded normal; 2nd hit is cancelable into Supers after 5 recovery frames and into specials/DI/DR after 7 recovery frames",
+    "drive_dmg_on_block": "3000x2",
+    "drive_dmg_on_hit": "[7000]",
+    "juggle_start": "1,1",
+    "juggle_limit": "1,2"
+  },
+  "spiral-arrow-light": {
+    "name": "Spiral Arrow (Light)",
+    "name_ja": "スパイラルアロー（弱）",
+    "input": "236lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      21
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A spinning kick with both legs that travels low along the ground. Useful for launching surprise attacks from a distance or used out of normal moves to create combos",
+      "Considered airborne from frames 9 - 24"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "spiral-arrow-medium": {
+    "name": "Spiral Arrow (Medium)",
+    "name_ja": "スパイラルアロー（中）",
+    "input": "236mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      23
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -14,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A spinning kick with both legs that travels low along the ground. Useful for launching surprise attacks from a distance or used out of normal moves to create combos",
+      "Considered airborne from frames 9 - 26"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "spiral-arrow-heavy": {
+    "name": "Spiral Arrow (Heavy)",
+    "name_ja": "スパイラルアロー（強）",
+    "input": "236hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 4,
+    "active_frames": [
+      15,
+      17,
+      19,
+      30
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.26,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A spinning kick with both legs that travels low along the ground. Useful for launching surprise attacks from a distance or used out of normal moves to create combos",
+      "Considered airborne from frames 18 - 33"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "spiral-arrow-charged": {
+    "name": "Spiral Arrow (Charged)",
+    "name_ja": "スパイラルアロー（ホールド）",
+    "input": "236+[hk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 27,
+    "active": 10,
+    "active_frames": [
+      27,
+      29,
+      31,
+      33,
+      34,
+      36,
+      37,
+      39,
+      40,
+      42
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -14,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A spinning kick with both legs that travels low along the ground. Useful for launching surprise attacks from a distance or used out of normal moves to create combos",
+      "Hold the button for more than 16 frames to change its properties",
+      "Considered airborne from frames 30 - 45"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "spiral-arrow-od": {
+    "name": "Spiral Arrow (OD)",
+    "name_ja": "スパイラルアロー（OD）",
+    "input": "236(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 10,
+    "active_frames": [
+      13,
+      15,
+      17,
+      19,
+      20,
+      22,
+      23,
+      25,
+      26,
+      28
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -14,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "A spinning kick with both legs that travels low along the ground. Useful for launching surprise attacks from a distance or used out of normal moves to create combos",
+      "Considered airborne from frames 16 - 32"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Combo scaling 15%"
+    ]
+  },
+  "cannon-spike-light": {
+    "name": "Cannon Spike (Light)",
+    "name_ja": "キャノンスパイク（弱）",
+    "input": "623lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -36,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 7 - 40",
+      "Does 800 individual damage after the 3rd active frame"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "cannon-spike-medium": {
+    "name": "Cannon Spike (Medium)",
+    "name_ja": "キャノンスパイク（中）",
+    "input": "623mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      17
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": -36,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
+      "Considered airborne from frames 8 - 42",
+      "Does 800 individual damage after the 3rd active frame"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "cannon-spike-heavy": {
+    "name": "Cannon Spike (Heavy)",
+    "name_ja": "キャノンスパイク（強）",
+    "input": "623hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      18
+    ],
+    "recovery": 28,
+    "on_hit": 0,
+    "on_block": -36,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack",
+      "Hold down the button for over 23 frames to change its properties",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
+      "Considered airborne from frames 10 - 36",
+      "Does 800 individual damage from the 3rd active frame and on"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "cannon-spike-charged": {
+    "name": "Cannon Spike (Charged)",
+    "name_ja": "キャノンスパイク（ホールド）",
+    "input": "623+[hk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 24,
+    "active": 2,
+    "active_frames": [
+      24,
+      35
+    ],
+    "recovery": 29,
+    "on_hit": 0,
+    "on_block": -40,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 7",
+      "Completely invincible from frames 20 - 25",
+      "Considered airborne from frames 26 - 64",
+      "Does 900 individual damage after the 5th active frame"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 7",
+      "full": "Completely invincible from frames 20 - 25"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "cannon-spike-od": {
+    "name": "Cannon Spike (OD)",
+    "name_ja": "キャノンスパイク（OD）",
+    "input": "623(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      17
+    ],
+    "recovery": 30,
+    "on_hit": 0,
+    "on_block": -40,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack",
+      "Completely invincible from frames 1 - 7",
+      "Considered airborne from frames 8 - 47",
+      "Does 900 individual damage after the 5th active frame"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 7"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "quick-spin-knuckle-light": {
+    "name": "Quick Spin Knuckle (Light)",
+    "name_ja": "アクセルスピンナックル（弱）",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 21,
+    "active": 2,
+    "active_frames": [
+      21,
+      24
+    ],
+    "recovery": 16,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "quick-spin-knuckle-medium": {
+    "name": "Quick Spin Knuckle (Medium)",
+    "name_ja": "アクセルスピンナックル（中）",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 24,
+    "active": 2,
+    "active_frames": [
+      24,
+      27
+    ],
+    "recovery": 16,
+    "on_hit": 3,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.45,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard",
+      "Invincible to projectiles from frames 9 - 23"
+    ],
+    "invuln": {
+      "projectile": "Invincible to projectiles from frames 9 - 23"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "quick-spin-knuckle-heavy": {
+    "name": "Quick Spin Knuckle (Heavy)",
+    "name_ja": "アクセルスピンナックル（強）",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 28,
+    "active": 2,
+    "active_frames": [
+      28,
+      31
+    ],
+    "recovery": 17,
+    "on_hit": 5,
+    "on_block": 3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard",
+      "Invincible to projectiles from frames 9 - 27"
+    ],
+    "invuln": {
+      "projectile": "Invincible to projectiles from frames 9 - 27"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "quick-spin-knuckle-od": {
+    "name": "Quick Spin Knuckle (OD)",
+    "name_ja": "アクセルスピンナックル（OD）",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 25,
+    "active": 2,
+    "active_frames": [
+      25,
+      28
+    ],
+    "recovery": 17,
+    "on_hit": 7,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard",
+      "Invincible to projectiles from frames 3 - 24",
+      "When performed at close range, Cammy will go behind her opponent and attack. In this situation, start up is 3 frames later"
+    ],
+    "invuln": {
+      "projectile": "Invincible to projectiles from frames 3 - 24"
+    },
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "cannon-strike": {
+    "name": "Cannon Strike",
+    "name_ja": "キャノンストライク",
+    "input": "9>214*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      23
+    ],
+    "recovery": 1,
+    "on_hit": 1,
+    "on_block": -5,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A descending kick performed while airborne. Useful as a way to approach an opponent or as a means of continuing your offensive pressure",
+      "Recovery value difference is when the attack is performed at its fastest"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Forward jump only; cancelable from j.MP; puts airborne opponents into limited juggle state; hitconfirm reaction time is longer the higher the divekick connects (cancelable until landing); frame advantage on hit/block is fixed when connecting on the first active frame (e.g. as a corner throw escape); 2f extra hitstun and blockstun if it connects on the final 2 active frames before landing (screen shake occurs, guaranteeing an advantage of at least +10/+6)",
+    "drive_dmg_on_block": "2000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "2 air",
+    "juggle_limit": "5"
+  },
+  "cannon-strike-od": {
+    "name": "Cannon Strike (OD)",
+    "name_ja": "キャノンストライク（OD）",
+    "input": "9>214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      22
+    ],
+    "recovery": 1,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A descending kick performed while airborne. Useful as a way to approach an opponent or as a means of continuing your offensive pressure",
+      "Recovery value difference is when the attack is performed at its fastest"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "hooligan-combination": {
+    "name": "Hooligan Combination",
+    "name_ja": "フーリガンコンビネーション",
+    "input": "236*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Perform a spinning jump through the air in a parabolic arc. While airborne, many other moves can be performed out of this one",
+      "From frame 21 until landing, can be canceled into any offshoot attacks except for Razor’s Edge Slicer on frame 7 or later. Is considered airborne"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "invuln_str": "27-60 Lower Body Projectile",
+    "notes_sc": "Startup refers to earliest/latest follow-up input timings; holding HP for 18-19f results in a full charge up to 2f faster than normal; can cross over crouching opponents; follow-ups gain properties of OD versions (except for SA2 cancelability)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "razors-edge-slicer": {
+    "name": "Razor's Edge Slicer",
+    "name_ja": "レイザーエッジスライサー",
+    "input": "5",
+    "type": "followUp",
+    "block_type": "low",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      18
+    ],
+    "recovery": 13,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A low kick performed after landing from Hooligan Combination. This move is performed if nothing is input during the Hooligan Combination"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      800,
+      400
+    ],
+    "notes_sc": "Puts opponent into limited juggle state on hit; low profile 70-98f; can be up to 2f faster if HP is held for only 18f; crouching state during recovery",
+    "drive_dmg_on_block": "3000,2000",
+    "drive_dmg_on_hit": "[3500x2]",
+    "juggle_start": "1 (2nd hit)",
+    "juggle_limit": "10,10"
+  },
+  "hooligan-cannon-strike": {
+    "name": "Hooligan Cannon Strike",
+    "name_ja": "フーリガンキャノンストライク",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      23
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During hooligan combination",
+      "A descending kick performed from Hooligan Combination. If you cross over your opponent before activating this move, the kick will automatically turn around so it heads toward your opponent",
+      "Recovery changes depending on the height of the attack when it hits or is blocked"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Startup refers to earliest timing from Hooligan; button strength does not affect divekick trajectory; puts airborne opponents into limited juggle state; autocorrects toward opponent after crossing over; can be up to 2f faster if HP is held for only 18f",
+    "drive_dmg_on_block": "2000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "2 air",
+    "juggle_limit": "5"
+  },
+  "reverse-edge": {
+    "name": "Reverse Edge",
+    "name_ja": "リバースエッジ",
+    "input": "2*k",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      21
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "During hooligan combination",
+      "A downward kick performed from Hooligan Combination. It is an overhead attack that cannot be blocked crouching, making it useful for breaking through an opponent's guard",
+      "Recovery changes depending on the height of the attack when it hits or is blocked"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      600,
+      600
+    ],
+    "notes_sc": "2 hits; causes OTG bounce vs. airborne opponents that can juggle into 623MK/HK/KK or SA1/SA3 Super (low height juggle connect will not allow time for follow-up); does not autocorrect toward opponent after crossing over; crouching state during landing recovery; can be up to 2f faster if HP is held for only 18f",
+    "drive_dmg_on_block": "3000x2",
+    "drive_dmg_on_hit": "[2500x2]",
+    "juggle_start": "0,1 air",
+    "juggle_limit": "4,5"
+  },
+  "fatal-leg-twister": {
+    "name": "Fatal Leg Twister",
+    "name_ja": "フェイタルレッグツイスター",
+    "input": "(lplk)",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1150,
+    "chip_damage": 287,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During hooligan combination",
+      "When close to a standing opponent",
+      "A throw performed from Hooligan Combination. It can grab opponents who are standing while on the ground and does massive damage"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "Throws standing opponents only; puts opponent into limited juggle state; 15% damage increase on Punish Counter; up to 2f more total recovery before landing (depends on activation height); crouching state during landing recovery; can be up to 2f faster if HP is held for only 18f; extends a proximity guard box that immediately forces a crouch blocking opponent's hurtbox to reach its crouching height, preventing uncrouchable meaty setups (but can still throw opponents that hold straight down on wakeup)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "silent-step": {
+    "name": "Silent Step",
+    "name_ja": "サイレントステップ",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During hooligan combination",
+      "A quick descent performed from Hooligan Combination. This fast maneuver is useful as a feint after making an opponent think you're about to attack"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Stops forward trajectory; recovery before landing depends on activation height; Cammy is in crouching state during recovery; useful for baiting reversals in setups where throw/overhead/divekick could hit meaty; can be up to 2f faster if HP is held for only 18f",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "hooligan-combination-charged": {
+    "name": "Hooligan Combination (Charged)",
+    "name_ja": "フーリガンコンビネーション（ホールド）",
+    "input": "236+[hp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Perform a spinning jump through the air in a parabolic arc. While airborne, many other moves can be performed out of this one",
+      "Hold the button for more than 18 frames to change its properties",
+      "From frame 41 until landing, can be canceled into any offshoot attacks except for Razor’s Edge Slicer on frame 27 or later. Is considered airborne"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "razors-edge-slicer-charged": {
+    "name": "Razor's Edge Slicer (Charged)",
+    "name_ja": "レイザーエッジスライサー（ホールド）",
+    "input": "5",
+    "type": "followUp",
+    "block_type": "low",
+    "startup": 10,
+    "active": 4,
+    "active_frames": [
+      10,
+      18,
+      29,
+      33
+    ],
+    "recovery": 17,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A low kick performed after landing from Hooligan Combination. This move is performed if nothing is input during the Hooligan Combination",
+      "Only the final attack can be canceled into a Level 3 Super Art or Critical Art"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "hooligan-cannon-strike-charged": {
+    "name": "Hooligan Cannon Strike (Charged)",
+    "name_ja": "フーリガンキャノンストライク（ホールド）",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      22
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A descending kick performed from Hooligan Combination. If you cross over your opponent before activating this move, the kick will automatically turn around so it heads toward your opponent",
+      "Recovery changes depending on the height of the attack when it hits or is blocked"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "reverse-edge-charged": {
+    "name": "Reverse Edge (Charged)",
+    "name_ja": "リバースエッジ（ホールド）",
+    "input": "2*k",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 18,
+    "active": 4,
+    "active_frames": [
+      18,
+      21,
+      36,
+      39
+    ],
+    "recovery": 1,
+    "on_hit": 8,
+    "on_block": -2,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A downward kick performed from Hooligan Combination. It is an overhead attack that cannot be blocked crouching, making it useful for breaking through an opponent's guard"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "fatal-leg-twister-charged": {
+    "name": "Fatal Leg Twister (Charged)",
+    "name_ja": "フェイタルレッグツイスター（ホールド）",
+    "input": "(lplk)",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A throw performed from Hooligan Combination. It can grab opponents who are standing while on the ground and does massive damage"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "silent-step-charged": {
+    "name": "Silent Step (Charged)",
+    "name_ja": "サイレントステップ（ホールド）",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick descent performed from Hooligan Combination. This fast maneuver is useful as a feint after making an opponent think you're about to attack"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "hooligan-combination-od": {
+    "name": "Hooligan Combination (OD)",
+    "name_ja": "フーリガンコンビネーション（OD）",
+    "input": "236(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Perform a spinning jump through the air in a parabolic arc. While airborne, many other moves can be performed out of this one",
+      "From frame 21 until landing, can be canceled into any offshoot attacks except for Overdrive Razor’s Edge Slicer on frame 7 or later. Is considered airborne"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "razors-edge-slicer-od": {
+    "name": "Razor's Edge Slicer (OD)",
+    "name_ja": "レイザーエッジスライサー（OD）",
+    "input": "5",
+    "type": "followUp",
+    "block_type": "low",
+    "startup": 10,
+    "active": 4,
+    "active_frames": [
+      10,
+      18,
+      29,
+      33
+    ],
+    "recovery": 17,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A low kick performed after landing from Hooligan Combination. This move is performed if nothing is input during the Hooligan Combination",
+      "Only the final attack can be canceled into a Level 3 Super Art or Critical Art"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "hooligan-cannon-strike-od": {
+    "name": "Hooligan Cannon Strike (OD)",
+    "name_ja": "フーリガンキャノンストライク（OD）",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      22
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A descending kick performed from Hooligan Combination. If you cross over your opponent before activating this move, the kick will automatically turn around so it heads toward your opponent",
+      "Recovery changes depending on the height of the attack when it hits or is blocked"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%",
+      "Immediate scaling 10%"
+    ]
+  },
+  "reverse-edge-od": {
+    "name": "Reverse Edge (OD)",
+    "name_ja": "リバースエッジ（OD）",
+    "input": "236(pp)>2*k",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 18,
+    "active": 4,
+    "active_frames": [
+      18,
+      21,
+      36,
+      39
+    ],
+    "recovery": 1,
+    "on_hit": 8,
+    "on_block": -2,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A downward kick performed from Hooligan Combination. It is an overhead attack that cannot be blocked crouching, making it useful for breaking through an opponent's guard"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "fatal-leg-twister-od": {
+    "name": "Fatal Leg Twister (OD)",
+    "name_ja": "フェイタルレッグツイスター（OD）",
+    "input": "(lplk)",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A throw performed from Hooligan Combination. It can grab opponents who are standing while on the ground and does massive damage"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "silent-step-od": {
+    "name": "Silent Step (OD)",
+    "name_ja": "サイレントステップ（OD）",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick descent performed from Hooligan Combination. This fast maneuver is useful as a feint after making an opponent think you're about to attack"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "spin-drive-smasher": {
+    "name": "Spin Drive Smasher",
+    "name_ja": "スピンドライブスマッシャー",
+    "input": "236236*k",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      19
+    ],
+    "recovery": 38,
+    "on_hit": 0,
+    "on_block": -24,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A forward-moving combination attack consisting of a Spiral Arrow followed by a Cannon Spike. It has invincibility on startup, making it useful for turning the tables",
+      "Invincible to strikes and throws from frame 1 to frame 11.",
+      "The 6th attack is only performed if the 5th attack hits"
+    ],
+    "invuln": {
+      "strike_throw": "Invincible to strikes and throws from frame 1 to frame 11."
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      2000
+    ],
+    "invuln_str": "1-11 Strike/Throw",
+    "notes_sc": "Great combo tool with high juggle potential and corner carry; 5th hits transitions into launching follow-up on hit only; damage distribution: 100,200x3,100,200,1000",
+    "drive_dmg_on_block": "500x5",
+    "drive_dmg_on_hit": "500x6,2000 (5000)",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "100"
+  },
+  "killer-bee-spin": {
+    "name": "Killer Bee Spin",
+    "name_ja": "キラービースピン",
+    "input": "214214*k",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      21
+    ],
+    "recovery": 37,
+    "on_hit": 0,
+    "on_block": -24,
+    "damage": 3000,
+    "chip_damage": 750,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Jump into the air, seize your opponent with a quick descending kick, and perform a chokehold on them. This move executes quickly, making it easy to combo into from grounded moves",
+      "Attack does not transition into the cinematic attack when hitting an airborne opponent",
+      "Damage is 220 x n (multiple hits until Cammy lands on the ground)"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2,
+    "per_hit": [
+      3000
+    ],
+    "notes_sc": "Can escape grounded meaty attacks, but usually results in Cammy whiffing over opponent's head; puts airborne opponents into limited juggle state (no cinematic), number of airborne hits varies based on juggle height; Drive Damage distribution: 900x3-x7,3000; only deals 250 damage on the first hit if it trades",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "10000 (5700-8800)",
+    "juggle_start": "1 air",
+    "juggle_limit": "30"
+  },
+  "aerial-killer-bee-spin": {
+    "name": "Aerial Killer Bee Spin",
+    "name_ja": "エアキラービースピン",
+    "input": "9>214214*k",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 37,
+    "on_hit": 0,
+    "on_block": -23,
+    "damage": 3000,
+    "chip_damage": 750,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During a forward jump",
+      "Performed while airborne, seize your opponent with a quick descending kick and perform a chokehold on them. Easy to combo into from aerial specials",
+      "Attack does not transition into the cinematic attack when hitting an airborne opponent",
+      "Damage is 220 x n (multiple hits until Cammy lands on the ground)"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2,
+    "per_hit": [
+      3000
+    ],
+    "notes_sc": "Forward jump only; puts airborne opponents into limited juggle state (no cinematic), number of airborne hits varies based on juggle height; non-cinematic Drive Damage distribution: 900x3-x7,3700; only deals 250 damage on the first hit if it trades",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "10000 (5700-10000)",
+    "juggle_start": "1 air",
+    "juggle_limit": "30"
+  },
+  "delta-red-assault": {
+    "name": "Delta Red Assault",
+    "name_ja": "デルタレッドアサルト",
+    "input": "236236*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      23
+    ],
+    "recovery": 4,
+    "on_hit": 0,
+    "on_block": -33,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When under 25% vitality",
+      "Send your opponent to their knees with a series of high-speed attacks and finish with a powerful kick. A highly versatile move, useful both in combos and as a way of dealing with projectiles",
+      "Completely invincible from frames 1 - 13",
+      "Considered airborn from frames 9 - 27",
+      "Minimum guaranteed damage is set to 50%",
+      "Values do not change on counter or Punish Counter",
+      "Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 13"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3,
+    "per_hit": [
+      4000
+    ],
+    "invuln_str": "1-13 Full",
+    "notes_sc": "Full screen anti-projectile move (can lose to slow projectiles at max range); combos from charged 623[HP], 214P, or 236HK 1st hit when canceled into; cinematic time regenerates ~1.9 Drive bars for Cammy; only deals 500 damage on the first hit if it trades (only the first 5 active frames are invincible)",
+    "drive_dmg_on_block": "7500",
+    "drive_dmg_on_hit": "15000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "100"
+  },
+  "delta-red-assault-ca": {
+    "name": "Delta Red Assault (Critical Art)",
+    "name_ja": "デルタレッドアサルト (CA)",
+    "input": "236236*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      23
+    ],
+    "recovery": 4,
+    "on_hit": 0,
+    "on_block": -33,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Send your opponent to their knees with a series of high-speed attacks and finish with a powerful kick. A highly versatile move, useful both in combos and as a way of dealing with projectiles",
+      "Completely invincible from frames 1 - 13",
+      "Considered airborn from frames 9 - 27",
+      "Minimum guaranteed damage is set to 50%",
+      "Values do not change on counter or Punish Counter",
+      "*Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 13"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3
+  },
+  "rough-landing": {
+    "name": "Rough Landing",
+    "name_ja": "ラフランディング",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Latch onto your opponent and whirl around them before smashing their face into the ground. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Can walk for a manually-timed corner throw loop; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "delta-throw": {
+    "name": "Delta Throw",
+    "name_ja": "デルタスルー",
+    "input": "(2lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab your opponent's head between your legs and perform a spin that tosses them behind you, switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "No throw oki after corner side switch; can use Drive Rush 5MP (+3 oB, links to 5HP on hit), or Drive Rush 2MP to set up trade combo vs. reversal 4f normals; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "leg-scissors-choke": {
+    "name": "Leg Scissors Choke",
+    "name_ja": "レッグシザースチョーク",
+    "input": "j>(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During a jump",
+      "When near opponent",
+      "Grab an airborne opponent between your legs and drive their head into the ground. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Can get throw oki if opponent is near the corner (no oki midscreen even with Drive Rush)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  }
+}

@@ -10,6 +10,29 @@ from sf6_env.engine.collision import HIT_NORMAL, HIT_COUNTER, HIT_PUNISH
 SUPER_GAUGE_MAX = 3
 
 
+def _is_invincible_at_frame(move: dict, frame: int) -> bool:
+    """
+    Parse invuln_str from frame data and return True if the given frame
+    falls within any invincibility window.
+
+    invuln_str examples:
+      "1-8 Full"
+      "1-8 Strike/Throw, 9-39 Air (Upper Body)"
+      "1-11 Full"
+    """
+    import re
+    invuln_str = move.get("invuln_str", "")
+    if not invuln_str:
+        return False
+    for segment in invuln_str.split(","):
+        m = re.match(r"\s*(\d+)-(\d+)", segment.strip())
+        if m:
+            start, end = int(m.group(1)), int(m.group(2))
+            if start <= frame <= end:
+                return True
+    return False
+
+
 class Projectile:
     def __init__(self, owner_id, x, y, vel_x, damage=800, chip_damage=200,
                  on_hit_adv=2, on_block_adv=-2, drive_gain_hit=0.5,
@@ -168,11 +191,11 @@ class Character:
             if move:
                 startup = move.get("startup", 0)
                 active = move.get("active", 1)
-                # Drive Reversal: invincible during startup (frames 1-20)
+                # Invincibility: check invuln_str from frame data, or hardcoded for drive_reversal
                 if self.current_action == "drive_reversal":
                     self.invincible = self.action_frame <= startup
                 else:
-                    self.invincible = False
+                    self.invincible = _is_invincible_at_frame(move, self.action_frame)
                 if self.action_frame == startup and "projectile" in move.get("properties", []):
                     self._spawn_projectile(self.current_action)
                 in_cancel_window = (
@@ -194,7 +217,7 @@ class Character:
 
     def _try_cancel(self, action_id: int, new_move_name: str, current_move: dict) -> bool:
         """Attempt to cancel current action into new_move_name. Returns True if successful."""
-        cancel_into = current_move.get("cancel_into", [])
+        cancel_into = self.data.get_cancel_into(self.current_action)
         new_move = self.data.get_move(new_move_name)
         if not new_move:
             return False
@@ -396,7 +419,11 @@ class Character:
         chip = event.chip_damage
         if self.drive.burnout:
             self.health = max(0, self.health - chip)
-        self.drive.gain(event.drive_gain_block)
+        # drive_gain_block is negative in new frame data (attacker loses drive on block)
+        # but we apply it to the defender's drive gauge (defender gains drive on block)
+        # so flip the sign: defender gains abs(drive_gain_block)
+        defender_drive_gain = abs(event.drive_gain_block)
+        self.drive.gain(defender_drive_gain)
 
         dr_bonus = 4 if event.attacker_drive_rush else 0
         extra = BURNOUT_EXTRA_BLOCKSTUN if self.drive.burnout else 0
@@ -455,6 +482,7 @@ class Character:
         if self.hits_this_action >= max_hits:
             self.hit_connected_this_action = True
         if move:
+            # drive_gain_hit is positive in new frame data (attacker gains drive on hit)
             self.drive.gain(move.get("drive_gain_hit", 0.0))
             sc = move.get("super_cost", 0)
             if sc == 0:

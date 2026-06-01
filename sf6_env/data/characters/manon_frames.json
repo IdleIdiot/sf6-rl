@@ -1,0 +1,2377 @@
+{
+  "manon-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 10,
+    "on_hit": 4,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; higher hitstun than other light normals allows a natural combo into 214LK/214MK; DR cancel is delayed until after active frames",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      10
+    ],
+    "recovery": 14,
+    "on_hit": 2,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Moves forward during startup; easily hitconfirmable into TC follow-up (always a true blockstring even if delayed); high active frame count makes it good for oki; Punish Counter causes the follow-up Target Combo (5MP~MK) to change properties (causes hard knockdown instead of standing reset); strong Drive Rush check that can combo into 236LP on counter-hit for a medal",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Very lenient hitconfirm window (always a true blockstring even if delayed); puts airborne opponents into limited juggle state; Punish Counter causes the follow-up Target Combo (5HP~HP) to change properties (causes limited juggle state knockdown instead of standing reset); can be used in juggle routes to cancel into 5HP~HP or SA2 (e.g. after j.MP / 236P~K / corner 236KK / corner 236PP~K > 4HP)",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "manon-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 12,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Longest ranged light normal (important for punishing -5 or -6 attacks); does not naturally combo into 214LK/214MK outside of Punish Counter situations",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 18,
+    "on_hit": -2,
+    "on_block": -5,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Front leg hurtbox is raised on frames 9-12, making it a good poke against low attacks; DR cancel is delayed until after active frames",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      17
+    ],
+    "recovery": 26,
+    "on_hit": -2,
+    "on_block": -6,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Adds +17 frames of advantage on a standing opponent during a Punish Counter",
+      "Forces a juggle state when hitting a mid-air opponent for a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "3f extra recovery on block/whiff; incredibly long range poke that can combo into 214LK/214MK on Punish Counter from max range; Punish Counter puts airborne opponents into spinning free juggle state; extends a hurtbox 1f before active that is vulnerable to projectiles; the slow startup and recovery makes it especially vulnerable to Drive Impact",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1<br><span style=\"color: #fa6d0d;\">[0 PC Air]</span>",
+    "juggle_limit": "0"
+  },
+  "manon-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      5
+    ],
+    "recovery": 11,
+    "on_hit": 3,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; true blockstring when chained into 5LP/2LP; cannot combo into 214LK/214MK, but gives more reliable 3-hit light confirm; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 11,
+    "on_hit": 6,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "2 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "4f extra recovery on whiff; Manon's primary combo starter",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      14
+    ],
+    "recovery": 21,
+    "on_hit": -2,
+    "on_block": -8,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "invuln_str": "7-34 Air (Arm/Head)",
+    "notes_sc": "Very strong anti-air but cannot hit cross-up; the hurtbox on Manon's arm and head is invincible to airborne strikes, and her hurtbox remains in a crouching state for the entire animation allowing for late anti-airs to work",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "10",
+    "juggle_limit": "0"
+  },
+  "manon-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 13,
+    "on_hit": -1,
+    "on_block": -5,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      200
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; primary low combo starter; less pushback than other chainable light normals (allows tick throws and easier 3-light string confirms)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 16,
+    "on_hit": 3,
+    "on_block": -2,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Good range low poke that leads to combos and frame advantage when used out of Drive Rush; high pushback on hit and block; after Drive Rush, can link into 5MP at closer ranges",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      12
+    ],
+    "recovery": 27,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "manon-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "invuln_str": "8-22 Lower Body Projectile",
+    "notes_sc": "Puts airborne opponents into limited juggle state; excellent horizontal air-to-air hitbox; lower body projectile invuln 8-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "manon-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Causes spike knockdown vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Cross-up; can be used as a fuzzy instant overhead (requires perfect safe jump timing)",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Cross-up; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "manon-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Incredible hitbox priority and downward reach (best option for most jump-ins); lower body projectile invuln 11-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "reverence": {
+    "name": "Révérence",
+    "name_ja": "レベランス",
+    "input": "4hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      13
+    ],
+    "recovery": 17,
+    "on_hit": 3,
+    "on_block": 1,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick attack that can be canceled into special moves",
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Strong punish starter and combo filler after Drive Rush routes; high active frame count makes it very strong as a meaty; puts airborne opponents into limited juggle state; lenient hitconfirm window, but late cancels into 236P, 214HK, or 214KK can fail to combo",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "tomoe-derriere": {
+    "name": "Tomoe Derrière",
+    "name_ja": "トモエ・デリエール",
+    "input": "3hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      19
+    ],
+    "recovery": 32,
+    "on_hit": 26,
+    "on_block": -23,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A kick with long reach that launches opponents into the air",
+      "juggle state changes when attack lands as a Punish Counter on a grounded opponent",
+      "Forces a juggle state when the attack lands as a Punish Counter on a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "a-terre": {
+    "name": "À Terre",
+    "name_ja": "ア・テール",
+    "input": "mp>mk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 17,
+    "on_hit": 2,
+    "on_block": -5,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick combination attack that pulls your opponent toward you"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Pulls opponent close to Manon for a strike/throw mixup on hit (but also easily punishable on block); always a true blockstring from 5MP; after Punish Counter 5MP, becomes a hard knockdown (HKD +32) that sets up strong oki anywhere on the screen",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "en-haut-1": {
+    "name": "En Haut (1)",
+    "name_ja": "アン・オー（1段目）",
+    "input": "4mk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 19,
+    "on_hit": -1,
+    "on_block": -3,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit series of attacks, the second of which cannot be blocked crouching",
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "en-haut-2": {
+    "name": "En Haut (2)",
+    "name_ja": "アン・オー（2段目）",
+    "input": "4mk>5mk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      20
+    ],
+    "recovery": 21,
+    "on_hit": -3,
+    "on_block": -11,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A two-hit series of attacks, the second of which cannot be blocked crouching",
+      "Adds a floor bounding effect during a mid-air hit"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "temps-lie": {
+    "name": "Temps Lié",
+    "name_ja": "タン・リエ",
+    "input": "5hp>5hp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -8,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack that pulls your opponent toward you",
+      "2 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Pulls opponent close to Manon for a strike/throw mixup on hit, but also easily punishable on block; 2f extra recovery on block; always a true blockstring even when delayed; easily hitconfirmed from 5HP; after Punish Counter 5HP, becomes a knockdown (KD +48 limited juggle state) that can combo into 236KK or SA2; this Punish version has extended range and inflicts damage scaling on the follow-up juggle; can be juggled into after 5HP in some combo routes (e.g. air-to-air j.MP, corner 236KK, 236P~K, or 236PP~K > 4HP)",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[7000]",
+    "juggle_start": "1",
+    "juggle_limit": "5"
+  },
+  "allonge": {
+    "name": "Allongé",
+    "name_ja": "アロンジェ",
+    "input": "2hp>5hp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      7
+    ],
+    "recovery": 26,
+    "on_hit": 1,
+    "on_block": -10,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack. Useful against jumping opponents"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Causes spike knockdown after 2HP hits an airborne opponent; slightly better KD advantage when opponent is juggled high in the air",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[7000]",
+    "juggle_start": "1",
+    "juggle_limit": "15"
+  },
+  "manege-dore-light": {
+    "name": "Manège Doré (Light)",
+    "name_ja": "マネージュ・ドレ（弱）",
+    "input": "63214lp",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 49,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.5,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Attack changes according to medal level",
+      "When near opponent",
+      "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 2000 (2300)",
+      "Medal Level 2: 2300 (2645)",
+      "Medal Level 3: 2700 (3105)",
+      "Medal Level 4: 3000 (3450)",
+      "Medal level 5: 3700 (4255)",
+      "Values in parentheses represent damage on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "manege-dore-medium": {
+    "name": "Manège Doré (Medium)",
+    "name_ja": "マネージュ・ドレ（中）",
+    "input": "63214mp",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      9
+    ],
+    "recovery": 51,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.5,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Attack changes according to medal level",
+      "When near opponent",
+      "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 2000 (2300)",
+      "Medal Level 2: 2300 (2645)",
+      "Medal Level 3: 2700 (3105)",
+      "Medal Level 4: 3000 (3450)",
+      "Medal level 5: 3700 (4255)",
+      "Values in parentheses represent damage on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "manege-dore-heavy": {
+    "name": "Manège Doré (Heavy)",
+    "name_ja": "マネージュ・ドレ（強）",
+    "input": "63214hp",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 54,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.5,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Attack changes according to medal level",
+      "When near opponent",
+      "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
+      "With Classic Controls",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 2000 (2300)",
+      "Medal Level 2: 2300 (2645)",
+      "Medal Level 3: 2700 (3105)",
+      "Medal Level 4: 3000 (3450)",
+      "Medal level 5: 3700 (4255)",
+      "Values in parentheses represent damage on Punish Counter",
+      "With Modern Controls",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 1600 (2000) / 1840 (2300)",
+      "Medal Level 2: 1840 (2300) / 2116 (2645)",
+      "Medal Level 3: 2160 (2700) / 2484 (3105)",
+      "Medal Level 4: 2400 (3000) / 2760 (3450)",
+      "Medal level 5: 2960 (3700) / 3404 (4255)",
+      "Values after the backslash represent damage on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "manege-dore-od": {
+    "name": "Manège Doré (OD)",
+    "name_ja": "マネージュ・ドレ（OD）",
+    "input": "63214(pp)",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      9
+    ],
+    "recovery": 51,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Attack changes according to medal level",
+      "When near opponent",
+      "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
+      "With Classic Controls",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 2000 (2300)",
+      "Medal Level 2: 2300 (2645)",
+      "Medal Level 3: 2700 (3105)",
+      "Medal Level 4: 3000 (3450)",
+      "Medal Level 5: 3700 (4255)",
+      "Values in parentheses represent damage on Punish Counter",
+      "With Modern Controls",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 1600 (2000) / 1840 (2300)",
+      "Medal Level 2: 1840 (2300) / 2116 (2645)",
+      "Medal Level 3: 2160 (2700) / 2484 (3105)",
+      "Medal Level 4: 2400 (3000) / 2760 (3450)",
+      "Medal Level 5: 2960 (3700) / 3404 (4255)",
+      "Values after the backslash represent damage on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "rond-point-light": {
+    "name": "Rond-point (Light)",
+    "name_ja": "ロン・ポワン（弱）",
+    "input": "236lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 9,
+    "active": 4,
+    "active_frames": [
+      9,
+      11,
+      14,
+      15
+    ],
+    "recovery": 29,
+    "on_hit": 0,
+    "on_block": -15,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
+      "The upper part of Manon’s body is invincible against projectiles and strikes with mid-air hitboxes from frames 5 - 15",
+      "Only the first hit can be canceled into a Level 3 Super Art or Critical Art"
+    ],
+    "invuln": {
+      "strike": "The upper part of Manon’s body is invincible against projectiles and strikes with mid-air hitboxes from frames 5 - 15"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "rond-point-medium": {
+    "name": "Rond-point (Medium)",
+    "name_ja": "ロン・ポワン（中）",
+    "input": "236mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 11,
+    "active": 4,
+    "active_frames": [
+      11,
+      13,
+      17,
+      19
+    ],
+    "recovery": 27,
+    "on_hit": 0,
+    "on_block": -14,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
+      "The upper part of Manon’s body is invincible against projectiles and strikes with mid-air hitboxes from frames 7 - 19",
+      "Only the first hit can be canceled into a Level 3 Super Art or Critical Art"
+    ],
+    "invuln": {
+      "strike": "The upper part of Manon’s body is invincible against projectiles and strikes with mid-air hitboxes from frames 7 - 19"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "rond-point-heavy": {
+    "name": "Rond-point (Heavy)",
+    "name_ja": "ロン・ポワン（強）",
+    "input": "236hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 4,
+    "active_frames": [
+      14,
+      16,
+      20,
+      22
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -11,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
+      "The upper part of Manon’s body is invincible against projectiles and strikes with mid-air hitboxes from frames 9 - 22",
+      "On hit, block or armored hit, can be canceled into a special move or Super Art from frames 44 - 46",
+      "Only the first hit can be canceled into a Level 3 Super Art or Critical Art"
+    ],
+    "invuln": {
+      "strike": "The upper part of Manon’s body is invincible against projectiles and strikes with mid-air hitboxes from frames 9 - 22"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "rond-point-od": {
+    "name": "Rond-point (OD)",
+    "name_ja": "ロン・ポワン（OD）",
+    "input": "236(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 4,
+    "active_frames": [
+      8,
+      11,
+      14,
+      16
+    ],
+    "recovery": 30,
+    "on_hit": 0,
+    "on_block": -19,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 4 - 16",
+      "On hit, block or armored hit, can be canceled into a special move or Super Art from frames 41 - 46"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 4 - 16"
+    },
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "degage-light": {
+    "name": "Dégagé (Light)",
+    "name_ja": "デガジェ（弱）",
+    "input": "214lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 4,
+    "active_frames": [
+      16,
+      17,
+      28,
+      31
+    ],
+    "recovery": 36,
+    "on_hit": 0,
+    "on_block": -24,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "degage-medium": {
+    "name": "Dégagé (Medium)",
+    "name_ja": "デガジェ（中）",
+    "input": "214mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 4,
+    "active_frames": [
+      16,
+      19,
+      34,
+      39
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -13,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Considered airborne from frames 15 - 39"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "degage-heavy": {
+    "name": "Dégagé (Heavy)",
+    "name_ja": "デガジェ（強）",
+    "input": "214hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      22
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -9,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard",
+      "Low attack invincibility from frames 9 - 19"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "degage-od": {
+    "name": "Dégagé (OD)",
+    "name_ja": "デガジェ（OD）",
+    "input": "214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      24
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard",
+      "Low attack invincibility from frames 11 - 12, as well as throw invincibility",
+      "Considered airborne from frames 9 - 21"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "renverse-light": {
+    "name": "Renversé (Light)",
+    "name_ja": "ランヴェルセ（弱）",
+    "input": "236lp",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      23
+    ],
+    "recovery": 37,
+    "on_hit": 0,
+    "on_block": -23,
+    "damage": 1350,
+    "chip_damage": 337,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Attack changes according to medal level",
+      "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
+      "With Classic Controls",
+      "Projectile invincibility from frames 3 - 21",
+      "Transition into feint by holding the button (total 33 frames)",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 1350 (1360)",
+      "Medal Level 2: 1500 (1510)",
+      "Medal Level 3: 1650 (1660)",
+      "Medal Level 4: 1800 (1810)",
+      "Medal Level 5: 1950 (1960)",
+      "Values in parentheses represent damage on Punish Counter",
+      "With Modern Controls",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 1080 / 1088",
+      "Medal Level 2: 1200 / 1208",
+      "Medal Level 3: 1320 / 1328",
+      "Medal Level 4: 1440 / 1448",
+      "Medal Level 5: 1560 / 1568",
+      "Values after the backslash represent damage on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "renverse-medium": {
+    "name": "Renversé (Medium)",
+    "name_ja": "ランヴェルセ（中）",
+    "input": "236mp",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 25,
+    "active": 2,
+    "active_frames": [
+      25,
+      26
+    ],
+    "recovery": 34,
+    "on_hit": 0,
+    "on_block": -20,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
+      "Projectile invincibility from frames 3 - 24",
+      "Transition into feint by holding the button (total 34 frames)",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 1400 (1420)",
+      "Medal Level 2: 1550 (1570)",
+      "Medal Level 3: 1700 (1720)",
+      "Medal Level 4: 1850 (1870)",
+      "Medal Level 5: 2000 (2020)",
+      "Values in parentheses represent damage on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "renverse-heavy": {
+    "name": "Renversé (Heavy)",
+    "name_ja": "ランヴェルセ（強）",
+    "input": "236hp",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 29,
+    "active": 2,
+    "active_frames": [
+      29,
+      30
+    ],
+    "recovery": 30,
+    "on_hit": 0,
+    "on_block": -16,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Attack changes according to medal level",
+      "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
+      "Projectile invincibility from frames 3 - 28",
+      "Transition into feint by holding the button (total 35 frames)",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 1500 (1540)",
+      "Medal Level 2: 1650 (1690)",
+      "Medal Level 3: 1800 (1840)",
+      "Medal Level 4: 1950 (1990)",
+      "Medal Level 5: 2100 (2140)",
+      "Values in parentheses represent damage on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "renverse-od": {
+    "name": "Renversé (OD)",
+    "name_ja": "ランヴェルセ（OD）",
+    "input": "236(pp)",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 25,
+    "active": 2,
+    "active_frames": [
+      25,
+      26
+    ],
+    "recovery": 34,
+    "on_hit": 0,
+    "on_block": -20,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Attack changes according to medal level",
+      "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
+      "With Classic Controls",
+      "Invincible against strikes from the knee and up from frames 3 - 26",
+      "Invincible against projectiles from frames 3 - 26",
+      "Transition into feint by holding the button (total 35 frames)",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 1500 (1540)",
+      "Medal Level 2: 1650 (1690)",
+      "Medal Level 3: 1800 (1840)",
+      "Medal Level 4: 1950 (1990)",
+      "Medal Level 5: 2100 (2140)",
+      "Values in parentheses represent damage on Punish Counter",
+      "With Modern Controls",
+      "Medal level increases by a single level on hit",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 1200 / 1232",
+      "Medal Level 2: 1320 / 1352",
+      "Medal Level 3: 1440 / 1472",
+      "Medal Level 4: 1560 / 1592",
+      "Medal Level 5: 1680 / 1712",
+      "Values after the backslash represent damage on Punish Counter"
+    ],
+    "invuln": {
+      "strike": "Invincible against strikes from the knee and up from frames 3 - 26",
+      "projectile": "Invincible against projectiles from frames 3 - 26"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "grand-fouette": {
+    "name": "Grand Fouetté",
+    "name_ja": "グラン・フェッテ",
+    "input": "*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      15
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -5,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Renversé",
+      "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Startup of the initial spin depends on button strength; any invincibility from 236P is lost as soon as the kick follow-up starts (can slightly delay the follow-up to extend invincibility); cancel into SA3 is only useful if the kick is absorbed by armor; puts opponent into limited juggle state (free juggle state on Punish Counter); can be spaced to be safer in neutral",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1<br><span style=\"color: #fa6d0d;\">[0 PC]</span>",
+    "juggle_limit": "1"
+  },
+  "grand-fouette-od": {
+    "name": "Grand Fouetté (OD)",
+    "name_ja": "グラン・フェッテ（OD）",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      16
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Immediate scaling 10%"
+    ]
+  },
+  "arabesque": {
+    "name": "Arabesque",
+    "name_ja": "アラベスク",
+    "input": "236236*k",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 65,
+    "on_hit": 0,
+    "on_block": -49,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A kick performed while sliding forward along the ground that sends your opponent flying. This move is invincible on startup, making it useful as a way to turn the tables",
+      "Invincible against strikes and throws from frames 1 - 13",
+      "Minimum guaranteed damage is 30%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "strike_throw": "Invincible against strikes and throws from frames 1 - 13"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      2000
+    ],
+    "invuln_str": "1-13 Strike/Throw",
+    "notes_sc": "Long range sliding low attack; switches sides with opponent on hit (except at max range); can be used in juggles; can trade vs. projectiles at certain ranges, allowing for a follow-up juggle",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "5000",
+    "juggle_start": "1",
+    "juggle_limit": "5"
+  },
+  "etoile": {
+    "name": "Étoile",
+    "name_ja": "エトワール",
+    "input": "214214*k",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 7,
+    "active": 6,
+    "active_frames": [
+      7,
+      9,
+      21,
+      26,
+      72,
+      80
+    ],
+    "recovery": 38,
+    "on_hit": 0,
+    "on_block": -61,
+    "damage": 2800,
+    "chip_damage": 700,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Launch your opponent into the air with a quick one-two combination of kicks, and follow up with a powerful leaping kick. This move executes quickly, making it useful as an anti-air attack or as a way to combo airborne opponents",
+      "Completely invincible from frames 1 - 9",
+      "Considered airborne from frames 21 - 36 and 68 - 118",
+      "Minimum guaranteed damage is 40%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 9"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2,
+    "per_hit": [
+      2800
+    ],
+    "invuln_str": "1-9 Full",
+    "notes_sc": "If blocked, the last hit whiffs on crouching opponents; can be juggled into; extended KD time for opponent if they fall out before 3rd hit; full damage distribution: 450,400,500x2,950",
+    "drive_dmg_on_block": "2500x2,(1000)",
+    "drive_dmg_on_hit": "2000x5",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "6,6,99x3"
+  },
+  "pas-de-deux": {
+    "name": "Pas de Deux",
+    "name_ja": "パ・ド・ドゥ",
+    "input": "236236*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      8
+    ],
+    "recovery": 72,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 40004600,
+    "chip_damage": 10001150,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When under 25% vitality",
+      "Attack as though performing a ballet dance and then smash your opponent into the ground with a devastating slam. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once",
+      "Completely invincible from frames 1 - 8",
+      "Minimum guaranteed damage is 50%",
+      "Values do not change on counter or Punish Counter",
+      "Can only be canceled into standing heavy punch and Rond-point",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 4000",
+      "Medal Level 2: 4100",
+      "Medal Level 3: 4200",
+      "Medal Level 4: 4400",
+      "Medal Level 5: 4600"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 8"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 5％"
+    ],
+    "super_cost": 3,
+    "per_hit": [
+      40004600
+    ],
+    "invuln_str": "1-8 Full",
+    "notes_sc": "Command throw that can be comboed into; opponent can jump on reaction after the Super freeze; damage at Medal Lv. 1-5: 4000/4100/4200/4400/4600; cannot hit opponents behind Manon; juggles into meterless 236P grant a restand that combos into SA3; cinematic time regenerates ~2.2 Drive bars for Manon; Range: 1.463 (2nd active frame 1.489)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "15000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "pas-de-deux-ca": {
+    "name": "Pas de Deux (Critical Art)",
+    "name_ja": "パ・ド・ドゥ (CA)",
+    "input": "236236*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      8
+    ],
+    "recovery": 72,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When under 25% vitality",
+      "When near opponent",
+      "Completely invincible from frames 1 - 8",
+      "Minimum guaranteed damage is 50%",
+      "Values do not change on counter or Punish Counter",
+      "Can only be canceled into standing heavy punch and Rond-point",
+      "Damage increases the higher the Medal level",
+      "Medal Level 1: 4500",
+      "Medal Level 2: 4600",
+      "Medal Level 3: 4700",
+      "Medal Level 4: 4900",
+      "Medal Level 5: 5100"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 8"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 5％"
+    ],
+    "super_cost": 3
+  },
+  "ouchigari": {
+    "name": "Ouchi Gari",
+    "name_ja": "オーウチガリ",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grapple with your opponent, slipping your leg between theirs and tossing them to the ground. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20％"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Can manually time a throw loop in the corner; Drive Rush also allows an auto-timed meaty throw that can be mixed up with 2MP or 4HP; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "uchimata": {
+    "name": "Uchi Mata",
+    "name_ja": "ウチマタ",
+    "input": "(4lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grapple with your opponent, slipping your leg between theirs and lifting them over you. Throws your opponent while switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20％"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Side switches; after corner side switch, can walk for a pseudo throw loop or Drive Rush for a manually timed strike/throw mixup; can get true throw oki vs. wide characters (1f timing vs. Marisa, 2f timing vs. Blanka/E.Honda/Zangief); midscreen, can chase down with DR~5HP but no real strike/throw mixup; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  }
+}

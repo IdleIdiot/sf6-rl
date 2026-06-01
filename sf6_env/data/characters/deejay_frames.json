@@ -1,0 +1,3971 @@
+{
+  "deejay-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 6,
+    "on_hit": 4,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "deejay-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      8
+    ],
+    "recovery": 13,
+    "on_hit": 5,
+    "on_block": 2,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "deejay-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      14
+    ],
+    "recovery": 18,
+    "on_hit": 3,
+    "on_block": -4,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be canceled up until the 2nd active frame",
+      "Forces the opponent into a standing position"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "deejay-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 12,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "deejay-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 16,
+    "on_hit": 6,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "deejay-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 22,
+    "on_hit": 1,
+    "on_block": -5,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "4 frames of recovery are added if the attack misses",
+      "Adds +18 of frame advantage on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "deejay-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 8,
+    "on_hit": 4,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "deejay-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      9
+    ],
+    "recovery": 14,
+    "on_hit": 4,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "deejay-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      9
+    ],
+    "recovery": 20,
+    "on_hit": 6,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Adds +12 of frame advantage on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "deejay-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 10,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "deejay-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 19,
+    "on_hit": 0,
+    "on_block": -6,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a Hard Knockdown on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "deejay-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      23
+    ],
+    "recovery": 15,
+    "on_hit": 0,
+    "on_block": -11,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "deejay-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      10
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "deejay-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "deejay-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "deejay-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "deejay-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "deejay-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "knee-shot": {
+    "name": "Knee Shot",
+    "name_ja": "ニーショット",
+    "input": "j>2lk",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 6,
+    "active": 1,
+    "active_frames": [
+      6
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An attack that stays active for a long time and allows you to move first even if it is blocked"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "sunrise-heel": {
+    "name": "Sunrise Heel",
+    "name_ja": "サンライズヒール",
+    "input": "6mk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 19,
+    "active": 2,
+    "active_frames": [
+      19,
+      23
+    ],
+    "recovery": 16,
+    "on_hit": 5,
+    "on_block": 1,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An axe kick with long reach that allows you to move first even if it is blocked",
+      "Forces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": []
+  },
+  "face-breaker": {
+    "name": "Face Breaker",
+    "name_ja": "フェイスブレイカー",
+    "input": "6hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 4,
+    "active_frames": [
+      7,
+      8,
+      9,
+      12
+    ],
+    "recovery": 20,
+    "on_hit": 1,
+    "on_block": -5,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A multi-hit kick that can be canceled into special moves",
+      "Does 800 individual damage when the attack lands on a mid-air opponent",
+      "Forces a juggle state when the first attack lands on a mid-air opponent",
+      "Forces the opponent into a standing position"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "threebeat-combo-2": {
+    "name": "Threebeat Combo (2)",
+    "name_ja": "3ビートコンボ (2段目)",
+    "input": "lp>mk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 20,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A quick combination attack that hits multiple times"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "threebeat-combo-3": {
+    "name": "Threebeat Combo (3)",
+    "name_ja": "3ビートコンボ (3段目)",
+    "input": "lp>mk>mk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      16
+    ],
+    "recovery": 19,
+    "on_hit": 3,
+    "on_block": -8,
+    "damage": 626,
+    "chip_damage": 156,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A quick combination attack that hits multiple times"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "dee-jay-special-2": {
+    "name": "Dee Jay Special (2)",
+    "name_ja": "ディージェイスペシャル (2段目)",
+    "input": "mp>hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      17
+    ],
+    "recovery": 24,
+    "on_hit": -2,
+    "on_block": -11,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A series of attacks, the third of which can be canceled into Super Arts",
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "dee-jay-special-3": {
+    "name": "Dee Jay Special (3)",
+    "name_ja": "ディージェイスペシャル (3段目)",
+    "input": "mp>hp>hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      15
+    ],
+    "recovery": 30,
+    "on_hit": 0,
+    "on_block": -13,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A series of attacks, the third of which can be canceled into Super Arts"
+    ],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": []
+  },
+  "funky-dance-2": {
+    "name": "Funky Dance (2)",
+    "name_ja": "ファンキーダンス (2段目)",
+    "input": "mp>mp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      13
+    ],
+    "recovery": 17,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.04,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A multi-hit attack that doesn't leave you wide open even if stopped partway through",
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "funky-dance-3": {
+    "name": "Funky Dance (3)",
+    "name_ja": "ファンキーダンス (3段目)",
+    "input": "mp>mp>hp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      21
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -8,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A multi-hit attack that doesn't leave you wide open even if stopped partway through"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "funky-dance-feint": {
+    "name": "Funky Dance Feint",
+    "name_ja": "ファンキーダンス・フェイク",
+    "input": "mp>mp>4hp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A sequence of two attacks into a feint. Useful for confusing an opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "party-in-the-air": {
+    "name": "Party in the Air",
+    "name_ja": "フライングパーティー",
+    "input": "j>mp>hp",
+    "type": "targetCombo",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A combination attack that is useful against jumping opponents",
+      "Forces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "speedy-maracas": {
+    "name": "Speedy Maracas",
+    "name_ja": "マラカスビート",
+    "input": "22(pp)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A special move that builds your Super Art Gauge for as long as the command used to perform it is held",
+      "Super Art gauge increases by 2000 on frame 22",
+      "Super Art gauge increases by 49 every frame after frame 46",
+      "Extend the move by holding down the button during its execution"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "air-slasher-light": {
+    "name": "Air Slasher (Light)",
+    "name_ja": "エアスラッシャー（弱）",
+    "input": "[4]>6lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "air-slasher-medium": {
+    "name": "Air Slasher (Medium)",
+    "name_ja": "エアスラッシャー（中）",
+    "input": "[4]>6mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -5,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range",
+      "Can be canceled into Speedy Maracas on frame 23"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "air-slasher-heavy": {
+    "name": "Air Slasher (Heavy)",
+    "name_ja": "エアスラッシャー（強）",
+    "input": "[4]>6hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range",
+      "Can be canceled into Speedy Maracas on frames 35 - 36"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "air-slasher-od": {
+    "name": "Air Slasher (OD)",
+    "name_ja": "エアスラッシャー（OD）",
+    "input": "[4]>6(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 5,
+    "on_block": 2,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range",
+      "Can be canceled into Speedy Maracas on frames 31"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "air-slasher-projectile-od": {
+    "name": "Air Slasher Projectile (OD)",
+    "name_ja": "エアスラッシャー 射出（OD）",
+    "input": "[4]>6(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 9,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "jackknife-maximum-light": {
+    "name": "Jackknife Maximum (Light)",
+    "name_ja": "ジャックナイフマキシマム（弱）",
+    "input": "[2]>8lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
+      "Considered airborne from frames 6 - 45",
+      "Can be canceled into a normal jumping attack or a unique attack from frames 23 - 40"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "jackknife-maximum-medium": {
+    "name": "Jackknife Maximum (Medium)",
+    "name_ja": "ジャックナイフマキシマム（中）",
+    "input": "[2]>8mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 4,
+    "active_frames": [
+      6,
+      8,
+      19,
+      22
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -32,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
+      "Considered airborne from frames 4 - 44",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 5",
+      "Invincible to throws from frames 5 - 6"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 5",
+      "throw": "Invincible to throws from frames 5 - 6"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "jackknife-maximum-heavy": {
+    "name": "Jackknife Maximum (Heavy)",
+    "name_ja": "ジャックナイフマキシマム（強）",
+    "input": "[2]>8hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 6,
+    "active_frames": [
+      6,
+      9,
+      18,
+      22,
+      31,
+      34
+    ],
+    "recovery": 17,
+    "on_hit": 0,
+    "on_block": -44,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
+      "Considered airborne from frames 4 - 51",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1- 9"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1- 9"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "jackknife-maximum-od": {
+    "name": "Jackknife Maximum (OD)",
+    "name_ja": "ジャックナイフマキシマム（OD）",
+    "input": "[2]>8(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 10,
+    "active_frames": [
+      6,
+      11,
+      19,
+      21,
+      31,
+      33,
+      49,
+      51,
+      61,
+      64
+    ],
+    "recovery": 29,
+    "on_hit": 0,
+    "on_block": -55,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.42,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
+      "Will only transition into the 4th and later attacks if the first three attacks hit",
+      "Completely invincible from frames 1 - 11",
+      "Considered airborne from frames 2 - 62 (on block, or if the attack misses)"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 11"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "roll-through-feint": {
+    "name": "Roll Through Feint",
+    "name_ja": "フェイクロールステップ",
+    "input": "236lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spin forward while feinting a kicking attack. Useful for confusing opponents at close range"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "quick-rolling-sobat": {
+    "name": "Quick Rolling Sobat",
+    "name_ja": "クイックローリングソバット",
+    "input": "236mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -6,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a fierce spinning kick while moving forward. When used to check an opponent while vying for position, it is most effective when the tip of the foot connects with the opponent"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "double-rolling-sobat": {
+    "name": "Double Rolling Sobat",
+    "name_ja": "ダブルローリングソバット",
+    "input": "236hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 4,
+    "active_frames": [
+      15,
+      17,
+      36,
+      39
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -10,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Unleash two fierce spinning kicks while moving forward. Its high damage makes it a potent way to finish combos"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 25%"
+    ]
+  },
+  "double-rolling-sobat-od": {
+    "name": "Double Rolling Sobat (OD)",
+    "name_ja": "ダブルローリングソバット（OD）",
+    "input": "236(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 19,
+    "active": 4,
+    "active_frames": [
+      19,
+      20,
+      30,
+      32
+    ],
+    "recovery": 19,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Unleash two fierce spinning kicks while moving forward. Its high damage makes it a potent way to finish combos",
+      "Can be canceled into a Level 2 or 3 Super Art or Critical Art only on the 2nd attack"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "machine-gun-uppercut-light": {
+    "name": "Machine Gun Uppercut (Light)",
+    "name_ja": "マシンガンアッパー（弱）",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      18
+    ],
+    "recovery": 35,
+    "on_hit": 0,
+    "on_block": -19,
+    "damage": 1650,
+    "chip_damage": 412,
+    "drive_gain_hit": 0.28,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
+      "Will only transition to the next attacks if the first attack hits"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "machine-gun-uppercut-medium": {
+    "name": "Machine Gun Uppercut (Medium)",
+    "name_ja": "マシンガンアッパー（中）",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      25
+    ],
+    "recovery": 35,
+    "on_hit": 0,
+    "on_block": -19,
+    "damage": 1900,
+    "chip_damage": 475,
+    "drive_gain_hit": 0.32,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
+      "Will only transition to the next attacks if the first attack hits"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "machine-gun-uppercut-heavy": {
+    "name": "Machine Gun Uppercut (Heavy)",
+    "name_ja": "マシンガンアッパー（強）",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 28,
+    "active": 2,
+    "active_frames": [
+      28,
+      31
+    ],
+    "recovery": 35,
+    "on_hit": 0,
+    "on_block": -19,
+    "damage": 2200,
+    "chip_damage": 550,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
+      "Will only transition to the next attacks if the first attack hits"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "machine-gun-uppercut-od": {
+    "name": "Machine Gun Uppercut (OD)",
+    "name_ja": "マシンガンアッパー（OD）",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 28,
+    "active": 2,
+    "active_frames": [
+      28,
+      31
+    ],
+    "recovery": 35,
+    "on_hit": 0,
+    "on_block": -19,
+    "damage": 2500,
+    "chip_damage": 625,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
+      "Will only transition to the next attacks if the first attack hits",
+      "The final attack forces a Hard Knockdown"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "jus-cool": {
+    "name": "Jus Cool",
+    "name_ja": "ジョスクール",
+    "input": "214*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A retreating sway that can lead into kicking attacks or forward-moving maneuvers",
+      "Can transition into branching attacks from frames 13 - 24"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "funky-slicer": {
+    "name": "Funky Slicer",
+    "name_ja": "ファンキースライサー",
+    "input": "lk",
+    "type": "followUp",
+    "block_type": "low",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 22,
+    "on_hit": 2,
+    "on_block": -15,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent",
+      "2 frames of recovery subtracted when attack is blocked",
+      "Adds +3 frames of recovery on armor hit or if the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "waning-moon": {
+    "name": "Waning Moon",
+    "name_ja": "ワニングムーン",
+    "input": "mk",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 25,
+    "active": 2,
+    "active_frames": [
+      25,
+      27
+    ],
+    "recovery": 16,
+    "on_hit": 0,
+    "on_block": 1,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A roundhouse kick performed from Jus Cool that cannot be blocked crouching. You can continue your attack even if blocked, making it useful when worked into sequences intended to slip through an opponent's guard",
+      "Forces a slam knockdown when hitting a mid-air opponent",
+      "Adds a floor bounding effect on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "maximum-strike": {
+    "name": "Maximum Strike",
+    "name_ja": "マキシマムストライク",
+    "input": "hk",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      19
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": -10,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A launching kick performed from Jus Cool. If done early it can be used as an anti-air attack, and is also effective as a combo starter"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "juggling-dash": {
+    "name": "Juggling Dash",
+    "name_ja": "ジャグリンステップ",
+    "input": "6*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick forward-moving maneuver performed from Jus Cool. While in motion, you are invincible to projectiles",
+      "Invincible to projectiles from frames 1 - 20",
+      "Can transition to Juggling Sway from frames 17 - 23"
+    ],
+    "invuln": {
+      "projectile": "Invincible to projectiles from frames 1 - 20"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "jus-cool-od": {
+    "name": "Jus Cool (OD)",
+    "name_ja": "ジョスクール（OD）",
+    "input": "214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      12
+    ],
+    "recovery": 36,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A retreating sway that can lead into kicking attacks or forward-moving maneuvers",
+      "Can transition into branching attacks from frames 25 - 39",
+      "Can transition into Juggling Dash from frame 19"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "juggling-sway": {
+    "name": "Juggling Sway",
+    "name_ja": "ジャグリンスウェイ",
+    "input": "6*p>4*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "funky-slicer-od": {
+    "name": "Funky Slicer (OD)",
+    "name_ja": "ファンキースライサー（OD）",
+    "input": "lk",
+    "type": "followUp",
+    "block_type": "low",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 19,
+    "on_hit": 6,
+    "on_block": -2,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent",
+      "Forces a spinning knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "waning-moon-od": {
+    "name": "Waning Moon (OD)",
+    "name_ja": "ワニングムーン（OD）",
+    "input": "mk",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 19,
+    "active": 2,
+    "active_frames": [
+      19,
+      23
+    ],
+    "recovery": 17,
+    "on_hit": 7,
+    "on_block": -4,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A roundhouse kick performed from Jus Cool that cannot be blocked crouching. You can continue your attack even if blocked, making it useful when worked into sequences intended to slip through an opponent's guard",
+      "Adds a floor bounding effect during a mid-air hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "maximum-strike-od": {
+    "name": "Maximum Strike (OD)",
+    "name_ja": "マキシマムストライク（OD）",
+    "input": "hk",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      15
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -8,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A launching kick performed from Jus Cool. If done early it can be used as an anti-air attack, and is also effective as a combo starter"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "juggling-dash-od": {
+    "name": "Juggling Dash (OD)",
+    "name_ja": "ジャグリンステップ（OD）",
+    "input": "6*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick forward-moving maneuver performed from Jus Cool. While in motion, you are invincible to projectiles",
+      "Invincible to projectiles from frames 1 - 20",
+      "Can transition to Juggling Sway from frames 16 - 17"
+    ],
+    "invuln": {
+      "projectile": "Invincible to projectiles from frames 1 - 20"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "juggling-sway-od": {
+    "name": "Juggling Sway (OD)",
+    "name_ja": "ジャグリンスウェイ（OD）",
+    "input": "6*p>4*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "the-greatest-sobat": {
+    "name": "The Greatest Sobat",
+    "name_ja": "グレイテストソバット",
+    "input": "236236*k",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      10
+    ],
+    "recovery": 33,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Remain in place and put your whole body into a single spinning kick. It executes quickly, making it useful in combos and as a counterattack",
+      "Punish Counter properties",
+      "- Produces a crumple stun if the opponent is standing on the ground",
+      "- Produces a wall bounce when hitting a mid-air opponent",
+      "Values do not change on counter or Punish Counter",
+      "Minimum guaranteed damage is 30%"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 40%"
+    ],
+    "super_cost": 1
+  },
+  "lowkey-sunrise-festival": {
+    "name": "Lowkey Sunrise Festival",
+    "name_ja": "サンライズフェスティバル・ライト",
+    "input": "236236lp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      16
+    ],
+    "recovery": 46,
+    "on_hit": 6,
+    "on_block": -29,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can only go into the following attacks if the first attack hits",
+      "Can transition to the 2nd attack from frames 18 - 30",
+      "Values do not change on counter or Punish Counter",
+      "Minimum guaranteed damage is 40%"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 25%",
+      "Combo scaling 30%"
+    ],
+    "super_cost": 2
+  },
+  "lowkey-sunrise-festival-2": {
+    "name": "Lowkey Sunrise Festival (2)",
+    "name_ja": "サンライズフェスティバル・ライト（2段目）",
+    "input": "236236lp>lp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      14
+    ],
+    "recovery": 24,
+    "on_hit": 6,
+    "on_block": -7,
+    "damage": 175,
+    "chip_damage": 43,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.08,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 3rd attack from frames 19 - 24"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "lowkey-sunrise-festival-3": {
+    "name": "Lowkey Sunrise Festival (3)",
+    "name_ja": "サンライズフェスティバル・ライト（3段目）",
+    "input": "236236lp>lp>mp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 23,
+    "on_hit": 6,
+    "on_block": -5,
+    "damage": 175,
+    "chip_damage": 43,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.08,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 4th attack from frames 17 - 23"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "lowkey-sunrise-festival-4": {
+    "name": "Lowkey Sunrise Festival (4)",
+    "name_ja": "サンライズフェスティバル・ライト（4段目）",
+    "input": "236236lp>lp>mp>hp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 23,
+    "on_hit": 6,
+    "on_block": -5,
+    "damage": 175,
+    "chip_damage": 43,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.08,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 5th attack from frames 1 - 26"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "lowkey-sunrise-festival-5": {
+    "name": "Lowkey Sunrise Festival (5)",
+    "name_ja": "サンライズフェスティバル・ライト（5段目）",
+    "input": "236236lp>lp>mp>hp>lk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      18
+    ],
+    "recovery": 35,
+    "on_hit": 6,
+    "on_block": -16,
+    "damage": 175,
+    "chip_damage": 43,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.08,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 6,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 6th attack from frames 27 - 31"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "lowkey-sunrise-festival-6": {
+    "name": "Lowkey Sunrise Festival (6)",
+    "name_ja": "サンライズフェスティバル・ライト（6段目）",
+    "input": "236236lp>lp>mp>hp>lk>mk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      19
+    ],
+    "recovery": 45,
+    "on_hit": 6,
+    "on_block": -22,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.08,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 7,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 7th attack from frames 31 - 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "lowkey-sunrise-festival-7": {
+    "name": "Lowkey Sunrise Festival (7)",
+    "name_ja": "サンライズフェスティバル・ライト（7段目）",
+    "input": "236236lp>lp>mp>hp>lk>mk>hk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 18,
+    "active": 4,
+    "active_frames": [
+      18,
+      20,
+      26,
+      28
+    ],
+    "recovery": 79,
+    "on_hit": 0,
+    "on_block": -61,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 8,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to a branching attack from frames 11 - 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "marvelous-sunrise-festival": {
+    "name": "Marvelous Sunrise Festival",
+    "name_ja": "サンライズフェスティバル・マーベラス",
+    "input": "236236mp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      16
+    ],
+    "recovery": 46,
+    "on_hit": 6,
+    "on_block": -29,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 7,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can only go into the following attacks if the first attack hits",
+      "Can transition to the 2nd attack from frames 12 - 17",
+      "If the 2nd attack is input between frames 2 - 11, or 18 - 30, it will fail to come out",
+      "Values do not change on counter or Punish Counter",
+      "Minimum guaranteed damage is 40%"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 25%",
+      "Combo scaling 30%"
+    ],
+    "super_cost": 2
+  },
+  "marvelous-sunrise-festival-2": {
+    "name": "Marvelous Sunrise Festival (2)",
+    "name_ja": "サンライズフェスティバル・マーベラス（2段目）",
+    "input": "236236mp>lp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      14
+    ],
+    "recovery": 24,
+    "on_hit": 6,
+    "on_block": -7,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 3rd attack from frames 10 - 23",
+      "If the 3rd attack is input between frames 2 - 9, or 24 - 25, it will fail to come out"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "marvelous-sunrise-festival-3": {
+    "name": "Marvelous Sunrise Festival (3)",
+    "name_ja": "サンライズフェスティバル・マーベラス（3段目）",
+    "input": "236236mp>lp>mp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 23,
+    "on_hit": 6,
+    "on_block": -5,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 4th attack from frames 9 - 20",
+      "If the 4th attack is input between frames 2 - 8, or 21 - 23, it will fail to come out"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "marvelous-sunrise-festival-4": {
+    "name": "Marvelous Sunrise Festival (4)",
+    "name_ja": "サンライズフェスティバル・マーベラス（4段目）",
+    "input": "236236mp>lp>mp>hp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 23,
+    "on_hit": 6,
+    "on_block": -5,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 5th attack from frames 11 - 25",
+      "If the 5th attack is input between frames 2 - 10, or 26 - 27, it will fail to come out"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "marvelous-sunrise-festival-5": {
+    "name": "Marvelous Sunrise Festival (5)",
+    "name_ja": "サンライズフェスティバル・マーベラス（5段目）",
+    "input": "236236mp>lp>mp>hp>lk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      18
+    ],
+    "recovery": 35,
+    "on_hit": 6,
+    "on_block": -16,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 6,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 6th attack from frames 12 - 28",
+      "If the 6th attack is input between frames 2 - 11, or 29 - 31, it will fail to come out"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "marvelous-sunrise-festival-6": {
+    "name": "Marvelous Sunrise Festival (6)",
+    "name_ja": "サンライズフェスティバル・マーベラス（6段目）",
+    "input": "236236mp>lp>mp>hp>lk>mk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      19
+    ],
+    "recovery": 45,
+    "on_hit": 6,
+    "on_block": -22,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 7,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 7th attack from frames 14 - 33",
+      "If the 7th attack is input between frames 2 - 13, or 34 - 36, it will fail to come out"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "marvelous-sunrise-festival-7": {
+    "name": "Marvelous Sunrise Festival (7)",
+    "name_ja": "サンライズフェスティバル・マーベラス（7段目）",
+    "input": "236236mp>lp>mp>hp>lk>mk>hk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 18,
+    "active": 4,
+    "active_frames": [
+      18,
+      20,
+      26,
+      28
+    ],
+    "recovery": 64,
+    "on_hit": 0,
+    "on_block": -43,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 8,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to a branching attack from frames 11 - 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "headliner-sunrise-festival": {
+    "name": "Headliner Sunrise Festival",
+    "name_ja": "サンライズフェスティバル・ヘッドライナー",
+    "input": "236236hp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      16
+    ],
+    "recovery": 46,
+    "on_hit": 6,
+    "on_block": -29,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can only go into the following attacks if the first attack hits",
+      "Can transition to the 2nd attack from frames 13 - 17",
+      "If the 2nd attack is input between frames 2 - 12, or 18 - 30, it will fail to come out",
+      "Values do not change on counter or Punish Counter",
+      "Minimum guaranteed damage is 40%"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 25%",
+      "Combo scaling 30%"
+    ],
+    "super_cost": 2
+  },
+  "headliner-sunrise-festival-2": {
+    "name": "Headliner Sunrise Festival (2)",
+    "name_ja": "サンライズフェスティバル・ヘッドライナー（2段目）",
+    "input": "236236hp>lp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      14
+    ],
+    "recovery": 24,
+    "on_hit": 6,
+    "on_block": -7,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 3rd attack from frames 15 - 20",
+      "If the 3rd attack is input between frames 2 - 14, or 21 - 25, it will fail to come out"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "headliner-sunrise-festival-3": {
+    "name": "Headliner Sunrise Festival (3)",
+    "name_ja": "サンライズフェスティバル・ヘッドライナー（3段目）",
+    "input": "236236hp>lp>mp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 23,
+    "on_hit": 6,
+    "on_block": -5,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 4th attack from frames 13 - 18",
+      "If the 4th attack is input between frames 2 - 12, or 18 - 23, it will fail to come out"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "headliner-sunrise-festival-4": {
+    "name": "Headliner Sunrise Festival (4)",
+    "name_ja": "サンライズフェスティバル・ヘッドライナー（4段目）",
+    "input": "236236hp>lp>mp>hp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 23,
+    "on_hit": 6,
+    "on_block": -5,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 5th attack from frames 13 - 18",
+      "If the 5th attack is input between frames 2 - 15, or 22 - 27, it will fail to come out"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "headliner-sunrise-festival-5": {
+    "name": "Headliner Sunrise Festival (5)",
+    "name_ja": "サンライズフェスティバル・ヘッドライナー（5段目）",
+    "input": "236236hp>lp>mp>hp>lk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      18
+    ],
+    "recovery": 35,
+    "on_hit": 6,
+    "on_block": -16,
+    "damage": 250,
+    "chip_damage": 62,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 6,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 6th attack from frames 17 - 30",
+      "If the 6th attack is input between frames 2 - 16, or 31 - 36, it will fail to come out"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "headliner-sunrise-festival-6": {
+    "name": "Headliner Sunrise Festival (6)",
+    "name_ja": "サンライズフェスティバル・ヘッドライナー（6段目）",
+    "input": "236236hp>lp>mp>hp>lk>mk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      19
+    ],
+    "recovery": 45,
+    "on_hit": 6,
+    "on_block": -22,
+    "damage": 250,
+    "chip_damage": 62,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 7,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 7th attack from frames 13 - 18",
+      "If the 7th attack is input between frames 2 - 12, or 18 - 23, it will fail to come out"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "headliner-sunrise-festival-7": {
+    "name": "Headliner Sunrise Festival (7)",
+    "name_ja": "サンライズフェスティバル・ヘッドライナー（7段目）",
+    "input": "236236hp>lp>mp>hp>lk>mk>hk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 18,
+    "active": 4,
+    "active_frames": [
+      18,
+      20,
+      26,
+      28
+    ],
+    "recovery": 64,
+    "on_hit": 0,
+    "on_block": -43,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 8,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to a branching attack from frames 11 - 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "climactic-strike-marvelous": {
+    "name": "Climactic Strike (Marvelous)",
+    "name_ja": "クライマックスブロー (マーベラス)",
+    "input": "hp",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 11,
+    "active": 4,
+    "active_frames": [
+      11,
+      13,
+      91,
+      97
+    ],
+    "recovery": 84,
+    "on_hit": 0,
+    "on_block": -66,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.576,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After Marvelous Sunrise Festival connects",
+      "Launch an opponent into the air with an uppercut and smack them in the face as they come back down. Switches positions with your opponent upon completion"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "climactic-strike-headliner": {
+    "name": "Climactic Strike (Headliner)",
+    "name_ja": "クライマックスブロー (ヘッドライナー)",
+    "input": "hp",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 11,
+    "active": 4,
+    "active_frames": [
+      11,
+      13,
+      91,
+      97
+    ],
+    "recovery": 84,
+    "on_hit": 0,
+    "on_block": -66,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.576,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After Headliner Sunrise Festival connects",
+      "Launch an opponent into the air with an uppercut and smack them in the face as they come back down. Switches positions with your opponent upon completion"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "encore-beat-marvelous": {
+    "name": "Encore Beat (Marvelous)",
+    "name_ja": "アンコールビート (マーベラス)",
+    "input": "hk",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 33,
+    "active": 2,
+    "active_frames": [
+      33,
+      39
+    ],
+    "recovery": 112,
+    "on_hit": 0,
+    "on_block": -97,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After Marvelous Sunrise Festival connects",
+      "Plant both arms on the ground and kick upwards with both legs. Most effective when used with your opponent in the corner"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "encore-beat-headliner": {
+    "name": "Encore Beat (Headliner)",
+    "name_ja": "アンコールビート (ヘッドライナー)",
+    "input": "hk",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 33,
+    "active": 2,
+    "active_frames": [
+      33,
+      39
+    ],
+    "recovery": 112,
+    "on_hit": 0,
+    "on_block": -97,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After Headliner Sunrise Festival connects",
+      "Plant both arms on the ground and kick upwards with both legs. Most effective when used with your opponent in the corner"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "failed-sunrise-festival-2": {
+    "name": "Failed Sunrise Festival (2)",
+    "name_ja": "サンライズフェスティバル失敗版（2段目）",
+    "input": "236236lp>lp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      14
+    ],
+    "recovery": 24,
+    "on_hit": 6,
+    "on_block": -7,
+    "damage": 100,
+    "chip_damage": 25,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Failed version",
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 3rd attack from frames 19 - 24"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "failed-sunrise-festival-3": {
+    "name": "Failed Sunrise Festival (3)",
+    "name_ja": "サンライズフェスティバル失敗版（3段目）",
+    "input": "236236lp>lp>mp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 23,
+    "on_hit": 6,
+    "on_block": -5,
+    "damage": 100,
+    "chip_damage": 25,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "Failed version",
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 4th attack from frames 17 - 23"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "failed-sunrise-festival-4": {
+    "name": "Failed Sunrise Festival (4)",
+    "name_ja": "サンライズフェスティバル失敗版（4段目）",
+    "input": "236236lp>lp>mp>hp",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 23,
+    "on_hit": 6,
+    "on_block": -5,
+    "damage": 100,
+    "chip_damage": 25,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "Failed version",
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 5th attack from frames 1 - 26"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "failed-sunrise-festival-5": {
+    "name": "Failed Sunrise Festival (5)",
+    "name_ja": "サンライズフェスティバル失敗版（5段目）",
+    "input": "236236lp>lp>mp>hp>lk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      18
+    ],
+    "recovery": 35,
+    "on_hit": 6,
+    "on_block": -16,
+    "damage": 100,
+    "chip_damage": 25,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 6,
+    "notes": [
+      "Failed version",
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 6th attack from frames 27 - 31"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "failed-sunrise-festival-6": {
+    "name": "Failed Sunrise Festival (6)",
+    "name_ja": "サンライズフェスティバル失敗版（6段目）",
+    "input": "236236lp>lp>mp>hp>lk>mk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      19
+    ],
+    "recovery": 45,
+    "on_hit": 6,
+    "on_block": -22,
+    "damage": 100,
+    "chip_damage": 25,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 7,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
+      "Can transition to the 7th attack from frames 31 - 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "failed-sunrise-festival-7": {
+    "name": "Failed Sunrise Festival (7)",
+    "name_ja": "サンライズフェスティバル失敗版（7段目）",
+    "input": "236236lp>lp>mp>hp>lk>mk>hk",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 18,
+    "active": 4,
+    "active_frames": [
+      18,
+      20,
+      26,
+      28
+    ],
+    "recovery": 64,
+    "on_hit": 0,
+    "on_block": -43,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 8,
+    "notes": [
+      "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "weekend-pleasure": {
+    "name": "Weekend Pleasure",
+    "name_ja": "サタデーナイト",
+    "input": "214214*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      13
+    ],
+    "recovery": 48,
+    "on_hit": 0,
+    "on_block": -28,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When under 25% vitality",
+      "Launch an opponent into the air with an uppercut and then unleash a powerful high-speed barrage of fists upon them as they come back down. Extremely versatile, this move is useful both in combos and as an anti-air attack",
+      "Values do not change on counter or Punish Counter",
+      "Minimum guaranteed damage is set to 50%",
+      "Can only be canceled into from special moves"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3
+  },
+  "weekend-pleasure-ca": {
+    "name": "Weekend Pleasure (Critical Art)",
+    "name_ja": "サタデーナイト (CA)",
+    "input": "214214*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      13
+    ],
+    "recovery": 48,
+    "on_hit": 0,
+    "on_block": -28,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Launch an opponent into the air with an uppercut and then unleash a powerful high-speed barrage of fists upon them as they come back down. Extremely versatile, this move is useful both in combos and as an anti-air attack",
+      "Values do not change on counter or Punish Counter",
+      "Minimum guaranteed damage is set to 50%",
+      "Can only be canceled into from special moves"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3
+  },
+  "diss-track": {
+    "name": "Diss Track",
+    "name_ja": "スタンプ・ザ・ビート",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Disrupt your opponent's balance, hop on their knee, and kick off of their face. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ]
+  },
+  "flip-throw": {
+    "name": "Flip Throw",
+    "name_ja": "フリップスルー",
+    "input": "4(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Latch onto your opponent, place both feet on their torso, and toss them behind you while falling backward. Throws your opponent while switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ]
+  }
+}

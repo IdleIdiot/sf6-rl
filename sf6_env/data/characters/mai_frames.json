@@ -1,0 +1,3227 @@
+{
+  "mai-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 7,
+    "on_hit": 5,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; useful in combos due to its extra 1f hitstun over 2LP (combos naturally into 214LP/MP, 236KK, and has more utility in CH/PC/DR routes)"
+  },
+  "mai-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 15,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Great range for a cancelable poke; solid hitbox priority; important combo tool from Punish Counter 2LP (works from max range); has an extended hurtbox on whiff until the end of recovery"
+  },
+  "mai-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 21,
+    "on_hit": 1,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces the opponent into a standing position"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Very long range for a cancelable poke; great for combos and whiff punishing; combos from PC/DR 5LP for optimal conversions; slightly less pushback on Counter-hit/Punish Counter (makes some ranged 214P cancels more reliable)"
+  },
+  "mai-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 8,
+    "on_hit": 1,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Very short range (only combos naturally from point blank 5LP/2LP); only useful for 5LK~LK~LK Target Combo"
+  },
+  "mai-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 18,
+    "on_hit": 5,
+    "on_block": -4,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Solid poke with good hitbox priority that can lead to combos with CH/PC/DR; links consistently into SA2 when used as a whiff punish; Mai lifts up her front hurtbox on frames 4-17 making it useful vs. low attacks"
+  },
+  "mai-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      16
+    ],
+    "recovery": 19,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Produces a crumple stun on Punish Counter, and +22 frame advantage"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "3f extra recovery on whiff; Great range for a safe poke; Mai lifts up her leg hurtbox on frames 10-16 making it decent vs. low attacks; grounded Punish Counter causes a crumple state (opponent is airborne for all follow-up hits); airborne Punish Counter puts opponents into limited juggle state; extends a hurtbox 1f before active that is vulnerable to projectiles; extends a hurtbox at mid-height for the first 17 recovery frames, making it more whiff punishable by standing or high-angled crouching buttons"
+  },
+  "mai-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 7,
+    "on_hit": 4,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; longest range of Mai's light normals; topmost hurtbox on frames 1-6 is vulnerable only to aerial strikes (preventing its use as an anti-air)"
+  },
+  "mai-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      9
+    ],
+    "recovery": 15,
+    "on_hit": 5,
+    "on_block": -3,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "2 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "2f extra recovery on whiff; good range for a cancelable 6f medium; the forward movement makes it riskier to whiff than similar attacks"
+  },
+  "mai-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 4,
+    "active_frames": [
+      10,
+      11,
+      20,
+      22
+    ],
+    "recovery": 19,
+    "on_hit": 4,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      400,
+      400
+    ],
+    "notes_sc": "2 hits; first hit has great hitbox priority for counter-poking and pulls the opponent closer on hit/block; useful as an approach or combo extension with Drive Rush; Counter-hit/Punish Counter advantage carries through both hits"
+  },
+  "mai-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 8,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      200
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK"
+  },
+  "mai-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 19,
+    "on_hit": -2,
+    "on_block": -6,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Cancelable low poke with decent range; useful Counter-hit conversion after 5LP at ranges where 2MP whiffs; has an extended hurtbox on whiff until the end of recovery; DR cancel is delayed until after active frames"
+  },
+  "mai-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -11,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "1 frame of recovery added when blocked"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Fastest air-to-air option with good horizontal hitbox priority"
+  },
+  "mai-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state; strong air-to-air hitbox; lower body projectile invuln 7-22f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)"
+  },
+  "mai-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Good hitbox for vertical approach; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)"
+  },
+  "mai-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [
+      "canCrossUp"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Cross-up; can be used as a fuzzy instant overhead (except vs. Blanka)"
+  },
+  "mai-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "canCrossUp"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Cross-up; lower body projectile invuln 7-20f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)"
+  },
+  "mai-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Most horizontal range of Mai's jump-ins; lower body projectile invuln 10-23f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)"
+  },
+  "mai-senkotsu-uchi": {
+    "name": "Senkotsu Uchi",
+    "name_ja": "扇骨打ち",
+    "input": "6mp",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      22
+    ],
+    "recovery": 18,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Fast overhead that can combo into lights with perfect meaty timing; spike knockdown vs. airborne opponents"
+  },
+  "mai-l-musasabi-no-mai": {
+    "name": "Musasabi no Mai (Light)",
+    "name_ja": "ムササビの舞 (弱)",
+    "input": "214lk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air",
+      "Considered airborne from frames 1 - 40",
+      "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-l-musasabi-no-mai": {
+    "name": "[Boosted] Musasabi no Mai (Light)",
+    "name_ja": "[強化版] ムササビの舞 (弱)",
+    "input": "214lk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air",
+      "Considered airborne from frames 1 - 40",
+      "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-m-musasabi-no-mai": {
+    "name": "Musasabi no Mai (Medium)",
+    "name_ja": "ムササビの舞 (中)",
+    "input": "214mk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air",
+      "Considered airborne from frames 1 - 40",
+      "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-m-musasabi-no-mai": {
+    "name": "[Boosted] Musasabi no Mai (Medium)",
+    "name_ja": "[強化版] ムササビの舞 (中)",
+    "input": "214mk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air",
+      "Considered airborne from frames 1 - 40",
+      "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-h-musasabi-no-mai": {
+    "name": "Musasabi no Mai (Heavy)",
+    "name_ja": "ムササビの舞 (強)",
+    "input": "214hk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air",
+      "Considered airborne from frames 1 - 40",
+      "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-h-musasabi-no-mai": {
+    "name": "[Boosted] Musasabi no Mai (Heavy)",
+    "name_ja": "[強化版] ムササビの舞 (強)",
+    "input": "214hk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air",
+      "Considered airborne from frames 1 - 40",
+      "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-od-musasabi-no-mai": {
+    "name": "Musasabi no Mai (OD)",
+    "name_ja": "ムササビの舞 (OD)",
+    "input": "214kk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air",
+      "Considered airborne from frames 1 - 40",
+      "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-od-musasabi-no-mai": {
+    "name": "[Boosted] Musasabi no Mai (OD)",
+    "name_ja": "[強化版] ムササビの舞 (OD)",
+    "input": "214kk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air",
+      "Considered airborne from frames 1 - 40",
+      "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-midare-kachousen": {
+    "name": "Midare Kachousen",
+    "name_ja": "乱れ花蝶扇",
+    "input": "236pp>6*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Trajectory changes on hit or block",
+      "After the trajectory change, properties change to 'High - Mid-air Projectile'",
+      "After the trajectory and property change, does not hit against moves invincible to mid-air projectiles"
+    ],
+    "invuln": {
+      "projectile": "After the trajectory and property change, does not hit against moves invincible to mid-air projectiles"
+    },
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      150,
+      150
+    ],
+    "notes_sc": "Throws an additional 2-hit projectile with OD priority (does not dissipate on contact with strike hitboxes); on contact with the opponent, the fan splits into 2 additional projectiles and bounces up before hitting on the way down; the two falling fans bounce at staggered heights, with the second hitting much later than the first; if 1 hit of the first Midare Kachousen is dissipated then the low bouncing fan does not appear; puts opponents into a limited juggle state if the initial Midare Kachousen fan connects, while the falling fans keep the opponent in grounded hitstun; () refers to damage/hitstun values of the bouncing follow-ups on hit or block; any hit that connects after the follow-up bounce overwrites the fan's hitstun/blockstun; Mai has an extended hurtbox vulnerable to strikes on her arm/head (28-79f); the listed frame advantage assumes Mai is at point blank range; there are small interruptible gaps on block before Midare Kachousen or the bouncing follow-ups connect; the exact gaps between falling fans varies greatly depending on spacing, standing/crouching, and character height; the bouncing fan does not trigger proximity guard (allowing back walk) and counts as an air attack (allows anti-air invuln moves to pass through)"
+  },
+  "mai-boosted-midare-kachousen": {
+    "name": "[Boosted] Midare Kachousen",
+    "name_ja": "[強化版] 乱れ花蝶扇",
+    "input": "236pp>6*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Trajectory changes on hit or block",
+      "After the trajectory change, properties change to 'High - Mid-air Projectile'",
+      "After the trajectory and property change, does not hit against moves invincible to mid-air projectiles"
+    ],
+    "invuln": {
+      "projectile": "After the trajectory and property change, does not hit against moves invincible to mid-air projectiles"
+    },
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      150,
+      150
+    ],
+    "notes_sc": "Throws an additional 2-hit projectile with OD priority (does not dissipate on contact with strike hitboxes); on contact with the opponent, the fan splits into 2 additional projectiles and bounces up before hitting on the way down; the two falling fans bounce at staggered heights, with the second hitting much later than the first; if 1 hit of the first Midare Kachousen is dissipated then the low bouncing fan does not appear; puts opponents into a limited juggle state if the initial Midare Kachousen fan connects, while the falling fans keep the opponent in grounded hitstun; () refers to damage/hitstun values of the bouncing follow-ups on hit or block; any hit that connects after the follow-up bounce overwrites the fan's hitstun/blockstun; Mai has an extended hurtbox vulnerable to strikes on her arm/head (28-79f); the listed frame advantage assumes Mai is at point blank range; there are small interruptible gaps on block before Midare Kachousen or the bouncing follow-ups connect; the exact gaps between falling fans varies greatly depending on spacing, standing/crouching, and character height; the bouncing fan does not trigger proximity guard (allowing back walk) and counts as an air attack (allows anti-air invuln moves to pass through)"
+  },
+  "mai-forward-throw": {
+    "name": "Forward Throw",
+    "name_ja": "前投げ",
+    "input": "lp+lk",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      5
+    ],
+    "recovery": 20,
+    "on_hit": 22,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be broken by pressing LP+LK"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-back-throw": {
+    "name": "Back Throw",
+    "name_ja": "後ろ投げ",
+    "input": "4lp+lk",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      5
+    ],
+    "recovery": 20,
+    "on_hit": 22,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be broken by pressing LP+LK"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-air-throw": {
+    "name": "Air Throw",
+    "name_ja": "空中投げ",
+    "input": "lp+lk",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      5
+    ],
+    "recovery": 20,
+    "on_hit": 22,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air",
+      "Can be broken by pressing LP+LK"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-l-hishou-ryuuenjin": {
+    "name": "Hishou Ryuuenjin (Light)",
+    "name_ja": "飛翔龍炎陣 (弱)",
+    "input": "623lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      22
+    ],
+    "recovery": 15,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 7 - 37"
+    ],
+    "invuln": {
+      "strike": "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-l-hishou-ryuuenjin": {
+    "name": "[Boosted] Hishou Ryuuenjin (Light)",
+    "name_ja": "[強化版] 飛翔龍炎陣 (弱)",
+    "input": "623lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      22
+    ],
+    "recovery": 15,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 7 - 37"
+    ],
+    "invuln": {
+      "strike": "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-m-hishou-ryuuenjin": {
+    "name": "Hishou Ryuuenjin (Medium)",
+    "name_ja": "飛翔龍炎陣 (中)",
+    "input": "623mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      22
+    ],
+    "recovery": 15,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 7 - 37"
+    ],
+    "invuln": {
+      "strike": "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-m-hishou-ryuuenjin": {
+    "name": "[Boosted] Hishou Ryuuenjin (Medium)",
+    "name_ja": "[強化版] 飛翔龍炎陣 (中)",
+    "input": "623mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      22
+    ],
+    "recovery": 15,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 7 - 37"
+    ],
+    "invuln": {
+      "strike": "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-h-hishou-ryuuenjin": {
+    "name": "Hishou Ryuuenjin (Heavy)",
+    "name_ja": "飛翔龍炎陣 (強)",
+    "input": "623hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      22
+    ],
+    "recovery": 15,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 7 - 37"
+    ],
+    "invuln": {
+      "strike": "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-h-hishou-ryuuenjin": {
+    "name": "[Boosted] Hishou Ryuuenjin (Heavy)",
+    "name_ja": "[強化版] 飛翔龍炎陣 (強)",
+    "input": "623hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      22
+    ],
+    "recovery": 15,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 7 - 37"
+    ],
+    "invuln": {
+      "strike": "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-od-hishou-ryuuenjin": {
+    "name": "Hishou Ryuuenjin (OD)",
+    "name_ja": "飛翔龍炎陣 (OD)",
+    "input": "623pp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      22
+    ],
+    "recovery": 15,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 7 - 37"
+    ],
+    "invuln": {
+      "strike": "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-od-hishou-ryuuenjin": {
+    "name": "[Boosted] Hishou Ryuuenjin (OD)",
+    "name_ja": "[強化版] 飛翔龍炎陣 (OD)",
+    "input": "623pp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      22
+    ],
+    "recovery": 15,
+    "on_hit": 0,
+    "on_block": -29,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 7 - 37"
+    ],
+    "invuln": {
+      "strike": "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-hien-ren-kyaku-2": {
+    "name": "Hien Ren Kyaku (2)",
+    "name_ja": "飛燕連脚（2段目）",
+    "input": "5lk>5lk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      8
+    ],
+    "recovery": 20,
+    "on_hit": -2,
+    "on_block": -10,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces the opponent into a standing position"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-hien-ren-kyaku-3": {
+    "name": "Hien Ren Kyaku (3)",
+    "name_ja": "飛燕連脚（3段目）",
+    "input": "5lk>5lk>5lk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 28,
+    "on_hit": 3,
+    "on_block": -10,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
+      "Considered airborne from frames 10 - 35"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-hoshi-kujaku-1": {
+    "name": "Hoshi Kujaku (1)",
+    "name_ja": "星孔雀（1段目）",
+    "input": "5hk>5hk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      12
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -1,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces the opponent into a standing position"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-hoshi-kujaku-2": {
+    "name": "Hoshi Kujaku (2)",
+    "name_ja": "星孔雀（2段目）",
+    "input": "5hk>5hk>5hk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 38,
+    "on_hit": 0,
+    "on_block": -11,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Fully invincible from frames 10 - 58 on hit only"
+    ],
+    "invuln": {
+      "full": "Fully invincible from frames 10 - 58 on hit only"
+    },
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 30%"
+    ]
+  },
+  "mai-l-kachousen": {
+    "name": "Kachousen (Light)",
+    "name_ja": "花蝶扇 (弱)",
+    "input": "236lp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-l-kachousen": {
+    "name": "[Boosted] Kachousen (Light)",
+    "name_ja": "[強化版] 花蝶扇 (弱)",
+    "input": "236lp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-m-kachousen": {
+    "name": "Kachousen (Medium)",
+    "name_ja": "花蝶扇 (中)",
+    "input": "236mp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-m-kachousen": {
+    "name": "[Boosted] Kachousen (Medium)",
+    "name_ja": "[強化版] 花蝶扇 (中)",
+    "input": "236mp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-h-kachousen": {
+    "name": "Kachousen (Heavy)",
+    "name_ja": "花蝶扇 (強)",
+    "input": "236hp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-h-kachousen": {
+    "name": "[Boosted] Kachousen (Heavy)",
+    "name_ja": "[強化版] 花蝶扇 (強)",
+    "input": "236hp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-od-kachousen": {
+    "name": "Kachousen (OD)",
+    "name_ja": "花蝶扇 (OD)",
+    "input": "236pp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-od-kachousen": {
+    "name": "[Boosted] Kachousen (OD)",
+    "name_ja": "[強化版] 花蝶扇 (OD)",
+    "input": "236pp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": 2,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-l-ryuuenbu": {
+    "name": "Ryuuenbu (Light)",
+    "name_ja": "龍炎舞 (弱)",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-l-ryuuenbu": {
+    "name": "[Boosted] Ryuuenbu (Light)",
+    "name_ja": "[強化版] 龍炎舞 (弱)",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-m-ryuuenbu": {
+    "name": "Ryuuenbu (Medium)",
+    "name_ja": "龍炎舞 (中)",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-m-ryuuenbu": {
+    "name": "[Boosted] Ryuuenbu (Medium)",
+    "name_ja": "[強化版] 龍炎舞 (中)",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-h-ryuuenbu": {
+    "name": "Ryuuenbu (Heavy)",
+    "name_ja": "龍炎舞 (強)",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-h-ryuuenbu": {
+    "name": "[Boosted] Ryuuenbu (Heavy)",
+    "name_ja": "[強化版] 龍炎舞 (強)",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-od-ryuuenbu": {
+    "name": "Ryuuenbu (OD)",
+    "name_ja": "龍炎舞 (OD)",
+    "input": "214pp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-od-ryuuenbu": {
+    "name": "[Boosted] Ryuuenbu (OD)",
+    "name_ja": "[強化版] 龍炎舞 (OD)",
+    "input": "214pp",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": 2,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-l-hissatsu-shinobi-bachi": {
+    "name": "Hissatsu Shinobi Bachi (Light)",
+    "name_ja": "必殺忍蜂 (弱)",
+    "input": "623lk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-l-hissatsu-shinobi-bachi": {
+    "name": "[Boosted] Hissatsu Shinobi Bachi (Light)",
+    "name_ja": "[強化版] 必殺忍蜂 (弱)",
+    "input": "623lk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-m-hissatsu-shinobi-bachi": {
+    "name": "Hissatsu Shinobi Bachi (Medium)",
+    "name_ja": "必殺忍蜂 (中)",
+    "input": "623mk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-m-hissatsu-shinobi-bachi": {
+    "name": "[Boosted] Hissatsu Shinobi Bachi (Medium)",
+    "name_ja": "[強化版] 必殺忍蜂 (中)",
+    "input": "623mk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-h-hissatsu-shinobi-bachi": {
+    "name": "Hissatsu Shinobi Bachi (Heavy)",
+    "name_ja": "必殺忍蜂 (強)",
+    "input": "623hk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-h-hissatsu-shinobi-bachi": {
+    "name": "[Boosted] Hissatsu Shinobi Bachi (Heavy)",
+    "name_ja": "[強化版] 必殺忍蜂 (強)",
+    "input": "623hk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-od-hissatsu-shinobi-bachi": {
+    "name": "Hissatsu Shinobi Bachi (OD)",
+    "name_ja": "必殺忍蜂 (OD)",
+    "input": "623kk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-boosted-od-hissatsu-shinobi-bachi": {
+    "name": "[Boosted] Hissatsu Shinobi Bachi (OD)",
+    "name_ja": "[強化版] 必殺忍蜂 (OD)",
+    "input": "623kk",
+    "type": "special",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 24,
+    "on_hit": 2,
+    "on_block": 2,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be performed in mid-air"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mai-kagerou-no-mai": {
+    "name": "Kagerou no Mai",
+    "name_ja": "影炎の舞",
+    "input": "236236*k",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      39
+    ],
+    "recovery": 51,
+    "on_hit": 0,
+    "on_block": -31,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 8,
+    "notes": [
+      "Invincible to strikes and throws between frames 1 - 8",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "The minimum guaranteed damage is 30%"
+    ],
+    "invuln": {
+      "strike_throw": "Invincible to strikes and throws between frames 1 - 8"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      250,
+      250,
+      250,
+      250,
+      250,
+      250,
+      250,
+      250
+    ],
+    "invuln_str": "1-8 Strike/Throw, 9-39 Air (Upper Body)",
+    "notes_sc": "Grants Mai 5 flame stocks on the last frame of recovery; flame stocks enhance special moves and SA1/SA2 (stocks do not carry over between rounds); short horizontal range but has a good anti-air hitbox that hits on both sides; KD advantage refers to grounded hit (higher advantage vs. airborne but also variable); 8-hit projectile, but Perfect Parry only incurs 1 recovery frame per hit (allows the opponent to interrupt between hits after one Perfect Parry); this projectile hitbox can cause it to lose to projectile invuln options when used as a reversal; on hit/block, the last 2 projectile hits have 1 active frame each, occurring consecutively (the remaining frames are converted to \"recovery frames\")"
+  },
+  "mai-boosted-kagerou-no-mai": {
+    "name": "[Boosted] Kagerou no Mai",
+    "name_ja": "[強化版] 影炎の舞",
+    "input": "236236*k",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      95
+    ],
+    "recovery": 46,
+    "on_hit": 0,
+    "on_block": -26,
+    "damage": 2300,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 12,
+    "notes": [
+      "Invincible to strikes and throws between frames 1 - 6",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "The minimum guaranteed damage is 30%"
+    ],
+    "invuln": {
+      "strike_throw": "Invincible to strikes and throws between frames 1 - 6"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150,
+      150,
+      150,
+      150,
+      150,
+      300,
+      500
+    ],
+    "invuln_str": "1-6 Strike/Throw, 7-77 Air (Upper Body)",
+    "notes_sc": "Grants Mai 5 flame stocks on the last frame of recovery; flame stocks enhance special moves and SA1/SA2 (stocks do not carry over between rounds); short horizontal range but has a good anti-air hitbox that hits on both sides; KD advantage refers to grounded hit (higher advantage vs. airborne but also variable); 8-hit projectile, but Perfect Parry only incurs 1 recovery frame per hit (allows the opponent to interrupt between hits after one Perfect Parry); this projectile hitbox can cause it to lose to projectile invuln options when used as a reversal; on hit/block, the last 2 projectile hits have 1 active frame each, occurring consecutively (the remaining frames are converted to \"recovery frames\")"
+  },
+  "mai-chou-hissatsu-shinobi-bachi": {
+    "name": "Chou Hissatsu Shinobi Bachi",
+    "name_ja": "超必殺忍蜂",
+    "input": "236236*p",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 7,
+    "active": 10,
+    "active_frames": [
+      7,
+      8,
+      12,
+      13,
+      26,
+      27,
+      32,
+      33,
+      40,
+      42
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -24,
+    "damage": 2800,
+    "chip_damage": 700,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "Completely invincible on frames 1 - 8",
+      "Minimum guaranteed damage is set to 40%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "full": "Completely invincible on frames 1 - 8"
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 40%",
+      "Combo scaling 20%"
+    ],
+    "super_cost": 2,
+    "per_hit": [
+      500,
+      500,
+      500,
+      500,
+      800
+    ],
+    "invuln_str": "1-8 Full",
+    "notes_sc": "11f extra recovery on block; solid range, but a short invincibility window that makes it difficult to use against slower projectiles; deals less damage from long range due to earlier hits whiffing; good reversal and juggle ender; generally should not be canceled into from OD specials (214PP: manually juggle afterward, 236KK: juggle j.MP > Air SA2)"
+  },
+  "mai-boosted-chou-hissatsu-shinobi-bachi": {
+    "name": "[Boosted] Chou Hissatsu Shinobi Bachi",
+    "name_ja": "[強化版] 超必殺忍蜂",
+    "input": "236236*p",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      42
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -24,
+    "damage": 3000,
+    "chip_damage": 700,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 12,
+    "notes": [
+      "Completely invincible on frames 1 - 8",
+      "Projectile invincibility from frames 9 - 12",
+      "Minimum guaranteed damage is set to 40%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "full": "Completely invincible on frames 1 - 8"
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 40%",
+      "Combo scaling 20%"
+    ],
+    "super_cost": 2,
+    "per_hit": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      800
+    ],
+    "invuln_str": "1-8 Full, 9-12 Projectile",
+    "notes_sc": "11f extra recovery on block; solid range, but a short invincibility window that makes it difficult to use against slower projectiles; deals less damage from long range due to earlier hits whiffing; good reversal and juggle ender; generally should not be canceled into from OD specials (214PP: manually juggle afterward, 236KK: juggle j.MP > Air SA2)"
+  },
+  "mai-shiranui-ryuu-enbu-ada-zakura": {
+    "name": "Shiranui Ryuu: Enbu Ada Zakura",
+    "name_ja": "不知火流：炎舞徒桜",
+    "input": "214214*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 8,
+    "active_frames": [
+      10,
+      11,
+      16,
+      17,
+      33,
+      36,
+      45,
+      48
+    ],
+    "recovery": 46,
+    "on_hit": 0,
+    "on_block": -33,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Completely invincible between frames 1 - 11",
+      "The minimum guaranteed damage is 50%",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "* Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible between frames 1 - 11"
+    },
+    "cancel": "",
+    "scaling": [
+      "*Immediate scaling 10%"
+    ],
+    "super_cost": 3,
+    "per_hit": [
+      400,
+      300,
+      2300
+    ],
+    "invuln_str": "1-11 Full",
+    "notes_sc": "1st hit causes cinematic; non-cinematic version does less damage (varies based on how many hits connect), but can juggle into 623K to recover some lost damage; cinematic time regenerates ~2 Drive bars for Mai; 3f startup when canceled from 236K/KK only; slower startup makes it risky as a reversal (many light normals can be safe with meaty timing)"
+  },
+  "mai-boosted-shiranui-ryuu-enbu-ada-zakura": {
+    "name": "[Boosted] Shiranui Ryuu: Enbu Ada Zakura",
+    "name_ja": "[強化版] 不知火流：炎舞徒桜",
+    "input": "214214*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 8,
+    "active_frames": [
+      10,
+      11,
+      16,
+      17,
+      33,
+      36,
+      45,
+      48
+    ],
+    "recovery": 46,
+    "on_hit": 0,
+    "on_block": -33,
+    "damage": 4500,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Completely invincible between frames 1 - 11",
+      "The minimum guaranteed damage is 50%",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "* Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible between frames 1 - 11"
+    },
+    "cancel": "",
+    "scaling": [
+      "*Immediate scaling 10%"
+    ],
+    "super_cost": 3,
+    "per_hit": [
+      450,
+      350,
+      2700
+    ],
+    "invuln_str": "1-11 Full",
+    "notes_sc": "1st hit causes cinematic; non-cinematic version does less damage (varies based on how many hits connect), but can juggle into 623K to recover some lost damage; cinematic time regenerates ~2 Drive bars for Mai; 3f startup when canceled from 236K/KK only; slower startup makes it risky as a reversal (many light normals can be safe with meaty timing)"
+  }
+}

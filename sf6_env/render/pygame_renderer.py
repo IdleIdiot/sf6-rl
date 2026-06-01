@@ -10,6 +10,8 @@ except ImportError:
 if TYPE_CHECKING:
     from sf6_env.engine.game import Game
 
+from sf6_env.engine.collision import _in_active_window
+
 WIDTH = 800
 HEIGHT = 450
 GROUND_SCREEN_Y = 380
@@ -94,10 +96,8 @@ class PygameRenderer:
 
         move = char.current_move_data
         if move:
-            startup = move.get("startup", 1)
-            active = move.get("active", 1)
             frame = char.action_frame
-            if startup <= frame < startup + active:
+            if _in_active_window(frame, move):
                 for hb in move.get("hitboxes", []):
                     ox = hb["x_offset"] * char.facing
                     oy = hb["y_offset"]
@@ -158,6 +158,15 @@ class PygameRenderer:
         timer_secs = max(0, (5400 - game.frame_count) // 60)
         timer_text = self.big_font.render(str(timer_secs), True, COLOR_TEXT)
         self.screen.blit(timer_text, (WIDTH // 2 - timer_text.get_width() // 2, margin))
+
+        # Combo / hits debug overlay
+        debug_y = super_y + 20
+        p1_dbg = self.font.render(
+            f"Combo:{game.p1.combo_count}  Hits:{game.p1.hits_this_action}", True, COLOR_TEXT)
+        self.screen.blit(p1_dbg, (margin, debug_y))
+        p2_dbg = self.font.render(
+            f"Combo:{game.p2.combo_count}  Hits:{game.p2.hits_this_action}", True, COLOR_TEXT)
+        self.screen.blit(p2_dbg, (WIDTH - margin - p2_dbg.get_width(), debug_y))
 
     def close(self) -> None:
         pygame.quit()

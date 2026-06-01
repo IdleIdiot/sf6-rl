@@ -1,5 +1,5 @@
 from __future__ import annotations
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import List, Optional, Tuple, TYPE_CHECKING
 
 if TYPE_CHECKING:
@@ -11,6 +11,42 @@ THROW_RANGE = 80.0
 HIT_NORMAL = 0
 HIT_COUNTER = 1    # hit during attacker startup frames
 HIT_PUNISH = 2     # hit during attacker recovery frames
+
+
+def _in_active_window(frame: int, move: dict) -> bool:
+    """
+    Return True if `frame` falls within any active (hitbox-out) window.
+
+    active_frames format from 4rays/sf6-move-data: flat list of [start, end] pairs.
+      [4, 6]              → frames 4–6 (inclusive)
+      [7, 8, 12, 13]      → frames 7–8 and 12–13
+      [6, 39]             → frames 6–39 (SA1 long window)
+
+    Falls back to the simple startup..startup+active range when active_frames
+    is absent.
+    """
+    pairs = move.get("active_frames")
+    if pairs and len(pairs) >= 2:
+        it = iter(pairs)
+        for start in it:
+            end = next(it, start)
+            if start <= frame <= end:
+                return True
+        return False
+    # fallback
+    startup = move.get("startup", 1)
+    active  = move.get("active", 1)
+    return startup <= frame < startup + active
+
+
+def _last_active_frame(move: dict) -> int:
+    """Return the last frame of the final active window."""
+    pairs = move.get("active_frames")
+    if pairs:
+        return max(pairs)
+    startup = move.get("startup", 1)
+    active  = move.get("active", 1)
+    return startup + active - 1
 
 
 @dataclass
@@ -57,12 +93,11 @@ def _get_hit_type(defender: "Character") -> int:
         return HIT_NORMAL
     frame = defender.action_frame
     startup = move.get("startup", 1)
-    active = move.get("active", 1)
-    total = startup + active + move.get("recovery", 1)
+    last_active = _last_active_frame(move)
     # Punish Counter: hit during recovery
-    if frame >= startup + active:
+    if frame > last_active:
         return HIT_PUNISH
-    # Counter Hit: hit during startup (before active frames)
+    # Counter Hit: hit during startup (before first active frame)
     if frame < startup:
         return HIT_COUNTER
     return HIT_NORMAL
@@ -74,10 +109,8 @@ def check_hit(attacker: "Character", defender: "Character") -> Optional[HitEvent
         return None
 
     frame = attacker.action_frame
-    startup = move.get("startup", 1)
-    active = move.get("active", 1)
 
-    if not (startup <= frame < startup + active):
+    if not _in_active_window(frame, move):
         return None
 
     # multi-hit: allow up to hit_count hits per action
@@ -99,11 +132,20 @@ def check_hit(attacker: "Character", defender: "Character") -> Optional[HitEvent
             hurtw = hurtb.to_world(defender.body.x, defender.body.y, defender.facing)
             if boxes_overlap(hw, hurtw):
                 hit_type = _get_hit_type(defender)
+                # Per-hit damage: use per_hit list if available
+                per_hit = move.get("per_hit", [])
+                hit_idx = attacker.hits_this_action
+                if per_hit and hit_idx < len(per_hit):
+                    hit_damage = per_hit[hit_idx]
+                    hit_chip = max(1, int(hit_damage * 0.25))
+                else:
+                    hit_damage = move.get("damage", 0)
+                    hit_chip = move.get("chip_damage", 0)
                 return HitEvent(
                     attacker_id=attacker.player_id,
                     defender_id=defender.player_id,
-                    damage=move.get("damage", 0),
-                    chip_damage=move.get("chip_damage", 0),
+                    damage=hit_damage,
+                    chip_damage=hit_chip,
                     on_hit_adv=move.get("on_hit", 0),
                     on_block_adv=move.get("on_block", 0),
                     drive_gain_hit=move.get("drive_gain_hit", 0.0),
@@ -170,5 +212,3 @@ def check_projectile_hits(projectiles: list, defender: "Character") -> Optional[
                     attacker_drive_rush=False,
                 )
     return None
-
-

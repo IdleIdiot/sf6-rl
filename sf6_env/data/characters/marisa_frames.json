@@ -1,0 +1,3602 @@
+{
+  "marisa-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      8
+    ],
+    "recovery": 11,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      400
+    ],
+    "notes_sc": "Good neutral buffer into 5LP~LP Target Combo (requires at least a Counter-hit to combo); causes air reset if juggled into",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "marisa-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      10
+    ],
+    "recovery": 15,
+    "on_hit": 2,
+    "on_block": -1,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "2 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "2f extra recovery on whiff; great hitbox and a strong buffer into 5MP~MP Target Combo",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "marisa-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      13
+    ],
+    "recovery": 23,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hold the button for more than 21 frames to change its properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%"
+    ],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "Can hold button 21f for improved properties; strong whiff punish tool",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "marisa-stand-heavy-punch-charged": {
+    "name": "Standing Heavy Punch (Charged)",
+    "name_ja": "立ち強P (ホールド)",
+    "input": "5(hp)",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 26,
+    "active": 2,
+    "active_frames": [
+      26,
+      27
+    ],
+    "recovery": 22,
+    "on_hit": 7,
+    "on_block": 4,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state knockdown when hitting a mid-air opponent",
+      "15 frames of advantage added when the attack lands as a Punish Counter.",
+      "1 frames of recovery added on hit or when blocked"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "marisa-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      7
+    ],
+    "recovery": 14,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      400
+    ],
+    "notes_sc": "At farther ranges, can only combo into SA2; special cancel is delayed until after 2nd recovery frame; DR cancel is delayed until after 3rd recovery frame",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "marisa-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      14
+    ],
+    "recovery": 16,
+    "on_hit": 4,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Good poke and Drive Rush starter",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "marisa-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      16
+    ],
+    "recovery": 25,
+    "on_hit": 1,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hold the button for more than 17 frames to change its properties",
+      "Forces a juggle state knockdown when hitting a mid-air opponent",
+      "Forces a juggle state knockdown when the attack lands for a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%"
+    ],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "Can hold button 17f for improved properties; solid poke with good hitbox priority; Punish Counter puts opponent into free juggle state; puts airborne opponents into limited juggle state; extends a hurtbox 1f before active that is vulnerable to projectiles",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1<br><span style=\"color: #fa6d0d;\">[0 PC]</span>",
+    "juggle_limit": "1"
+  },
+  "marisa-stand-heavy-kick-charged": {
+    "name": "Standing Heavy Kick (Charged)",
+    "name_ja": "立ち強K (ホールド)",
+    "input": "5(hk)",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 27,
+    "active": 2,
+    "active_frames": [
+      27,
+      28
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": 1,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Increase juggle state time when attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 10%"
+    ]
+  },
+  "marisa-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      5
+    ],
+    "recovery": 10,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 2LP/2LK; Marisa's only 4f normal; special cancel is delayed until after active frames; DR cancel is delayed until after 2nd recovery frame",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "marisa-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 16,
+    "on_hit": 3,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Long range for a cancelable 2MP (but slower than average startup); topmost hurtboxes on frames 8-15 are projectile invincible (avoids Sagat's MP/HP Tiger Shot)",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "marisa-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      13
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -6,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": 0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hold the button for more than 17 frames to change its properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "invuln_str": "10-13 Air (Head)",
+    "notes_sc": "Can hold button 17f for improved properties; slow but solid anti-air; cannot hit cross-up; only first 2 active frames hit grounded opponents; active frames 3-5 only hit airborne opponents; puts opponent into limited juggle state on hit (higher launch vs. airborne, and much higher on Punish Counter)",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "marisa-crouch-heavy-punch-charged": {
+    "name": "Crouching Heavy Punch (Charged)",
+    "name_ja": "しゃがみ強P (ホールド)",
+    "input": "2+[hp]",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 21,
+    "active": 2,
+    "active_frames": [
+      21,
+      26
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "marisa-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 12,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 2LP/2LK",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "marisa-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 18,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "1f extra recovery on whiff/block; solid low poke with good range and hitbox priority; strong Drive Rush starter that links into 4HP or 5MP~MP at close range, 2MP at mid range, or 6MP from farther out; topmost hurtboxes on frames 9-16 are projectile invincible (avoids Sagat's MP/HP Tiger Shot but becomes vulnerable on frame 17~)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "marisa-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      13
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -11,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": 0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hold the button for more than 20 frames to change its properties",
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "marisa-crouch-heavy-kick-charged": {
+    "name": "Crouching Heavy Kick (Charged)",
+    "name_ja": "しゃがみ強K (ホールド)",
+    "input": "2+[hk]",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 23,
+    "active": 2,
+    "active_frames": [
+      23,
+      25
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter",
+      "3 frames of recovery added on hit or when blocked"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "marisa-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      10
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Quick air-to-air",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "marisa-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      10
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state; lower body projectile invuln 7-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "4"
+  },
+  "marisa-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hold the button for more than 20 frames to change its properties",
+      "Produces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Can hold button 20f for improved properties; causes spike knockdown vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "marisa-jump-heavy-punch-charged": {
+    "name": "Jumping Heavy Punch (Charged)",
+    "name_ja": "ジャンプ強P (ホールド)",
+    "input": "j>[hp]",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 28,
+    "active": 2,
+    "active_frames": [
+      28,
+      33
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "marisa-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Cross-up; useful for safe jumps; can be used as a fuzzy instant overhead",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "marisa-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Farthest reaching horizontal jump-in with good hitbox priority; lower body projectile invuln 8-25f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "marisa-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hold down the button for over 20 frames to change its properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Can hold button 20f for improved properties; lower body projectile invuln 10-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "marisa-jump-heavy-kick-charged": {
+    "name": "Jumping Heavy Kick (Charged)",
+    "name_ja": "ジャンプ強K (ホールド)",
+    "input": "j>[hk]",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 29,
+    "active": 2,
+    "active_frames": [
+      29,
+      34
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "light-two-hitter": {
+    "name": "Light Two Hitter",
+    "name_ja": "ライトワンツー",
+    "input": "lp>lp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      16
+    ],
+    "recovery": 22,
+    "on_hit": -3,
+    "on_block": -6,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A rapid series of attacks"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 10%",
+      "Combo scaling 15%"
+    ],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Requires Counter-hit, Punish Counter, or Drive Rush 5LP to combo; 3f gap on block between hits that allows for a frame trap",
+    "drive_dmg_on_block": "1000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "medium-two-hitter": {
+    "name": "Medium Two Hitter",
+    "name_ja": "ミドルワンツー",
+    "input": "mp>mp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      15
+    ],
+    "recovery": 23,
+    "on_hit": -3,
+    "on_block": -8,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack that can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Great pressure and bully tool from 5MP; true blockstring between hits; special/DR cancel is delayed until after 1st recovery frame",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "heavy-two-hitter": {
+    "name": "Heavy Two Hitter",
+    "name_ja": "ヘビィーワンツー",
+    "input": "hp>hp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 24,
+    "active": 2,
+    "active_frames": [
+      24,
+      26
+    ],
+    "recovery": 19,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack that allows you to move first even if blocked"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "() refers to scaled damage after 5HP combo starter; 6f gap between hits on block (1f gap if starting from 5[HP]); grants a safe jump near the corner on a grounded hit or low-height juggle",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "2"
+  },
+  "volare-combo": {
+    "name": "Volare Combo",
+    "name_ja": "ヴォラーレコンボ",
+    "input": "j>mp>mp",
+    "type": "targetCombo",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of attacks performed while jumping"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Spike KD vs. airborne opponents",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "1"
+  },
+  "caelum-arc": {
+    "name": "Caelum Arc",
+    "name_ja": "カエルムアーク",
+    "input": "j>2hp",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      17
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A move with an area of attack so wide that it can even hit opponents who are behind you",
+      "Hold down the button for over 20 frames to change its properties",
+      "Produces a slam knockdown when hitting a mid-air opponent",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Can hit Cross-up; can hold button 20f for improved properties; causes spike knockdown vs. airborne opponents; lower body projectile invuln 9f until land except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "caelum-arc-charged": {
+    "name": "Caelum Arc (Charged)",
+    "name_ja": "カエルムアーク (ホールド)",
+    "input": "j>2[hp]",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 28,
+    "active": 2,
+    "active_frames": [
+      28,
+      36
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "canCrossUp"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A move with an area of attack so wide that it can even hit opponents who are behind you",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "magna-bunker": {
+    "name": "Magna Bunker",
+    "name_ja": "マグナバンカー",
+    "input": "4hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      9
+    ],
+    "recovery": 21,
+    "on_hit": 3,
+    "on_block": -1,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A forward-moving attack that can be canceled into special moves",
+      "Hold down the button for over 17 frames to change its properties",
+      "3 frames of recovery added if the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "3f extra recovery on whiff; can hold button 17f for improved properties; causes air reset when juggled into without Drive Rush; short range but important in combos and pressure; special/DR cancel is delayed until after 2nd recovery frame",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "magna-bunker-charged": {
+    "name": "Magna Bunker (Charged)",
+    "name_ja": "マグナバンカー (ホールド)",
+    "input": "4[hp]",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      21
+    ],
+    "recovery": 24,
+    "on_hit": 13,
+    "on_block": 4,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A forward-moving attack that can be canceled into special moves",
+      "6 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "novacula-swipe": {
+    "name": "Novacula Swipe",
+    "name_ja": "ノバキュラスワイプ",
+    "input": "6mp>5hp",
+    "type": "targetCombo",
+    "block_type": "low",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      12
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack that can knock an opponent down"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Low follow-up; true blockstring from 6MP, so an opponent mashing a crouching button after blocked 6MP will not be frame trapped; useful confirm if 6MP hits crouching opponent",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "novacula-thrust": {
+    "name": "Novacula Thrust",
+    "name_ja": "ノバキュラシュート",
+    "input": "6mp>5hk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      14
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -10,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A combination attack that hits twice against standing opponents",
+      "Can be canceled into a Super Art",
+      "Does not hit crouching opponents"
+    ],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Whiffs on crouching opponents; if the opponent is standing, this ender is preferable for its corner carry and Super cancelability; Super cancel is delayed until after 3rd active frame",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "malleus-breake-1": {
+    "name": "Malleus Breaker (1)",
+    "name_ja": "マレウスビート（1段目）",
+    "input": "3hp",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 21,
+    "active": 2,
+    "active_frames": [
+      21,
+      22
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack that cannot be blocked crouching",
+      "Hold down the button for over 17 frames to change its properties",
+      "Produces a floor bound when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "malleus-breake-1-charged": {
+    "name": "Malleus Breaker (1 Charged)",
+    "name_ja": "マレウスビート（1段目 ホールド）",
+    "input": "3[hp]",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 31,
+    "active": 2,
+    "active_frames": [
+      31,
+      32
+    ],
+    "recovery": 19,
+    "on_hit": 5,
+    "on_block": 2,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack that cannot be blocked crouching",
+      "Adds a floor bounding effect during a mid-air hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "malleus-breake-2": {
+    "name": "Malleus Breaker (2)",
+    "name_ja": "マレウスビート（2段目）",
+    "input": "3hp>3hp",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      19
+    ],
+    "recovery": 24,
+    "on_hit": -3,
+    "on_block": -12,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack that cannot be blocked crouching"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "falx-crusher-1": {
+    "name": "Falx Crusher (1)",
+    "name_ja": "ファルクスクラッシュ（1段目）",
+    "input": "6hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      17
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces the opponent into a standing position",
+      "Hold the button for more than 21 frames to change its properties"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "falx-crusher-1-charged": {
+    "name": "Falx Crusher (1 Charged)",
+    "name_ja": "ファルクスクラッシュ（1段目 ホールド）",
+    "input": "6[hk]",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 27,
+    "active": 2,
+    "active_frames": [
+      27,
+      30
+    ],
+    "recovery": 19,
+    "on_hit": 10,
+    "on_block": 3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces the opponent into a standing position",
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "falx-crusher-2": {
+    "name": "Falx Crusher (2)",
+    "name_ja": "ファルクスクラッシュ（2段目）",
+    "input": "6hk>6hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      20
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack with long reach"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "gladius-light": {
+    "name": "Gladius (Light)",
+    "name_ja": "グラディウス（弱）",
+    "input": "236lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      20
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -5,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A devastating straight punch. Can be powered up by holding the attack button",
+      "Hold down the button for over 26 frames to change its properties",
+      "Upper body has Super Armor for 1 hit from frames 5 - 10"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gladius-light-charged": {
+    "name": "Gladius (Light Charged)",
+    "name_ja": "グラディウス（弱 ホールド）",
+    "input": "236[lp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 30,
+    "active": 2,
+    "active_frames": [
+      30,
+      33
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 2400,
+    "chip_damage": 600,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Upper body has Super Armor for 1 hit from frames 5 - 26",
+      "Has armor break properties"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gladius-medium": {
+    "name": "Gladius (Medium)",
+    "name_ja": "グラディウス（中）",
+    "input": "236mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 19,
+    "active": 2,
+    "active_frames": [
+      19,
+      22
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -5,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A devastating straight punch. Can be powered up by holding the attack button",
+      "Hold down the button for over 29 frames to change its properties",
+      "Upper body has Super Armor for 1 hit from frames 5 - 12"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gladius-medium-charged": {
+    "name": "Gladius (Medium Charged)",
+    "name_ja": "グラディウス（中 ホールド）",
+    "input": "236[mp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 35,
+    "active": 2,
+    "active_frames": [
+      35,
+      38
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 2600,
+    "chip_damage": 650,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Upper body has Super Armor for 1 hit from frames 5 - 29",
+      "Has armor break properties"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gladius-heavy": {
+    "name": "Gladius (Heavy)",
+    "name_ja": "グラディウス（大）",
+    "input": "236hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      25
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -5,
+    "damage": 1600,
+    "chip_damage": 400,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A devastating straight punch. Can be powered up by holding the attack button",
+      "Hold down the button for over 35 frames to change its properties",
+      "Upper body has Super Armor for 1 hit from frames 5 - 15"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gladius-heavy-charged": {
+    "name": "Gladius (Heavy Charged)",
+    "name_ja": "グラディウス（大 ホールド）",
+    "input": "236[hp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 41,
+    "active": 2,
+    "active_frames": [
+      41,
+      44
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 2800,
+    "chip_damage": 700,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A devastating straight punch. Can be powered up by holding the attack button",
+      "Upper body has Super Armor for 1 hit from frames 5 - 35",
+      "Has armor break properties"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gladius-od": {
+    "name": "Gladius (OD)",
+    "name_ja": "グラディウス（OD）",
+    "input": "236(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 19,
+    "active": 2,
+    "active_frames": [
+      19,
+      22
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 1700,
+    "chip_damage": 425,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A devastating straight punch. Can be powered up by holding the attack button",
+      "Hold down the button for over 29 frames to change its properties",
+      "Upper body has Super Armor for 2 hits from frames 1 - 22",
+      "Has armor break properties"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "gladius-od-charged": {
+    "name": "Gladius (OD Charged)",
+    "name_ja": "グラディウス（OD ホールド）",
+    "input": "236[pp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 35,
+    "active": 2,
+    "active_frames": [
+      35,
+      38
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 2900,
+    "chip_damage": 725,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Upper body has Super Armor for 2 hits from frames 1 - 38",
+      "Has armor break properties"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "dimachaerus-light-1": {
+    "name": "Dimachaerus (Light 1)",
+    "name_ja": "ディマカイルス（弱 1段目）",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      15
+    ],
+    "recovery": 30,
+    "on_hit": -3,
+    "on_block": -16,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.125,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos",
+      "Hold down the button for over 35 frames to change its properties",
+      "Can transition to branching attacks from frames 22 - 32"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "dimachaerus-light-2": {
+    "name": "Dimachaerus (Light 2)",
+    "name_ja": "ディマカイルス（弱 2段目）",
+    "input": "214lp>6*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      17
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -13,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.125,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "dimachaerus-medium-1": {
+    "name": "Dimachaerus (Medium 1)",
+    "name_ja": "ディマカイルス（中 1段目）",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      20
+    ],
+    "recovery": 30,
+    "on_hit": 0,
+    "on_block": -16,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.125,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos",
+      "Can transition to branching attacks from frames 27 - 36"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "dimachaerus-medium-2": {
+    "name": "Dimachaerus (Medium 2)",
+    "name_ja": "ディマカイルス（中 2段目）",
+    "input": "214mp>6*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      17
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -14,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.125,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "dimachaerus-heavy-1": {
+    "name": "Dimachaerus (Heavy 1)",
+    "name_ja": "ディマカイルス（大 1段目）",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      25
+    ],
+    "recovery": 30,
+    "on_hit": 0,
+    "on_block": -16,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.125,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos",
+      "Can transition to branching attacks from frames 35 - 42"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "dimachaerus-heavy-2": {
+    "name": "Dimachaerus (Heavy 2)",
+    "name_ja": "ディマカイルス（大 2段目）",
+    "input": "214hp>6*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      22
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -13,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.125,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "dimachaerus-od-1": {
+    "name": "Dimachaerus (OD 1)",
+    "name_ja": "ディマカイルス（OD 1段目）",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      19
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 5 - 19",
+      "Can transition to branching attacks from frames 31 - 39",
+      "Has armor break properties"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 5 - 19"
+    },
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "dimachaerus-od-2": {
+    "name": "Dimachaerus (OD 2)",
+    "name_ja": "ディマカイルス（OD 2段目）",
+    "input": "214(pp)>6*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      17
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -13,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "phalanx-light": {
+    "name": "Phalanx (Light)",
+    "name_ja": "ファランクス（弱）",
+    "input": "623lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 25,
+    "active": 2,
+    "active_frames": [
+      25,
+      27
+    ],
+    "recovery": 18,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Leap into the air and come down with a powerful downward punch. Allows you to move first even if it is blocked, making it effective for continuing offensive pressure",
+      "Upper body has Super Armor from frames 7 - 11",
+      "Invincible to projectiles from frames 12 - 27",
+      "Considered airborne from frames 11 - 29"
+    ],
+    "invuln": {
+      "projectile": "Invincible to projectiles from frames 12 - 27"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "phalanx-medium": {
+    "name": "Phalanx (Medium)",
+    "name_ja": "ファランクス（中）",
+    "input": "623mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 28,
+    "active": 2,
+    "active_frames": [
+      28,
+      30
+    ],
+    "recovery": 18,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1600,
+    "chip_damage": 400,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Leap into the air and come down with a powerful downward punch. Allows you to move first even if it is blocked, making it effective for continuing offensive pressure",
+      "Upper body has Super Armor for 1 hit from frames 7 - 13",
+      "Lower body is invincible to projectiles from frames 12 - 30",
+      "Considered airborne from frames 14 - 32"
+    ],
+    "invuln": {
+      "projectile": "Lower body is invincible to projectiles from frames 12 - 30"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "phalanx-heavy": {
+    "name": "Phalanx (Heavy)",
+    "name_ja": "ファランクス（大）",
+    "input": "623hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 32,
+    "active": 2,
+    "active_frames": [
+      32,
+      34
+    ],
+    "recovery": 18,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1700,
+    "chip_damage": 425,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Leap into the air and come down with a powerful downward punch. Allows you to move first even if it is blocked, making it effective for continuing offensive pressure",
+      "Upper body has Super Armor from frames 10 - 15",
+      "Invincible to projectiles from frames 12 - 34",
+      "Considered airborne from frames 17 - 36"
+    ],
+    "invuln": {
+      "projectile": "Invincible to projectiles from frames 12 - 34"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "phalanx-od": {
+    "name": "Phalanx (OD)",
+    "name_ja": "ファランクス（OD）",
+    "input": "623(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 28,
+    "active": 2,
+    "active_frames": [
+      28,
+      30
+    ],
+    "recovery": 18,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Leap into the air and come down with a powerful downward punch. Allows you to move first even if it is blocked, making it effective for continuing offensive pressure",
+      "Upper body has Super Armor from frames 6 - 12",
+      "Invincible to projectiles from frames 12 - 30",
+      "Considered airborne from frames 14 - 32",
+      "Produces a wall splat if the opponent reaches the wall",
+      "Has armor break properties"
+    ],
+    "invuln": {
+      "projectile": "Invincible to projectiles from frames 12 - 30"
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "quadriga-light": {
+    "name": "Quadriga (Light)",
+    "name_ja": "クアドリガ（弱）",
+    "input": "236lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      23
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -6,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hop forward with a powerful front kick. Useful as a surprise attack that allows you to close the distance with your opponent, and can also be used to tack on additional hits in combos"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "quadriga-medium": {
+    "name": "Quadriga (Medium)",
+    "name_ja": "クアドリガ（中）",
+    "input": "236mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 24,
+    "active": 2,
+    "active_frames": [
+      24,
+      27
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hop forward with a powerful front kick. Useful as a surprise attack that allows you to close the distance with your opponent, and can also be used to tack on additional hits in combos"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "quadriga-heavy": {
+    "name": "Quadriga (Heavy)",
+    "name_ja": "クアドリガ（大）",
+    "input": "236hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 29,
+    "active": 2,
+    "active_frames": [
+      29,
+      32
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1600,
+    "chip_damage": 400,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hop forward with a powerful front kick. Useful as a surprise attack that allows you to close the distance with your opponent, and can also be used to tack on additional hits in combos"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "quadriga-od": {
+    "name": "Quadriga (OD)",
+    "name_ja": "クアドリガ（OD）",
+    "input": "236(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 24,
+    "active": 2,
+    "active_frames": [
+      24,
+      27
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -6,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hop forward with a powerful front kick. Useful as a surprise attack that allows you to close the distance with your opponent, and can also be used to tack on additional hits in combos",
+      "Produces a wall splat on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "scutum": {
+    "name": "Scutum",
+    "name_ja": "スクトゥム",
+    "input": "214*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A defensive maneuver in which you cover your head with both arms, giving armor to your upper body and automatically countering your opponent's attacks if hit. If you continue holding the button following a counter, you will return to the Scutum stance",
+      "Upper body has Super Armor for 1 hit from frames 3 - 28",
+      "Automatically transitions into a special attack when the Super Armor absorbs the opponent’s attack",
+      "Can transition to branching attacks from frames 9 - 14",
+      "Hold down the button to extend the technique"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Stance with 2-hit full-body armor can be extended an extra 30f by holding a kick button, followed by 29 unarmored recovery frames; cancelable into follow-ups after 8f; stance cannot be canceled into from other attacks; absorbing an attack automatically triggers counterattack follow-up; Marisa takes a fixed 6f hitstop when absorbing attacks (causing the counterattack to often land as a Counter-hit rather than a Punish Counter against medium/heavy attacks)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "scutum-physical-counter": {
+    "name": "Scutum (Physical Counter)",
+    "name_ja": "スクトゥム（当身派生版）",
+    "input": "214*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      10
+    ],
+    "recovery": 20,
+    "on_hit": -1,
+    "on_block": -3,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "armorBreak",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take an attack during Scutum",
+      "Always in Punish Counter state during execution",
+      "Scutum stance continues while the button is held"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "scutum-od": {
+    "name": "Scutum (OD)",
+    "name_ja": "スクトゥム（OD）",
+    "input": "214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A defensive maneuver in which you cover your head with both arms, giving armor to your upper body and automatically countering your opponent's attacks if hit. If you continue holding the button following a counter, you will return to the Scutum stance",
+      "Upper body has Super Armor for 2 hits from frames 1 - 28",
+      "Automatically transitions into a special attack when the Super Armor absorbs the opponent’s attack",
+      "Can transition to branching attacks from frames 9 - 14",
+      "Hold down the button to extend the technique"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "scutum-od-physical-counter": {
+    "name": "Scutum (OD Physical Counter)",
+    "name_ja": "スクトゥム（OD 当身派生版）",
+    "input": "214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      10
+    ],
+    "recovery": 20,
+    "on_hit": -1,
+    "on_block": -3,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "armorBreak",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Take an attack during OD Scutum",
+      "Always in Punish Counter state during execution",
+      "Scutum stance continues while the button is held"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "tonitrus-1": {
+    "name": "Tonitrus (1)",
+    "name_ja": "トニトルス (1段目)",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      17
+    ],
+    "recovery": 23,
+    "on_hit": 1,
+    "on_block": -3,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Scutum",
+      "A two-hit attack that can be performed from Scutum. The first hit is an overhead attack that cannot be blocked crouching, making it useful for penetrating defenses",
+      "Always in Punish Counter state during execution",
+      "2 frames of recovery added if the attack misses",
+      "Can transition to branching attacks on hit or block"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "tonitrus-2": {
+    "name": "Tonitrus (2)",
+    "name_ja": "トニトルス (2段目)",
+    "input": "*p>*p",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      22
+    ],
+    "recovery": 36,
+    "on_hit": 0,
+    "on_block": -21,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Scutum",
+      "A two-hit attack that can be performed from Scutum. The first hit is an overhead attack that cannot be blocked crouching, making it useful for penetrating defenses",
+      "Always in Punish Counter state during execution"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "procella": {
+    "name": "Procella",
+    "name_ja": "プロケッラ",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "low",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      18
+    ],
+    "recovery": 37,
+    "on_hit": 0,
+    "on_block": -24,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Scutum",
+      "A sweeping kick that can be performed from Scutum. It is a low attack with long reach that cannot be blocked standing, making it useful for surprise attacks",
+      "Always in Punish Counter state during execution"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Risky low ender; may catch opponent by surprise since the overhead ender is safe on block; Marisa is in a Punish Counter state for entire duration; range includes 0.218 forward movement from 214K startup",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "5"
+  },
+  "enfold": {
+    "name": "Enfold",
+    "name_ja": "エンフォルド",
+    "input": "(lplk)",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 54,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2875,
+    "chip_damage": 718,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During scutum",
+      "A throw that can be performed from Scutum. Pin your opponent to the ground and pound them with a single powerful punch. Useful as a way to break through the guard of an opponent who is expecting Scutum to be followed by a punch or kick",
+      "Always in Punish Counter state during execution",
+      "With Classic Controls",
+      "Does 2875 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 2300 individual damage when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      2500
+    ],
+    "notes_sc": "Marisa is in a Punish Counter state for entire duration; Range: 1.109 (final active frame: 1.164); range includes 0.218 forward movement from 214K startup",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "javelin-of-marisa": {
+    "name": "Javelin of Marisa",
+    "name_ja": "マリーザジャベリン",
+    "input": "236236*p",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 19,
+    "active": 2,
+    "active_frames": [
+      19,
+      23
+    ],
+    "recovery": 60,
+    "on_hit": 0,
+    "on_block": -43,
+    "damage": 2400,
+    "chip_damage": 600,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Bring a full-power punch down on your opponent with a wide swing. Hold the button to increase its damage",
+      "Hold down the button for over 27 frames to change its properties",
+      "Super Armor for 2 hits from frames 1 - 23",
+      "Minimum guaranteed damage is set to 30%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      2400
+    ],
+    "invuln_str": "1-10 Full",
+    "notes_sc": "Automatically triggers counterattack after Held SA1 armor absorbs a strike or throw on frames 1-27; can be baited with safe jump timing",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "5000",
+    "juggle_start": "100",
+    "juggle_limit": "5"
+  },
+  "javelin-of-marisa-charged": {
+    "name": "Javelin of Marisa (Charged)",
+    "name_ja": "マリーザジャベリン（ホールド）",
+    "input": "236236[*p]",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 42,
+    "active": 2,
+    "active_frames": [
+      42,
+      47
+    ],
+    "recovery": 60,
+    "on_hit": 0,
+    "on_block": -42,
+    "damage": 2900,
+    "chip_damage": 725,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Bring a full-power punch down on your opponent with a wide swing. Hold the button to increase its damage",
+      "Transitions to attack when hit by an opponent’s attack between frames 1 - 27",
+      "Upper body has Super Armor for 2 hits from frames 28 - 47",
+      "Minimum guaranteed damage is set to 30%",
+      "Values do not change on counter or Punish Counter",
+      "Properties change to the following if the attack lands on frames 46 - 47",
+      "- Damage is 2600",
+      "- Does not go into full cinematic animation"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1
+  },
+  "javelin-of-marisa-physical-counter": {
+    "name": "Javelin of Marisa (Physical Counter)",
+    "name_ja": "マリーザジャベリン（当身派生版）",
+    "input": "236236*p",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 54,
+    "on_hit": 0,
+    "on_block": -37,
+    "damage": 2640,
+    "chip_damage": 660,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Bring a full-power punch down on your opponent with a wide swing. Hold the button to increase its damage",
+      "Completely invincible from frames 1 - 10"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 10"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1
+  },
+  "meteorite": {
+    "name": "Meteorite",
+    "name_ja": "メテオリティス",
+    "input": "214214*p",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 9,
+    "active": 4,
+    "active_frames": [
+      9,
+      15,
+      49,
+      51
+    ],
+    "recovery": 59,
+    "on_hit": 0,
+    "on_block": -44,
+    "damage": 2500,
+    "chip_damage": 625,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Leap into the air with a tackle and descend with a single devastating punch. Useful as an anti-air attack or as a way to tack on big damage at the end of a combo",
+      "Completely invincible from frames 1 - 15",
+      "Minimum guaranteed damage is set to 40%",
+      "Considered airborne from frames 16 - 48",
+      "Values do not change on counter or Punish Counter",
+      "Properties change to the following if the attack lands between frames 49 - 51",
+      "- Damage is 2500",
+      "- Does not go into full cinematic animation"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 15"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 15%"
+    ],
+    "super_cost": 2,
+    "per_hit": [
+      3000
+    ],
+    "invuln_str": "1-16 Full",
+    "notes_sc": "Useful anti-air, reversal, and juggle ender; can be steered by holding forward/back; this affects the range, allowing you to hold back for close anti-airs or hold forward in ranged juggles or fireball punishes; upward hit triggers a cinematic; on block/whiff, ends with a downward slam that does 500 less damage than the cinematic version (still does full Drive Damage on hit); Marisa's collision box extends far downward, preventing opponent from walking or dashing underneath (opponent can still jump to avoid 2nd hit)",
+    "drive_dmg_on_block": "2500x2",
+    "drive_dmg_on_hit": "10000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "goddess-of-the-hunt": {
+    "name": "Goddess of the Hunt",
+    "name_ja": "アポロウーサ",
+    "input": "236236*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      19
+    ],
+    "recovery": 60,
+    "on_hit": 0,
+    "on_block": -39,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After sending your opponent to their knees with a vicious tackle, hit them with a devastating punch that sends them flying against the wall. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure",
+      "Completely invincible from frames 1 - 19",
+      "Values do not change on counter or Punish Counter",
+      "Minimum guaranteed damage is set to 50%"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 19"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 3,
+    "per_hit": [
+      4000
+    ],
+    "invuln_str": "1-19 Full",
+    "notes_sc": "Takes opponent to corner; cinematic time regenerates ~2.1 Drive bars for Marisa; excellent whiff punish and projectile counter tool (especially with Modern controls)",
+    "drive_dmg_on_block": "7500",
+    "drive_dmg_on_hit": "15000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "goddess-of-the-hunt-ca": {
+    "name": "Goddess of the Hunt (Critical Art)",
+    "name_ja": "アポロウーサ (CA)",
+    "input": "236236*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      19
+    ],
+    "recovery": 60,
+    "on_hit": 0,
+    "on_block": -39,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When under 25% vitality",
+      "After sending your opponent to their knees with a vicious tackle, hit them with a devastating punch that sends them flying against the wall. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure",
+      "Completely invincible from frames 1 - 19",
+      "Values do not change on counter or Punish Counter",
+      "Minimum guaranteed damage is set to 50%"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 19"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 3
+  },
+  "mounted-grace": {
+    "name": "Mounted Grace",
+    "name_ja": "マウンテッドグレイス",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab an opponent by the leg to send them tumbling to the ground, and punch them from above. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Can use Drive Rush for a corner throw loop with 2f timing on standard characters; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "ponte-milvio": {
+    "name": "Ponte Milvio",
+    "name_ja": "ミルヴィオブリッジ",
+    "input": "4(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Lift an opponent up on your shoulders and then toss them behind you. Throws your opponent while switching places with them"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Side switch; after throwing opponent into corner, can Drive Rush for strong strike/throw mixup; DR~5[HP] trades with reversal 4f normals for a high-damage trade combo; meaty options are much weaker after normal dash (no throw, limited conversions on hit); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  }
+}

@@ -1,0 +1,2943 @@
+{
+  "zangief-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 9,
+    "on_hit": 4,
+    "on_block": 2,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      400
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK with no gap on blockstring; 4f startup when chained into; sets up a true mixup on block between strike and command throw",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-stand-light-punch-rapid-cancel": {
+    "name": "Standing Light Punch (Rapid Cancel)",
+    "name_ja": "立ち弱P (連打版)",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 9,
+    "on_hit": 4,
+    "on_block": 2,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "zangief-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      12
+    ],
+    "recovery": 17,
+    "on_hit": 2,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Great poke due to its range and hitbox; TC follow-up is extremely lenient, but only works after counter-hit, Punish Counter, or Drive Rush; can perform TC follow-up on whiff; 6f blockstring gap when canceling to 5MP~MP",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      18
+    ],
+    "recovery": 22,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.35,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when the attack lands as a Punish Counter",
+      "5 frames of recovery added when the attack misses",
+      "When the button is held, 1 hit of super armor is added to the upper half of the body from frame 4",
+      "Hold down the button for over 23 frames to change its properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "Button can be held up to 22f for armored partial charge (armor loses to hitboxes that connect on Zangief's lower body); 10f startup after button release (total startup 16-32f); 2 extra recovery frames on whiff; counter-hit also gives KD +32; puts airborne opponents into limited juggle state",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1 air",
+    "juggle_limit": "0"
+  },
+  "zangief-stand-heavy-punch-charged": {
+    "name": "Standing Heavy Punch (Charged)",
+    "name_ja": "立ち強P (ホールド)",
+    "input": "5[hp]",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 32,
+    "active": 2,
+    "active_frames": [
+      32,
+      34
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": 3,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.6,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Super Armor for 1 attack from frames 4 - 34",
+      "juggle state time increased when attack lands as a Punish Counter",
+      "2 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "zangief-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      8
+    ],
+    "recovery": 17,
+    "on_hit": -2,
+    "on_block": -4,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      400
+    ],
+    "notes_sc": "Very long range for a light normal (slightly longer than 5MP)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 19,
+    "on_hit": 1,
+    "on_block": -4,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "Strong poke due to its range and hitbox priority",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      16
+    ],
+    "recovery": 21,
+    "on_hit": 3,
+    "on_block": 1,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent",
+      "Force a juggle state and increase juggle state time when attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "invuln_str": "13-22 Air (Leg)",
+    "notes_sc": "Cannot hit crouching opponents; puts airborne opponents into limited juggle state; Punish Counter puts grounded/airborne opponents into free juggle state; extends a hurtbox 1f before active that is vulnerable to projectiles; good anti-air but slow to startup",
+    "drive_dmg_on_block": "7000",
+    "drive_dmg_on_hit": "[11000]",
+    "juggle_start": "1 air<br><span style=\"color: #fa6d0d;\">[0 PC Ground/Air]</span>",
+    "juggle_limit": "0"
+  },
+  "zangief-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      7
+    ],
+    "recovery": 8,
+    "on_hit": 6,
+    "on_block": 1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK with no blockstring gap into 2LP/2LK; 3f startup when chained into; topmost hurtbox on frames 1-7 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-crouch-light-punch-rapid-cancel": {
+    "name": "Crouching Light Punch (Rapid Cancel)",
+    "name_ja": "しゃがみ弱P (連打版)",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 3,
+    "active": 2,
+    "active_frames": [
+      3,
+      4
+    ],
+    "recovery": 8,
+    "on_hit": 6,
+    "on_block": 1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "zangief-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 16,
+    "on_hit": 3,
+    "on_block": -1,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Useful in combos due to its cancelability, especially into SA2; decent hitbox priority in neutral; topmost hurtbox is vulnerable only to aerial strikes on frames 1-7 (preventing its use as an anti-air), and is projectile invincible on frames 1-15 to avoid High Tiger Shot (frames 16-26 are still vulnerable)",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      19
+    ],
+    "recovery": 35,
+    "on_hit": 0,
+    "on_block": -20,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Increase juggle state time when attack lands as a Punish Counter",
+      "Adds a floor bounding effect on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "invuln_str": "10-19 Air (Head)",
+    "notes_sc": "Active frames 4-8 cannot hit grounded opponents, but can anti-air cross-ups; useful anti-air with slow startup; puts airborne opponents into limited juggle state; Punish Counter puts grounded/airborne opponents into free juggle state, followed by OTG bounce which can be followed up with Drive Rush buttons midscreen or an auto-timed 3MP in the corner",
+    "drive_dmg_on_block": "7000",
+    "drive_dmg_on_hit": "[11000]",
+    "juggle_start": "1 air<br><span style=\"color: #fa6d0d;\">[0 PC Ground/Air]</span>",
+    "juggle_limit": "0"
+  },
+  "zangief-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 12,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 250,
+    "chip_damage": 62,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      250
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK with no blockstring gap into 2LP/2LK; 3f startup when chained into; Zangief's only 4f normal",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-crouch-light-kick-rapid-cancel": {
+    "name": "Crouching Light Kick (Rapid Cancel)",
+    "name_ja": "しゃがみ弱K (連打版)",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 3,
+    "active": 2,
+    "active_frames": [
+      3,
+      5
+    ],
+    "recovery": 12,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 250,
+    "chip_damage": 62,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "zangief-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 18,
+    "on_hit": 3,
+    "on_block": -2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Long-range low poke with incredible hitbox priority; can confirm into 3MP after a Drive Rush starter",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 27,
+    "on_hit": 0,
+    "on_block": -13,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.35,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Changes juggle state on Punish Counter",
+      "Increases knockdown time on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "zangief-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Decent air-to-air",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state on counter-hit/Punish Counter; lower body projectile invuln 8-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "<span style=\"color: #fa6d0d;\">1 CH/PC Air</span>",
+    "juggle_limit": "0"
+  },
+  "zangief-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Causes spike knockdown vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1 air",
+    "juggle_limit": "0"
+  },
+  "zangief-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Cross-up; can be used as a fuzzy instant overhead",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Good jump-in with long horizontal and vertical reach; can be used as a fuzzy instant overhead vs. JP/Marisa/Zangief only (requires deep j.2HP or opponent in Burnout for true blockstring); lower body projectile invuln 8-25f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Hold down the button for over 20 frames to change its properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Can be held for a powered up version (holding less than 20f gives a regular j.HK with delayed timing); long horizontal range; lower body projectile invuln 10-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "zangief-jump-heavy-punch-charged": {
+    "name": "Jumping Heacy Punch (Charged)",
+    "name_ja": "ジャンプ強P (ホールド)",
+    "input": "j>[hp]",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 32,
+    "active": 2,
+    "active_frames": [
+      32,
+      37
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Transitions to unique hit and block action, and adds 10 frames to landing recovery",
+      "Forces a wall bound on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "double-lariat": {
+    "name": "Double Lariat",
+    "name_ja": "ダブルラリアット",
+    "input": "(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 8,
+    "active_frames": [
+      15,
+      16,
+      26,
+      27,
+      36,
+      37,
+      44,
+      45
+    ],
+    "recovery": 27,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 1700,
+    "chip_damage": 425,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A lariat performed by extending both arms and spinning. Invulnerable to projectiles during the duration of the spin",
+      "Projectile invincibility from frames 6 - 45",
+      "Press left or right during the attack to move"
+    ],
+    "invuln": {
+      "projectile": "A lariat performed by extending both arms and spinning. Invulnerable to projectiles during the duration of the spin"
+    },
+    "cancel": "SA3",
+    "scaling": [],
+    "per_hit": [
+      700,
+      1000
+    ],
+    "invuln_str": "6-13 Air, 1-36 Projectile",
+    "notes_sc": "First hit can anti-air but cannot hit cross-ups; head hurtbox disappears on frames 1-5 of startup, then further shrinks hurtbox on frames 6-13; can hold left/right to move during animation; connects twice on hit, 5 times vs. stand block (true blockstring), or 3 times vs. crouch block (1f gap between final 2 hits if not in Burnout); fairly strong chip-out tool on burned out opponents (high pushback on block makes it very difficult for most characters to punish when the final hit is spaced out); 1st hit crumples grounded opponents (allows SA3 combo); faster startup makes it more consistent than meterless Lariat in combos; in juggles, can combo into j.360+KK or SA1 if the juggling hits are staggered; 1st active frame of 2nd hit only connects on grounded opponents",
+    "drive_dmg_on_block": "4000x5",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1,10x4",
+    "juggle_limit": "1,3x4"
+  },
+  "double-lariat-od": {
+    "name": "Double Lariat (OD)",
+    "name_ja": "ダブルラリアット (OD)",
+    "input": "(ppp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 12,
+    "active": 10,
+    "active_frames": [
+      12,
+      13,
+      16,
+      17,
+      21,
+      22,
+      29,
+      30,
+      35,
+      36
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -11,
+    "damage": 1700,
+    "chip_damage": 425,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A lariat performed by extending both arms and spinning. Invulnerable to projectiles during the duration of the spin",
+      "Projectile invincibility from frames 1 - 36",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 12",
+      "Press left or right during the attack to move",
+      "First attack produces a crumple stun on hit"
+    ],
+    "invuln": {
+      "projectile": "A lariat performed by extending both arms and spinning. Invulnerable to projectiles during the duration of the spin",
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 12"
+    },
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "screw-piledriver-light": {
+    "name": "Screw Piledriver (Light)",
+    "name_ja": "スクリューパイルドライバー (弱)",
+    "input": "{360}+lp",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 54,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2500,
+    "chip_damage": 625,
+    "drive_gain_hit": 0.7,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal",
+      "Does 2875 individual damage when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ]
+  },
+  "screw-piledriver-medium": {
+    "name": "Screw Piledriver (Medium)",
+    "name_ja": "スクリューパイルドライバー (中)",
+    "input": "{360}+mp",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 54,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2900,
+    "chip_damage": 725,
+    "drive_gain_hit": 0.7,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal",
+      "Does 3335 individual damage when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ]
+  },
+  "screw-piledriver-heavy": {
+    "name": "Screw Piledriver (Heavy)",
+    "name_ja": "スクリューパイルドライバー (強)",
+    "input": "{360}+hp",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 54,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3300,
+    "chip_damage": 825,
+    "drive_gain_hit": 0.7,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal",
+      "With Classic Controls",
+      "Does 3795 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 3795 individual damage when the attack lands as a Punish Counter",
+      "Does 3036 individual damage using simplified inputs"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ]
+  },
+  "screw-piledriver-od": {
+    "name": "Screw Piledriver (OD)",
+    "name_ja": "スクリューパイルドライバー (OD)",
+    "input": "{360}+pp",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 54,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3400,
+    "chip_damage": 850,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal",
+      "With Classic Controls",
+      "Does 3910 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 3910 individual damage when the attack lands as a Punish Counter",
+      "Does 3128 individual damage using simplified inputs"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "borscht-dynamite": {
+    "name": "Borscht Dynamite",
+    "name_ja": "ボルシチダイナマイト",
+    "input": "j>{360}+*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3375,
+    "chip_damage": 843,
+    "drive_gain_hit": 0.5,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab a mid-air opponent, juggling them and then smashing them into the ground with a spinning slam. Can only be used against airborne opponents",
+      "Only hits airborne opponents",
+      "With Classic Controls",
+      "Does 3260 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 3260 individual damage when the attack lands as a Punish Counter",
+      "Does 2608 individual damage using simplified inputs"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      3000
+    ],
+    "notes_sc": "Can be performed on first airborne jump frame (very low to the ground); grabs airborne opponents only; can be juggled into; () refers to Punish Counter damage; Zangief is in a crouching state during landing recovery",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "borscht-dynamite-od": {
+    "name": "Borscht Dynamite (OD)",
+    "name_ja": "ボルシチダイナマイト (OD)",
+    "input": "j>{360}+kk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3000,
+    "chip_damage": 750,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Grab a mid-air opponent, juggling them and then smashing them into the ground with a spinning slam. Can only be used against airborne opponents",
+      "Only hits airborne opponents",
+      "With Classic Controls",
+      "Does 3375 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 3375 individual damage when the attack lands as a Punish Counter",
+      "Does 2700 individual damage using simplified inputs"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ]
+  },
+  "russian-suplex": {
+    "name": "Russian Suplex",
+    "name_ja": "ロシアンスープレックス",
+    "input": "63214*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 50,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3680,
+    "chip_damage": 920,
+    "drive_gain_hit": 0.7,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab an opponent and slam them into the ground with two powerful suplexes. This move will only activate when close to an opponent. When far away, Siberian Express will activate instead",
+      "With Classic Controls",
+      "Does 3335 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 3335 individual damage when the attack lands as a Punish Counter",
+      "*Does 2668 individual damage using simplified inputs"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "per_hit": [
+      3200
+    ],
+    "notes_sc": "Only activates from close proximity; switches sides on hit; () refers to Punish Counter damage",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "russian-suplex-od": {
+    "name": "Russian Suplex (OD)",
+    "name_ja": "ロシアンスープレックス (OD)",
+    "input": "63214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 50,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3200,
+    "chip_damage": 800,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab an opponent and slam them into the ground with two powerful suplexes. This move will only activate when close to an opponent. When far away, Siberian Express will activate instead",
+      "With Classic Controls",
+      "Does 3680 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 2944 individual damage when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "siberian-express": {
+    "name": "Siberian Express (Close Range)",
+    "name_ja": "シベリアンエクスプレス (近距離版)",
+    "input": "63214*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 28,
+    "active": 2,
+    "active_frames": [
+      28,
+      29
+    ],
+    "recovery": 41,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2700,
+    "chip_damage": 675,
+    "drive_gain_hit": 0.5,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When close to opponent",
+      "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks",
+      "With Classic Controls",
+      "Does 3105 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 2484 individual damage when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "siberian-express-od": {
+    "name": "Siberian Express (Close Range OD)",
+    "name_ja": "シベリアンエクスプレス (近距離版 OD)",
+    "input": "63214(kk)",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 23,
+    "active": 2,
+    "active_frames": [
+      23,
+      24
+    ],
+    "recovery": 44,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3000,
+    "chip_damage": 750,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When close to opponent",
+      "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks",
+      "With Classic Controls",
+      "Does 3450 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 2760 individual damage when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "siberian-express-far-range": {
+    "name": "Siberian Express (Far Range)",
+    "name_ja": "シベリアンエクスプレス (遠距離版)",
+    "input": "63214*k",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 55,
+    "active": 2,
+    "active_frames": [
+      55,
+      56
+    ],
+    "recovery": 40,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2700,
+    "chip_damage": 675,
+    "drive_gain_hit": 0.5,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When far from opponent",
+      "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks",
+      "Super Armor for 1 attack from frames 10 - 56",
+      "Travel distance changes depending on the distance from the opponent",
+      "*Frame data displays the shortest distance",
+      "With Classic Controls",
+      "Does 3105 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 2484 individual damage when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "siberian-express-far-range-od": {
+    "name": "Siberian Express (Far Range OD)",
+    "name_ja": "シベリアンエクスプレス (遠距離版 OD)",
+    "input": "63214(kk)",
+    "type": "commandThrow",
+    "block_type": "high",
+    "startup": 54,
+    "active": 2,
+    "active_frames": [
+      54,
+      55
+    ],
+    "recovery": 40,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3000,
+    "chip_damage": 750,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When far from opponent",
+      "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks",
+      "Super Armor for 2 attacks from frames 3 - 55",
+      "Travel distance changes depending on the distance from the opponent",
+      "*Frame data displays the shortest distance",
+      "With Classic Controls",
+      "Does 3450 individual damage when the attack lands as a Punish Counter",
+      "With Modern Controls",
+      "Does 2760 individual damage when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "tundra-storm": {
+    "name": "Tundra Storm",
+    "name_ja": "ツンドラストーム",
+    "input": "22hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      55
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2400,
+    "chip_damage": 600,
+    "drive_gain_hit": 1.5,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Counter an opponent's grounded kick and throw them. Can only be used against certain attacks, but makes up for that limitation with its big damage"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      2400
+    ],
+    "notes_sc": "Counter is active 6-55f; only activates vs. kick attacks that connect with the hitbox between Zangief's arms (can work against normals, specials, and Drive moves); cannot counter low-hitting kicks; on successful counter, the attack uses a throw hitbox, causing it to whiff vs. airborne or throw invincible opponents",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "10000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "aerial-russian-slam": {
+    "name": "Aerial Russian Slam",
+    "name_ja": "エリアルロシアンスラム",
+    "input": "236236*k",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      17
+    ],
+    "recovery": 60,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3500,
+    "chip_damage": 875,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Jump diagonally upward, grabbing an airborne opponent before viciously slamming them into the ground. Useful as an anti-air counter when predicting your opponent's jumps or when worked into combos",
+      "Completely invincible from frames 1- 17",
+      "Considered airborne from frames 2 - 30",
+      "Can only work on mid-air opponents",
+      "Minimum guaranteed damage is 30%",
+      "Does 2100 individual damage when using simplified inputs",
+      "As the simplified input damage figure above is after it has already been scaled to 80%, the 30% minimum guaranteed damage will equal 787 damage when using simplified inputs",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1- 17"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "super_cost": 1,
+    "per_hit": [
+      3500
+    ],
+    "invuln_str": "1-17 Full",
+    "notes_sc": "Can only hit airborne opponents; cannot anti-air cross-ups",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "5000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "cyclone-lariat-charged": {
+    "name": "Cyclone Lariat (Charged)",
+    "name_ja": "サイクロンラリアット (ホールド)",
+    "input": "236236[*p]",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 18,
+    "active": 22,
+    "active_frames": [
+      18,
+      111,
+      33,
+      35,
+      41,
+      42,
+      50,
+      51,
+      60,
+      61,
+      69,
+      70,
+      79,
+      80,
+      90,
+      91,
+      99,
+      100,
+      110,
+      111,
+      120,
+      122
+    ],
+    "recovery": 52,
+    "on_hit": 0,
+    "on_block": -35,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Rotate at high speeds to pull in an opponent and grab them before slamming them into the ground with a powerful throw. You can choose what direction to throw your opponent by inputting left or right during the throw",
+      "Completely invincible from frames 1- 18",
+      "Projectile invincibility from frames 19 - 122",
+      "Shifts to throw when the button is not held down",
+      "Minimum guaranteed damage is 40%",
+      "Values do not change on counter or Punish Counter",
+      "Active vaccuum hitbox"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1- 18"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "cyclone-lariat-immediate": {
+    "name": "Cyclone Lariat (Immediate)",
+    "name_ja": "サイクロンラリアット (その場)",
+    "input": "236236*p",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3100,
+    "chip_damage": 775,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Rotate at high speeds to pull in an opponent and grab them before slamming them into the ground with a powerful throw. You can choose what direction to throw your opponent by inputting left or right during the throw"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "cyclone-lariat-movement": {
+    "name": "Cyclone Lariat (Movement)",
+    "name_ja": "サイクロンラリアット (移動)",
+    "input": "236236*p",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 3000,
+    "chip_damage": 750,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Rotate at high speeds to pull in an opponent and grab them before slamming them into the ground with a powerful throw. You can choose what direction to throw your opponent by inputting left or right during the throw",
+      "Press left or right to move"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "bolshoi-storm-buster": {
+    "name": "Bolshoi Storm Buster",
+    "name_ja": "ボリショイストームバスター",
+    "input": "{720}+*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      7
+    ],
+    "recovery": 116,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 4800,
+    "chip_damage": 1200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "A powerful throw that puts an opponent in a finishing hold with pro-wrestling flair. Can be used to slip through an opponent's guard at close range and deliver massive damage",
+      "Minimum guaranteed damage is 50%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3,
+    "per_hit": [
+      4800
+    ],
+    "invuln_str": "1-7 Full",
+    "notes_sc": "Command grab Super; opponent cannot jump after the freeze; can only be comboed into with OD Lariat (1st hit), Punish Counter 3HK wall splat, or grounded crumple state; cinematic time regenerates ~2.2 Drive bars for Zangief; Range: 1.56 (2nd active frame, jumpable: 1.60)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "15000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "bolshoi-storm-buster-ca": {
+    "name": "Bolshoi Storm Buster (Critical Art)",
+    "name_ja": "ボリショイストームバスター (CA)",
+    "input": "{720}+*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      7
+    ],
+    "recovery": 116,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 5300,
+    "chip_damage": 1325,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "When under 25% vitality",
+      "A powerful throw that puts an opponent in a finishing hold with pro-wrestling flair. Can be used to slip through an opponent's guard at close range and deliver massive damage",
+      "Minimum guaranteed damage is 50%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3
+  },
+  "hellstab": {
+    "name": "Hellstab",
+    "name_ja": "ヘルスタブ",
+    "input": "3mp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 21,
+    "on_hit": -1,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick thrust that can be canceled into special moves",
+      "Forces the opponent into a standing position"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "invuln_str": "7-12 Air (Arm)",
+    "notes_sc": "Forces stand; puts airborne opponents into limited juggle state; lenient cancel window (final cancelable frame will not combo to meterless Lariat); the arm anti-air invincibility is not very useful due to Zangief's large head hurtbox (will only work against long range jumps with extended hurtbox); special/DR cancel is delayed until after active frames",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1 air",
+    "juggle_limit": "0"
+  },
+  "knee-hammer": {
+    "name": "Knee Hammer",
+    "name_ja": "ニーハンマー",
+    "input": "6mk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      20
+    ],
+    "recovery": 13,
+    "on_hit": 1,
+    "on_block": -4,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A knee strike with long reach and quick recovery time"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "invuln_str": "7-23 Lower Body",
+    "notes_sc": "Better advantage if well-spaced; final active frame has more range, making it easier to space at max distance for best frame advantage; low crushes during lower body invuln frames 7-23, but not airborne; extends a wide hurtbox from frame 2 onward making it susceptible to counterpokes",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "headbutt": {
+    "name": "Headbutt",
+    "name_ja": "ヘッドバット",
+    "input": "6hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      18
+    ],
+    "recovery": 15,
+    "on_hit": 7,
+    "on_block": 4,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.45,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A headbutt that can be canceled into a special move and lets you act before your opponent, even if they block it",
+      "2 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 25%",
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "2 extra recovery frames on whiff; great oki tool due to frame advantage, cancelability, and high active frame count; puts airborne opponents into limited juggle state spike knockdown; special/DR cancel is delayed until after 3rd active frame",
+    "drive_dmg_on_block": "8000",
+    "drive_dmg_on_hit": "[11000]",
+    "juggle_start": "1 air",
+    "juggle_limit": "0"
+  },
+  "cyclone-wheel-kick": {
+    "name": "Cyclone Wheel Kick",
+    "name_ja": "サイクロンウィールキック",
+    "input": "6hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      28
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": -9,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.45,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An overhead attack that cannot be blocked while crouching",
+      "Adds a floor bounding effect on Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      1300
+    ],
+    "invuln_str": "13-28 Lower Body",
+    "notes_sc": "Long range overhead with high pushback (moves back during recovery and can be hard to punish at max range); low crushes during lower body invuln frames 13-28, but not airborne; active frames 1-2 can only hit airborne; active frames 3-4 whiff on crouching opponents unless they extend a vertical hurtbox, making it effectively 26f vs. crouching; +2 better KD Adv. vs. crouching; Punish Counter puts opponent into OTG free juggle state; puts airborne opponents into limited juggle state; has some juggle potential",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[11000]",
+    "juggle_start": "1 air<br><span style=\"color: #fa6d0d;\">[0 PC Ground/Air]</span>",
+    "juggle_limit": "5"
+  },
+  "smetana-dropkick": {
+    "name": "Smetana Dropkick",
+    "name_ja": "スメタナドロップキック",
+    "input": "3hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      19
+    ],
+    "recovery": 40,
+    "on_hit": 0,
+    "on_block": -18,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A dropkick that is effective at countering an opponent's sweep",
+      "Throw invincible from frames 5 - 26",
+      "Wall splat effect added on Punish Counter"
+    ],
+    "invuln": {
+      "throw": "Throw invincible from frames 5 - 26"
+    },
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "invuln_str": "5-26 Throw/Lower Body",
+    "notes_sc": "Low crushes during throw/lower body invuln frames 5-26, but not airborne; great hitbox priority, but long recovery makes it a risky counterpoke; puts airborne opponents into limited juggle state; has juggle potential; Punish Counter causes wallsplat after tumble if it reaches the corner; wallsplat keeps opponent grounded and throwable (strikes still put opponent into limited juggle state)",
+    "drive_dmg_on_block": "8000",
+    "drive_dmg_on_hit": "[11000]",
+    "juggle_start": "1 air<br><span style=\"color: #fa6d0d;\">[0 PC Ground]</span>",
+    "juggle_limit": "5"
+  },
+  "flying-body-press": {
+    "name": "Flying Body Press",
+    "name_ja": "フライングボディプレス",
+    "input": "j>2hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      17
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them",
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Cross-up; can be done from any jump direction; spike knockdown on counter-hit/Punish Counter vs. airborne opponents; more recovery on landing than other air normals (always punishable when Perfect Parried even at latest timing); legs (behind Zangief) are projectile invuln 9f~land",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "flying-headbutt": {
+    "name": "Flying Headbutt",
+    "name_ja": "フライングヘッドバット",
+    "input": "8>8hp",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A headbutt that can be canceled into aerial special moves",
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "Combos to j.360+KK when canceled; puts airborne opponents into limited juggle state; short range but good air-to-air hitbox",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1 air",
+    "juggle_limit": "0"
+  },
+  "machine-gun-chops-2": {
+    "name": "Machine Gun Chops (2)",
+    "name_ja": "マシンガンチョップ (2)",
+    "input": "5mp>5mp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      12
+    ],
+    "recovery": 20,
+    "on_hit": 2,
+    "on_block": -6,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A potent series of chops. Hits repeatedly if the first hit connects as a counter hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "machine-gun-chops-3": {
+    "name": "Machine Gun Chops (3)",
+    "name_ja": "マシンガンチョップ (3)",
+    "input": "5mp>5mp>5mp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      17
+    ],
+    "recovery": 32,
+    "on_hit": 0,
+    "on_block": -17,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A potent series of chops. Hits repeatedly if the first hit connects as a counter hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "power-stomp-1": {
+    "name": "Power Stomps (1)",
+    "name_ja": "ストンピング (1)",
+    "input": "22mk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 17,
+    "on_hit": 4,
+    "on_block": -3,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of attacks, the third of which can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "power-stomp-2": {
+    "name": "Power Stomps (2)",
+    "name_ja": "ストンピング (2)",
+    "input": "22mk>5mk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 19,
+    "on_hit": -3,
+    "on_block": -4,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of attacks, the third of which can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "power-stomp-3": {
+    "name": "Power Stomps (3)",
+    "name_ja": "ストンピング (3)",
+    "input": "22mk>5mk>5mk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 24,
+    "on_hit": -2,
+    "on_block": -10,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of attacks, the third of which can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "body-slam": {
+    "name": "Bodyslam",
+    "name_ja": "ボディスラム",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1800,
+    "chip_damage": 450,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "When near opponent",
+      "Lift an opponent above your head and toss them into the ground back-first. Throws your opponent without switching places with them",
+      "Punish Counter properties",
+      "- Damage set to 2040",
+      "- Super Art gauge increases by 3800",
+      "- Produces a Hard Knockdown",
+      "Press the throw button again during the animation for 600 extra damage"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200,
+      600
+    ],
+    "notes_sc": "() refers to follow-up attack used by holding Throw buttons; by omitting the follow-up attack, Zangief can manually time a corner throw loop; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "capture": {
+    "name": "Capture Suplex",
+    "name_ja": "キャプチュード",
+    "input": "(4lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2380,
+    "chip_damage": 595,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab an opponent and slam them to the ground while leaping backwards. Throws your opponent while switching places with them",
+      "Punish Counter properties",
+      "- Damage set to 2380",
+      "- Super Art gauge increases by 4000",
+      "- Produces a Hard Knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1400
+    ],
+    "notes_sc": "Switches sides; after back throwing opponent into the corner, can mix between SPD and ranged strike; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "german-suplex": {
+    "name": "German Suplex",
+    "name_ja": "ジャーマンスープレックス",
+    "input": "(6lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2550,
+    "chip_damage": 637,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab an opponent from behind and, arching your back, smash them into the ground. Throws your opponent without switching places with them",
+      "Punish Counter properties",
+      "- Damage set to 2550",
+      "- Super Art gauge increases by 4000",
+      "- Produces a Hard Knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1500
+    ],
+    "notes_sc": "High damage, but poor oki; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "spinebuster": {
+    "name": "Spinebuster",
+    "name_ja": "スパインバスター",
+    "input": "(3lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Lift your opponent up and fall on top of them with their back to the ground. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Gives access to corner throw loop, but less damaging throw overall; can still give decent oki even midscreen (but no throw loop without Drive Rush); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "russian-drop": {
+    "name": "Russian Drop",
+    "name_ja": "ロシアンドロップ",
+    "input": "(1lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2550,
+    "chip_damage": 637,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Disrupt your opponent's balance with a kick, then smash their head into the ground as you fall backwards. Throws your opponent while switching places with them",
+      "Punish Counter properties",
+      "- Damage set to 2550",
+      "- Super Art gauge increases by 4000",
+      "- Produces a Hard Knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1500
+    ],
+    "notes_sc": "Switches sides; recovers too far away for any follow-up oki; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "brainbuster": {
+    "name": "Brainbuster",
+    "name_ja": "ブレーンバスター",
+    "input": "(2lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Lift your opponent upside-down and send them flying to the ground behind you back-first. Throws your opponent while switching places with them",
+      "Punish Counter properties",
+      "- Damage set to 2550",
+      "- Super Art gauge increases by 4000",
+      "- Produces a Hard Knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ]
+  }
+}

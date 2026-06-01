@@ -1,0 +1,2741 @@
+{
+  "mbison-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 9,
+    "on_hit": 4,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "mbison-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 15,
+    "on_hit": 6,
+    "on_block": 0,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "mbison-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 19,
+    "active": 2,
+    "active_frames": [
+      19,
+      21
+    ],
+    "recovery": 17,
+    "on_hit": 4,
+    "on_block": 1,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Adds a floor bounding effect during a mid-air hit",
+      "17 frames of advantage added when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "mbison-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      5
+    ],
+    "recovery": 10,
+    "on_hit": 3,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "mbison-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 16,
+    "on_hit": 2,
+    "on_block": -3,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mbison-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      16
+    ],
+    "recovery": 19,
+    "on_hit": 6,
+    "on_block": -2,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent",
+      "Produces a crumple stun for 32 frames when the attack lands as a Punish Counter",
+      "Juggle state time is extended when attack hits a mid-air opponent as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mbison-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      5
+    ],
+    "recovery": 10,
+    "on_hit": 4,
+    "on_block": -2,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "mbison-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      8
+    ],
+    "recovery": 14,
+    "on_hit": 5,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "3 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "mbison-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      15
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -9,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces the opponent into a standing position",
+      "Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "mbison-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 10,
+    "on_hit": 4,
+    "on_block": -2,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "mbison-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 19,
+    "on_hit": -2,
+    "on_block": -6,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "mbison-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      13
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -11,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mbison-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      8
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mbison-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "midHigh",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "juggle"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mbison-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mbison-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [
+      "canCrossUp"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mbison-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "canCrossUp"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "mbison-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "psycho-hammer": {
+    "name": "Psycho Hammer",
+    "name_ja": "サイコハンマー",
+    "input": "6hp",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      24
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An overhead attack that cannot be blocked while crouching.",
+      "Adds a floor bounding effect during a mid-air hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "evil-knee": {
+    "name": "Evil Knee",
+    "name_ja": "イビルニー",
+    "input": "4hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 17,
+    "on_hit": 4,
+    "on_block": 1,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A knee strike that can be canceled into special moves."
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": []
+  },
+  "hover-kick": {
+    "name": "Hover Kick",
+    "name_ja": "ホバーキック",
+    "input": "3hk",
+    "type": "commandNormal",
+    "block_type": "low",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      24
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -15,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A sliding low attack that cannot be blocked standing.",
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "shadow-hammer": {
+    "name": "Shadow Hammer",
+    "name_ja": "シャドウハンマー",
+    "input": "5mp>6hp",
+    "type": "targetCombo",
+    "block_type": "mid",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      24
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A two-hit series of attacks, the second of which cannot be blocked crouching.",
+      "Adds a floor bounding effect during a mid-air hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "shadow-spear": {
+    "name": "Shadow Spear",
+    "name_ja": "シャドウスピア",
+    "input": "5mp>2hk",
+    "type": "targetCombo",
+    "block_type": "low",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      19
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "An attack consisting of multiple hits that cannot be blocked while standing."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "hell-attack": {
+    "name": "Hell Attack",
+    "name_ja": "ヘルアタック",
+    "input": "j>mp>mp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      10
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A combination attack that is useful against jumping opponents.",
+      "During a jump"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "psycho-crusher-attack-light": {
+    "name": "Psycho Crusher Attack (Light)",
+    "name_ja": "サイコクラッシャーアタック（弱）",
+    "input": "[4]>6lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      31
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -20,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 17",
+      "Considered airborne from frames 22 - 31"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 17"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "psycho-crusher-attack-light-psycho-mine": {
+    "name": "[Psycho Mine] Psycho Crusher Attack (Light)",
+    "name_ja": "[サイコマイン付与時] サイコクラッシャーアタック（弱）",
+    "input": "[4]>6lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      31
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 6,
+    "damage": 1700,
+    "chip_damage": 425,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.9,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 17",
+      "Considered airborne from frames 22 - 31",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 17"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "psycho-crusher-attack-medium": {
+    "name": "Psycho Crusher Attack (Medium)",
+    "name_ja": "サイコクラッシャーアタック（中）",
+    "input": "[4]>6mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      35
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -20,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 21",
+      "Considered airborne from frames 26 - 45"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 21"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "psycho-crusher-attack-medium-psycho-mine": {
+    "name": "[Psycho Mine] Psycho Crusher Attack (Medium)",
+    "name_ja": "[サイコマイン付与時] サイコクラッシャーアタック（中）",
+    "input": "[4]>6mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      35
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 6,
+    "damage": 1900,
+    "chip_damage": 475,
+    "drive_gain_hit": 0.45,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 21",
+      "Considered airborne from frames 26 - 45",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 21"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "psycho-crusher-attack-heavy": {
+    "name": "Psycho Crusher Attack (Heavy)",
+    "name_ja": "サイコクラッシャーアタック（強）",
+    "input": "[4]>6hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 24,
+    "active": 2,
+    "active_frames": [
+      24,
+      49
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -23,
+    "damage": 1600,
+    "chip_damage": 400,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 25",
+      "Considered airborne from frames 30 - 49"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 25"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "psycho-crusher-attack-heavy-psycho-mine": {
+    "name": "[Psycho Mine] Psycho Crusher Attack (Heavy)",
+    "name_ja": "[サイコマイン付与時] サイコクラッシャーアタック（強）",
+    "input": "[4]>6hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 24,
+    "active": 2,
+    "active_frames": [
+      24,
+      49
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 5,
+    "damage": 2100,
+    "chip_damage": 525,
+    "drive_gain_hit": 0.5,
+    "drive_gain_block": -1.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 25",
+      "Considered airborne from frames 30 - 49",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 25"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "psycho-crusher-attack-od": {
+    "name": "Psycho Crusher Attack (OD)",
+    "name_ja": "サイコクラッシャーアタック（OD）",
+    "input": "[4]>6(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      31
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 7 - 17",
+      "Projectile invincible from frames 13 - 31",
+      "Considered airborne from frames 20 - 31"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 7 - 17",
+      "projectile": "Projectile invincible from frames 13 - 31"
+    },
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "psycho-crusher-attack-od-psycho-mine": {
+    "name": "[Psycho Mine] Psycho Crusher Attack (OD)",
+    "name_ja": "[サイコマイン付与時] サイコクラッシャーアタック（OD）",
+    "input": "[4]>6(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      31
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": 10,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 7 - 17",
+      "Projectile invincible from frames 13 - 31",
+      "Considered airborne from frames 20 - 31",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 7 - 17",
+      "projectile": "Projectile invincible from frames 13 - 31"
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "double-knee-press-light": {
+    "name": "Double Knee Press (Light)",
+    "name_ja": "ダブルニープレス（弱）",
+    "input": "236lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 4,
+    "active_frames": [
+      13,
+      14,
+      16,
+      17
+    ],
+    "recovery": 20,
+    "on_hit": 2,
+    "on_block": -5,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Flip and fly forward towards the opponent before hitting them multiple times. A powerful tool to control space at a distance."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "double-knee-press-medium": {
+    "name": "Double Knee Press (Medium)",
+    "name_ja": "ダブルニープレス（中）",
+    "input": "236mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 4,
+    "active_frames": [
+      17,
+      18,
+      20,
+      21
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -5,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Flip and fly forward towards the opponent before hitting them multiple times. A powerful tool to control space at a distance."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "double-knee-press-heavy": {
+    "name": "Double Knee Press (Heavy)",
+    "name_ja": "ダブルニープレス（強）",
+    "input": "236hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 4,
+    "active_frames": [
+      22,
+      23,
+      25,
+      26
+    ],
+    "recovery": 20,
+    "on_hit": 3,
+    "on_block": -4,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Flip and fly forward towards the opponent before hitting them multiple times. A powerful tool to control space at a distance."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "double-knee-press-od": {
+    "name": "Double Knee Press (OD)",
+    "name_ja": "ダブルニープレス（OD）",
+    "input": "236(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 6,
+    "active_frames": [
+      17,
+      18,
+      20,
+      21,
+      39,
+      41
+    ],
+    "recovery": 28,
+    "on_hit": 0,
+    "on_block": -15,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Flip and fly forward towards the opponent before hitting them multiple times. A powerful tool to control space at a distance."
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "backfist-combo-light": {
+    "name": "Backfist Combo (Light)",
+    "name_ja": "バックフィストコンボ（弱）",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 4,
+    "active_frames": [
+      13,
+      14,
+      25,
+      29
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": -14,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+      "Implants a Psycho Mine into the opponent on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "backfist-combo-light-psycho-mine": {
+    "name": "[Psycho Mine] Backfist Combo (Light)",
+    "name_ja": "[サイコマイン付与時] バックフィストコンボ（弱）",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 4,
+    "active_frames": [
+      13,
+      14,
+      25,
+      29
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": 6,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.9,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "backfist-combo-medium": {
+    "name": "Backfist Combo (Medium)",
+    "name_ja": "バックフィストコンボ（中）",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 4,
+    "active_frames": [
+      17,
+      18,
+      29,
+      33
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -15,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+      "Implants a Psycho Mine into the opponent on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "backfist-combo-medium-psycho-mine": {
+    "name": "[Psycho Mine] Backfist Combo (Medium)",
+    "name_ja": "[サイコマイン付与時] バックフィストコンボ（中）",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 4,
+    "active_frames": [
+      17,
+      18,
+      29,
+      33
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": 6,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.45,
+    "drive_gain_block": -0.9,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "backfist-combo-heavy": {
+    "name": "Backfist Combo (Heavy)",
+    "name_ja": "バックフィストコンボ（強）",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 4,
+    "active_frames": [
+      22,
+      24,
+      35,
+      39
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -15,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+      "Implants a Psycho Mine into the opponent on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "backfist-combo-heavy-psycho-mine": {
+    "name": "[Psycho Mine] Backfist Combo (Heavy)",
+    "name_ja": "[サイコマイン付与時] バックフィストコンボ（強）",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 22,
+    "active": 4,
+    "active_frames": [
+      22,
+      24,
+      35,
+      39
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": 6,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.45,
+    "drive_gain_block": -0.9,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "backfist-combo-od": {
+    "name": "Backfist Combo (OD)",
+    "name_ja": "バックフィストコンボ（OD）",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 6,
+    "active_frames": [
+      14,
+      15,
+      35,
+      37,
+      61,
+      63
+    ],
+    "recovery": 44,
+    "on_hit": 0,
+    "on_block": -25,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.9,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+      "Adds a floor bounding effect on the final attack"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "backfist-combo-od-psycho-mine": {
+    "name": "[Psycho Mine] Backfist Combo (OD)",
+    "name_ja": "[サイコマイン付与時] バックフィストコンボ（OD）",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 6,
+    "active_frames": [
+      14,
+      15,
+      35,
+      37,
+      61,
+      63
+    ],
+    "recovery": 44,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1700,
+    "chip_damage": 425,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "psycho-mine-self-detonation": {
+    "name": "Psycho Mine (Self Detonation)",
+    "name_ja": "サイコマイン（自動爆発）",
+    "input": "5",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "shadow-rise-light": {
+    "name": "Shadow Rise (Light)",
+    "name_ja": "シャドウライズ（弱）",
+    "input": "[2]>8lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick and high-reaching jump. Two different follow-ups can be used from it.",
+      "Can transition to Head Press and Devil Reverse (including Overdrive versions) from frames 18-46",
+      "Is considered airborne from frame 9"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "shadow-rise-medium": {
+    "name": "Shadow Rise (Medium)",
+    "name_ja": "シャドウライズ（中）",
+    "input": "[2]>8mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick and high-reaching jump. Two different follow-ups can be used from it.",
+      "Can transition to Head Press and Devil Reverse (including Overdrive versions) from frames 18-46",
+      "Is considered airborne from frame 9"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "shadow-rise-heavy": {
+    "name": "Shadow Rise (Heavy)",
+    "name_ja": "シャドウライズ（強）",
+    "input": "[2]>8hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick and high-reaching jump. Two different follow-ups can be used from it.",
+      "Can transition to Head Press and Devil Reverse (including Overdrive versions) from frames 18-46",
+      "Is considered airborne from frame 9"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "shadow-rise-od": {
+    "name": "Shadow Rise (OD)",
+    "name_ja": "シャドウライズ（OD）",
+    "input": "[2]>8(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick and high-reaching jump. Two different follow-ups can be used from it.",
+      "Can transition to Overdrive Head Press and Devil’s Reverse from frames 16-42",
+      "Invincible to throws from frames 1 - 8",
+      "Is considered airborne from frame 9"
+    ],
+    "invuln": {
+      "throw": "Invincible to throws from frames 1 - 8"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "head-press": {
+    "name": "Head Press",
+    "name_ja": "ヘッドプレス",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 1,
+    "active_frames": [
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A technique from Shadow Rise that stomps on an opponent below you, and performs another jump if the first hit touches the opponent. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
+      "During Shadow Rise",
+      "Recovery changes depending on the height of the attack when it hits or is blocked",
+      "Can transition to Somersault Skull Diver from frame 23 until landing when this attack hits or is blocked."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "head-press-od": {
+    "name": "Head Press (OD)",
+    "name_ja": "ヘッドプレス（OD）",
+    "input": "kk",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 1,
+    "active_frames": [
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A technique executed from Shadow Rise that stomps on an opponent. When performed from Overdrive Shadow Rise, it does not consume additional Drive gauge.",
+      "During Shadow Rise",
+      "Recovery changes depending on the height of the attack when it hits or is blocked",
+      "Adds a floor bounding effect during a mid-air hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "head-press-od-shadow-rise": {
+    "name": "Head Press (OD Shadow Rise)",
+    "name_ja": "ヘッドプレス（ODシャドウライズ）",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 15,
+    "active": 1,
+    "active_frames": [
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "During Shadow Rise OD",
+      "Recovery changes depending on the height of the attack when it hits or is blocked",
+      "Adds a floor bounding effect during a mid-air hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "somersault-skull-diver": {
+    "name": "Somersault Skull Diver",
+    "name_ja": "サマーソルトスカルダイバー",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      21
+    ],
+    "recovery": 29,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A technique executed from the jump that occurs after Head Press. Will turn towards the enemy when used behind them. Its direction can be controlled back and forth after performing it.",
+      "After Head Press"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "devil-reverse": {
+    "name": "Devil Reverse",
+    "name_ja": "デビルリバース",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 16,
+    "active": 1,
+    "active_frames": [
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A technique that chops at the opponent, executed from Shadow Rise. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
+      "During Shadow Rise",
+      "Recovery changes depending on the height of the attack when it hits or is blocked"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "devil-reverse-psycho-mine": {
+    "name": "[Psycho Mine] Devil Reverse",
+    "name_ja": "[サイコマイン付与時] デビルリバース",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "midHigh",
+    "startup": 16,
+    "active": 1,
+    "active_frames": [
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.575,
+    "drive_gain_block": -1.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A technique that chops at the opponent, executed from Shadow Rise. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
+      "During Shadow Rise",
+      "Recovery changes depending on the height of the attack when it hits or is blocked",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "devil-reverse-od": {
+    "name": "Devil Reverse (OD)",
+    "name_ja": "デビルリバース（OD）",
+    "input": "pp",
+    "type": "followUp",
+    "block_type": "midHigh",
+    "startup": 21,
+    "active": 1,
+    "active_frames": [
+      21
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A technique that chops at the opponent, executed from Shadow Rise. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
+      "During Shadow Rise"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "devil-reverse-od-psycho-mine": {
+    "name": "[Psycho Mine] Devil Reverse (OD)",
+    "name_ja": "[サイコマイン付与時] デビルリバース（OD）",
+    "input": "pp",
+    "type": "followUp",
+    "block_type": "midHigh",
+    "startup": 21,
+    "active": 1,
+    "active_frames": [
+      21
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 24,
+    "damage": 2600,
+    "chip_damage": 650,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "A technique that chops at the opponent, executed from Shadow Rise. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
+      "During Shadow Rise",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "devil-reverse-od-shadow-rise": {
+    "name": "Devil Reverse (OD Shadow Rise)",
+    "name_ja": "デビルリバース（ODシャドウライズ）",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "midHigh",
+    "startup": 21,
+    "active": 1,
+    "active_frames": [
+      21
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "During Shadow Rise OD",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "devil-reverse-od-shadow-rise-psycho-mine": {
+    "name": "[Psycho Mine] Devil Reverse (OD Shadow Rise)",
+    "name_ja": "[サイコマイン付与時] デビルリバース（ODシャドウライズ）",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "midHigh",
+    "startup": 21,
+    "active": 1,
+    "active_frames": [
+      21
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 24,
+    "damage": 2600,
+    "chip_damage": 650,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "During Shadow Rise OD",
+      "Detonates a Psycho Mine on block or on hit"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "knee-press-nightmare": {
+    "name": "Knee Press Nightmare",
+    "name_ja": "ニープレスナイトメア",
+    "input": "236236*k",
+    "type": "super1",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 8,
+    "active_frames": [
+      10,
+      11,
+      13,
+      15,
+      47,
+      48,
+      50,
+      51
+    ],
+    "recovery": 62,
+    "on_hit": 0,
+    "on_block": -41,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 7,
+    "notes": [
+      "Take aim at the opponent's legs with a series of crushing blows. Useful as a combo ender, or as a counter attack by making use of its invincibility.",
+      "Invincible to strikes and throws between frames 1 - 11",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "The minimum guaranteed damage is 30%"
+    ],
+    "invuln": {
+      "strike_throw": "Invincible to strikes and throws between frames 1 - 11"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1
+  },
+  "psycho-punisher": {
+    "name": "Psycho Punisher",
+    "name_ja": "サイコパニッシャー",
+    "input": "214214*k",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 26,
+    "active": 2,
+    "active_frames": [
+      26,
+      32
+    ],
+    "recovery": 52,
+    "on_hit": 0,
+    "on_block": -34,
+    "damage": 3000,
+    "chip_damage": 750,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Launch the opponent into the air with the shockwave from the landing of a powerful jump before following it up with a strong attack. Effective against enemies using projectiles from long range. Its direction can be controlled back and forth after performing it.",
+      "Completely invincible on frames 1 - 25",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "The minimum guaranteed damage is 40%"
+    ],
+    "invuln": {
+      "full": "Completely invincible on frames 1 - 25"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2
+  },
+  "unlimited-psycho-crusher": {
+    "name": "Unlimited Psycho Crusher",
+    "name_ja": "アンリミテッドサイコクラッシャー",
+    "input": "236236*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      15
+    ],
+    "recovery": 65,
+    "on_hit": 0,
+    "on_block": -46,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 11,
+    "notes": [
+      "Rush towards the opponent before smashing them into the ground with devastating strength. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure.",
+      "When under 25% vitality",
+      "Completely invincible between frames 1 - 15",
+      "The minimum guaranteed damage is 50%",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "* Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible between frames 1 - 15"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3
+  },
+  "unlimitted-psycho-crusher-ca": {
+    "name": "Unlimitted Psycho Crusher (Critical Art)",
+    "name_ja": "アンリミテッドサイコクラッシャー（CA）",
+    "input": "236236*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      15
+    ],
+    "recovery": 65,
+    "on_hit": 0,
+    "on_block": -46,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Completely invincible between frames 1 - 15",
+      "The minimum guaranteed damage is 50%",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "* Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible between frames 1 - 15"
+    },
+    "cancel": "",
+    "scaling": [
+      "*Immediate scaling 10%"
+    ],
+    "super_cost": 3
+  },
+  "deadly-throw": {
+    "name": "Deadly Throw",
+    "name_ja": "デッドリースルー",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "death-tower": {
+    "name": "Death Tower",
+    "name_ja": "デスタワー",
+    "input": "(4lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  }
+}

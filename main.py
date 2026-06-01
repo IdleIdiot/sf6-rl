@@ -52,45 +52,43 @@ BTN_ACTION = {
 # 格式：方向序列用 "down"=下, "down-forward"=下前, "forward"=前, "back"=后, "down-back"=下后
 # 最后一个元素是按钮
 MOTION_TABLE = [
-    # 波动拳系 236
-    (["down", "down-forward", "forward"], "LP", 23),  # kachousen_L
-    (["down", "down-forward", "forward"], "MP", 24),  # kachousen_M
-    (["down", "down-forward", "forward"], "HP", 25),  # kachousen_H
-    (["down", "down-forward", "forward"], "LK", 29),  # ryuuenbu_L
-    (["down", "down-forward", "forward"], "MK", 30),  # ryuuenbu_M
-    (["down", "down-forward", "forward"], "HK", 31),  # ryuuenbu_H
-    # 竜巻系 214
-    (["down", "down-back", "back"], "LK", 32),  # shinobibachi_L
-    (["down", "down-back", "back"], "MK", 33),  # shinobibachi_M
-    (["down", "down-back", "back"], "HK", 34),  # shinobibachi_H
-    # 昇龍系 623
-    (["forward", "down", "down-forward"], "LP", 35),  # hishou_ryuuenjin_L
-    (["forward", "down", "down-forward"], "MP", 36),  # hishou_ryuuenjin_M
-    (["forward", "down", "down-forward"], "HP", 37),  # hishou_ryuuenjin_H
-    # 飛燕連脚 (hien_ren_kyaku): 2MK — 蹲下MK
-    # 星屑脚 (hoshi_kujaku): 6HK — 前+HK
-    (["forward"], "HK", 57),  # hoshi_kujaku
-    # 閃骨打 (senkotsu_uchi): 6HP — 前+HP
-    (["forward"], "HP", 58),  # senkotsu_uchi
-    # OD versions (LP+MP or MK+HK)
-    (["down", "down-forward", "forward"], "PP", 41),  # kachousen_OD
-    (["down", "down-forward", "forward"], "KK", 42),  # ryuuenbu_OD
-    (["forward", "down", "down-forward"], "PP", 43),  # hishou_ryuuenjin_OD
-    (["down", "down-back", "back"], "KK", 55),  # shinobibachi_OD
-    # Drive Impact / Reversal (PP/KK with no motion)
-    ([], "PP", 47),  # drive_impact
-    ([], "KK", 48),  # drive_reversal
-    # Super Arts (236236)
+    # ── 超必杀 236236（最长指令优先，防止被 236 提前截断）──────────────────
     (["down", "down-forward", "forward", "down", "down-forward", "forward"], "LP", 44),  # SA1
     (["down", "down-forward", "forward", "down", "down-forward", "forward"], "MP", 44),
     (["down", "down-forward", "forward", "down", "down-forward", "forward"], "HP", 44),
     (["down", "down-forward", "forward", "down", "down-forward", "forward"], "LK", 45),  # SA2
     (["down", "down-forward", "forward", "down", "down-forward", "forward"], "MK", 45),
     (["down", "down-forward", "forward", "down", "down-forward", "forward"], "HK", 46),  # SA3
+    # ── 昇龍系 623（排在 236 前面，防止 623 被误识别为 236）────────────────
+    (["forward", "down", "down-forward"], "LP", 35),  # hishou_ryuuenjin_L
+    (["forward", "down", "down-forward"], "MP", 36),  # hishou_ryuuenjin_M
+    (["forward", "down", "down-forward"], "HP", 37),  # hishou_ryuuenjin_H
+    (["forward", "down", "down-forward"], "PP", 43),  # hishou_ryuuenjin_OD
+    # ── 波動拳系 236 ────────────────────────────────────────────────────────
+    (["down", "down-forward", "forward"], "LP", 23),  # kachousen_L
+    (["down", "down-forward", "forward"], "MP", 24),  # kachousen_M
+    (["down", "down-forward", "forward"], "HP", 25),  # kachousen_H
+    (["down", "down-forward", "forward"], "LK", 29),  # ryuuenbu_L
+    (["down", "down-forward", "forward"], "MK", 30),  # ryuuenbu_M
+    (["down", "down-forward", "forward"], "HK", 31),  # ryuuenbu_H
+    (["down", "down-forward", "forward"], "PP", 41),  # kachousen_OD
+    (["down", "down-forward", "forward"], "KK", 42),  # ryuuenbu_OD
+    # ── 竜巻系 214 ──────────────────────────────────────────────────────────
+    (["down", "down-back", "back"], "LK", 32),  # shinobibachi_L
+    (["down", "down-back", "back"], "MK", 33),  # shinobibachi_M
+    (["down", "down-back", "back"], "HK", 34),  # shinobibachi_H
+    (["down", "down-back", "back"], "KK", 55),  # shinobibachi_OD
+    # ── 前入力コマンド（6 系）────────────────────────────────────────────────
+    (["forward"], "HK", 57),  # hoshi_kujaku  (6HK)
+    (["forward"], "HP", 58),  # senkotsu_uchi (6HP)
+    # ── Drive Impact / Reversal（無方向）────────────────────────────────────
+    ([], "PP", 47),  # drive_impact
+    ([], "KK", 48),  # drive_reversal
 ]
 
-# 指令缓冲帧数（SF6 约 15 帧宽容）
-BUFFER_FRAMES = 15
+# 指令缓冲帧数：236236 需要两段 236，适当加长窗口
+# SF6 实际约 30 帧宽容（0.5 秒 @ 60fps）
+BUFFER_FRAMES = 30
 
 
 def get_dir_state(keys, dir_map) -> str:
@@ -120,23 +118,38 @@ def get_dir_state(keys, dir_map) -> str:
 
 
 def check_motion(dir_buf: deque, btn: str) -> int:
-    """检查方向缓冲区是否匹配某个指令，返回 action_id 或 0。"""
+    """检查方向缓冲区是否匹配某个指令，返回 action_id 或 0。
+
+    匹配规则：
+    1. 子序列匹配（允许跳过中间帧）
+    2. 指令的最后一个方向必须出现在缓冲区的后半段（防止 623 开头的 forward 被 236 末尾误用）
+    """
     buf_list = list(dir_buf)
+    if not buf_list:
+        return 0
 
     for motion_dirs, motion_btn, action_id in MOTION_TABLE:
         if motion_btn != btn:
             continue
         if not motion_dirs:
             return action_id
+
+        # 子序列匹配
         idx = 0
+        last_match_idx = -1
         for required in motion_dirs:
             while idx < len(buf_list) and buf_list[idx] != required:
                 idx += 1
             if idx >= len(buf_list):
                 break
+            last_match_idx = idx  # 记录最后一个匹配位置
             idx += 1
         else:
-            return action_id
+            # 匹配成功，但要求最后一个方向必须在缓冲区后半段
+            # 这样可以防止 623 (forward→down→down-forward) 被误识别为 236
+            # 因为 623 开头的 forward 不应该被 236 末尾的 forward 使用
+            if last_match_idx >= len(buf_list) // 2:
+                return action_id
     return 0
 
 

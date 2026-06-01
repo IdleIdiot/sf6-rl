@@ -1,0 +1,2765 @@
+{
+  "ed-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 7,
+    "on_hit": 4,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP; chained 5LP has unique animation for 2nd/3rd hits but has identical frame data and hitbox; very short range but low pushback for 3-hit confirms from point blank; Kill Rush (Forward/Back) cancel advantage: -18/-23",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 15,
+    "on_hit": 6,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Combo tool with a useful Target Combo follow-up; useful button out of 2MP~DRC as other combo buttons are too slow; Kill Rush (Forward/Back) cancel advantage: -8/-15",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 18,
+    "on_hit": 5,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces the opponent into a standing position",
+      "Hold the button to transition into Psycho Knuckle",
+      "Can be canceled into Kill Rush (Forward) while the button is held",
+      "Changes to Level 1 version if the button is held for more than 30 frames and then released",
+      "Changes to Level 2 version if the button is held for more than 60 frames and then released"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Forces stand; can be charged for Psycho Knuckle (releasing before 30f results in regular 5HP; startup of the release varies from 4-8f depending on charge time); good hitconfirmable poke that can combo into 2MK on Punish Counter even from max range; Kill Rush (Forward/Back) cancel advantage: -5/-12",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      7
+    ],
+    "recovery": 13,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Range and startup are more comparable to a medium normal; leads into safe hitconfirmable Target Combo; very susceptible to counterpokes (extends strike-only hurtbox 3f before active frames)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 18,
+    "on_hit": 0,
+    "on_block": -5,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "4f extra recovery on whiff; no true blockstring when DR canceled (weaker as an approach tool); great range with a relatively safe Target Combo when spaced out; extends a strike-only hurtbox on frames 4-9 (easier to counter-poke but not affected by projectiles); extends a wide hurtbox until the end of recovery; Kill Rush (Forward/Back) cancel advantage: -14/-19",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 12,
+    "on_hit": 8,
+    "on_block": 4,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Whiffs on crouching opponents unless they extend a vertical hurtbox; useful anti-air and close range combo/pressure tool; extremely fast recovery for a heavy normal; Kill Rush (Forward/Back) cancel advantage: -9/-13",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 10,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      200
+    ],
+    "notes_sc": "Chains into 5LP/2LP; more range than 5LP but not very useful since it can't be canceled; comparable to a 2LK for most characters",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 19,
+    "on_hit": 2,
+    "on_block": -6,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Functions like a 2MK for most characters (with below-average range); DR cancel is delayed until after active frames; has an extended hurtbox on whiff until the end of recovery; Range: 1.41; Kill Rush (Forward/Back) cancel advantage: -8/-16",
+    "drive_dmg_on_block": "2000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      13
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "ed-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 11,
+    "on_hit": 3,
+    "on_block": -4,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Excellent range for a light normal (functions like a 5LK for most characters); special/DR cancel is delayed until after active frames; extends a strike-only hurtbox 2f before active and a wider hurtbox until the end of recovery; Kill Rush (Forward/Back) cancel advantage: -17/-24; topmost hurtbox on frames 1-6 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      10
+    ],
+    "recovery": 16,
+    "on_hit": 8,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces the opponent into a standing position"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Forces stand; whiffs vs. crouching opponents at longer ranges unless they extend a vertical hurtbox; 3f extra recovery on whiff and extends a wide hurtbox until the end of recovery; good range for combos and buffers; situational anti-air but loses or trades with stronger jump-ins; Kill Rush (Forward/Back) cancel advantage: -6/-15",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      13
+    ],
+    "recovery": 17,
+    "on_hit": 1,
+    "on_block": -4,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "2f extra recovery on whiff; good range buffer tool with a hitconfirmable Target Combo follow-up; Kill Rush (Forward/Back) cancel advantage: -12/-17",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Ed's fastest air normal; decent for air-to-airs",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "canCrossUp"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Cross-up; strong downward attack angle for close jumps; lower body projectile invuln 1-7f foot and 8-22f below waist (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Spike knockdown on Counter-hit/Punish Counter vs. airborne opponents; solid jump-in hitbox on the fist; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Can only be used as a fuzzy instant overhead if the opponent is in Burnout; good downward hitbox",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Forward attack angle with longest horizontal range of Ed's air normals; extends a large hurtbox 3f before active that can be easily counterpoked; lower body projectile invuln 10-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "ed-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state; upward attack angle for air-to-air purposes; whiffs vs. crouching opponents unless they extend a vertical hurtbox, and difficult to time vs. standing opponents; lower body projectile invuln 8-17f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "psycho-knuckle-charged-level-1": {
+    "name": "Psycho Knuckle (Charged Level 1)",
+    "name_ja": "サイコナックル（ホールド Lv1）",
+    "input": "5[hp]",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 39,
+    "active": 2,
+    "active_frames": [
+      39,
+      53
+    ],
+    "recovery": 35,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A close-range punch that generates a ball of Psycho Power. Good for close-range combos or to cancel out an opponent's incoming projectile.",
+      "Produces a crumple stun for 41 frames when the attack lands",
+      "* +2 frames of advantage when blocked near the corner of the screen"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "psycho-knuckle-charged-level-2": {
+    "name": "Psycho Knuckle (Charged Level 2)",
+    "name_ja": "サイコナックル（ホールド Lv2）",
+    "input": "5[hp]",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 69,
+    "active": 2,
+    "active_frames": [
+      69,
+      83
+    ],
+    "recovery": 35,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A close-range punch that generates a ball of Psycho Power. Good for close-range combos or to cancel out an opponent's incoming projectile.",
+      "Produces a crumple stun for 41 frames when the attack lands",
+      "Clashes with projectiles"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "cobra-punch": {
+    "name": "Cobra Punch",
+    "name_ja": "コブラパンチ",
+    "input": "6hp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      19
+    ],
+    "recovery": 21,
+    "on_hit": 1,
+    "on_block": -3,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An advancing attack that's great against an opponent's low kicks.",
+      "Feet are invincible between frames 7 - 19",
+      "Forces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "Low Crush 7-19f; advances forward (useful vs. low attacks); KD vs. airborne opponents (airborne Punish Counter has significantly more KD advantage); when juggled into, puts opponent into limited juggle OTG state (allows a corner SA2 juggle if it connects at max height)",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "10"
+  },
+  "flicker-combination-2": {
+    "name": "Flicker Combination (2)",
+    "name_ja": "フリッカーコンビネーション（2段目）",
+    "input": "5lk>5lk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 15,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A quick combination attack that hits multiple times."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "flicker-combination-3": {
+    "name": "Flicker Combination (3)",
+    "name_ja": "フリッカーコンビネーション（3段目）",
+    "input": "5lk>5lk>5lk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 16,
+    "on_hit": 1,
+    "on_block": -8,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A quick combination attack that hits multiple times."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "body-blow-combination": {
+    "name": "Body Blow Combination",
+    "name_ja": "ボディブローコンビネーション",
+    "input": "5mp>5hp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      14
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -8,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick series of attacks that can be canceled into any special move except for Kill Rush (Backward).",
+      "Can only be canceled into Kill Rush (Backward)"
+    ],
+    "invuln": {},
+    "cancel": "*",
+    "scaling": [
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      400
+    ],
+    "notes_sc": "Puts opponent into limited juggle state; cancelable into any special/super except 4KK; 2nd hit can whiff at max range (much more unsafe on block); always a true blockstring from 5MP; special/DR cancel is delayed until after active frames; Kill Rush (Forward) cancel advantage: KD +30 / -16",
+    "drive_dmg_on_block": "1000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "hitman-combination-2": {
+    "name": "Hitman Combination (2)",
+    "name_ja": "ヒットマンコンビネーション（2段目）",
+    "input": "5mk>5mk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      8
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -6,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A sequence of attacks with long reach."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "hitman-combination-3": {
+    "name": "Hitman Combination (3)",
+    "name_ja": "ヒットマンコンビネーション（3段目）",
+    "input": "5mk>5mk>5hp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      15
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -11,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A sequence of attacks with long reach."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "low-smash-combination": {
+    "name": "Low Smash Combination",
+    "name_ja": "ロースマッシュコンビネーション",
+    "input": "2hk>5hp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      16
+    ],
+    "recovery": 19,
+    "on_hit": 0,
+    "on_block": -8,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.35,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A series of attacks, the second of which can be canceled into Super Arts."
+    ],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": [
+      "Combo scaling 30%"
+    ],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Puts opponent into limited juggle state; can leave up to 2f blockstring gap if delayed; cancelable into Kill Rush (6KK/4KK) on hit only; Super/Kill Rush cancel is delayed until after 2nd active frame",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "4"
+  },
+  "psycho-spark": {
+    "name": "Psycho Spark",
+    "name_ja": "サイコスパーク",
+    "input": "236*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      25
+    ],
+    "recovery": 8,
+    "on_hit": 3,
+    "on_block": -5,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A close-range punch that generates a ball of Psycho Power. Good for close-range combos or to cancel out an opponent's incoming projectile.",
+      "Can transition to Psycho Shoot between frames 22 - 28"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [],
+    "per_hit": [
+      200,
+      200
+    ],
+    "notes_sc": "Creates a 2-hit OD projectile hitbox that can clash with other OD projectiles or outright beat meterless projectiles; cancelable into 6P projectile follow-up on frames 18-28; on Perfect Parry, has no screen freeze but only 1f Parry recovery for each hit; with perfect meaty timing, becomes +16 on hit / +10 on block (no knockdown), but meterless version offers similar advantage with less precision",
+    "drive_dmg_on_block": "1000x2",
+    "drive_dmg_on_hit": "[1500x2]",
+    "juggle_start": "1 ground / 1,1 air",
+    "juggle_limit": "4,5"
+  },
+  "psycho-spark-od": {
+    "name": "Psycho Spark (OD)",
+    "name_ja": "サイコスパーク（OD）",
+    "input": "236(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      25
+    ],
+    "recovery": 7,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A close-range punch that generates a ball of Psycho Power. Good for close-range combos or to cancel out an opponent's incoming projectile.",
+      "Can transition to Psycho Shoot between frames 18 - 28"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "psycho-shoot-light": {
+    "name": "Psycho Shoot (Light)",
+    "name_ja": "サイコシュート（弱）",
+    "input": "6lp",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 12,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 3,
+    "on_block": -8,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Sends the ball of Psycho Power generated by Psycho Spark flying forward. Useful for attacking opponents at range.",
+      "During od psycho spark",
+      "During psycho spark"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-shoot-medium": {
+    "name": "Psycho Shoot (Medium)",
+    "name_ja": "サイコシュート（中）",
+    "input": "6mp",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 12,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 3,
+    "on_block": -8,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Sends the ball of Psycho Power generated by Psycho Spark flying forward. Useful for attacking opponents at range.",
+      "During psycho spark"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-shoot-heavy": {
+    "name": "Psycho Shoot (Heavy)",
+    "name_ja": "サイコシュート（強）",
+    "input": "6hp",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 12,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 3,
+    "on_block": -8,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Sends the ball of Psycho Power generated by Psycho Spark flying forward. Useful for attacking opponents at range.",
+      "During od psycho spark",
+      "During psycho spark"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-shoot-od-light": {
+    "name": "Psycho Shoot (OD Light)",
+    "name_ja": "サイコシュート（OD 弱）",
+    "input": "6lp",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 12,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Sends the ball of Psycho Power generated by Psycho Spark flying forward. Useful for attacking opponents at range."
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "psycho-shoot-od-medium": {
+    "name": "Psycho Shoot (OD Medium)",
+    "name_ja": "サイコシュート（OD 中）",
+    "input": "6mp",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 12,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Sends the ball of Psycho Power generated by Psycho Spark flying forward. Useful for attacking opponents at range.",
+      "During od psycho spark"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "psycho-shoot-od-heavy": {
+    "name": "Psycho Shoot (OD Heavy)",
+    "name_ja": "サイコシュート（OD 強）",
+    "input": "6hp",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 12,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -2,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Sends the ball of Psycho Power generated by Psycho Spark flying forward. Useful for attacking opponents at range."
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "psycho-uppercut-light": {
+    "name": "Psycho Uppercut (Light)",
+    "name_ja": "サイコアッパー（弱）",
+    "input": "623lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      17
+    ],
+    "recovery": 28,
+    "on_hit": 0,
+    "on_block": -13,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 15"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 15"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 30%",
+      "Combo scaling 20%"
+    ]
+  },
+  "psycho-uppercut-medium": {
+    "name": "Psycho Uppercut (Medium)",
+    "name_ja": "サイコアッパー（中）",
+    "input": "623mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      19
+    ],
+    "recovery": 32,
+    "on_hit": 0,
+    "on_block": -20,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 19"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 19"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-uppercut-heavy": {
+    "name": "Psycho Uppercut (Heavy)",
+    "name_ja": "サイコアッパー（強）",
+    "input": "623hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      21
+    ],
+    "recovery": 33,
+    "on_hit": 0,
+    "on_block": -21,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.4,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 19"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 19"
+    },
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-uppercut-od": {
+    "name": "Psycho Uppercut (OD)",
+    "name_ja": "サイコアッパー（OD）",
+    "input": "623(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      18
+    ],
+    "recovery": 36,
+    "on_hit": 0,
+    "on_block": -28,
+    "damage": 1600,
+    "chip_damage": 400,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
+      "Completely invincible between frames 1 - 16"
+    ],
+    "invuln": {
+      "full": "Completely invincible between frames 1 - 16"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "psycho-blitz-light": {
+    "name": "Psycho Blitz (Light)",
+    "name_ja": "サイコブリッツ（弱）",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 11,
+    "active": 6,
+    "active_frames": [
+      11,
+      13,
+      17,
+      19,
+      26,
+      29
+    ],
+    "recovery": 14,
+    "on_hit": 3,
+    "on_block": -5,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Unleashes a combination of punches cloaked in Psycho Power. Useful when canceling from normal attacks, or as a way to close out combos."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-blitz-medium": {
+    "name": "Psycho Blitz (Medium)",
+    "name_ja": "サイコブリッツ（中）",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 6,
+    "active_frames": [
+      13,
+      14,
+      22,
+      24,
+      34,
+      36
+    ],
+    "recovery": 16,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Unleashes a combination of punches cloaked in Psycho Power. Useful when canceling from normal attacks, or as a way to close out combos."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-blitz-heavy": {
+    "name": "Psycho Blitz (Heavy)",
+    "name_ja": "サイコブリッツ（強）",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 6,
+    "active_frames": [
+      15,
+      16,
+      28,
+      29,
+      36,
+      37
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Unleashes a combination of punches cloaked in Psycho Power. Useful when canceling from normal attacks, or as a way to close out combos."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-blitz-od": {
+    "name": "Psycho Blitz (OD)",
+    "name_ja": "サイコブリッツ（OD）",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 14,
+    "active_frames": [
+      13,
+      13,
+      18,
+      18,
+      22,
+      22,
+      26,
+      26,
+      30,
+      30,
+      34,
+      34,
+      43,
+      44
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -3,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Unleashes a combination of punches cloaked in Psycho Power. Useful when canceling from normal attacks, or as a way to close out combos."
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "psycho-flicker-light": {
+    "name": "Psycho Flicker (Light)",
+    "name_ja": "サイコフリッカー（弱）",
+    "input": "236lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      19
+    ],
+    "recovery": 26,
+    "on_hit": 1,
+    "on_block": -6,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
+      "Hold the button for more than 26 frames to change properties",
+      "Can be canceled into Kill Rush (Forward) and Kill Rush (Backward) while the button is held",
+      "Produces a crumple stun for 21 frames when the attack lands as a Punish Counter",
+      "Recovery is reduced by 2 frame on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-flicker-light-charged": {
+    "name": "Psycho Flicker (Light Charged)",
+    "name_ja": "サイコフリッカー（弱 ホールド）",
+    "input": "236[lk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 31,
+    "active": 2,
+    "active_frames": [
+      31,
+      35
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
+      "Pulls the opponent towards Ed when the attack hits or is blocked",
+      "Launches the opponent when the attack hits while they are standing on the ground",
+      "Produces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "psycho-flicker-medium": {
+    "name": "Psycho Flicker (Medium)",
+    "name_ja": "サイコフリッカー（中）",
+    "input": "236mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      23
+    ],
+    "recovery": 26,
+    "on_hit": 3,
+    "on_block": -6,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
+      "Hold the button for more than 30 frames to change properties",
+      "Can be canceled into Kill Rush (Forward) or Kill Rush (Backward) while the button is held",
+      "Produces a crumple stun for 45 frames when the attack lands as a Punish Counter",
+      "Recovery is reduced by 1 frame on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-flicker-medium-charged": {
+    "name": "Psycho Flicker (Medium Charged)",
+    "name_ja": "サイコフリッカー（中 ホールド）",
+    "input": "236[mk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 35,
+    "active": 2,
+    "active_frames": [
+      35,
+      39
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
+      "Pulls the opponent towards Ed when the attack hits or is blocked",
+      "Launches the opponent when the attack hits while they are standing on the ground",
+      "Produces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "psycho-flicker-heavy": {
+    "name": "Psycho Flicker (Heavy)",
+    "name_ja": "サイコフリッカー（強）",
+    "input": "236hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      24
+    ],
+    "recovery": 18,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
+      "Hold the button for more than 30 frames to change properties",
+      "Can be canceled into Kill Rush (Forward) or Kill Rush (Backward) while the button is held",
+      "Does not hit an opponent standing on the ground"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "psycho-flicker-heavy-charged": {
+    "name": "Psycho Flicker (Heavy Charged)",
+    "name_ja": "サイコフリッカー（強 ホールド）",
+    "input": "236[hk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 35,
+    "active": 2,
+    "active_frames": [
+      35,
+      44
+    ],
+    "recovery": 19,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
+      "Does not hit an opponent standing on the ground",
+      "Produces a slam knockdown when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "psycho-flicker-od": {
+    "name": "Psycho Flicker (OD)",
+    "name_ja": "サイコフリッカー（OD）",
+    "input": "236(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 25,
+    "active": 2,
+    "active_frames": [
+      25,
+      28
+    ],
+    "recovery": 32,
+    "on_hit": 0,
+    "on_block": 4,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
+      "Pulls the opponent towards Ed when the attack hits or is blocked",
+      "Launches the opponent when the attack hits while they are standing on the ground",
+      "Produces a slam knockdown when hitting a mid-air opponent",
+      "* Damage when hitting a mid-air opponent is 1200"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 15%"
+    ]
+  },
+  "kill-rush-forward": {
+    "name": "Kill Rush (Forward)",
+    "name_ja": "キルステップ（前方）",
+    "input": "5(kk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A technique that allows you to quickly move forward. Two different types of attacks are possible during the technique, which are timing dependent.",
+      "Can transition to Kill Switch Break between frames 11 - 12",
+      "Can transition to Kill Switch Chaser between frames 13 - 24"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Can be performed while charging 5[HP] or 236[K] (dash can be input as 66 when charging attack, or 6K during 236[K] only); useful for baiting Parry or Drive Impact and dashing in for a punish; cancelable into 6P launching follow-up (11-12f into Kill Switch Break, 13-24f into Kill Switch Chaser); counter-hit state for entire animation; head hurtbox disappears on frames 3-26; Distance: 2.24 (up to 2.69 if nothing is input during the first 17 post-recovery frames)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "kill-switch-break": {
+    "name": "Kill Switch Break",
+    "name_ja": "キルスイッチ・ブレイク",
+    "input": "6*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      13
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a short uppercut from Kill Rush. Useful for attacking while closing the distance on an opponent.",
+      "During kill rush (forward)"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "6P must be input early (from 1-12f); cannot hit cross-up; puts opponent into limited juggle state",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "10"
+  },
+  "kill-switch-chaser": {
+    "name": "Kill Switch Chaser",
+    "name_ja": "キルスイッチ・チェイス",
+    "input": "6*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      13
+    ],
+    "recovery": 20,
+    "on_hit": 0,
+    "on_block": -6,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a powerful uppercut from Kill Rush. The opponent is launched into the air when this connects, making it easy to string together a combo.",
+      "During kill rush (forward"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "6P must be input late (from 13-24f); cannot hit cross-up; launches opponent into limited juggle state (higher than Kill Switch Break, often allowing better follow-ups); SA3 cancel whiffs on the final 2 cancelable frames",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "4",
+    "juggle_limit": "10"
+  },
+  "kill-rush-backward": {
+    "name": "Kill Rush (Backward)",
+    "name_ja": "キルステップ（後方）",
+    "input": "4(kk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Perform a bob & weave while taking a step back. Useful for helping to create distance from the opponent while analyzing the situation."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Can be performed while charging 236[K] (also allows a 44 or 4K input for the backdash); cannot be performed from 5MP~HP Target Combo; counter-hit state for entire animation; head hurtbox disappears on frames 1-10; Distance: 0.999 (slightly farther than regular backdash); extends a wide forward hurtbox during recovery, leaving Ed vulnerable to counters like Drive Impact if too close",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "psycho-storm": {
+    "name": "Psycho Storm",
+    "name_ja": "サイコストーム",
+    "input": "236236*k",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 13,
+    "active": 14,
+    "active_frames": [
+      13,
+      14,
+      22,
+      23,
+      40,
+      41,
+      45,
+      46,
+      63,
+      63,
+      65,
+      65,
+      67,
+      67
+    ],
+    "recovery": 56,
+    "on_hit": 0,
+    "on_block": -32,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 8,
+    "notes": [
+      "Unleashes a series of high speed flicker jabs cloaked in Psycho Power. Useful as a combo ender, or as a counter attack by using its invincibility time.",
+      "Invincible to strikes and throws between frames 1 - 14",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "The minimum guaranteed damage is 30%"
+    ],
+    "invuln": {
+      "strike_throw": "Invincible to strikes and throws between frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      1300
+    ],
+    "invuln_str": "1-14 Strike/Throw",
+    "notes_sc": "High juggle potential; performs final attack on hit only; all hits are a true blockstring (if 1st hit is Perfect Parried, leaves an 8f gap between hits); KD advantage is slightly higher vs. airborne opponents",
+    "drive_dmg_on_block": "300x6,700 (2500)",
+    "drive_dmg_on_hit": "600x7,800 (5000)",
+    "juggle_start": "99",
+    "juggle_limit": "99"
+  },
+  "psycho-cannon": {
+    "name": "Psycho Cannon",
+    "name_ja": "サイコキャノン",
+    "input": "214214*p",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 8,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 65,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 7,
+    "notes": [
+      "Generates a ball of Psycho Power, then sends it flying straight ahead with a punch. This multi-hitting attack can be useful in combos.",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "The minimum guaranteed damage is 40%"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 2,
+    "per_hit": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150,
+      200
+    ],
+    "notes_sc": "7-hit Super-priority projectile; button strength determines projectile speed (LP slow, MP mid, HP fast); first 6 hits keep the opponent grounded and do not increase the juggle count; last hit puts opponent into a limited juggle state; if last hit occurs simultaneously with another strike, opponent remains grounded for follow-up combo; KD advantage varies based on range and juggle height; low damage on its own, but fantastic for combos, mixups, pressure, and corner carry; LP version allows extended juggles for huge damage, corner carry, and Drive meter regeneration (on hit, deals all Drive Damage on the final hit to prevent huge swings in Drive meter); scales all Super meter build by 50% until the end of the combo",
+    "drive_dmg_on_block": "700x6,800 (5000)",
+    "drive_dmg_on_hit": "0x6,10000 (LP) / 1400x6,1600 (MP/HP)",
+    "juggle_start": "0x6,1",
+    "juggle_limit": "99"
+  },
+  "psycho-chamber": {
+    "name": "Psycho Chamber",
+    "name_ja": "サイコチェンバー",
+    "input": "236236*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      19
+    ],
+    "recovery": 64,
+    "on_hit": 0,
+    "on_block": -49,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Ties together the feet and hands of an opponent before delivering a series of powerful shots all over their body. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure.",
+      "Completely invincible between frames 1 - 14",
+      "The minimum guaranteed damage is 50%",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "Can only be canceled into from special moves",
+      "30% Immediate Scaling added when canceled into from a Light or Medium Psycho Flicker"
+    ],
+    "invuln": {
+      "full": "Completely invincible between frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 10%"
+    ],
+    "super_cost": 3,
+    "per_hit": [
+      4000
+    ],
+    "invuln_str": "1-14 Full",
+    "notes_sc": "Cinematic time regenerates ~2.2 Drive bars for Ed; only deals 500 damage on the first hit if it trades (only the first 5 active frames are invincible)",
+    "drive_dmg_on_block": "7500",
+    "drive_dmg_on_hit": "15000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "psycho-chamber-critical-art": {
+    "name": "Psycho Chamber (Critical Art)",
+    "name_ja": "サイコチェンバー（CA）",
+    "input": "236236*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      19
+    ],
+    "recovery": 64,
+    "on_hit": 0,
+    "on_block": -49,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Ties together the feet and hands of an opponent before delivering a series of powerful shots all over their body. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure.",
+      "Completely invincible between frames 1 - 14",
+      "Minimum guaranteed damage is set to 50%",
+      "Values do not change on counter or Punish Counter",
+      "* Can only be canceled into from special moves",
+      "* 30% Immediate Scaling added when canceled into from a Light or Medium Psycho Flicker"
+    ],
+    "invuln": {
+      "full": "Completely invincible between frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": [
+      "*Immediate scaling 10%"
+    ],
+    "super_cost": 3
+  },
+  "face-buster": {
+    "name": "Face Buster",
+    "name_ja": "フェイスバスター",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Grab your opponent, then deliver a shoulder check to the head before punching them away. Throws your opponent without switching places with them.",
+      "When near opponent",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Can Drive Rush for a corner throw loop with 4f timing against standard characters; against Zangief, can walk forward for a frame-perfect corner throw loop; can reach the opponent's wakeup with immediate 236KK, or 236[LK] (2f timing window to catch jumps) for frame advantage (both are susceptible to Perfect Parry, but beat reversal SA1 and outspace OD reversals); can also feint this by charging 236[HK] to more easily catch a jumping opponent; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "rib-crusher": {
+    "name": "Rib Crusher",
+    "name_ja": "リブクラッシャー",
+    "input": "(4lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Grab your opponent's arm to immobilize them, then deliver a couple of punches to send them away. Throws your opponent while switching places with them.",
+      "When near opponent",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Side switch; after throwing opponent into corner, can dash to become +5 outside throw range (can microwalk to throw Blanka, E.Honda, and Zangief); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  }
+}

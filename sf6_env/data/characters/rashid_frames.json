@@ -1,0 +1,3569 @@
+{
+  "rashid-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      5
+    ],
+    "recovery": 9,
+    "on_hit": 4,
+    "on_block": 1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      8
+    ],
+    "recovery": 14,
+    "on_hit": 5,
+    "on_block": 1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Useful for starting combos and block pressure; has a Target Combo follow-up that can be canceled into 236LP for safety on block or into higher damage routes on hit",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 21,
+    "on_hit": 1,
+    "on_block": 4,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Decent mid-range button with a strong hitbox for counterpoking; can combo to 214HK after Drive Rush or Punish Counter; special/DR cancel is delayed until after 2nd active frame",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 10,
+    "on_hit": 3,
+    "on_block": 1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Highest hitstun light normal makes it useful for special cancels (the only light normal that can combo into 214LK naturally); DR cancel is delayed until after active frames",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 17,
+    "on_hit": 6,
+    "on_block": 3,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "2 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Combo starter that links into 5MP or into itself on counter-hit; 2 extra recovery frames on whiff",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      20
+    ],
+    "recovery": 18,
+    "on_hit": 1,
+    "on_block": 5,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent",
+      "Forces a juggle state when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state; Punish Counter launches grounded opponents into limited juggle state and causes airborne opponents to fall closer to Rashid; decent anti-air hitbox, but very slow and cannot hit cross-up; high pushback on hit and block; forces stand on hit; final 2 active frames whiff on crouching opponents unless they extend a vertical hurtbox; has an extended hurtbox 1f before active that is vulnerable to projectiles",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "2 air<br><span style=\"color: #fa6d0d;\">[3 PC Ground]</span>",
+    "juggle_limit": "1"
+  },
+  "rashid-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 7,
+    "on_hit": 5,
+    "on_block": 1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; DR cancel is delayed until after 2nd active frame; topmost hurtbox on frames 1-7 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      9
+    ],
+    "recovery": 13,
+    "on_hit": 4,
+    "on_block": 1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Combo and pressure tool with many active frames for easy oki; can anti-air on frames 7-9 but cannot hit opponents behind Rashid; whiffs on crouching opponents at longer ranges unless they extend a vertical hurtbox",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      14
+    ],
+    "recovery": 21,
+    "on_hit": 5,
+    "on_block": 6,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "2 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "Decent poke that can be buffered into supers; good close range Punish Counter starter (combos into 5HP), but high pushback makes it less reliable at longer ranges; 2 extra recovery frames on whiff; topmost hurtboxes on frames 8-14 are projectile invincible (avoids Sagat's MP/HP Tiger Shot)",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 8,
+    "on_hit": 3,
+    "on_block": 1,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Can be rapid canceled"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      200
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 18,
+    "on_hit": 1,
+    "on_block": 5,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Standard cancelable low poke; Range: 1.405; DR cancel is delayed until after active frames",
+    "drive_dmg_on_block": "2000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": 11,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "rashid-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      8
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Quick air-to-air",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state; cancels into j.214K from forward jumps; lower body projectile invuln 9-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1 air",
+    "juggle_limit": "5"
+  },
+  "rashid-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 4,
+    "active_frames": [
+      8,
+      10,
+      14,
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Forces a slam knockdown when hitting a mid-air opponent on the 2nd attack"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      400,
+      400
+    ],
+    "notes_sc": "1st hit puts airborne opponents into limited juggle state, 2nd hit causes spike knockdown; if 1st hit is stand blocked, the 2nd hit will not hit overhead against crouch block; lower body projectile invuln 8-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2000x2",
+    "drive_dmg_on_hit": "[2500x2]",
+    "juggle_start": "1 air",
+    "juggle_limit": "0,1"
+  },
+  "rashid-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      9
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Longest horizontal range of Rashid's jump normals",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Cross-up; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown when hitting a mid-air opponent when transitioning from Wing Stroke or Arabian Skyhigh"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "When used after j.214K or 214P~4K, causes a spike knockdown vs. airborne opponents; lower body projectile invuln 10-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rashid-run": {
+    "name": "Run",
+    "name_ja": "ラン",
+    "input": "6[6]",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Continue to hold forward and Rashid will break out into a sprint. Rashid will stop after covering a certain distance or if you release the input",
+      "Movement can be stoppped from frames 2 - 60",
+      "Can transition to either a branching attack or forward jump from frames 6 - 60",
+      "5 frames of recovery added when movement is stopped",
+      "Can be affected by air currents from frames 1 - 60"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Input by holding forward after a forward dash; cancelable into 6P or 6K follow-ups on frames 18-72; after 72f, Rashid has 18f stopping recovery if no follow-up is input (90f total); stopping the run early has 5f recovery; no stopping recovery if jumping forward out of the run animation (neutral/back jump still plays out the 5f recovery); counter-hit state during entire run animation; affected by Air Current for entire duration except for 18f recovery, causing Rashid to run faster",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "rashid-backup": {
+    "name": "Backup",
+    "name_ja": "バックアップ",
+    "input": "6*p",
+    "type": "followUp",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      17
+    ],
+    "recovery": 17,
+    "on_hit": 7,
+    "on_block": 10,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "During run",
+      "A low attack that can be performed during Run. Moves you behind the opponent when it hits",
+      "Considered airborne from frames 1 - 17",
+      "Only the second attack can be canceled into a Super Art"
+    ],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": [],
+    "per_hit": [
+      400,
+      400
+    ],
+    "invuln_str": "1-19 Upper Body Projectile",
+    "notes_sc": "Crouching state for entire move duration; on hit, connects twice and switches sides, remaining projectile invincible throughout the entire animation; on block, connects once and stays on the same side; if opponent is cornered, Rashid is close enough for a follow-up combo; counter-hit/Punish Counter bonus advantage applies to both hits; frames 1-17 can be affected by Air Current",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[2500,5000]",
+    "juggle_start": "0,1",
+    "juggle_limit": "10,10"
+  },
+  "tempest-moon": {
+    "name": "Tempest Moon",
+    "name_ja": "テンペスト・ムーン",
+    "input": "6*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 16,
+    "active": 4,
+    "active_frames": [
+      16,
+      17,
+      22,
+      24
+    ],
+    "recovery": 21,
+    "on_hit": 3,
+    "on_block": 4,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "During run",
+      "An attack that can be performed during Run. This multi-hitting attack lets you expand your mix-up game",
+      "Can be affected by air currents from frames 1 - 15",
+      "Considered airborne from frames 6 - 21",
+      "Only the second attack can be canceled into a Super Art",
+      "2段目のみSAでキャンセル可能"
+    ],
+    "invuln": {},
+    "cancel": "SA",
+    "scaling": [
+      "Starter scaling 15%"
+    ],
+    "per_hit": [
+      600,
+      600
+    ],
+    "invuln_str": "6-21 Throw",
+    "notes_sc": "Counter-hit/Punish Counter bonus advantage applies to both hits; frames 1-3 can be affected by Air Current, becoming the Enhanced version",
+    "drive_dmg_on_block": "2500x2",
+    "drive_dmg_on_hit": "[5000x2]",
+    "juggle_start": "1 air",
+    "juggle_limit": "10,10"
+  },
+  "air-current-boosted-tempest-moon": {
+    "name": "[Air Current Boosted] Tempest Moon",
+    "name_ja": "【気流強化】 テンペスト・ムーン",
+    "input": "6*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 9,
+    "active": 6,
+    "active_frames": [
+      9,
+      11,
+      33,
+      34,
+      38,
+      40
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": 5,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "From run when coming in contact with an air current",
+      "Considered airborne from frames 20 - 35"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "flapping-spin": {
+    "name": "Flapping Spin",
+    "name_ja": "フラップ・スピン",
+    "input": "6mp",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 4,
+    "active_frames": [
+      8,
+      9,
+      24,
+      25
+    ],
+    "recovery": 18,
+    "on_hit": 1,
+    "on_block": 3,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A two-hit combination attack. The first attack can be canceled into special moves",
+      "Forces a juggle state when hitting a mid-air opponent on the 1st attack",
+      "Can be affected by air currents from frames 3 - 10"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      300,
+      300
+    ],
+    "notes_sc": "() refers to startup of 2nd hit; 1st hit puts airborne opponents into limited juggle state (or maintains juggle state when used mid-combo); 2nd hit causes air reset; counter-hit/Punish Counter bonus advantage applies to both hits; decent range for whiff punishing; can be affected by Air Current on frames 3-10 (travels fullscreen)",
+    "drive_dmg_on_block": "1500x2",
+    "drive_dmg_on_hit": "[2500x2]",
+    "juggle_start": "1 air (1st)",
+    "juggle_limit": "4,4"
+  },
+  "beak-assault": {
+    "name": "Beak Assault",
+    "name_ja": "アサルト・ビーク",
+    "input": "6hp",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 22,
+    "active": 2,
+    "active_frames": [
+      22,
+      24
+    ],
+    "recovery": 21,
+    "on_hit": 3,
+    "on_block": 3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An overhead attack that cannot be blocked while crouching",
+      "Can be affected by air currents from frames 4 - 25"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Long-ranged overhead that can lead to combos if well-spaced; not actually airborne despite the animation; can be affected by Air Current on frames 4-25 (travels nearly fullscreen)",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "crescent-kick": {
+    "name": "Crescent Kick",
+    "name_ja": "クレセントキック",
+    "input": "6hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 16,
+    "active": 2,
+    "active_frames": [
+      16,
+      19
+    ],
+    "recovery": 20,
+    "on_hit": 2,
+    "on_block": 3,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "An advancing attack that's great against an opponent's low kicks",
+      "3 frames of recovery added when the attack misses",
+      "Can be affected by air currents from frames 6 - 19"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      900
+    ],
+    "invuln_str": "7-19 Lower Body",
+    "notes_sc": "3f extra recovery on whiff; useful for hopping over low pokes and comboing into MP normals on Punish Counter, but not actually airborne; good option out of Drive Rush; can be spaced to hit on later active frames for better advantage; can be affected by Air Current on frames 6-19 (travels fullscreen)",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "blitz-strike": {
+    "name": "Blitz Strike",
+    "name_ja": "ブリッツストライク",
+    "input": "9>2hp",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 850,
+    "chip_damage": 212,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A jump attack that sends you bounding forward over your opponent when it hits or is blocked",
+      "Can transition to a mid-air special move from frames 12 - 23 when the attack hits or is blocked",
+      "Can transition to any mid-air normal attack or special move from frame 24 until landing on the ground",
+      "Produces a floor bound when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 15%"
+    ],
+    "per_hit": [
+      850
+    ],
+    "notes_sc": "Can be performed during forward jump or after j.214K; causes spike knockdown and OTG juggle state vs. airborne opponents; cancelable into j.214K; bounces off opponent on hit/block/parry, allowing Rashid to follow up with another airborne move (except another j.2HP) on frames 12-23; if Rashid hits airborne opponent 1f before landing, he lands immediately rather than bouncing; listed frame advantage assumes a grounded opponent and no follow-up air attack; juggle data in () refers to version after j.214K; lower body projectile invuln 10-19f except around attack hitbox",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1 air",
+    "juggle_limit": "12(16)"
+  },
+  "aerial-shot": {
+    "name": "Aerial Shot",
+    "name_ja": "エリアルシュート",
+    "input": "8>8hk",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A powerful move for dealing with opponents up above that can be performed during a neutral jump",
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "During neutral jump only; puts airborne opponents into limited juggle state, making it a useful air-to-air; lower body projectile invuln 8-19f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1 air",
+    "juggle_limit": "0"
+  },
+  "rising-kick": {
+    "name": "Rising Kick",
+    "name_ja": "ライジング・キック",
+    "input": "mp>hk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      16
+    ],
+    "recovery": 36,
+    "on_hit": 0,
+    "on_block": 20,
+    "damage": 400,
+    "chip_damage": 100,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.1,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit combination attack that can be canceled into special moves"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      400
+    ],
+    "notes_sc": "Puts opponent into limited juggle state; both hits form a true blockstring and can cancel to 236LP for safety; special/DR cancel is delayed until after 4th recovery frame",
+    "drive_dmg_on_block": "1000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "side-flip": {
+    "name": "Side Flip",
+    "name_ja": "サイド・フリップ",
+    "input": "6(kk)",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick, advancing side flip. You can perform Front Flip from this move",
+      "Can transition to Front Flip from frames 18 - 24",
+      "Can be affected by air currents from frames 2 - 20"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Can input 4KK/5KK/6KK follow-up on frames 19-25; collision box disappears frames 8-23, allowing Rashid to pass through opponents; can be affected by Air Current on frames 2-20, traveling nearly fullscreen; travel distance: 1.7 (3.62 enhanced)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "front-flip": {
+    "name": "Front Flip",
+    "name_ja": "フロント・フリップ",
+    "input": "{4|5|6}(kk)",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Side Flip",
+      "Flip through the air towards the opponent. Jump attacks can be performed while in mid-air",
+      "Considered airborne from frames 11 - 43",
+      "Can transition to any mid-air normal attack, unique attack or special move from frame 22 - 40",
+      "Can be affected by air currents from frames 1 - 36"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Input during 6KK; holding forward/back/neutral direction affects flip distance; can use any air attack frames 22-40; can be affected by Air Current on frames 1-36, traveling forward fullscreen",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "spinning-mixer-light": {
+    "name": "Spinning Mixer (Light)",
+    "name_ja": "スピニング・ミキサー (弱)",
+    "input": "236lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 6,
+    "active_frames": [
+      8,
+      8,
+      16,
+      17,
+      22,
+      23
+    ],
+    "recovery": 19,
+    "on_hit": 2,
+    "on_block": 3,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash multiple chops while spinning. Useful for combos and sequences, it also makes for a great anti-air attack",
+      "Attack properties changed by air currents are active from frames 2 - 17",
+      "5 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "air-current-boosted-spinning-mixer-light": {
+    "name": "[Air Current Boosted] Spinning Mixer (Light)",
+    "name_ja": "[気流強化] スピニング・ミキサー (弱)",
+    "input": "236lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 18,
+    "active_frames": [
+      6,
+      6,
+      12,
+      14,
+      18,
+      20,
+      25,
+      27,
+      31,
+      33,
+      38,
+      40,
+      44,
+      46,
+      51,
+      53,
+      57,
+      59
+    ],
+    "recovery": 15,
+    "on_hit": 4,
+    "on_block": 2,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.09,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When coming in contact with an air current"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "spinning-mixer-medium": {
+    "name": "Spinning Mixer (Medium)",
+    "name_ja": "スピニング・ミキサー (中)",
+    "input": "236mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 8,
+    "active": 10,
+    "active_frames": [
+      8,
+      8,
+      9,
+      10,
+      13,
+      14,
+      20,
+      21,
+      25,
+      26
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 45,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Unleash multiple chops while spinning. Useful for combos and sequences, it also makes for a great anti-air attack",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 10",
+      "Considered airborne from frames 13 - 60",
+      "Attack properties changed by air currents are active from frames 2 - 9",
+      "11 frames of landing recovery can be canceled by a special move or Super Art when the attack hits"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 10"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 10%"
+    ]
+  },
+  "air-current-boosted-spinning-mixer-medium": {
+    "name": "[Air Current Boosted] Spinning Mixer (Medium)",
+    "name_ja": "[気流強化] スピニング・ミキサー (中)",
+    "input": "236mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 22,
+    "active_frames": [
+      5,
+      5,
+      6,
+      7,
+      10,
+      11,
+      16,
+      17,
+      21,
+      22,
+      29,
+      30,
+      34,
+      35,
+      41,
+      42,
+      46,
+      47,
+      53,
+      54,
+      58,
+      59
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 78,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.625,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When coming in contact with an air current",
+      "Considered airborne from frames 10 -97"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "spinning-mixer-heavy": {
+    "name": "Spinning Mixer (Heavy)",
+    "name_ja": "スピニング・ミキサー (強)",
+    "input": "236hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 12,
+    "active_frames": [
+      6,
+      7,
+      10,
+      12,
+      16,
+      18,
+      23,
+      25,
+      30,
+      32,
+      37,
+      39
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 55,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Unleash multiple chops while spinning. Useful for combos and sequences, it also makes for a great anti-air attack",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 12",
+      "Considered airborne from frames 13 - 63",
+      "Invincible to throws from frames 8 - 10",
+      "Attack properties changed by air currents are active from frames 2 - 6"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 12",
+      "throw": "Invincible to throws from frames 8 - 10"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "air-current-boosted-spinning-mixer-heavy": {
+    "name": "[Air Current Boosted] Spinning Mixer (Heavy)",
+    "name_ja": "[気流強化] スピニング・ミキサー (強)",
+    "input": "236hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 18,
+    "active_frames": [
+      5,
+      7,
+      9,
+      11,
+      15,
+      17,
+      22,
+      24,
+      28,
+      30,
+      33,
+      35,
+      38,
+      40,
+      43,
+      45,
+      49,
+      51
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 83,
+    "damage": 1800,
+    "chip_damage": 450,
+    "drive_gain_hit": 0.26,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When coming in contact with an air current",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 12",
+      "Considered airborne from frames 9 - 91"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 12"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "spinning-mixer-od": {
+    "name": "Spinning Mixer (OD)",
+    "name_ja": "スピニング・ミキサー (OD)",
+    "input": "236(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 18,
+    "active_frames": [
+      6,
+      6,
+      7,
+      8,
+      11,
+      13,
+      16,
+      19,
+      22,
+      25,
+      28,
+      31,
+      34,
+      37,
+      40,
+      43,
+      46,
+      48
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 42,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "Unleash multiple chops while spinning. Useful for combos and sequences, it also makes for a great anti-air attack",
+      "Completely invincible from frames 1 - 8",
+      "Can be affected by air currents from frames 2 - 9"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 8"
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "air-current-boosted-spinning-mixer-od": {
+    "name": "[Air Current Boosted] Spinning Mixer (OD)",
+    "name_ja": "[気流強化] スピニング・ミキサー (OD)",
+    "input": "236(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 4,
+    "active": 22,
+    "active_frames": [
+      4,
+      4,
+      5,
+      6,
+      9,
+      11,
+      14,
+      17,
+      20,
+      23,
+      26,
+      29,
+      32,
+      35,
+      38,
+      41,
+      44,
+      47,
+      50,
+      53,
+      56,
+      59
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 72,
+    "damage": 1400,
+    "chip_damage": 350,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When coming in contact with an air current",
+      "Completely invincible from frames 1 - 6",
+      "Can transition to mid-air special moves from frames 67 - 71",
+      "Considered airborne from frames 10 - 97"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 6"
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "eagle-spike-light": {
+    "name": "Eagle Spike (Light)",
+    "name_ja": "イーグル・スパイク (弱)",
+    "input": "214lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      27
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": 36,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Bound forward while delivering a powerful flying kick. Deals high damage and is easy to use to tack on an additional hit at the end of a combo",
+      "Attack properties changed by air currents are active from frames 4 - 15",
+      "Considered airborne from frames 9 - 38",
+      "Can only be canceled into Super Art 3 on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "air-current-boosted-eagle-spike-light": {
+    "name": "[Air Current Boosted] Eagle Spike (Light)",
+    "name_ja": "[気流強化] イーグル・スパイク (弱)",
+    "input": "214lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 2,
+    "active_frames": [
+      14,
+      26
+    ],
+    "recovery": 33,
+    "on_hit": 0,
+    "on_block": 24,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When coming in contact with an air current",
+      "Considered airborne from frames 9 - 38",
+      "Can only be canceled into Super Art 3 on hit"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "eagle-spike-medium": {
+    "name": "Eagle Spike (Medium)",
+    "name_ja": "イーグル・スパイク (中)",
+    "input": "214mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 21,
+    "active": 2,
+    "active_frames": [
+      21,
+      33
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": 36,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Bound forward while delivering a powerful flying kick. Deals high damage and is easy to use to tack on an additional hit at the end of a combo",
+      "Attack properties changed by air currents are active from frames 6 - 28",
+      "Considered airborne from frames 12 - 38"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "air-current-boosted-eagle-spike-medium": {
+    "name": "[Air Current Boosted] Eagle Spike (Medium)",
+    "name_ja": "[気流強化] イーグル・スパイク (中)",
+    "input": "214mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      31
+    ],
+    "recovery": 50,
+    "on_hit": 0,
+    "on_block": 15,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When coming in contact with an air current",
+      "Considered airborne from frames 17 - 45"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "eagle-spike-heavy": {
+    "name": "Eagle Spike (Heavy)",
+    "name_ja": "イーグル・スパイク (強)",
+    "input": "214hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 26,
+    "active": 2,
+    "active_frames": [
+      26,
+      38
+    ],
+    "recovery": 27,
+    "on_hit": 0,
+    "on_block": 36,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Bound forward while delivering a powerful flying kick. Deals high damage and is easy to use to tack on an additional hit at the end of a combo",
+      "Attack properties changed by air currents are active from frames 6 - 31",
+      "Considered airborne from frames 15 - 44"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "air-current-boosted-eagle-spike-heavy": {
+    "name": "[Air Current Boosted] Eagle Spike (Heavy)",
+    "name_ja": "[気流強化] イーグル・スパイク (強)",
+    "input": "214hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      31
+    ],
+    "recovery": 50,
+    "on_hit": 0,
+    "on_block": 15,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When coming in contact with an air current",
+      "Considered airborne from frames 17 - 45"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "eagle-spike-od": {
+    "name": "Eagle Spike (OD)",
+    "name_ja": "イーグル・スパイク (OD)",
+    "input": "214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 21,
+    "active": 2,
+    "active_frames": [
+      21,
+      33
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": 36,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Bound forward while delivering a powerful flying kick. Deals high damage and is easy to use to tack on an additional hit at the end of a combo",
+      "Attack properties changed by air currents are active from frames 6 - 30",
+      "Considered airborne from frames 12 - 40"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "air-current-boosted-eagle-spike-od": {
+    "name": "[Air Current Boosted] Eagle Spike (OD)",
+    "name_ja": "[気流強化] イーグル・スパイク (OD)",
+    "input": "214(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      31
+    ],
+    "recovery": 22,
+    "on_hit": 0,
+    "on_block": 24,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.8,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When coming in contact with an air current",
+      "Considered airborne from frames 12 - 40",
+      "Invincible to projectiles from frames 1 - 40"
+    ],
+    "invuln": {
+      "projectile": "Invincible to projectiles from frames 1 - 40"
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "whirlwind-shot-light": {
+    "name": "Whirlwind Shot (Light)",
+    "name_ja": "ワールウィンド・ショット (弱)",
+    "input": "236lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 1,
+    "on_block": 9,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "chargeable",
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button",
+      "Transition to variation attack by releasing the button between frames 29 and 48",
+      "Transition to maximum attack version by holding the button for over 48 frames"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "charged-whirlwind-shot-light": {
+    "name": "Charged Whirlwind Shot (Light)",
+    "name_ja": "ホールド ワールウィンド・ショット (弱)",
+    "input": "236[lk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 34,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 5,
+    "on_block": 0,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "fully-charged-whirlwind-shot-light": {
+    "name": "Fully Charged Whirlwind Shot (Light)",
+    "name_ja": "ホールドMAX ワールウィンド・ショット (弱)",
+    "input": "236[lk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 53,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 16,
+    "on_block": 8,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After technique is finished, an air current that lasts 60 frames will be generated"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "whirlwind-shot-medium": {
+    "name": "Whirlwind Shot (Medium)",
+    "name_ja": "ワールウィンド・ショット (中)",
+    "input": "236mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 1,
+    "on_block": 9,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button",
+      "Transition to variation attack by releasing the button between frames 29 and 48",
+      "Transition to maximum attack version by holding the button for over 48 frames"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "charged-whirlwind-shot-medium": {
+    "name": "Charged Whirlwind Shot (Medium)",
+    "name_ja": "ホールド ワールウィンド・ショット (中)",
+    "input": "236[mk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 34,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 5,
+    "on_block": 0,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "fully-charged-whirlwind-shot-medium": {
+    "name": "Fully Charged Whirlwind Shot (Medium)",
+    "name_ja": "ホールドMAX ワールウィンド・ショット (中)",
+    "input": "236[mk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 53,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 16,
+    "on_block": 8,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After technique is finished, an air current that lasts 60 frames will be generated"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "whirlwind-shot-heavy": {
+    "name": "Whirlwind Shot (Heavy)",
+    "name_ja": "ワールウィンド・ショット (強)",
+    "input": "236hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 1,
+    "on_block": 9,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button",
+      "Transition to variation attack by releasing the button between frames 29 and 48",
+      "Transition to maximum attack version by holding the button for over 48 frames"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "charged-whirlwind-shot-heavy": {
+    "name": "Charged Whirlwind Shot (Heavy)",
+    "name_ja": "ホールド ワールウィンド・ショット (強)",
+    "input": "236[hk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 34,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 5,
+    "on_block": 0,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "fully-charged-whirlwind-shot-heavy": {
+    "name": "Fully Charged Whirlwind Shot (Heavy)",
+    "name_ja": "ホールドMAX ワールウィンド・ショット (強)",
+    "input": "236[hk]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 53,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 16,
+    "on_block": 8,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "After technique is finished, an air current that lasts 60 frames will be generated"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "whirlwind-shot-od": {
+    "name": "Whirlwind Shot (OD)",
+    "name_ja": "ワールウィンド・ショット (OD)",
+    "input": "236(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 17,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button",
+      "Transition to variation attack by holding the button for 36 frames"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 25%",
+      "Combo scaling 25%"
+    ]
+  },
+  "charged-whirlwind-shot-od": {
+    "name": "Charged Whirlwind Shot (OD)",
+    "name_ja": "ホールド ワールウィンド・ショット (OD)",
+    "input": "236(kk)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 44,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 10,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button",
+      "After technique is finished, an air current that lasts 60 frames will be generated"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "arabian-cyclone-light": {
+    "name": "Arabian Cyclone (Light)",
+    "name_ja": "アラビアン・サイクロン (弱)",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      17
+    ],
+    "recovery": 28,
+    "on_hit": 0,
+    "on_block": 9,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A spinning kick attack that summons up a whirlwind in front of you. The move can be followed up with two different movement techniques",
+      "Can transition to branching attacks from frames 21 - 22"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "arabian-cyclone-medium": {
+    "name": "Arabian Cyclone (Medium)",
+    "name_ja": "アラビアン・サイクロン (中)",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      22
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": 7,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A spinning kick attack that summons up a whirlwind in front of you. The move can be followed up with two different movement techniques",
+      "Can transition to branching attacks from frames 26- 27"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "arabian-cyclone-heavy": {
+    "name": "Arabian Cyclone (Heavy)",
+    "name_ja": "アラビアン・サイクロン (強)",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 27,
+    "active": 2,
+    "active_frames": [
+      27,
+      29
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A spinning kick attack that summons up a whirlwind in front of you. The move can be followed up with two different movement techniques",
+      "Can transition to branching attacks from frames 33 - 34"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "arabian-cyclone-od": {
+    "name": "Arabian Cyclone (OD)",
+    "name_ja": "アラビアン・サイクロン (OD)",
+    "input": "214(pp)",
+    "type": "special",
+    "block_type": "high",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      22
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 10,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A spinning kick attack that summons up a whirlwind in front of you. The move can be followed up with two different movement techniques",
+      "Can transition to branching attacks from frames 26 - 27",
+      "3 frames of recovery added when the attack is blocked",
+      "After technique is finished, an air current that lasts 60 frames will be generated"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ]
+  },
+  "wing-stroke-light": {
+    "name": "Wing Stroke",
+    "name_ja": "ウィング・ストローク",
+    "input": "4*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Arabian Cyclone",
+      "A majestic mid-air forward dash performed from Arabian Cyclone. Allows you to break into a jump attack at any point of the dash",
+      "Considered airborne from frames 22 - 61",
+      "Can transition to normal mid-air attacks from frames 32 - 51",
+      "Can be affected by air currents from frames 23 - 47"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Cancelable into air normals/specials on frames 32-51; can be affected by Air Current on frames 23-47; 6f landing recovery occurs if no air move is used",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "rolling-assault": {
+    "name": "Rolling Assault",
+    "name_ja": "アサルト・ロール",
+    "input": "6*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Arabian Cyclone",
+      "A move performed from Arabian Cyclone that sends you rolling forward. A great technique for closing the distance from far or keeping the pressure on when you're up close",
+      "Can transition to branching attacks from frames 17 - 20",
+      "Can be affected by air currents from frames 8 - 25"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "invuln_str": "5-30 Upper Body Projectile",
+    "notes_sc": "Crouching state 6-33f; cancelable into Nail Assault follow-up on frames 17-20; can be affected by Air Current on frames 8-25; can roll under most projectiles (loses to low ones like Juri 236LK or Rashid 236KK); Hit/Block Advantage after 214P connects: 214LP/214MP <span style=\"color: #b70c0b;\">'''-5/-13'''</span>; 214HP KD+43/<span style=\"color: #32CD32;\">+1</span>; 214PP KD+39/<span style=\"color: #b70c0b;\">'''-16'''</span>",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "nail-assault": {
+    "name": "Nail Assault",
+    "name_ja": "アサルト・ネイル",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 17,
+    "active": 2,
+    "active_frames": [
+      17,
+      19
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": 9,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During Rolling Assault",
+      "A rolling kick delivered out of Rolling Assault. Very effective as a follow up attack on opponents launched by Arabian Cyclone"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      600
+    ],
+    "invuln_str": "1-19 Upper Body Projectile",
+    "notes_sc": "Puts opponent into limited juggle state; crouching state for entire move duration; cannot hit cross-ups behind Rashid; outside of juggles, only combos naturally from 214HP/214PP versions",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "10"
+  },
+  "arabian-skyhigh-light": {
+    "name": "Arabian Skyhigh (Light)",
+    "name_ja": "アラビアン・スカイハイ (弱)",
+    "input": "9>214lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      21
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Perform a spinning kick in mid-air that creates an air current that you then use to perform a mid-air jump. It's possible to perform jump attacks after the mid-air jump",
+      "Can be affected by air currents from frames 1 - 13",
+      "Can transition to any mid-air normal attack, unique attack or special move from frame 51 until landing on the ground",
+      "Can hit an opponent outside of a combo from frames 14 - 21"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "arabian-skyhigh-medium": {
+    "name": "Arabian Skyhigh (Medium)",
+    "name_ja": "アラビアン・スカイハイ (中)",
+    "input": "9>214mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      26
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Perform a spinning kick in mid-air that creates an air current that you then use to perform a mid-air jump. It's possible to perform jump attacks after the mid-air jump",
+      "Can be affected by air currents from frames 1 - 18",
+      "Can transition to any mid-air normal attack, unique attack or special move from frame 59 until landing on the ground",
+      "Can hit an opponent outside of a combo from frames 19 - 26"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "arabian-skyhigh-heavy": {
+    "name": "Arabian Skyhigh (Heavy)",
+    "name_ja": "アラビアン・スカイハイ (強)",
+    "input": "9>214hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 21,
+    "active": 2,
+    "active_frames": [
+      21,
+      29
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Perform a spinning kick in mid-air that creates an air current that you then use to perform a mid-air jump. It's possible to perform jump attacks after the mid-air jump",
+      "Can be affected by air currents from frames 1 - 21",
+      "Can transition to any mid-air normal attack, unique attack or special move from frame 62 until landing on the ground",
+      "Can hit an opponent outside of a combo from frames 21 - 29"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "arabian-skyhigh-od": {
+    "name": "Arabian Skyhigh (OD)",
+    "name_ja": "アラビアン・スカイハイ (OD)",
+    "input": "9>214kk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      21
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.7,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Perform a spinning kick in mid-air that creates an air current that you then use to perform a mid-air jump. It's possible to perform jump attacks after the mid-air jump",
+      "Can be affected by air currents from frames 1 - 13",
+      "Can transition to any mid-air normal attack, unique attack or special move from frame 51 until landing on the ground only when the attack is blocked or misses",
+      "Can hit an opponent outside of a combo from frames 14 - 21"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "super-rashid-kick": {
+    "name": "Super Rashid Kick",
+    "name_ja": "スーパー・ラシード・キック",
+    "input": "236236*k",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      15
+    ],
+    "recovery": 76,
+    "on_hit": 0,
+    "on_block": 53,
+    "damage": 1800,
+    "chip_damage": 450,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Offload a devastating kick while soaring forward and up through the air. Landing the initial hit on a grounded opponent will increase the move's damage",
+      "Invincible to strikes and throws from frames 1 - 16",
+      "During the attack’s active frames from frames 3 - 7 on hit, when the attack hits an airborne opponent, the properties change and damage is set to 1800",
+      "Considered airborne from frames 10 - 36",
+      "The minimum guaranteed damage is 30%",
+      "Values do not change when the attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {
+      "strike_throw": "Invincible to strikes and throws from frames 1 - 16"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      2100
+    ],
+    "invuln_str": "1-15 Strike/Throw",
+    "notes_sc": "Useful anti-air and combo/juggle tool; deals 300 less damage vs. airborne opponents with variable KD Advantage based on juggle height; grounded hit gives a cinematic that switches sides; bounces far away on block, but easily punished with dash or Drive Rush starter; listed recovery is on whiff/(block); only 500 damage on first hit if it trades",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "5000",
+    "juggle_start": "1",
+    "juggle_limit": "20"
+  },
+  "ysaar": {
+    "name": "Ysaar",
+    "name_ja": "イサール",
+    "input": "214214*k",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 11,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 33,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "Kick out with both legs to create a large advancing whirlwind. Movements or special moves that make contact with the whirlwind will have their properties changed",
+      "An air current is generated during the attack’s entire active frame duration and for 100 frames after the active frames are finished",
+      "Ysaar becomes faster if Arabian Cyclone’s first hit is collides with the attack during the active frames",
+      "The minimum guaranteed damage is 40%",
+      "Values do not change when the attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ],
+    "super_cost": 2,
+    "per_hit": [
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "notes_sc": "No invincibility; puts opponent into limited juggle state; spawns a 5-hit Super projectile tornado; travels fullscreen on its own, and Rashid can kick it with 214P to make it travel faster (can also kick tornado in the opposite direction after a side switch); tornado remains active even if it disappears off-screen; creates Air Current that lasts until 120f after Super dissipates (enhances many of Rashid's moves); listed KD Advantage is from point blank connect; cannot use 236K Whirlwind Shot while Super is active; cannot gain Super Art gauge while the projectile hitbox is active",
+    "drive_dmg_on_block": "1000x5",
+    "drive_dmg_on_hit": "2000x5",
+    "juggle_start": "1",
+    "juggle_limit": "99"
+  },
+  "altair": {
+    "name": "Altair",
+    "name_ja": "アルタイル",
+    "input": "236236*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      28
+    ],
+    "recovery": 82,
+    "on_hit": 0,
+    "on_block": 75,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Twirl around and summon a whirlwind that lifts up your opponent, before Rashid barrages them with a series of powerful blows. A versatile move, perfect for combos, reversals, and as a way of dealing with projectiles",
+      "Completely invincible from frame 1 to frame 16",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "The minimum guaranteed damage is 50%",
+      "Note: Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frame 1 to frame 16"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 3,
+    "per_hit": [
+      4000
+    ],
+    "invuln_str": "1-15 Full",
+    "notes_sc": "Reaches about half screen; cinematic time regenerates ~1.8 Drive bars for Rashid; only deals 10 damage when trading with opponent's attack",
+    "drive_dmg_on_block": "7500",
+    "drive_dmg_on_hit": "15000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "altair-ca": {
+    "name": "Altair (Critical Art)",
+    "name_ja": "アルタイル (CA)",
+    "input": "236236*p",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      28
+    ],
+    "recovery": 82,
+    "on_hit": 0,
+    "on_block": 75,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When under 25% vitality",
+      "Completely invincible from frame 1 to frame 16",
+      "Values do not change when the attack lands as a counter or Punish Counter",
+      "The minimum guaranteed damage is 50%",
+      "Note: Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frame 1 to frame 16"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 3
+  },
+  "riding-glider": {
+    "name": "Riding Glider",
+    "name_ja": "ライディング・グライド",
+    "input": "(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab the opponent, get them off balance, then send them tumbling with a kick. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Allows for a corner throw loop by holding Run for 18-20f, then letting go before throwing (17-20f for Blanka/E.Honda/Zangief); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "sunset-drop": {
+    "name": "Sunset Drop",
+    "name_ja": "サンセット・ドロップ",
+    "input": "(4lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "When near opponent",
+      "Grab the opponent, disrupt their balance, then flip up before coming down with both feet to stomp them into the ground. Throws your opponent while switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Side switches; Rashid can pressure with DR~6HK (+1 oB) midscreen or corner; or DR~2HP in the corner (huge pushback, links to SA1); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "desert-slider": {
+    "name": "Desert Slider",
+    "name_ja": "デザート・スライダー",
+    "input": "j>(lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 3,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "During a jump",
+      "When near opponent",
+      "Grab the opponent, ride on their back as you descend, then send them skidding along the ground on impact. Throws your opponent without switching places with them",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Useful air-to-air against close range jumps; in the corner, can get oki with Drive Rush",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  }
+}

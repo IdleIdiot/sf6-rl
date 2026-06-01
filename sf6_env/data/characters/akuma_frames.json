@@ -1,0 +1,3533 @@
+{
+  "akuma-stand-light-punch": {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱P",
+    "input": "5lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      6
+    ],
+    "recovery": 7,
+    "on_hit": 4,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; fastest chain timing (more useful vs. DI)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-stand-medium-punch": {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中P",
+    "input": "5mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      9
+    ],
+    "recovery": 11,
+    "on_hit": 4,
+    "on_block": 1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "2f extra recovery on whiff; primary tool for block pressure (high active frame count makes it strong for oki); leads into much stronger combos on counter-hit",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-stand-heavy-punch": {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強P",
+    "input": "5hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      13
+    ],
+    "recovery": 18,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Long-range hitconfirmable poke with a great hitbox; special/DR cancel is delayed until after 3rd active frame",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-stand-light-kick": {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱K",
+    "input": "5lk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 11,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Good range for a light normal; useful in light confirms, punishes, and neutral buffers; DR cancel is delayed until after active frames",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-stand-medium-kick": {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中K",
+    "input": "5mk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      11
+    ],
+    "recovery": 15,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "forcesStanding"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Forces stand (important for 214LK in combos and whiff punishes); high active frame count and good hitbox for counterpoking and for meaty pressure; only 15f to hitconfirm TC cancel without CH/PC/DR",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-stand-heavy-kick": {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強K",
+    "input": "5hk",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 13,
+    "active": 4,
+    "active_frames": [
+      13,
+      15,
+      24,
+      27
+    ],
+    "recovery": 15,
+    "on_hit": 7,
+    "on_block": 3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Forces the opponent into a standing position",
+      "1 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      400,
+      400
+    ],
+    "notes_sc": "2 hits; 1st hit forces stand (important for combos); both the 2nd hit and the farthest-reaching hitbox of 1st hit whiff on crouching opponents unless they extend a vertical hurtbox; if 1st hit is stand blocked, both hits will connect on block; 1f extra recovery when 2nd hit whiffs; Counter-hit/Punish Counter advantage carries through both hits; great punish starter since scaling doesn't apply; both hits put airborne opponents into limited juggle state",
+    "drive_dmg_on_block": "3000x2",
+    "drive_dmg_on_hit": "[5000x2]",
+    "juggle_start": "1,1 air",
+    "juggle_limit": "0,1"
+  },
+  "akuma-crouch-light-punch": {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱P",
+    "input": "2lp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      5
+    ],
+    "recovery": 9,
+    "on_hit": 5,
+    "on_block": -1,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK; Akuma's best light normal for combos due to 5LK link and 5MK counter-hit link; DR cancel is delayed until after active frames; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-crouch-medium-punch": {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中P",
+    "input": "2mp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      8
+    ],
+    "recovery": 14,
+    "on_hit": 6,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "2f extra recovery on whiff; excellent button for combos, midscreen buffers, and Drive Rush pressure (more rewarding than 5MP); topmost hurtbox on frames 1-8 is vulnerable only to aerial strikes (preventing its use as an anti-air); extends a wider hurtbox until the end of recovery",
+    "drive_dmg_on_block": "3000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-crouch-heavy-punch": {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強P",
+    "input": "2hp",
+    "type": "normal",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      15
+    ],
+    "recovery": 19,
+    "on_hit": 0,
+    "on_block": -8,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      900
+    ],
+    "notes_sc": "Forces stand (important combo/punish tool for 214LK); head/arm hurtbox is anti-air invuln while active on frames 8-15; good anti-air for vertical approaches but cannot hit cross-up (anti-air hitbox takes ~11f to come out, making it slower than average); only cancelable on active frames 1-3 with 1f extra hitstun on these frames",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[8000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-crouch-light-kick": {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱K",
+    "input": "2lk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      6
+    ],
+    "recovery": 10,
+    "on_hit": 3,
+    "on_block": -3,
+    "damage": 200,
+    "chip_damage": 50,
+    "drive_gain_hit": 0.025,
+    "drive_gain_block": -0.05,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      200
+    ],
+    "notes_sc": "Chains into 5LP/2LP/2LK",
+    "drive_dmg_on_block": "500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-crouch-medium-kick": {
+    "name": "Crouching Medium Kick",
+    "name_ja": "しゃがみ中K",
+    "input": "2mk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 19,
+    "on_hit": 1,
+    "on_block": -6,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Extends a wide hurtbox 3f before startup and during recovery; special/DR cancel is delayed until after active frames; DI cancel can occur on 1st active frame",
+    "drive_dmg_on_block": "2000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-crouch-heavy-kick": {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強K",
+    "input": "2hk",
+    "type": "normal",
+    "block_type": "low",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -12,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.3,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knockdown time extended when attack lands as a counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "akuma-jump-light-punch": {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱P",
+    "input": "j>lp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 4,
+    "active": 2,
+    "active_frames": [
+      4,
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Fast air-to-air; can be used as a fuzzy instant overhead",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-jump-medium-punch": {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中P",
+    "input": "j>mp",
+    "type": "normal",
+    "block_type": "midHigh",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a juggle state when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Puts airborne opponents into limited juggle state but no juggle potential on its own; lenient cancel window to juggle into j.214K/j.236P/Air SA1; lower body projectile invuln 8-23f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-jump-heavy-punch": {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強P",
+    "input": "j>hp",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      14
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Spike knockdown vs. airborne opponents on Counter-hit/Punish Counter; good hitbox priority for air approaches; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-jump-light-kick": {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱K",
+    "input": "j>lk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      15
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 300,
+    "chip_damage": 75,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.15,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300
+    ],
+    "notes_sc": "Cross-up",
+    "drive_dmg_on_block": "1500",
+    "drive_dmg_on_hit": "[2000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-jump-medium-kick": {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中K",
+    "input": "j>mk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      12
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Has cross-up attack properties"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      500
+    ],
+    "notes_sc": "Cross-up; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "2500",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "akuma-jump-heavy-kick": {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強K",
+    "input": "j>hk",
+    "type": "normal",
+    "block_type": "mid",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      17
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Most horizontal range of Akuma's air normals; lower body projectile invuln 12-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "skull-splitter": {
+    "name": "Skull Splitter",
+    "name_ja": "頭蓋破殺",
+    "input": "6mp",
+    "type": "commandNormal",
+    "block_type": "mid",
+    "startup": 20,
+    "active": 4,
+    "active_frames": [
+      20,
+      20,
+      22,
+      24
+    ],
+    "recovery": 18,
+    "on_hit": 3,
+    "on_block": -1,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "An overhead attack that cannot be blocked while crouching.",
+      "Second attack becomes an overhead only if the first attack whiffs"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      200,
+      400
+    ],
+    "notes_sc": "2-hits; fast overhead with excellent reward (5MK) when used out of Drive Rush; if blocked, Akuma is out of throw range (can frame trap with CH 2LP into 5MK to punish reversal 4f jabs); 2nd hit is no longer an overhead if the first hit connects",
+    "drive_dmg_on_block": "1250x2",
+    "drive_dmg_on_hit": "[2500x2]",
+    "juggle_start": "1",
+    "juggle_limit": "0,0"
+  },
+  "resso-snap-kick": {
+    "name": "Resso Snap Kick",
+    "name_ja": "裂槍脚",
+    "input": "6mk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 18,
+    "on_hit": 5,
+    "on_block": -4,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick, long-reaching snap kick."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "3f extra recovery on block, 4f extra recovery on whiff; whiffed version extends a wider hurtbox during recovery; long-range poke with great hitbox priority; good whiff punish tool that allows a link to 2HK from closer ranges, or into SA2 from around Akuma's 2MK range; safe from all reversal 4f normal even at point blank (except Zangief 2LK, which gets no follow-up)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[6000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "rago-high-kick": {
+    "name": "Rago High Kick",
+    "name_ja": "羅豪脚",
+    "input": "4hk",
+    "type": "commandNormal",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      16
+    ],
+    "recovery": 27,
+    "on_hit": 0,
+    "on_block": -15,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A launching kick that can be canceled into special moves."
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Starter scaling 20%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Puts opponents into limited juggle state (free juggle if used out of Drive Rush); upper body and kicking leg is anti-air invuln while active (frames 12-16); unreliable anti-air due to slow startup and extended vertical hurtbox before the invuln starts; being a cancelable launcher allows Akuma to juggle into Demon Raid follow-ups or charged fireballs",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "0"
+  },
+  "viscera-piercer": {
+    "name": "Viscera Piercer",
+    "name_ja": "六腑穿ち",
+    "input": "5mp>5mp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      9
+    ],
+    "recovery": 21,
+    "on_hit": -1,
+    "on_block": -6,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.15,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick series of attacks that can be canceled by a special move to create combos, or eliminate gaps that would leave you open to counterattack."
+    ],
+    "invuln": {},
+    "cancel": "C",
+    "scaling": [
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "Important combo/hitconfirm tool; always a true blockstring from 5MP",
+    "drive_dmg_on_block": "2000",
+    "drive_dmg_on_hit": "[4000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "bone-crusher-axe-kick": {
+    "name": "Bone Crusher Axe Kick",
+    "name_ja": "骸新り",
+    "input": "5mk>5hk",
+    "type": "targetCombo",
+    "block_type": "mid",
+    "startup": 20,
+    "active": 2,
+    "active_frames": [
+      20,
+      22
+    ],
+    "recovery": 20,
+    "on_hit": 1,
+    "on_block": -3,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A two-hit series of attacks, the second of which cannot be blocked crouching."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      600
+    ],
+    "notes_sc": "Safe overhead Target Combo that's great for chipping Drive gauge; puts airborne opponents into limited juggle OTG state (can be used in juggles where 5MK connects, like wallsplat or DR~5MK routes); interruptible 5f gap between hits on block (up to 8f at max delay); will not combo on final 2 cancelable frames of 5MK without CH/PC/DR starter making it very difficult to hitconfirm",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "3"
+  },
+  "kikoku-combination-1": {
+    "name": "Kikoku Combination (1)",
+    "name_ja": "鬼哭連撃（１）",
+    "input": "6hp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 13,
+    "active": 2,
+    "active_frames": [
+      13,
+      16
+    ],
+    "recovery": 20,
+    "on_hit": 4,
+    "on_block": -3,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A multi-hit attack with a lenient input window for follow-ups."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "kikoku-combination-2": {
+    "name": "Kikoku Combination (2)",
+    "name_ja": "鬼哭連撃（２）",
+    "input": "6hp>6hp",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 10,
+    "active": 2,
+    "active_frames": [
+      10,
+      12
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -10,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A multi-hit attack with a lenient input window for follow-ups."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "kikoku-combination-3": {
+    "name": "Kikoku Combination (3)",
+    "name_ja": "鬼哭連撃（３）",
+    "input": "6hp>6hp>5hk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 24,
+    "on_hit": 0,
+    "on_block": -13,
+    "damage": 875,
+    "chip_damage": 218,
+    "drive_gain_hit": 0.25,
+    "drive_gain_block": -0.2,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A multi-hit attack with a lenient input window for follow-ups."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "tenmaku-blade-kick": {
+    "name": "Tenmaku Blade Kick",
+    "name_ja": "天魔空刃脚",
+    "input": "9>2mk",
+    "type": "targetCombo",
+    "block_type": "high",
+    "startup": 16,
+    "active": 1,
+    "active_frames": [
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A downward attack that doesn't leave you open, and allows you to change the trajectory of your forward jump.",
+      "During a forward jump"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      800
+    ],
+    "notes_sc": "Forward Jump only; 6f extra landing recovery on whiff; great tool for mixing up jump timings, especially against characters that rely on non-invincible anti-airs; much stronger hurtbox compared to other divekicks; cannot hit cross-up; all landing recovery after the first 2 frames has a crouch-sized hurtbox, and the final recovery frame is in a crouching state; kicking leg is projectile invuln on frame 14 until landing",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "1"
+  },
+  "gou-hadoken-light": {
+    "name": "Gou Hadoken (Light)",
+    "name_ja": "豪波動拳（弱）",
+    "input": "236lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 16,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -4,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+      "Hold and release the button for 25 frames or more to activate Level 2",
+      "Hold and release the button for 49 frames or more to activate Level 3"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gou-hadoken-light-charge-level-2": {
+    "name": "Gou Hadoken (Light) (Charge Level 2)",
+    "name_ja": "豪波動拳 (溜め Lv2）",
+    "input": "236[lp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 31,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gou-hadoken-light-charge-level-3": {
+    "name": "Gou Hadoken (Light) (Charge Level 3)",
+    "name_ja": "豪波動拳（溜め Lv3）",
+    "input": "236[lp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 56,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 5,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gou-hadoken-medium": {
+    "name": "Gou Hadoken (Medium)",
+    "name_ja": "豪波動拳 (中)",
+    "input": "236[mp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 14,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": -2,
+    "on_block": -6,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+      "Hold and release the button for 25 frames or more to activate Level 2",
+      "Hold and release the button for 49 frames or more to activate Level 3"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gou-hadoken-medium-charge-level-2": {
+    "name": "Gou Hadoken (Medium) (Charge Level 2)",
+    "name_ja": "豪波動拳 (中)（溜め Lv2）",
+    "input": "236[mp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 31,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gou-hadoken-medium-charge-level-3": {
+    "name": "Gou Hadoken (Medium) (Charge Level 3)",
+    "name_ja": "豪波動拳 (中)（溜め Lv3）",
+    "input": "236[mp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 56,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 5,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gou-hadoken-heavy": {
+    "name": "Gou Hadoken (Heavy)",
+    "name_ja": "豪波動拳 (強)",
+    "input": "236[hp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 12,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": -4,
+    "on_block": -8,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+      "Charged",
+      "Hold and release the button for 25 frames or more to activate Level 2",
+      "Hold and release the button for 49 frames or more to activate Level 3"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gou-hadoken-heavy-charge-level-2": {
+    "name": "Gou Hadoken (Heavy) (Charge Level 2)",
+    "name_ja": "豪波動拳 (強)（溜め Lv2）",
+    "input": "236[hp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 31,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gou-hadoken-heavy-charge-level-3": {
+    "name": "Gou Hadoken (Heavy) (Charge Level 3)",
+    "name_ja": "豪波動拳 (強)（溜め Lv3）",
+    "input": "236[hp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 56,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 5,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 4,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "gou-hadoken-od": {
+    "name": "Gou Hadoken (OD)",
+    "name_ja": "豪波動拳（OD）",
+    "input": "236pp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 12,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range."
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "gou-hadoken-charged": {
+    "name": "Gou Hadoken (Charged) (OD)",
+    "name_ja": "豪波動拳（ホールド）（OD）",
+    "input": "236[pp]",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 5,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.3,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+      "Hold down the button for over 25 frames to change its properties"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "zanku-hadoken": {
+    "name": "Zanku Hadoken",
+    "name_ja": "斬空波動拳",
+    "input": "9>236*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Fire a ki blast from the air to the ground below. This attack is effective as a tool to shield your approach. The Overdrive version can also be performed from a neutral jump.",
+      "During a forward jump",
+      "Angle of the projectile changes depending on the button pressed"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300,
+      300,
+      300
+    ],
+    "notes_sc": "Forward/Neutral Jump only on airborne frame 9-33; 3-hit OD projectile; dissipates if Akuma is hit; creates stationary projectile on frames 6-20, then shoots downward at ~50 degree angle (this projectile will only have 2 hits if the initial hitbox collided with opponent); on hit only, landing recovery after 2f is cancelable into any action except walking/jumping; projectile hitbox is considered an airborne attack (can be avoided with anti-air invuln moves); puts airborne opponents into free juggle state (or maintains existing juggle state); puts grounded opponents into limited juggle state; advantage varies significantly depending on timing/spacing/angle (at worst, approximately -3 oB vs. tall characters, -1 oB vs. standard characters, but +1~3 if all hits Perfect Parried); foot hurtbox is projectile invuln 1f~land; upper half of hitbox only connects on opponents mid-combo",
+    "drive_dmg_on_block": "2000x2,1000",
+    "drive_dmg_on_hit": "[2000,0,1000]",
+    "juggle_start": "1 / 0 air",
+    "juggle_limit": "5,5,5"
+  },
+  "zanku-hadoken-od": {
+    "name": "Zanku Hadoken (OD)",
+    "name_ja": "斬空波動拳（OD）",
+    "input": "{8|9}>236pp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Fire a ki blast from the air to the ground below. This attack is effective as a tool to shield your approach. The Overdrive version can also be performed from a neutral jump."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "gou-shoryuken-light": {
+    "name": "Gou Shoryuken (Light)",
+    "name_ja": "豪昇龍拳 (弱)",
+    "input": "623lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      14
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -23,
+    "damage": 1100,
+    "chip_damage": 275,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+      "Considered airborne from frames 8 - 35"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "gou-shoryuken-medium": {
+    "name": "Gou Shoryuken (Medium)",
+    "name_ja": "豪昇龍拳 (中)",
+    "input": "623mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      15
+    ],
+    "recovery": 30,
+    "on_hit": 0,
+    "on_block": -30,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
+      "Considered airborne from frames 9 - 45"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "gou-shoryuken-heavy": {
+    "name": "Gou Shoryuken (Heavy)",
+    "name_ja": "豪昇龍拳 (強)",
+    "input": "623hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      17
+    ],
+    "recovery": 35,
+    "on_hit": 0,
+    "on_block": -36,
+    "damage": 1500,
+    "chip_damage": 375,
+    "drive_gain_hit": 0.21,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+      "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
+      "Considered airborne from frames 7 - 52"
+    ],
+    "invuln": {
+      "strike": "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9"
+    },
+    "cancel": "SA3",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "gou-shoryuken-od": {
+    "name": "Gou Shoryuken (OD)",
+    "name_ja": "豪昇龍拳（OD）",
+    "input": "623pp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 6,
+    "active": 2,
+    "active_frames": [
+      6,
+      16
+    ],
+    "recovery": 37,
+    "on_hit": 0,
+    "on_block": -39,
+    "damage": 1900,
+    "chip_damage": 475,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+      "Completely invincible from frames 1 - 8.",
+      "Considered airborne from frames 8 - 53."
+    ],
+    "invuln": {
+      "full": "Completely invincible from frames 1 - 8."
+    },
+    "cancel": "",
+    "scaling": []
+  },
+  "tatsumaki-zankukyaku-light": {
+    "name": "Tatsumaki Zankukyaku (Light)",
+    "name_ja": "竜巻斬空脚 (弱)",
+    "input": "214lk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 12,
+    "active": 2,
+    "active_frames": [
+      12,
+      13
+    ],
+    "recovery": 21,
+    "on_hit": 0,
+    "on_block": -13,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Unleash a series of roundhouse kicks while moving forward. Useful in combos as well as for sending opponents flying away.",
+      "6 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "tatsumaki-zankukyaku-medium": {
+    "name": "Tatsumaki Zankukyaku (Medium)",
+    "name_ja": "竜巻斬空脚 (中)",
+    "input": "214mk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 11,
+    "active": 4,
+    "active_frames": [
+      11,
+      12,
+      26,
+      27
+    ],
+    "recovery": 31,
+    "on_hit": 0,
+    "on_block": -13,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "Unleash a series of roundhouse kicks while moving forward. Useful in combos as well as for sending opponents flying away."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "tatsumaki-zankukyaku-heavy": {
+    "name": "Tatsumaki Zankukyaku (Heavy)",
+    "name_ja": "竜巻斬空脚 (強)",
+    "input": "214hk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 7,
+    "active": 8,
+    "active_frames": [
+      7,
+      9,
+      16,
+      18,
+      28,
+      30,
+      49,
+      51
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": -59,
+    "damage": 1600,
+    "chip_damage": 400,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Unleash a series of roundhouse kicks while moving forward. Useful in combos as well as for sending opponents flying away."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "tatsumaki-zankukyaku-od": {
+    "name": "Tatsumaki Zankukyaku (OD)",
+    "name_ja": "竜巻斬空脚（OD）",
+    "input": "214kk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 13,
+    "active": 10,
+    "active_frames": [
+      13,
+      14,
+      19,
+      20,
+      25,
+      26,
+      30,
+      31,
+      36,
+      37
+    ],
+    "recovery": 26,
+    "on_hit": 0,
+    "on_block": -17,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "Unleash a series of roundhouse kicks while moving forward. Useful in combos as well as for sending opponents flying away."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "aerial-tatsumaki-zankukyaku": {
+    "name": "Aerial Tatsumaki Zankukyaku",
+    "name_ja": "空中竜巻斬空脚",
+    "input": "9>214*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 11,
+    "active": 6,
+    "active_frames": [
+      11,
+      12,
+      18,
+      19,
+      25,
+      26
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A Tatsumaki Zanku-kyaku performed during a jump. Useful to change jump trajectory or to finish up combos.",
+      "During a forward jump",
+      "During a forward jump"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 30%"
+    ]
+  },
+  "aerial-tatsumaki-zankukyaku-od": {
+    "name": "Aerial Tatsumaki Zankukyaku (OD)",
+    "name_ja": "空中竜巻斬空脚（OD）",
+    "input": "{8|9}>214kk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 11,
+    "active": 10,
+    "active_frames": [
+      11,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      27,
+      28
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A Tatsumaki Zanku-kyaku performed during a jump. Useful to change jump trajectory or to finish up combos."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ]
+  },
+  "adamant-flame-light-1": {
+    "name": "Adamant Flame (Light 1)",
+    "name_ja": "金剛灼火（弱 1段目）",
+    "input": "214lp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 15,
+    "active": 2,
+    "active_frames": [
+      15,
+      17
+    ],
+    "recovery": 23,
+    "on_hit": 1,
+    "on_block": -8,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
+      "Can transition to branching attacks from frames 19 - 22"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "adamant-flame-light-2": {
+    "name": "Adamant Flame (Light 2)",
+    "name_ja": "金剛灼火（弱 2段目）",
+    "input": "214lp>6*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      10
+    ],
+    "recovery": 18,
+    "on_hit": 3,
+    "on_block": -10,
+    "damage": 500,
+    "chip_damage": 125,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "adamant-flame-medium-1": {
+    "name": "Adamant Flame (Medium 1)",
+    "name_ja": "金剛灼火（中 1段目）",
+    "input": "214mp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 19,
+    "active": 2,
+    "active_frames": [
+      19,
+      21
+    ],
+    "recovery": 20,
+    "on_hit": 2,
+    "on_block": -4,
+    "damage": 800,
+    "chip_damage": 200,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
+      "Can transition to branching attacks from frames 23 - 26",
+      "3 frames of recovery added when the attack misses",
+      "Adds +10 frames of advantage on a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "adamant-flame-medium-2": {
+    "name": "Adamant Flame (Medium 2)",
+    "name_ja": "金剛灼火（中 2段目）",
+    "input": "214mp>6*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      10
+    ],
+    "recovery": 32,
+    "on_hit": 0,
+    "on_block": -18,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "adamant-flame-heavy-1": {
+    "name": "Adamant Flame (Heavy 1)",
+    "name_ja": "金剛灼火（強 1段目）",
+    "input": "214hp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 23,
+    "active": 2,
+    "active_frames": [
+      23,
+      25
+    ],
+    "recovery": 19,
+    "on_hit": 3,
+    "on_block": -2,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
+      "Can transition to branching attacks from frames 27 - 30",
+      "2 frames of recovery added when the attack misses",
+      "Adds +12 frames of advantage on a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "adamant-flame-heavy-2": {
+    "name": "Adamant Flame (Heavy 2)",
+    "name_ja": "金剛灼火（強 2段目）",
+    "input": "214hp>6*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 11,
+    "active": 2,
+    "active_frames": [
+      11,
+      14
+    ],
+    "recovery": 28,
+    "on_hit": 0,
+    "on_block": -14,
+    "damage": 600,
+    "chip_damage": 150,
+    "drive_gain_hit": 0.05,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos."
+    ],
+    "invuln": {},
+    "cancel": "SA3",
+    "scaling": []
+  },
+  "adamant-flame-od-1": {
+    "name": "Adamant Flame (OD 1)",
+    "name_ja": "金剛灼火（OD 1段目）",
+    "input": "214pp",
+    "type": "special",
+    "block_type": "high",
+    "startup": 18,
+    "active": 2,
+    "active_frames": [
+      18,
+      20
+    ],
+    "recovery": 23,
+    "on_hit": 1,
+    "on_block": -3,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 2,
+    "notes": [
+      "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
+      "Can transition to branching attacks from frames 22 - 25",
+      "Produces a crumple stun for 39 frames when the attack lands as a Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": [
+      "Starter scaling 20%"
+    ]
+  },
+  "adamant-flame-od-2": {
+    "name": "Adamant Flame (OD 2)",
+    "name_ja": "金剛灼火（OD 2段目）",
+    "input": "214pp>6*p",
+    "type": "special",
+    "block_type": "high",
+    "startup": 7,
+    "active": 4,
+    "active_frames": [
+      7,
+      10,
+      15,
+      17
+    ],
+    "recovery": 25,
+    "on_hit": 0,
+    "on_block": -18,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos."
+    ],
+    "invuln": {},
+    "cancel": "SA2",
+    "scaling": []
+  },
+  "demon-raid": {
+    "name": "Demon Raid",
+    "name_ja": "百鬼襲",
+    "input": "236*k",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick leap towards the opponent that allows you to transition into various techniques. Clever use of these techniques will help strengthen your offense.",
+      "Can go into any transition attack except for Demon Low Slash and Demon Swoop between frames 18 - 40",
+      "Considered airborne after frame 7",
+      "Distance traveled is determined by the button pressed"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Tracks opponent's location regardless of distance; counter-hit state for entire duration; cancelable into follow-ups on frames 16-40 (16-38 for Fireball/Tatsu and Air SA1 follow-ups); on frame 41, automatically transitions to Demon Low Slash (or Demon Swoop if holding Down)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "demon-raid-od": {
+    "name": "Demon Raid (OD)",
+    "name_ja": "百鬼襲（OD）",
+    "input": "236kk",
+    "type": "special",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "special"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick leap towards the opponent that allows you to transition into various techniques. Clever use of these techniques will help strengthen your offense.",
+      "Can go into any transition attack except for Demon Low Slash and Demon Swoop between frames 16 - 40",
+      "Considered airborne after frame 7"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": []
+  },
+  "demon-low-slash": {
+    "name": "Demon Low Slash",
+    "name_ja": "百鬼豪斬",
+    "input": "5",
+    "type": "followUp",
+    "block_type": "low",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 19,
+    "on_hit": 0,
+    "on_block": 2,
+    "damage": 1000,
+    "chip_damage": 250,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Performs a low sweep the moment Demon Raid lands back on the ground. The kick has a long reach, and allows you to act before an opponent even if blocked.",
+      "During overdrive demon raid",
+      "No input"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1000
+    ],
+    "notes_sc": "4f extra recovery on whiff; recovery is in a crouching state until the final frame (final 5f on whiff); causes Akuma to auto-correct if Demon Raid crosses up; can be spaced for better frame advantage",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "1",
+    "juggle_limit": "5"
+  },
+  "demon-guillotine": {
+    "name": "Demon Guillotine",
+    "name_ja": "百鬼豪衝",
+    "input": "*p",
+    "type": "followUp",
+    "block_type": "mid",
+    "startup": 16,
+    "active": 1,
+    "active_frames": [
+      16
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.6,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A vicious downward chop performed from Demon Raid. This is an overhead attack, and allows you to act before an opponent even if blocked.",
+      "During overdrive demon raid",
+      "Recovery changes depending strength of the attack blocked"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      1300
+    ],
+    "notes_sc": "Overhead with many active frames, making it good for meaty pressure; strong hitbox and mid-air pause makes it more difficult to anti-air; cannot hit cross-up; frames 4-8 of landing recovery have a crouch-sized hurtbox (but still standing)",
+    "drive_dmg_on_block": "6000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "5"
+  },
+  "demon-blade-kick": {
+    "name": "Demon Blade Kick",
+    "name_ja": "百鬼豪刃",
+    "input": "*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 13,
+    "active": 1,
+    "active_frames": [
+      13
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 700,
+    "chip_damage": 175,
+    "drive_gain_hit": 0.1,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A quick downward kick performed from Demon Raid. The button used determines your angle of descent.",
+      "During overdrive demon raid",
+      "Recovery changes depending on the height of the attack when it hits or is blocked",
+      "5 frames of recovery added when the attack misses"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 20%",
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      700
+    ],
+    "notes_sc": "5f extra recovery on whiff; button strength determines angle (LK short, MK mid, HK far); puts airborne opponents into limited juggle state (or maintains juggle state if used mid-combo); extends a large projectile invincible hurtbox on frame 11 until landing (making the divekick easier to anti-air while still being useful for avoiding fireballs)",
+    "drive_dmg_on_block": "4000",
+    "drive_dmg_on_hit": "[5000]",
+    "juggle_start": "1",
+    "juggle_limit": "4"
+  },
+  "demon-swoop": {
+    "name": "Demon Swoop",
+    "name_ja": "百鬼潜影",
+    "input": "2",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A sudden drop to the ground performed from Demon Raid that eliminates any openings. Mix this in with other Demon Raid finishers to keep your opponent guessing.",
+      "During overdrive demon raid"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Acts like an empty jump (with the same 45f duration) with adjustable distance; 5f extra landing recovery when crossing over opponent; useful for baiting opponent's anti-air, Drive Impact, or Parry; must be inputting any Down direction on frame 41 of 236K; cannot block during landing recovery, and Akuma is in a counter-hit state for entire duration; crouching state on final recovery frame",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "demon-gou-zanku": {
+    "name": "Demon Gou Zanku",
+    "name_ja": "百鬼豪斬空",
+    "input": "236*p",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 6,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 900,
+    "chip_damage": 225,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 3,
+    "notes": [
+      "An attack only available from Overdrive Demon Raid. Useful in combos or for a surprise attack, it doesn't consume any additional Drive.",
+      "During overdrive od demon raid"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      300,
+      300,
+      300
+    ],
+    "notes_sc": "3-hit OD projectile; can be input on frame 16-38 of 236KK (unless Gou Hadoken is on-screen); does not consume additional Drive gauge; dissipates if Akuma is hit; creates stationary projectile on frames 6-20, then shoots downward at ~50 degree angle (this projectile will only have 2 hits if the initial hitbox collided with opponent); on hit only, landing recovery after 2f is cancelable into any action except walking/jumping; projectile hitbox is considered an airborne attack (can be avoided with anti-air invuln moves); puts airborne opponents into free juggle state (or maintains existing juggle state); puts grounded opponents into limited juggle state; advantage varies significantly depending on timing/spacing/angle; foot hurtbox is projectile invuln 1f~land",
+    "drive_dmg_on_block": "2000x2,1000",
+    "drive_dmg_on_hit": "[2000,0,1000]",
+    "juggle_start": "1 / 0 air",
+    "juggle_limit": "5,5,5"
+  },
+  "demon-gou-rasen": {
+    "name": "Demon Gou Rasen",
+    "name_ja": "百鬼豪螺旋",
+    "input": "214*k",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 5,
+    "active": 10,
+    "active_frames": [
+      5,
+      6,
+      9,
+      11,
+      14,
+      16,
+      18,
+      20,
+      22,
+      23
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1300,
+    "chip_damage": 325,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.4,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "An attack only available from Overdrive Demon Raid. Useful in combos against an airborne opponent, it doesn't consume any additional Drive.",
+      "During overdrive od demon raid"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Combo scaling 20%"
+    ],
+    "per_hit": [
+      200,
+      200,
+      200,
+      200,
+      500
+    ],
+    "notes_sc": "Can be input on frame 16-38 of 236KK (unless Gou Hadoken is on-screen); does not consume additional Drive gauge; cannot hit cross-up or against grounded opponents; stops Akuma's air momentum; performs final kick on hit only, which slams opponent down into a limited juggle OTG state; KD advantage depends on how high it connects (useful after 4HK launch, allowing most juggle enders to combo); Akuma is in a crouching state on frames 4-10 of landing recovery; lower foot/leg hurtbox is projectile invuln 1f~land",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[1000x4,6000]",
+    "juggle_start": "2",
+    "juggle_limit": "10,11,12,13,8"
+  },
+  "ashura-senku-forward": {
+    "name": "Ashura Senku (Forward)",
+    "name_ja": "阿修羅閃空（前方）",
+    "input": "6kkk",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A technique that grants the user swift movement while cloaking them in illusions. Input forward or back together with the other buttons to move in that direction."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Cannot be canceled into; no collision box on frames 17-35 (can pass through opponent); no invincibility whatsoever, but passing through opponent may cause attack hitbox to whiff; counter-hit state for entire duration; frames 24-38 are cancelable into Oboro Throw follow-up; Distance: 3.663",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "ashura-senku-backward": {
+    "name": "Ashura Senku (Backward)",
+    "name_ja": "阿修羅閃空（後方）",
+    "input": "4kkk",
+    "type": "action",
+    "block_type": "high",
+    "startup": 1,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 0,
+    "chip_damage": 0,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A technique that grants the user swift movement while cloaking them in illusions. Input forward or back together with the other buttons to move in that direction."
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "notes_sc": "Cannot be canceled into; travels back ~1/2 screen; no collision box on frames 15-37; no invincibility whatsoever; counter-hit state for entire duration; Distance: 2.128",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "{{{driveDmgHit}}}",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "oboro-throw": {
+    "name": "Oboro Throw",
+    "name_ja": "朧",
+    "input": "lp+lk",
+    "type": "followUp",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      10
+    ],
+    "recovery": 50,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2900,
+    "chip_damage": 725,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A throw available during Ashura Senku. Useful at mid-range against opponents with a tendency to block.",
+      "During ashura senku (forward)",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2900 damage",
+      "- Super Art gauge increases by 4000"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "per_hit": [
+      2200
+    ],
+    "notes_sc": "Total startup 31-45f depending on input timing; can be activated even after passing through opponent; 1.076 Range does not including 6KKK travel distance (maximum total range of 3.697)",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "messatsu-gohado": {
+    "name": "Messatsu Gohado",
+    "name_ja": "滅殺豪波動",
+    "input": "236236*p",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 10,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": -41,
+    "damage": 2200,
+    "chip_damage": 550,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "Fires a high-speed, concentrated ball of the Satsui no Hado forward. Has high attack power for a projectile-based Super Art.",
+      "Invincible to strikes and projectiles from frames 1 - 14",
+      "Minimum guaranteed damage is set to 30%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "strike": "Invincible to strikes and projectiles from frames 1 - 14"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      400,
+      400,
+      400,
+      400,
+      600
+    ],
+    "invuln_str": "1-14 Strike/Throw",
+    "notes_sc": "5-hit Super projectile; projectile speed is not affected by button strength; can be used while OD projectiles are on-screen; slower startup allows opponents (except Dhalsim/Lily/Zangief) to avoid with a jump after the screen freeze",
+    "drive_dmg_on_block": "500x5",
+    "drive_dmg_on_hit": "1000x5",
+    "juggle_start": "100",
+    "juggle_limit": "99"
+  },
+  "tenma-gozanku": {
+    "name": "Tenma Gozanku",
+    "name_ja": "天魔豪斬空",
+    "input": "{8|9}>236236*k",
+    "type": "super1",
+    "block_type": "high",
+    "startup": 14,
+    "active": 1,
+    "active_frames": [
+      1
+    ],
+    "recovery": 1,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2000,
+    "chip_damage": 500,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.25,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 5,
+    "notes": [
+      "Fire a powerful ki blast from the air to the ground below. Useful for finishing combos from jump attacks that can be canceled.",
+      "During a neutral or forward jump",
+      "Minimum guaranteed damage is 30%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 1,
+    "per_hit": [
+      400,
+      400,
+      400,
+      400,
+      400
+    ],
+    "notes_sc": "5-hit Super projectile; during Forward or Neutral Jump only; 10f extra landing recovery on block/whiff; KD advantage varies significantly depending on angle and distance from opponent; puts airborne opponents into limited juggle state; travels down at ~45 degree angle; projectile speed/angle is not affected by button strength; projectile hitbox is considered an airborne attack (can be avoided with anti-air invuln moves); dissipates if Akuma is hit; can be used while OD projectiles are on-screen; leg hurtbox is projectile invuln until landing; crouching state on final recovery frame",
+    "drive_dmg_on_block": "500x5",
+    "drive_dmg_on_hit": "1000x5",
+    "juggle_start": "1",
+    "juggle_limit": "5,5,5,5,5"
+  },
+  "empyreans-end": {
+    "name": "Empyrean’s End",
+    "name_ja": "崩天劫火",
+    "input": "214214*p",
+    "type": "super2",
+    "block_type": "high",
+    "startup": 9,
+    "active": 2,
+    "active_frames": [
+      9,
+      11
+    ],
+    "recovery": 52,
+    "on_hit": 0,
+    "on_block": -35,
+    "damage": 2800,
+    "chip_damage": 700,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.5,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Turns the Satsui no Hado into a powerful flame before piercing the opponent. Opponents are open to follow-up attacks if they reach the end of the stage after being launched.",
+      "Completely invincible from frame 1 to frame 11.",
+      "Produces a wall splat if the opponent reaches the wall",
+      "Minimum guaranteed damage is set to 40%",
+      "Values do not change on counter or Punish Counter"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frame 1 to frame 11."
+    },
+    "cancel": "",
+    "scaling": [
+      "Starter scaling 40%",
+      "Combo scaling 40%"
+    ],
+    "super_cost": 2,
+    "per_hit": [
+      2800
+    ],
+    "invuln_str": "1-11 Full",
+    "notes_sc": "Sends the opponent tumbling ~1/3 screen; causes wallsplat near corner (unless 214PP~6P wallsplat occurred earlier in the combo); the cinematic resets the opponent's juggle counter, allowing a follow-up wallsplat juggle regardless of previous juggle state; wallsplat is similar to Drive Impact, allowing moves to juggle that normally would not be possible; close-range opponent cannot jump away after the Super freeze to avoid chip damage",
+    "drive_dmg_on_block": "5000",
+    "drive_dmg_on_hit": "10000",
+    "juggle_start": "1 (Forced)",
+    "juggle_limit": "100"
+  },
+  "sip-of-calamity": {
+    "name": "Sip of Calamity",
+    "name_ja": "禍坏",
+    "input": "236236*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 58,
+    "on_hit": 0,
+    "on_block": -41,
+    "damage": 4000,
+    "chip_damage": 1000,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -0.75,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knocks down an opponent with overwhelming strength before unleashing a single, devastating blow. It can be canceled into from a special move, making it particularly useful in combos.",
+      "When under 25% vitality",
+      "Completely invincible from frame 1 to frame 11.",
+      "Minimum guaranteed damage is set to 50%",
+      "Values do not change on counter or Punish Counter",
+      "* Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frame 1 to frame 11."
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 3,
+    "per_hit": [
+      4000
+    ],
+    "invuln_str": "1-11 Full",
+    "notes_sc": "Cinematic time regenerates ~1.9 Drive bars for Akuma; close-range opponent cannot jump away after the Super freeze to avoid chip damage; only 2f startup when canceled from 623P/214P/214P~6P; leaves opponent in range for microwalk 6HP pressure or Drive Rush oki",
+    "drive_dmg_on_block": "7500",
+    "drive_dmg_on_hit": "15000",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "99"
+  },
+  "sip-of-calamity-critical-art": {
+    "name": "Sip of Calamity (Critical Art)",
+    "name_ja": "禍坏（CA）",
+    "input": "236236*k",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 8,
+    "active": 2,
+    "active_frames": [
+      8,
+      11
+    ],
+    "recovery": 58,
+    "on_hit": 0,
+    "on_block": -41,
+    "damage": 4500,
+    "chip_damage": 1125,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": -1.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Knocks down an opponent with overwhelming strength before unleashing a single, devastating blow. It can be canceled into from a special move, making it particularly useful in combos.",
+      "Completely invincible from frame 1 to frame 11.",
+      "Minimum guaranteed damage is set to 50%",
+      "Values do not change on counter or Punish Counter",
+      "* Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible from frame 1 to frame 11."
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 3
+  },
+  "shun-goku-satsu": {
+    "name": "Shun Goku Satsu",
+    "name_ja": "瞬獄殺",
+    "input": "lp>lp>6>lk>hp",
+    "type": "super3",
+    "block_type": "high",
+    "startup": 7,
+    "active": 2,
+    "active_frames": [
+      7,
+      27
+    ],
+    "recovery": 57,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 4700,
+    "chip_damage": 1175,
+    "drive_gain_hit": 0.0,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown",
+      "super"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "A secret technique that overwhelms an opponent with myriad of attacks made in a single second. Cannot be avoided if performed at close range while the opponent is standing on the ground.",
+      "Completely invincible on frame 1",
+      "Invincible to projectiles from frames 6 - 27",
+      "Minimum guaranteed damage is set to 50%",
+      "Values do not change on counter or Punish Counter",
+      "* Can only be canceled into from special moves"
+    ],
+    "invuln": {
+      "full": "Completely invincible on frame 1",
+      "projectile": "Invincible to projectiles from frames 6 - 27"
+    },
+    "cancel": "",
+    "scaling": [],
+    "super_cost": 3
+  },
+  "goshoha": {
+    "name": "Goshoha",
+    "name_ja": "豪衝破",
+    "input": "lp+lk",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 2040,
+    "chip_damage": 510,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Grab your opponent, and send them flying away with two consecutive palm strikes. Throws your opponent without switching places with them.",
+      "When near opponent",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ],
+    "per_hit": [
+      1200
+    ],
+    "notes_sc": "Can walk or Dash + walk for manually-timed corner throw loop; immediate TK OD Air Fireball can stuff some wakeup reversals and leave Akuma plus on block; midscreen, cannot get strike/throw mixup but can Drive Rush into delayed 6HP to beat wakeup 4f normals (+1 oB); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+    "drive_dmg_on_block": "{{{driveDmgBlk}}}",
+    "drive_dmg_on_hit": "[10000]",
+    "juggle_start": "{{{jugStart}}}",
+    "juggle_limit": "{{{jugLimit}}}"
+  },
+  "shurettou": {
+    "name": "Shurettou",
+    "name_ja": "朱裂刀",
+    "input": "(4lplk)",
+    "type": "throw",
+    "block_type": "high",
+    "startup": 5,
+    "active": 2,
+    "active_frames": [
+      5,
+      7
+    ],
+    "recovery": 23,
+    "on_hit": 0,
+    "on_block": 0,
+    "damage": 1200,
+    "chip_damage": 300,
+    "drive_gain_hit": 0.2,
+    "drive_gain_block": 0.0,
+    "drive_cost": 0.0,
+    "properties": [
+      "knockdown"
+    ],
+    "hitboxes": [],
+    "hurtboxes": [
+      {
+        "x_offset": 0,
+        "y_offset": 60,
+        "w": 40,
+        "h": 120
+      }
+    ],
+    "hit_count": 1,
+    "notes": [
+      "Grab your opponent, and deliver a devastating downward chop. Throws your opponent while switching places with them.",
+      "When near opponent",
+      "Properties change to the following when the attack lands as a Punish Counter:",
+      "- Deals 2040 damage",
+      "- Super Art gauge increases by 4000",
+      "- Forces a hard knockdown"
+    ],
+    "invuln": {},
+    "cancel": "",
+    "scaling": [
+      "Immediate scaling 20%"
+    ]
+  }
+}
