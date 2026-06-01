@@ -159,8 +159,17 @@ def check_hit(attacker: "Character", defender: "Character") -> Optional[HitEvent
 
 
 def _check_throw(attacker: "Character", defender: "Character", move: dict) -> Optional[HitEvent]:
-    if defender.body.airborne:
-        return None
+    props = move.get("properties", [])
+    is_air_throw = "air_throw" in props
+
+    if is_air_throw:
+        # Air throw: both characters must be airborne
+        if not attacker.body.airborne or not defender.body.airborne:
+            return None
+    else:
+        # Ground throw: defender must be grounded
+        if defender.body.airborne:
+            return None
     # 投技无法命中处于硬直/倒地状态的对手
     if defender.current_action in ("hitstun", "blockstun", "knockdown", "crumple"):
         return None
@@ -170,7 +179,6 @@ def _check_throw(attacker: "Character", defender: "Character", move: dict) -> Op
     direction = defender.body.x - attacker.body.x
     if direction * attacker.facing <= 0:
         return None
-    props = move.get("properties", [])
     return HitEvent(
         attacker_id=attacker.player_id,
         defender_id=defender.player_id,

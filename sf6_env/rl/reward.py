@@ -30,11 +30,15 @@ def compute_reward(prev_state: dict, curr_state: dict, perspective: int) -> floa
     if opp_punish_window > 0 and damage_dealt > 0:
         reward += 1.0 + damage_dealt / MAX_HEALTH * 5.0
 
-    # drive efficiency: reward for spending drive on hits
+    # drive efficiency: reward for spending drive on hits (only when actively spending,
+    # not when drive decreases due to being hit or blocking)
+    # We approximate "active spend" by checking if damage was dealt (attacker context)
+    # and drive decreased — this filters out passive drain from being attacked
     prev_self_drive = prev_self.get("drive", 6.0)
     curr_self_drive = curr_self.get("drive", 6.0)
     drive_spent = prev_self_drive - curr_self_drive
-    if drive_spent > 0 and damage_dealt > 0:
+    # Only reward drive spending when we dealt damage (i.e., we were the attacker)
+    if drive_spent > 0 and damage_dealt > 0 and damage_received == 0:
         reward += drive_spent * 0.1
 
     # penalize burnout

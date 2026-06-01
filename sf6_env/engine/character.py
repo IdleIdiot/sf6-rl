@@ -1,11 +1,11 @@
 from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Dict, Any, List, Optional
-from sf6_env.engine.physics import PhysicsBody, GROUND_Y
+from sf6_env.engine.physics import PhysicsBody, GROUND_Y, LANDING_RECOVERY_FRAMES
 from sf6_env.engine.drive import (DriveGauge, BURNOUT_EXTRA_BLOCKSTUN,
                                    COST_DRIVE_RUSH_DIRECT, DR_DURATION,
                                    DP_SUCCESS_ADVANTAGE)
-from sf6_env.engine.collision import HIT_NORMAL, HIT_COUNTER, HIT_PUNISH
+from sf6_env.engine.collision import HIT_NORMAL, HIT_COUNTER, HIT_PUNISH, _last_active_frame
 
 SUPER_GAUGE_MAX = 3
 
@@ -80,6 +80,7 @@ class Character:
         self.parrying: bool = False    # Drive Parry active
         self.drive_rushing: bool = False  # Drive Rush active (forward dash)
         self.dr_frames: int = 0        # Drive Rush remaining frames
+        self.di_armor_used: bool = False  # DI armor consumed (one-hit armor)
         # combo tracking
         self.combo_count: int = 0
         self.last_hit_frame: int = 0
@@ -144,6 +145,11 @@ class Character:
         self.body.apply_gravity()
         self.body.integrate()
         self.body.clamp_stage()
+        # Landing recovery: enter a brief landing state after touching ground from a jump
+        if self.body.just_landed and self.current_action not in ("hitstun", "blockstun", "knockdown", "crumple", "landing"):
+            self.current_action = "landing"
+            self.action_frame = 0
+            self.body.vel_x = 0.0
 
     def _process_action(self, action_id: int, move_name: str, opponent) -> None:
         stun_states = ("hitstun", "blockstun", "knockdown", "crumple")
@@ -151,6 +157,13 @@ class Character:
             self.action_frame += 1
             total = self.data.get_total_frames(self.current_action)
             if self.action_frame >= total:
+                self._finish_action()
+            return
+
+        # Landing recovery: brief window after touching ground from a jump
+        if self.current_action == "landing":
+            self.action_frame += 1
+            if self.action_frame >= LANDING_RECOVERY_FRAMES:
                 self._finish_action()
             return
 
@@ -198,8 +211,11 @@ class Character:
                     self.invincible = _is_invincible_at_frame(move, self.action_frame)
                 if self.action_frame == startup and "projectile" in move.get("properties", []):
                     self._spawn_projectile(self.current_action)
+                # Cancel window: from first active frame through recovery's first 3 frames
+                # (startup frames are NOT cancellable — attack hasn't come out yet)
+                last_active = _last_active_frame(move)
                 in_cancel_window = (
-                    startup <= self.action_frame < startup + active + 3
+                    startup <= self.action_frame <= last_active + 3
                 )
                 if in_cancel_window and move_name not in neutral and move_name != "idle":
                     if self._try_cancel(action_id, move_name, move):
@@ -264,7 +280,9 @@ class Character:
             self.body.vel_x = 0.0
             self.current_action = "crouch"
             self.crouching = True
-            self.is_blocking = False
+            # Crouch blocking: if already blocking (walk_back), keep blocking
+            # Otherwise, crouch without blocking (neutral crouch)
+            # is_blocking state is preserved from previous frame
         elif move_name == "jump" and not airborne:
             self.body.jump()
             self.body.vel_x = 0.0
@@ -326,6 +344,9 @@ class Character:
         self.action_frame = 0
         self.hit_connected_this_action = False
         self.hits_this_action = 0
+        # Reset DI armor when starting a new Drive Impact
+        if move_name == "drive_impact":
+            self.di_armor_used = False
         # preserve vel_x while airborne so jump arc continues
         if not airborne:
             self.body.vel_x = 0.0
@@ -343,39 +364,46 @@ class Character:
             self.current_action = "idle"
         self.action_frame = 0
 
-    def receive_hit(self, event, combo_count: int = 0) -> None:
+    def receive_hit(self, event, combo_count: int = 0) -> bool:
+        """
+        Apply hit/block effects to this character.
+
+        Returns:
+            True if Drive Parry successfully absorbed the hit (attacker should be stunned)
+        """
         # Drive Reversal startup is fully invincible
         if self.invincible:
-            return
+            return False
         # Drive Parry: absorb the hit, gain +6F advantage, stop parrying
         if self.parrying and "throw" not in event.properties and "unblockable" not in event.properties:
             self.parrying = False
             self.drive.stop_drive_parry()
-            # +6F advantage: give attacker blockstun equivalent, defender gets advantage
-            self.stun_frames = max(1, DP_SUCCESS_ADVANTAGE)
-            self.current_action = "blockstun"
-            self.action_frame = 0
+            # Parry success: defender gains drive and is free to act
+            # Attacker will be stunned by game.py
             self.drive.gain(0.5)
-            return
+            return True
         # Drive Impact armor: absorbs one hit during startup (frames 1 to startup-1)
         if self.current_action == "drive_impact":
             move = self.data.get_move("drive_impact")
             startup = move.get("startup", 26)
             if self.action_frame < startup and "throw" not in event.properties:
-                return  # armor absorbs the hit
+                if not self.di_armor_used:
+                    self.di_armor_used = True
+                    return False  # armor absorbs the hit (one-time only)
         move = self.data.get_move(event.move_name)
         is_low = "low" in event.properties
         is_overhead = "overhead" in event.properties
         is_throw = "throw" in event.properties
         if is_throw:
             self._apply_hitstun(event, combo_count)
-            return
+            return False
         can_block = (self.is_blocking and not is_overhead and
                      not (is_low and not self.crouching))
         if can_block:
             self._apply_blockstun(event)
         else:
             self._apply_hitstun(event, combo_count)
+        return False
 
     def _apply_hitstun(self, event, combo_count: int = 0) -> None:
         # SF6 damage scaling: 100% / 90% / 80% / ... / 20% minimum

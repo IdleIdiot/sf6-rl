@@ -244,11 +244,19 @@ class MaiData(CharacterData):
                 self.moves[move_name]["super_cost"] = cost
 
         # Mark throws
-        for slug in (_FWD_THROW, _BACK_THROW, _AIR_THROW):
+        for slug in (_FWD_THROW, _BACK_THROW):
             if slug in self.moves:
                 props = self.moves[slug].get("properties", [])
                 if "throw" not in props:
                     self.moves[slug]["properties"] = props + ["throw"]
+        # Air throw: mark with both "throw" and "air_throw"
+        if _AIR_THROW in self.moves:
+            props = self.moves[_AIR_THROW].get("properties", [])
+            if "throw" not in props:
+                props = props + ["throw"]
+            if "air_throw" not in props:
+                props = props + ["air_throw"]
+            self.moves[_AIR_THROW]["properties"] = props
 
         # Mark projectile moves
         for slug in (_KAC_L, _KAC_M, _KAC_H, _KAC_OD, _MIDARE):

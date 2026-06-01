@@ -29,14 +29,14 @@ class CharacterData:
 
     def _add_system_moves(self) -> None:
         """Inject system-wide moves that are not in the per-character frame data."""
-        # Drive Impact: 26f startup, 2 active, 22 recovery, armor on frames 1-25
+        # Drive Impact: 26f startup, 4 active, 20 recovery, armor on frames 1-25
         self.moves["drive_impact"] = {
             "name": "Drive Impact",
             "input": "HP+HK",
             "type": "normal",
-            "startup": 26, "active": 2, "recovery": 22,
-            "active_frames": [26, 27],
-            "on_hit": 0, "on_block": -5,
+            "startup": 26, "active": 4, "recovery": 20,
+            "active_frames": [26, 29],
+            "on_hit": 0, "on_block": -6,
             "damage": 2000, "chip_damage": 500,
             "drive_gain_hit": 0.0, "drive_gain_block": -1.0,
             "drive_cost": 1.0,
@@ -45,14 +45,14 @@ class CharacterData:
             "hurtboxes": [{"x_offset": 0, "y_offset": 60, "w": 40, "h": 120}],
             "hit_count": 1, "notes": [],
         }
-        # Drive Reversal: 20f startup, fully invincible 1-20, -5 on block
+        # Drive Reversal: 20f startup, fully invincible 1-20, -10 on block
         self.moves["drive_reversal"] = {
             "name": "Drive Reversal",
             "input": "6HP+HK (while blocking)",
             "type": "normal",
-            "startup": 20, "active": 2, "recovery": 28,
+            "startup": 20, "active": 2, "recovery": 30,
             "active_frames": [20, 21],
-            "on_hit": 0, "on_block": -5,
+            "on_hit": 0, "on_block": -10,
             "damage": 1500, "chip_damage": 0,
             "drive_gain_hit": 0.0, "drive_gain_block": 0.0,
             "drive_cost": 1.0,
